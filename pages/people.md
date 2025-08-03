@@ -33,7 +33,7 @@ permalink: /people/
 ### Research Scientists
 - Daniel Jaschob
 - Rich Johnson
-- **Gennifer Merrihew** - Director of Research Operations, Lab Manager
+- **Gennifer Merrihew** - Director of Research Operations, Lab Manager  
 Gennifer started at the MacCoss lab when it was just beginning--she was, in fact, Dr. MacCoss's first employee. Since then she has worked on a multitude of projects covering several areas of biological interest. Her current work focuses on Alzheimer's disease research in both humans and mice.
 - Mike Riffle
 - Christine Wu
@@ -103,14 +103,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 
 ## Former Lab Members
 
-**Currently under development**
-
-### Former Postdocs
-
-**Dr. [Name]** (20XX-20XX)  
-*Current Position*: [Current role] at [Institution/Company]  
-*Research Area*: [Previous research focus]
-
+**Currently under development** -- this needs to be updated
 
 ### Former Graduate Students
 - Deanna Plubell, Ph.D. -- ThermoFisher Scientific, Seattle, WA
