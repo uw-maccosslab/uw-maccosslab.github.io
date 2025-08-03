@@ -9,11 +9,11 @@ permalink: /contact/
 ## Lab Information
 
 **MacCoss Laboratory**  
-Department of Genome Sciences
-University of Washington
-Foege Building, Room S113
-3720 15th Avenue NE
-Seattle, WA 98195-5065
+Department of Genome Sciences  
+University of Washington  
+Foege Building, Room S113  
+3720 15th Avenue NE  
+Seattle, WA 98195-5065  
 **Email:** info[at]maccosslab[dot]org
 
 ## Principal Investigator
@@ -63,9 +63,9 @@ Professor, Department of Genome Sciences
 
 **Department of Genome Sciences**  
 University of Washington  
-- **Email:** gsadmin[at]uw[dot]edu  
-- **Phone:** (206) 543-0754  
-- **Website:** [gs.washington.edu](https://www.gs.washington.edu)
+**Email:** gsadmin[at]uw[dot]edu  
+**Phone:** (206) 543-0754  
+**Website:** [gs.washington.edu](https://www.gs.washington.edu)  
 
 **Genome Sciences Graduate Program**  
 - **Questions:** Brian Giebel (bgiebel[at]uw[dot]edu)  
@@ -75,9 +75,9 @@ University of Washington
 ## Lab Mailing Address
 University of Washington  
 Department of Genome Sciences  
-MacCoss Laboratory
-Box 355065, Foege S113
-3720 15th Ave NE
+MacCoss Laboratory  
+Box 355065, Foege S113  
+3720 15th Ave NE  
 Seattle, WA 98195-5065
 
 ## Getting to Our Lab
