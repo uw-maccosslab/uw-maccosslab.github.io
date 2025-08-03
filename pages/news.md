@@ -19,3 +19,7 @@ permalink: /news/
 ---
 
 *News is updated regularly. For real-time updates or follow us on social media.*
+
+### Social Media & Online Presence
+**BlueSky:** [@maccoss.bsky.social](https://bsky.app/profile/maccoss.bsky.social)
+**LinkedIn:** [MacCoss LinkedIn](https://www.linkedin.com/in/maccoss/)
