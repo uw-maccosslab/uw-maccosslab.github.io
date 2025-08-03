@@ -53,7 +53,7 @@ permalink: /resources/
 - **Downloads and Documentation** -- Details can be found on the [EncyclopeDIA Bitbucket](https://bitbucket.org/searleb/encyclopedia/wiki/Home) page.
 - **Source Code** is also available on the [Bitbucket](https://bitbucket.org/searleb/encyclopedia/src/master/) page under an Apache 2.0 license.
 
-### Comet
+### <img src="../assets/images/cometlogo_1_small.png" alt="Comet" style="background-color: #0056b3; padding: 10px; border-radius: 5px;">
 **Comet is an open source fork of the original SEQUEST database tool for proteomics**
 - Searching uninterpreted tandem mass spectra of peptides against sequence databases is the most common method used to identify peptides and proteins. Since this method was first developed in 1993, many commercial, free, and open source tools have been created over the years that accomplish this task. Although its history goes back two decades, the Comet search engine was first made publicly available in August 2012 on SourceForge under the Apache License, version 2.0. The repository was migrated to GitHub in September 2021.
 - **Download and Documentation** are available on the UW Proteomics Resource [Github](https://uwpr.github.io/Comet/).

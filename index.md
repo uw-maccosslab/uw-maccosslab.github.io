@@ -17,8 +17,9 @@ The focus of our research is in the development of mass spectrometry and stable 
 
 *Current research areas include:*
 
-- **New Mass Spectrometry Technologies:** We are working on new methods to improve the sensitivity, speed, precision, accuracy, and dynamic range of quantitative mass spectrometry methods.
+- **New Mass Spectrometry Technologies:** We are working on new methods to improve the sensitivity, speed, precision, accuracy, and dynamic range of quantitative measurements.
 - **Improved Sample Preparation:** New biochemical sample preparation methods for  the analysis of protein mixtures. We have been working on methods to reduce the cost and improve the robustness or historically challenging sample types.
+- **Experimental Design and Quality Control:** We are very interested in Omics experimental design. We develop novel methods to assess system suitability and data quality.
 - **Stable Isotope Methods:** Developing stable isotope methods for studying protein metabolism or analyte quantity
 - **Spatial and Tissue Heterogeneity:** We are developing methods for the multiplex analysis of proteins in individual cells, spatial regions, or functional subunits of complex tissue samples.
 - **Computational Tools:** Developing computational tools for automated conversion of mass spectrometry data into biologically meaningful results
