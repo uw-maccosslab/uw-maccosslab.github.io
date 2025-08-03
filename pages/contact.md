@@ -74,7 +74,7 @@ Seattle, WA 98195-5065
 ### Transportation
 - **Light Rail:** Take Link Light Rail to University of Washington Station
 - **Bus:** Multiple Metro bus routes serve the University District
-- **Parking:** Visitor parking available in campus garages ([UW Parking](https://transportation.uw.edu/park))
+- **Parking:** Best option is street parking on [NE Boat St](https://maps.app.goo.gl/mwKbXTnNSKTNNKaY6). This is metered parking but in close proximity to our lab.
 
 ### From Seattle-Tacoma International Airport
 - **Light Rail:** Take Link Light Rail directly to UW Station (~45 minutes)
@@ -91,9 +91,9 @@ Seattle, WA 98195-5065
 ---
 
 ## Directions & Maps
-
+We are located in the South William H. Foege Building on the University of Washington Campus.
 <div class="contact-map">
-  <iframe src="https://maps.app.goo.gl/uWWBjjGkxD63SDeh8" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe src="https://www.google.com/maps/place/Genome+Sciences/@47.6520027,-122.3135933,19z/data=!4m6!3m5!1s0x549014ede268fbed:0x2b7f118ebfa49ee4!8m2!3d47.6519807!4d-122.3131369!16s%2Fg%2F1hm44ym9r?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
 **We look forward to hearing from you!**
