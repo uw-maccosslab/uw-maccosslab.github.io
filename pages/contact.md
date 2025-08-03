@@ -90,9 +90,12 @@ Seattle, WA 98195-5065
 
 ## Directions & Maps
 We are located in the South William H. Foege Building on the University of Washington Campus.
+
 <div class="contact-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.6058708731994!2d-122.31359327543521!3d47.65200265931735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014ede268fbed%3A0x2b7f118ebfa49ee4!2sGenome%20Sciences!5e0!3m2!1sen!2sus!4v1754182514773!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.6058708731994!2d-122.31359327543521!3d47.65200265931735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014ede268fbed%3A0x2b7f118ebfa49ee4!2sGenome%20Sciences!5e0!3m2!1sen!2sus!4v1754182514773!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
 </div>
+
+**Alternative: [View on Google Maps](https://maps.google.com/?q=Genome+Sciences,+University+of+Washington,+Seattle,+WA)**
 
 **We look forward to hearing from you!**
 
