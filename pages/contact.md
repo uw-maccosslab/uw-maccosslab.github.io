@@ -28,9 +28,8 @@ Professor, Department of Genome Sciences
 
 ## Lab Manager & Administrative Contact
 
-**[Lab Manager Name]**  
-📧 **Email:** [manager]@uw.edu  
-📞 **Phone:** (206) 616-XXXX
+📧 **Email:** admin@maccosslab.org  
+📞 **Phone:** (206) 616-9023
 
 ## Research Inquiries
 
@@ -40,13 +39,10 @@ For research collaborations, method development partnerships, or joint projects:
 
 ### Software Support
 For questions about Skyline or Panorama software:
-- **Skyline Support:** [Skyline User Forum](https://skyline.ms/forum)
-- **Panorama Support:** [Panorama Help](https://panoramaweb.org/help)
-- **GitHub Issues:** [uw-maccosslab repositories](https://github.com/uw-maccosslab)
+- **Skyline Support:** [Skyline Support Board](https://skyline.ms/project/home/support/begin.view)
+- **Panorama Support:** [Panorama Support Board](https://panoramaweb.org/home/support/project-begin.view)
+- **EncyclopeDIA Support:** [EncyclopeDIA](https://bitbucket.org/searleb/encyclopedia/wiki/Home)
 
-### Training & Workshops
-For training inquiries, workshop requests, or educational consultations:
-📧 **Email:** [training]@uw.edu
 
 ## Department & University Contacts
 
@@ -65,9 +61,9 @@ University of Washington
 University of Washington  
 Department of Genome Sciences  
 MacCoss Laboratory  
-Box 355065  
-Seattle, WA 98195-5065  
-USA
+Box 355065, Foege S113
+3720 15th Ave NE
+Seattle, WA 98195-5065
 
 ## Getting to Our Lab
 
@@ -97,7 +93,7 @@ USA
 ## Directions & Maps
 
 <div class="contact-map">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.8567!2d-122.3089!3d47.6553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDM5JzE5LjEiTiAxMjLCsDE4JzMyLjAiVw!5e0!3m2!1sen!2sus!4v1620000000000!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe src="https://maps.app.goo.gl/uWWBjjGkxD63SDeh8" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </div>
 
 **We look forward to hearing from you!**
