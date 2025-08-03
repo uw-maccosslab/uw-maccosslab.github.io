@@ -15,6 +15,7 @@ permalink: /resources/
   </div>
 
   <div id="software" class="tab-content active">
+    <div markdown="1">
 
 ## MacCoss Lab Software Tools
 
@@ -54,9 +55,11 @@ permalink: /resources/
 - **Support** is available via a [Google Groups](https://groups.google.com/g/comet-ms).
 - **Source Code** is available on [GitHub](https://github.com/UWPR/Comet) under an Apache 2.0 license
 
+    </div>
   </div>
 
   <div id="datasets" class="tab-content">
+    <div markdown="1">
 
 ## Public Datasets on [Panorama Public](http://panoramaweb.org/public.url)
 
@@ -112,9 +115,11 @@ permalink: /resources/
 
 *All datasets include detailed experimental protocols, instrument settings, and analysis workflows. Many datasets are paired with published manuscripts and include both raw data and processed results accessible through Skyline.*
 
+    </div>
   </div>
 
   <div id="educational" class="tab-content">
+    <div markdown="1">
 
 ## Educational Materials
 
@@ -288,9 +293,11 @@ permalink: /resources/
 
 [**View all webinars**](https://panoramaweb.org/home/wiki-page.view?name=webinars)
 
+    </div>
   </div>
 
   <div id="support" class="tab-content">
+    <div markdown="1">
 
 ## Support & Training
 
@@ -301,6 +308,7 @@ permalink: /resources/
 ### Proteomics and Mass Spectrometry Courses
 *Coming soon - comprehensive course listings and training opportunities*
 
+    </div>
   </div>
 </div>
 
