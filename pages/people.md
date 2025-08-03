@@ -26,7 +26,7 @@ permalink: /people/
 <div class="tab-container">
   <div class="tab-navigation">
     <button class="tab-button active" onclick="openTab(event, 'current')">Current Lab Members</button>
-    <button class="tab-button" onclick="openTab(event, 'former')">Former Lab Members</button>
+    <button class="tab-button" onclick="openTab(event, 'alumni')">Lab Alumni</button>
   </div>
 
   <div id="current" class="tab-content active">
@@ -155,7 +155,7 @@ permalink: /people/
 </div>
 </div>
 
-  <div id="former" class="tab-content">
+  <div id="alumni" class="tab-content">
     <div markdown="1">
 
 ## Former Lab Members
