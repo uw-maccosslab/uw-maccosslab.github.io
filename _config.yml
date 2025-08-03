@@ -1,0 +1,44 @@
+title: MacCoss Lab
+description: Protein Mass Spectrometry Laboratory
+url: "https://maccosslab.github.io"
+baseurl: ""
+
+# Site settings
+author:
+  name: Michael MacCoss
+  email: maccoss@uw.edu
+  institution: University of Washington
+  department: Department of Genome Sciences
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - pages/about.md
+  - pages/research.md
+  - pages/publications.md
+  - pages/software.md
+  - pages/people.md
+  - pages/news.md
+  - pages/resources.md
+  - pages/positions.md
+  - pages/contact.md
+
+# Collections
+collections:
+  people:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
