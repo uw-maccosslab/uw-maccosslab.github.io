@@ -4,11 +4,10 @@ url: "https://maccosslab.github.io"
 baseurl: ""
 
 # Site settings
-author:
-  name: Michael MacCoss
-  email: maccoss@uw.edu
-  institution: University of Washington
-  department: Department of Genome Sciences
+author: Michael MacCoss
+email: maccoss@uw.edu
+institution: University of Washington
+department: Department of Genome Sciences
 
 # Build settings
 markdown: kramdown
