@@ -33,7 +33,8 @@ permalink: /people/
 ### Research Scientists
 - Daniel Jaschob
 - Rich Johnson
-- Gennifer Merrihew
+- **Gennifer Merrihew** - Director of Research Operations, Lab Manager
+Gennifer started at the MacCoss lab when it was just beginning--she was, in fact, Dr. MacCoss's first employee. Since then she has worked on a multitude of projects covering several areas of biological interest. Her current work focuses on Alzheimer's disease research in both humans and mice.
 - Mike Riffle
 - Christine Wu
 - Alex Zelter
@@ -112,17 +113,72 @@ permalink: /people/
 
 
 ### Former Graduate Students
+- Deanna Plubell, Ph.D. -- ThermoFisher Scientific, Seattle, WA
+- Lilian Heil, Ph.D. -- ThermoFisher Scientific, San Jose, CA
+- Danielle Faive, Ph.D. -- EvoTech/Just, Seattle, WA
+- Lindsay Pino, Ph.D. (2014-2019) -- Talus Biosciences, Inc., Seattle WA 
+- Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Ohio State University
+- Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
+- Sonia Ting, Ph.D. (2011-2017) -- Neon Therapeutics,  Cambridge, MA
+- Scott Goulding, Ph.D. (2013-2015) -- Moderna,  Cambridge, MA
+- Veronika Glukhova, Ph.D. (2007-2014) -- Intellectual Ventures, Bellevue, WA
+- Jarrett Egertson, Ph.D. (2009-2017) -- Nautilus Biotechnology, San Carlos, CA
+- Andrew Stergachis, Ph.D. (2009-2013) -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
+- Greg Finney, Ph.D. (2004-2012) 
+- Mike Hoopmann, Ph.D. (2005-2009) -- Schweppe Lab/UWPR, University of Washington 
+- Aaron Klammer, Ph.D. (2004-2008) -- Pacific Biosciences,  Menlo Park, CA 
 
-**Dr. [Name]** (Ph.D. 20XX)  
-*Thesis*: "[Thesis title]"  
-*Current Position*: [Current role] at [Institution/Company]
 
+### Former Post Docs
+- Kristine Tsantilas, Ph.D. -- Paulovich Lab, Fred Hutch, Seattle, WA
+- Jason Gilmore, Ph.D. (2014-2018) -- Seattle Genetics
+- Sandi Spencer, Ph.D. (2016-2018) -- Proteomics Platform Manager, British Columbia Cancer Research Agency
+- Jim Bollinger, Ph.D. (2013-2016) -- Scientist Bateman Lab, Washington University St. Louis
+- Huilin Shi, Ph.D. (2013-2015) -- Working towards a CS degree
+- Michael Bereman, Ph.D. (2009-2013) -- Assistant Professor, North Carolina State University
+- Ed Hsieh, Ph.D. (2008-2013) -- Gilead Sciences, Inc. Foster City, CA 
+- Daniela Tomazela, Ph.D. (2008-2011) -- Merck Research Labs, Palo Alto, CA
+- Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Resident UW Pathology
+- Jason Wooden, Ph.D. (2006-2010) 
+- Josh McElwee, Ph.D. (2006-2007) 
+- Xianhua Yi, Ph.D. (2004-2007) -- Momenta Pharmaceuticals, Boston, MA
 
-### Former Research Scientists & Staff
+### Former Research Staff
+- Jea Park
+- Julia Robbins (2018-2022) -- Talus Biosciences, Inc., Seattle, WA
+- Austin Keller (2016-2019) -- Smartsheet
+- Dawn Counts (2012-2018)
+- Barbara Frewen (2004-2012) -- ThermoFisher Scientific, BRIMS, Boston, MA
+- Jesse Canterbury (2005-2011) -- ThermoFisher Scientific, San Jose, CA
+- Eileen Heimer (2010-2011)
+- Jessica Novak (2006-2008) -- Institute for Systems Biology, Seattle, WA
+- Eric Rynes -- University of Washington, Stamatoyannolous Lab
 
-**[Name]** (20XX-20XX)  
-*Role*: [Previous position]  
-*Current Position*: [Current role] at [Institution/Company]
+### Former Undergraduate and High School Students
+- Yuval Boss - development intern - UW (NOAA, now Amazon)
+- Clark Brace - development intern - UPS
+- Daniel Broudy - development intern - Harvard (now Google, Seattle)
+- John Chilton - development intern - UW
+- Henry Estberg - development intern - UC Santa Cruz (now HashiCorp)
+- Mimi Fung - development intern - UW (now Microsoft)
+- Jim Hibbard (2012-2014)
+- Max Horowitz-Gelb - development intern - U. Wisconsin (now Google, Seattle)
+- Aaron Igra - development intern - Brown
+- Shannon Joyner - development intern - CMU (Cisco Meraki, Cornell, now Afresh)
+- Hanna Kidanemariam - development intern - Dartmouth College (now Microsoft)
+- Alana Killeen - development intern - UW (Microsoft, Dropbox, Nautilus Biotech, now ACLU)
+- Trevor Killeen - development intern - UW (Facebook, now Stripe)
+- Sarah Johnston (2009)
+- Alex MacLean - development intern - Roosevelt High School (Cal Poly CS, Dropbox intern, now NVIDIA)
+- Surya Mani - development intern - Hamilton College (Talus Bio intern)
+- Ali Marsh - development intern - MIT (now Tern)
+- Nate Mercer-Garber - development intern - Northeastern University
+- Rohith Mondavilli - web development intern - Dartmouth College (Apple intern, Facebook intern, now Rippling)
+- Sophie Pallanck - development intern - Western Washington University (now Amazon)
+- Tobias Rohde - development intern - UW (AI2 Incubator intern, now Amazon)
+- Henry Sanford - development intern - UW (Regeneron intern, now Vinogradova lab at Rockefeller University)
+- Pradyoth Vemulapati - development intern - UW (OpenMarket, now Uber)
+- Angie Sibounheuang (2005-2006) ​
 
 </div>
 </div>

@@ -28,7 +28,15 @@ permalink: /resources/
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
-- **Cited >5064 times**
+- **Cited:** >5064 times
+
+### ![Proteowizard](../assets/images/proteowizard-logo.jpg "Proteowizard")
+**Widely used software tools and libraries for mass spectrometry data analysis.**
+- ProteoWizard provides a set of open-source, cross-platform software libraries and tools (e.g. msconvert, Skyline, IDPicker, SeeMS) that facilitate proteomics data analysis. The libraries enable rapid tool creation by providing a robust, pluggable development framework that simplifies and unifies data file access, and performs standard chemistry and LCMS dataset computations.
+- **Download and Documentation:** [https://proteowizard.sourceforge.io/](https://proteowizard.sourceforge.io/)
+- **Source Code:** Available on [Github](https://github.com/ProteoWizard/pwiz) and licensed under Apache 2.0.
+- **Original Publication:** Chambers et al, [A cross-platform toolkit for mass spectrometry and proteomics](https://www.nature.com/articles/nbt.2377), *Nature Biotechnology* 2012
+- **Cited:** >3997 times
 
 ### ![Panorama](../assets/images/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
