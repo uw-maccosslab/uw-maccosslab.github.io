@@ -23,6 +23,15 @@ permalink: /people/
   </div>
 </div>
 
+<div class="tab-container">
+  <div class="tab-navigation">
+    <button class="tab-button active" onclick="openTab(event, 'current')">Current Lab Members</button>
+    <button class="tab-button" onclick="openTab(event, 'former')">Former Lab Members</button>
+  </div>
+
+  <div id="current" class="tab-content active">
+    <div markdown="1">
+
 ## Current Lab Members
 ### Research Scientists
 - Daniel Jaschob
@@ -139,53 +148,17 @@ permalink: /people/
 </div>
 
 <div class="lab-photo">
-  <img src="assets/images/maccoss-lab-photo-2025.jpg" alt="MacCoss Lab July 2025" style="width: 100%; max-width: 600px;">
+  <img src="../assets/images/maccoss-lab-photo-2025.jpg" alt="MacCoss Lab July 2025" style="width: 100%; max-width: 600px;">
   <p><em>MacCoss Lab photo, July 2025</em></p>
 </div>
 
-
-
-<!--
-### Postdoctoral Researchers
-
-  <img src="/assets/images/people/placeholder-person.jpg" alt="Postdoc 1" class="person-photo">
-  <div class="person-info">
-    <h4>Dr. [Name]</h4>
-    <p class="title">Postdoctoral Research Associate</p>
-    <p class="email">[email]@uw.edu</p>
-    <p class="research">Research focus: [Area of research]</p>
-    <p class="background">Background: Ph.D. from [University], [Year]</p>
-  </div>
+</div>
 </div>
 
-### Graduate Students
+  <div id="former" class="tab-content">
+    <div markdown="1">
 
-<div class="person-card">
-  <img src="/assets/images/people/placeholder-person.jpg" alt="Graduate Student 1" class="person-photo">
-  <div class="person-info">
-    <h4>[Name]</h4>
-    <p class="title">Ph.D. Student, Genome Sciences</p>
-    <p class="email">[email]@uw.edu</p>
-    <p class="research">Thesis research: [Research topic]</p>
-    <p class="background">Background: B.S. in [Field] from [University], [Year]</p>
-  </div>
-</div>
-
-### Research Scientists
-
-<div class="person-card">
-  <img src="/assets/images/people/placeholder-person.jpg" alt="Research Scientist 1" class="person-photo">
-  <div class="person-info">
-    <h4>[Name]</h4>
-    <p class="title">Research Scientist</p>
-    <p class="email">[email]@uw.edu</p>
-    <p class="research">Focus: [Research area]</p>
-    <p class="expertise">Expertise: [Technical skills/areas]</p>
-  </div>
-</div>
-
-
-## Lab Alumni
+## Former Lab Members
 
 ### Former Postdocs
 
@@ -213,7 +186,136 @@ permalink: /people/
 *Role*: [Previous position]  
 *Current Position*: [Current role] at [Institution/Company]
 
--->
+</div>
+</div>
+</div>
+
+<style>
+.tab-container {
+  max-width: 100%;
+}
+
+.tab-navigation {
+  display: flex;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tab-button {
+  background-color: #f8f9fa;
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  margin-right: 4px;
+  margin-bottom: -2px;
+  transition: all 0.3s ease;
+  color: #333;
+}
+
+.tab-button:hover {
+  background-color: #e9ecef;
+  color: #0056b3;
+}
+
+.tab-button.active {
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  border-bottom: 2px solid #fff;
+  color: #0056b3;
+  font-weight: 600;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px 0;
+  animation: fadeIn 0.3s ease-in;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .tab-navigation {
+    flex-direction: column;
+  }
+  
+  .tab-button {
+    margin-right: 0;
+    margin-bottom: 2px;
+    border-radius: 4px;
+  }
+  
+  .tab-button.active {
+    border: 2px solid #0056b3;
+  }
+}
+</style>
+
+<script>
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  
+  // Hide all tab content
+  tabcontent = document.getElementsByClassName("tab-content");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].classList.remove("active");
+  }
+  
+  // Remove active class from all tab buttons
+  tablinks = document.getElementsByClassName("tab-button");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active");
+  }
+  
+  // Show the selected tab content and mark button as active
+  document.getElementById(tabName).classList.add("active");
+  evt.currentTarget.classList.add("active");
+  
+  // Update URL hash without scrolling
+  if (history.pushState) {
+    history.pushState(null, null, '#' + tabName);
+  } else {
+    window.location.hash = '#' + tabName;
+  }
+}
+
+// Handle initial load and hash changes
+function handleHashChange() {
+  var hash = window.location.hash.substring(1);
+  var validTabs = ['current', 'former'];
+  
+  if (hash && validTabs.includes(hash)) {
+    // Find and click the corresponding tab button
+    var buttons = document.getElementsByClassName('tab-button');
+    for (var i = 0; i < buttons.length; i++) {
+      if (buttons[i].getAttribute('onclick').includes(hash)) {
+        buttons[i].click();
+        break;
+      }
+    }
+  }
+}
+
+// Listen for hash changes
+window.addEventListener('hashchange', handleHashChange);
+
+// Handle initial page load
+document.addEventListener('DOMContentLoaded', function() {
+  handleHashChange();
+});
+</script>
+
 ---
 
 *Lab member information is updated regularly. For the most current lab roster, please contact us directly.*
