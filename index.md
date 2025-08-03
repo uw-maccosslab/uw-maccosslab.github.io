@@ -22,26 +22,13 @@ Current research areas include:
 - **Dynamic Range Enhancement**: Increasing the dynamic range of liquid chromatography-mass spectrometry for peptide analysis
 - **Computational Tools**: Developing computational tools for automated conversion of mass spectrometry data into biologically meaningful results
 
-## Major Software Contributions
 
-### [Skyline](https://skyline.ms)
-A freely-available, open-source Windows client application for building Selected Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM), DIA/SWATH, and targeted DDA with MS1 quantitative methods and analyzing the resulting mass spectrometer data.
-
-### [Panorama](https://panoramaweb.org)
-A freely-available, open-source repository server application designed for targeted mass spectrometry assays. Panorama is a web-based application that provides storage and analysis for Skyline documents.
-
-## Recent Highlights
-
-<div class="news-section">
-  <h3>Recent Publications</h3>
-  <ul>
-    <li><strong>A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data</strong> - Nature Methods, July 2025</li>
-    <li><strong>Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome</strong> - Nature Communications, July 2025</li>
-    <li><strong>Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment</strong> - Nature Methods, July 2025</li>
-    <li><strong>Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment</strong> - Alzheimer's & Dementia, July 2025</li>
-    <li><strong>Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism</strong> - Royal Society Open Science, July 2025</li>
-  </ul>
-</div>
+## Highlighted Publications
+- **A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data** - Nature Methods, July 2025
+- **Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome** - Nature Communications, July 2025
+- **Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment** - Nature Methods, July 2025
+- **Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment** - Alzheimer's & Dementia, July 2025
+- **Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism** - Royal Society Open Science, July 2025
 
 ## Support Our Research
 
