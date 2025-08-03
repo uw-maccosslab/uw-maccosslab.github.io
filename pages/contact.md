@@ -11,19 +11,17 @@ permalink: /contact/
 **MacCoss Laboratory**  
 Department of Genome Sciences  
 University of Washington  
-Seattle, WA 98195
-
-**Physical Address:**  
-Foege Building, Room S-232  
+Foege Building, Room S-113 
 3720 15th Avenue NE  
 Seattle, WA 98195-5065
+**Email:** info@maccosslab.org
 
 ## Principal Investigator
 
 **Michael J. MacCoss**  
 Professor, Department of Genome Sciences  
 📧 **Email:** maccoss@uw.edu  
-📞 **Phone:** (206) 616-7451, (206) 616-9023  
+📞 **Phone:** (206) 616-7451 
 🏢 **Office:** Foege S-232, Box 355065
 
 ## Lab Manager & Administrative Contact
@@ -93,7 +91,7 @@ Seattle, WA 98195-5065
 ## Directions & Maps
 We are located in the South William H. Foege Building on the University of Washington Campus.
 <div class="contact-map">
-  <iframe src="https://www.google.com/maps/place/Genome+Sciences/@47.6520027,-122.3135933,19z/data=!4m6!3m5!1s0x549014ede268fbed:0x2b7f118ebfa49ee4!8m2!3d47.6519807!4d-122.3131369!16s%2Fg%2F1hm44ym9r?entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.6058708731994!2d-122.31359327543521!3d47.65200265931735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x549014ede268fbed%3A0x2b7f118ebfa49ee4!2sGenome%20Sciences!5e0!3m2!1sen!2sus!4v1754182514773!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 **We look forward to hearing from you!**
