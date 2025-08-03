@@ -69,7 +69,7 @@ permalink: /resources/
 
 ### ![Percolator](../assets/images/percolator.png) **Percolator**
 **Percolator: semi-supervised learning for peptide identification from shotgun proteomics datasets**
-- Percolator has become the gold standard for post-processing and FDR control for bottom-up proteomics. Our software is incorporated as part of Proteome Discoverer, FragPipe, Mascot, Crux, 
+- Percolator has become the gold standard for post-processing and FDR control for bottom-up proteomics. Our software is incorporated as part of Proteome Discoverer, FragPipe, Mascot, Crux, and many more.
 - **Original Publication** Lukas Käll et al, [Semi-supervised learning for peptide indentification from shotgun proteomics datasets](https://www.nature.com/articles/nmeth1113) *Nature Methods* 2007
 - **Download and Documentation** are available on the [Percolator website](http://percolator.ms/). Percolator is also part of the [Crux project](https://crux.ms/).
 - **Source Code** is available on [GitHub](https://github.com/crux-toolkit/crux-toolkit) under an Apache 2.0 license.
