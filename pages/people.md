@@ -16,7 +16,7 @@ permalink: /people/
 - **Michael J. MacCoss, Ph.D.** - Professor, Department of Genome Sciences  
   Email: maccoss[at]uw[dot]edu  
   Mike leads the lab's research in quantitative proteomics and mass spectrometry method development. His work focuses on developing robust, quantitative protein assays for biological and clinical applications.  
-  Links: [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/maccoss/) | [UW Profile](https://www.gs.washington.edu/faculty/maccoss.htm)
+  Links: [About](../pages/maccoss.md) | [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/maccoss/) | [UW Profile](https://www.gs.washington.edu/faculty/maccoss.htm)
 
 ![Michael MacCoss](../assets/images/people/mike-maccoss.jpg)
 
