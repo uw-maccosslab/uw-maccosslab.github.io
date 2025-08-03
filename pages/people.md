@@ -6,6 +6,11 @@ permalink: /people/
 
 # Lab Members
 
+<div class="lab-photo">
+  <img src="../assets/images/maccoss-lab-photo-2025.jpg" alt="MacCoss Lab July 2025" style="width: 100%; max-width: 600px;">
+  <p><em>MacCoss Lab photo, July 2025</em></p>
+</div>
+
 ## Principal Investigator
 
 - **Michael J. MacCoss, Ph.D.** - Professor, Department of Genome Sciences  
@@ -85,10 +90,6 @@ permalink: /people/
 - **[Mark Belanger](https://www.linkedin.com/in/markbelanger/)** - Project Manager - Outreach & User Education  
   Mark has had a full career in communications across travel, start-ups, games and other industries. He has implemented web solutions from first-generation presence to full ecommerce platforms, established communication programs, and managed outreach teams. He has an MBA in Information Systems from Seattle University and is responsible for webinars, courses, user meetings, and international outreach.
 
-<div class="lab-photo">
-  <img src="../assets/images/maccoss-lab-photo-2025.jpg" alt="MacCoss Lab July 2025" style="width: 100%; max-width: 600px;">
-  <p><em>MacCoss Lab photo, July 2025</em></p>
-</div>
 
 </div>
 </div>
