@@ -82,34 +82,39 @@ permalink: /resources/
 
 **We have made available a number of mass spectrometry datasets on Panorama Public**
 
+**[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
+
+*The following are highlighted datasets organized by research area:*
+
 #### Recent Method Development & Instrumentation (2024-2025)
 
-- **[Highly multiplex targeted proteomics assays using Stellar mass spectrometer](https://panoramaweb.org/project/Panorama%20Public/2025/MacCoss_MultiplexTargetedProteomics/begin.view?)** - Development of novel targeted proteomics methods for biofluids analysis (PXD065471)
-- **[Orbitrap Astral Zoom prototype evaluation](https://panoramaweb.org/project/Panorama%20Public/2025/MacCoss_OrbitrapAstralZoom/begin.view?)** - Comprehensive evaluation of next-generation mass spectrometry instrumentation for quantitative proteomics (PXD064536)
-- **[PRM Conductor tutorials](https://panoramaweb.org/project/Panorama%20Public/2025/MacCoss_PRMConductor/begin.view?)** - Educational materials and workflows for parallel reaction monitoring using Skyline external tools
-- **[Carafe spectral library generation](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_Carafe/begin.view?)** - Deep learning approach for high-quality in silico spectral libraries for DIA proteomics (PXD056793)
-- **[Stellar MS characterization](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_StellarMS/begin.view?)** - Complete characterization and benchmarking of the Stellar mass spectrometer platform (PXD052734)
+- **[Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Development%20of%20highly%20multiplex%20targeted%20proteomics%20assays%20in%20biofluids%20using%20a%20nominal%20mass%20ion%20trap%20mass%20spectrometer)** - Development of novel targeted proteomics methods for biofluids analysis (PXD065471)
+- **[Evaluation of a modified Orbitrap Astral Zoom prototype for quantitative proteomics - Beyond identification lists](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Evaluation%20of%20a%20modified%20Orbitrap%20Astral%20Zoom%20prototype%20for%20quantitative%20proteomics)** - Comprehensive evaluation of next-generation mass spectrometry instrumentation for quantitative proteomics (PXD064536)
+- **[Tutorials on How to Use PRM Conductor, a Skyline External Tool](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Tutorials%20on%20How%20to%20Use%20PRM%20Conductor)** - Educational materials and workflows for parallel reaction monitoring using Skyline external tools
+- **[Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Carafe%20enables%20high%20quality%20in%20silico%20spectral%20library%20generation)** - Deep learning approach for high-quality in silico spectral libraries for DIA proteomics (PXD056793)
+- **[Characterization of Stellar MS](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Characterization%20of%20Stellar%20MS)** - Complete characterization and benchmarking of the Stellar mass spectrometer platform (PXD052734)
 
 #### Data Analysis & Computational Methods
-- **[DIA to Triple Quad assay development](https://panoramaweb.org/project/Panorama%20Public/2025/MacCoss_DIAtoTripleQuad/begin.view?)** - Workflow for using data-independent acquisition to inform targeted assay development (PXD059611)
-- **[Transformer model for DIA de novo sequencing](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_TransformerDIA/begin.view?)** - AI-powered peptide sequencing from data-independent acquisition data (PXD053291)
-- **[Quality control framework for proteomics](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_QualityControl/begin.view?)** - Comprehensive guidelines and datasets for proteomics quality control (PXD051318)
+- **[DIA to inform Triple Quad Assay development](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=DIA%20to%20inform%20Triple%20Quad%20Assay%20development)** - Workflow for using data-independent acquisition to inform targeted assay development (PXD059611)
+- **[A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=A%20transformer%20model%20for%20de%20novo%20sequencing)** - AI-powered peptide sequencing from data-independent acquisition data (PXD053291)
+- **[A framework for quality control in quantitative proteomics](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=A%20framework%20for%20quality%20control%20in%20quantitative%20proteomics)** - Comprehensive guidelines and datasets for proteomics quality control (PXD051318)
 - **[Dynamic DIA with real-time alignment](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_DynamicDIA/begin.view?)** - Advanced data acquisition strategies for improved proteomics workflows (PXD038508)
 
 #### Clinical & Biomedical Applications
-- **[Drug-protein adduct detection in human liver](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_DrugProteinAdducts/begin.view?)** - Novel methods for identifying covalent protein modifications from drug metabolism (PXD054246)
+- **[Detection and Quantification of Drug-Protein Adducts in Human Liver](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Detection%20and%20Quantification%20of%20Drug-Protein%20Adducts)** - Novel methods for identifying covalent protein modifications from drug metabolism (PXD054246)
 - **[Alzheimer's disease proteomics datasets](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_AlzheimersProteomics/begin.view?)** - Multiple studies including peptide-centric quantitative proteomics for AD assessment (PXD034525, PXD025668)
 - **[Apolipoprotein E isoform quantification](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_ApoEIsoforms/begin.view?)** - Metrologically traceable measurements in cerebrospinal fluid (PXD038803)
 - **[Mag-Net plasma proteome enrichment](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_MagNetPlasma/begin.view?)** - Extracellular vesicle enrichment for enhanced plasma proteomics coverage (PXD042947)
 
 #### Aging & Disease Research
-- **[Mouse aging and neurodegeneration studies](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_MouseAging/begin.view?)** - Comprehensive proteomics datasets from AD-BXD mouse models investigating hippocampus and prefrontal cortex (PXD045403, PXD045425)
-- **[Skeletal muscle sarcopenia](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_SkeletalMuscleSarcopenia/begin.view?)** - Proteomics analysis of age-related muscle changes in mouse models (PXD048723)
+- **[AD-BXD Mouse Hippocampus Proteomics](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=AD-BXD%20Mouse%20Hippocampus%20Proteomics)** - Comprehensive proteomics datasets from AD-BXD mouse models investigating hippocampus (PXD045425)
+- **[AD-BXD Mouse PreFrontal Cortex Proteomics](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=AD-BXD%20Mouse%20PreFrontal%20Cortex%20Proteomics)** - Comprehensive proteomics datasets from AD-BXD mouse models investigating prefrontal cortex (PXD045403)
+- **[Mouse Skeletal Muscle Sarcopenia](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Mouse%20Skeletal%20Muscle%20Sarcopenia)** - Proteomics analysis of age-related muscle changes in mouse models (PXD048723)
 - **[Mouse heart aging studies](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_MouseHeartAging/begin.view?)** - Age-related proteome and acetylome changes with therapeutic interventions (PXD027458, PXD024247)
 - **[Drosophila aging metabolomics](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_DrosophilaAging/begin.view?)** - Metabolome changes as biomarkers of aging in fruit fly models
 
 #### Analytical Method Validation
-- **[Glucagon and oxyntomodulin quantification](https://panoramaweb.org/project/Panorama%20Public/2024/MacCoss_GlucagonQuantification/begin.view?)** - LC-MS/MS method validation for peptide hormone analysis (PXD041410)
+- **[Evaluation of Linearity, Lower Limit of Measurement Interval and Imprecision](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.title~contains=Evaluation%20of%20Linearity)** - LC-MS/MS method validation for peptide hormone analysis (PXD041410)
 - **[FAIMS vs. quadrupole gas phase fractionation](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_FAIMSvsQuadrupole/begin.view?)** - Comparative analysis of peptide separation techniques (PXD043458)
 - **[Astral mass analyzer evaluation](https://panoramaweb.org/project/Panorama%20Public/2023/MacCoss_AstralEvaluation/begin.view?)** - Performance assessment for data-independent acquisition proteomics (PXD042704)
 - **[Matrix-matched calibration curves](https://panoramaweb.org/project/Panorama%20Public/2022/MacCoss_MatrixMatchedCalibration/begin.view?)** - Standardization approaches for quantitative proteomics (PXD014815)
