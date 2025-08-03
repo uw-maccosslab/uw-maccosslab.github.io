@@ -130,7 +130,7 @@ permalink: /resources/
 - **[Post-translational modification analysis](https://panoramaweb.org/project/Panorama%20Public/2022/MacCoss_PTMAnalysis/begin.view?)** - Comprehensive PTM characterization in various biological systems
 - **[Grizzly bear serum proteomics](https://panoramaweb.org/project/Panorama%20Public/2021/MacCoss_GrizzlyBearSerum/begin.view?)** - Wildlife proteomics applications demonstrating method versatility (PXD023555)
 
-*All datasets include detailed experimental protocols, instrument settings, and analysis workflows. Many datasets are paired with published manuscripts and include both raw data and processed results accessible through Skyline.*
+*All datasets include processed results as Skyline documents and raw datafiles. Many datasets are paired with published manuscripts.*
 
 </div>
 </div>
@@ -139,6 +139,9 @@ permalink: /resources/
     <div markdown="1">
 
 ## Educational Materials
+### Useful Mass Spectrometry Information
+- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/protocols05/)** -- A collection of URLs with LC-MS tricks, instrument setup, etc... *Definitely bookmark this page.* 
+- **[UWPR Analysis Tools](https://proteomicsresource.washington.edu/protocols06/)** -- A collection of websites and tools for proteomics and mass spectrometry. 
 
 ### Skyline Webinars
 **Interactive 90-minute tutorial webinars with Q&A sessions**
@@ -321,6 +324,7 @@ permalink: /resources/
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/forum)
 - [Panorama Support Board](https://panoramaweb.org/forum)
+- **[University of Washington Proteomics Listserv](https://mailman23.u.washington.edu/mailman/listinfo/proteomics)** - If you are at UW and doing proteomics you should join this list.
 
 ### Proteomics and Mass Spectrometry Courses
 
