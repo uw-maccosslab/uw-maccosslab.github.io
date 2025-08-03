@@ -9,10 +9,10 @@ permalink: /contact/
 ## Lab Information
 
 **MacCoss Laboratory**  
-Department of Genome Sciences  
-University of Washington  
-Foege Building, Room S-113 
-3720 15th Avenue NE  
+Department of Genome Sciences
+University of Washington
+Foege Building, Room S113
+3720 15th Avenue NE
 Seattle, WA 98195-5065
 **Email:** info[at]maccosslab[dot]org
 
@@ -71,7 +71,7 @@ University of Washington
 ## Lab Mailing Address
 University of Washington  
 Department of Genome Sciences  
-MacCoss Laboratory  
+MacCoss Laboratory
 Box 355065, Foege S113
 3720 15th Ave NE
 Seattle, WA 98195-5065
