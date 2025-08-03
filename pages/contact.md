@@ -19,9 +19,9 @@ Seattle, WA 98195-5065
 ## Principal Investigator
 
 [**Michael J. MacCoss**](maccoss.md)  
-Professor, Department of Genome Sciences
+Professor, Department of Genome Sciences <lf/>
 **Email:** maccoss[at]uw[dot]edu  
-**Phone:** (206) 616-7451 
+**Office Phone:** (206) 616-7451 *Note: I rarely answer the phone.*
 **Office:** Foege S-232, Box 355065
 
 ## Lab Contact
