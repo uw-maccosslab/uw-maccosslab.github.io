@@ -20,20 +20,20 @@ Seattle, WA 98195-5065
 
 **Michael J. MacCoss**  
 Professor, Department of Genome Sciences  
-📧 **Email:** maccoss@uw.edu  
-📞 **Phone:** (206) 616-7451 
-🏢 **Office:** Foege S-232, Box 355065
+**Email:** maccoss@uw.edu  
+**Phone:** (206) 616-7451 
+**Office:** Foege S-232, Box 355065
 
 ## Lab Manager & Administrative Contact
 
-📧 **Email:** admin@maccosslab.org  
-📞 **Phone:** (206) 616-9023
+**Email:** admin@maccosslab.org  
+**Phone:** (206) 616-9023
 
 ## Research Inquiries
 
 ### Collaboration Opportunities
 For research collaborations, method development partnerships, or joint projects:
-📧 **Email:** maccoss@uw.edu
+**Email:** maccoss@uw.edu
 
 ### Software Support
 For questions about Skyline or Panorama software:
@@ -46,13 +46,13 @@ For questions about Skyline or Panorama software:
 
 **Department of Genome Sciences**  
 University of Washington  
-📧 **Email:** gsadmin@uw.edu  
-📞 **Phone:** (206) 543-0754  
-🌐 **Website:** [gs.washington.edu](https://www.gs.washington.edu)
+**Email:** gsadmin@uw.edu  
+**Phone:** (206) 543-0754  
+**Website:** [gs.washington.edu](https://www.gs.washington.edu)
 
 **Graduate Program Admissions**  
-📧 **Email:** gsadmit@uw.edu  
-🌐 **Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/gradprogram/)
+**Email:** gsadmit@uw.edu  
+**Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/gradprogram/)
 
 ## Mailing Address
 
