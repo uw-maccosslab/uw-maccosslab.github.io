@@ -14,26 +14,26 @@ University of Washington
 Foege Building, Room S-113 
 3720 15th Avenue NE  
 Seattle, WA 98195-5065
-**Email:** info@maccosslab.org
+**Email:** info[at]maccosslab[dot]org
 
 ## Principal Investigator
 
 **Michael J. MacCoss**  
 Professor, Department of Genome Sciences  
-**Email:** maccoss@uw.edu  
+**Email:** maccoss[at]uw[dot]edu  
 **Phone:** (206) 616-7451 
 **Office:** Foege S-232, Box 355065
 
 ## Lab Manager & Administrative Contact
 
-**Email:** admin@maccosslab.org  
+**Email:** admin[at]maccosslab[dot]org  
 **Phone:** (206) 616-9023
 
 ## Research Inquiries
 
 ### Collaboration Opportunities
 For research collaborations, method development partnerships, or joint projects:
-**Email:** maccoss@uw.edu
+**Email:** maccoss[at]uw[dot]edu
 
 ### Software Support
 For questions about Skyline or Panorama software:
@@ -46,12 +46,12 @@ For questions about Skyline or Panorama software:
 
 **Department of Genome Sciences**  
 University of Washington  
-**Email:** gsadmin@uw.edu  
+**Email:** gsadmin[at]uw[dot]edu  
 **Phone:** (206) 543-0754  
 **Website:** [gs.washington.edu](https://www.gs.washington.edu)
 
 **Graduate Program Admissions**  
-**Email:** gsadmit@uw.edu  
+**Email:** gsadmit[at]uw[dot]edu  
 **Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/gradprogram/)
 
 ## Mailing Address

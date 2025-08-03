@@ -34,5 +34,5 @@ We welcome applications from prospective Ph.D. students through several Universi
 
 ### Staff and Research Scientist Opportunities
 
-We don't currently have any open staff positions. For questions about positions reach out to positions@maccosslab.org
+We don't currently have any open staff positions. For questions about positions reach out to positions[at]maccosslab[dot]org
 
