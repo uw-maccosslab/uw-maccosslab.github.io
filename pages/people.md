@@ -46,14 +46,17 @@ permalink: /people/
 - Chris Hsu
 - Bo Wen
 
-### Visiting Scientists
-- Jesse Canterbury
-- Deanna Plubell
-
 ### Nunn Lab
 - Brook Nunn
 - Emma Timmins-Schiffman
 
+### UW Proteomics Resource (UWPR)
+- Jimmy Eng
+- Vagisha Sharma
+
+### Visiting Scientists
+- Jesse Canterbury
+- Deanna Plubell
 
 ### Skyline Team
 
