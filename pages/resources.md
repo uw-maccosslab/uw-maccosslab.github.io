@@ -306,7 +306,57 @@ permalink: /resources/
 - [Panorama Support Board](https://panoramaweb.org/forum)
 
 ### Proteomics and Mass Spectrometry Courses
-*Coming soon - comprehensive course listings and training opportunities*
+
+#### Upcoming Events (2025)
+- **Fall 2025 Skyline Online** - Dates coming soon
+- **[The 15th international symposium on proteomics in the life sciences](https://www.asbmb.org/meetings-events/proteomics-2025)** - Cambridge, MA (August 17-21, 2025)
+- **[Skyline Course at the University of Washington](https://skyline.ms/project/home/software/Skyline/events/2025%20UW%20Course/begin.view)** - Seattle, WA (July 7-11, 2025)
+
+#### Recent Past Events (2024-2025)
+- **[Two-day Short Course: 08 Quantitative Proteomics: Case Studies](https://www.asms.org/conferences/annual-conference/short-courses)** - ASMS Baltimore, MD (May 31 - June 1, 2025)
+- **[Skyline User Group Meeting](https://skyline.ms/2025-ugm.url)** - ASMS Baltimore, MD (June 1, 2025)
+- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)** - Northeastern University, Boston (April 28 - May 11, 2025)
+- **[2025 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline-course-2025)** - (April 7-10, 2025)
+- **[Practical Course on Targeted Proteomics](https://courses.crg.eu/events/targetedproteomics)** - Barcelona, Spain (November 17-22, 2024)
+- **[2024 Skyline Online](https://skyline.ms/project/home/software/Skyline/events/2024-10%20Skyline%20Online/begin.view)** - (October 8-9, 10-11, 15-16, 17-18, 2024)
+- **[UW Targeted Mass Spectrometry Course](https://skyline.ms/project/home/software/Skyline/events/2024%20UW%20Course/begin.view)** - Seattle, WA (July 8-12, 2024)
+- **[Two-day Short Course: 08 Quantitative Proteomics: Case Studies](https://www.asms.org/conferences/annual-conference/short-courses/two-day-courses)** - ASMS Anaheim, CA (June 1-2, 2024)
+- **[Skyline User Group Meeting](https://skyline.ms/project/home/software/Skyline/events/2024%20User%20Group%20Meeting%20at%20ASMS/begin.view)** - ASMS Anaheim, CA (June 2, 2024)
+- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)** - Northeastern University, Boston (April 29 - May 10, 2024)
+- **[2024 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline2024)** - (March 4-7, 2024)
+- **[2024 Advances in Proteomics Technologies Hands-on Workshop](https://portal.iitb.ac.in/ceqipapp/courseDetails.jsp?c_id=5476)** - IIT Bombay, India (February 17-18, 2024)
+
+#### Annual and Regular Course Series
+- **Skyline Online** - Multi-day virtual training courses (typically October/November)
+- **UW Targeted Mass Spectrometry Course** - Annual summer course at University of Washington, Seattle
+- **May Institute** - Annual computation and statistics course at Northeastern University, Boston
+- **ISAS Dortmund Skyline Training Course** - Annual course in Germany
+- **ASMS Short Courses** - Two-day quantitative proteomics courses at ASMS annual conference
+- **Skyline User Group Meetings** - Annual meetings at ASMS conferences
+- **Targeted Proteomics Course at PRBB, Barcelona** - Biennial EMBO course
+- **ETH Zurich DIA/SWATH Courses** - Periodic specialized courses in Switzerland
+
+#### International Workshop Series (2018-2023)
+- **Targeted Proteomics Course** - EMBO course at PRBB, Barcelona
+- **Pre-HUPO Targeted Proteomics Courses** - International locations
+- **Proteomics Informatics Short Courses** - Various international venues
+- **Cape Town Targeted Quantitative Proteomics Course** - South Africa
+- **IIT Bombay Workshops** - Mumbai, India (multiple years)
+
+#### Historical Course Highlights (2012-2023)
+- **Pre-Lorne Workshops** - University of Melbourne, Australia
+- **MSACL Practical Proteomics Short Courses** - Palm Springs, CA
+- **Buck Institute Targeted Proteomics Courses** - Northern San Francisco Bay Area, CA
+- **US HUPO Short Courses** - Various US locations
+- **Duke University Short Courses** - Durham, NC
+- **International Targeted Proteomics Courses** - Shanghai, China
+- **MRM Proteomics Virtual Workshops** - Online targeted quantitation training
+- **European Summer School Workshops** - Brixen/Bressanone, Italy
+- **J-HUPO Workshops** - Tokyo, Japan
+- **Fiocruz Workshops** - Brazil
+- **ACGT Proteomics Symposiums** - Johannesburg, South Africa
+
+*For current course schedules and registration, visit [Skyline Events](https://skyline.ms/project/home/software/Skyline/events/begin.view)*
 
 </div>
 </div>
