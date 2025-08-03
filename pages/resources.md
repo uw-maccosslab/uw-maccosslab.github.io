@@ -55,8 +55,8 @@ permalink: /resources/
 - **Support** is available via a [Google Groups](https://groups.google.com/g/comet-ms).
 - **Source Code** is available on [GitHub](https://github.com/UWPR/Comet) under an Apache 2.0 license
 
-    </div>
-  </div>
+</div>
+</div>
 
   <div id="datasets" class="tab-content">
     <div markdown="1">
@@ -115,8 +115,8 @@ permalink: /resources/
 
 *All datasets include detailed experimental protocols, instrument settings, and analysis workflows. Many datasets are paired with published manuscripts and include both raw data and processed results accessible through Skyline.*
 
-    </div>
-  </div>
+</div>
+</div>
 
   <div id="educational" class="tab-content">
     <div markdown="1">
@@ -293,8 +293,8 @@ permalink: /resources/
 
 [**View all webinars**](https://panoramaweb.org/home/wiki-page.view?name=webinars)
 
-    </div>
-  </div>
+</div>
+</div>
 
   <div id="support" class="tab-content">
     <div markdown="1">
@@ -308,8 +308,8 @@ permalink: /resources/
 ### Proteomics and Mass Spectrometry Courses
 *Coming soon - comprehensive course listings and training opportunities*
 
-    </div>
-  </div>
+</div>
+</div>
 </div>
 
 <style>
