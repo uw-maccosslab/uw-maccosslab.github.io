@@ -35,9 +35,11 @@ A freely-available, open-source repository server application designed for targe
 <div class="news-section">
   <h3>Recent Publications</h3>
   <ul>
-    <li><strong>Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry</strong> - Nature Communications, December 2018</li>
-    <li><strong>Panorama Public: A Public Repository for Quantitative Data Sets Processed in Skyline</strong> - Molecular and Cellular Proteomics, February 2018</li>
-    <li><strong>Calibration Using a Single-Point External Reference Material Harmonizes Quantitative Mass Spectrometry Proteomics Data</strong> - Analytical Chemistry, October 2018</li>
+    <li><strong>A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data</strong> - Nature Methods, July 2025</li>
+    <li><strong>Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome</strong> - Nature Communications, July 2025</li>
+    <li><strong>Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment</strong> - Nature Methods, July 2025</li>
+    <li><strong>Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment</strong> - Alzheimer's & Dementia, July 2025</li>
+    <li><strong>Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism</strong> - Royal Society Open Science, July 2025</li>
   </ul>
 </div>
 

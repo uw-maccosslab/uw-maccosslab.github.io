@@ -12,22 +12,109 @@ permalink: /publications/
 
 ## Recent Publications
 
+### 2025
+
+**Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism**  
+Coig R, Harrison B, Johnson R, MacCoss MJ, Promislow D  
+*Royal Society Open Science* 2025 Jul 9;12(7):250770  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40740708/) | [DOI](https://doi.org/10.1098/rsos.250770)
+
+**Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment**  
+Trivedi P, Forrest K, Fisher DW, Winstone JK, McMillan PJ, Valentine M, Postupna N, Wilson A, Bajwa T, MacCoss MJ, Keene CD, Darvas M, Kraemer BC, Hoofnagle AN, Latimer CS  
+*Alzheimer's & Dementia* 2025 Jul;21(7):e70481  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40684247/) | [DOI](https://doi.org/10.1002/alz.70481)
+
+**A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data**  
+Sanders J, Wen B, Rudnick PA, Johnson RS, Wu CC, Riffle M, Oh S, MacCoss MJ, Noble WS  
+*Nature Methods* 2025 Jul;22(7):1447-1453  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40596427/) | [DOI](https://doi.org/10.1038/s41592-025-02718-y)
+
+**Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome**  
+Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ  
+*Nature Communications* 2025 Jul 1;16(1):5447  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40595564/) | [DOI](https://doi.org/10.1038/s41467-025-60595-7)
+
+**Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment**  
+Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U  
+*Nature Methods* 2025 Jul;22(7):1454-1463  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40524023/) | [DOI](https://doi.org/10.1038/s41592-025-02719-x)
+
+**Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists**  
+Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ  
+*bioRxiv* 2025 Jun 25 (Preprint)  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40501761/) | [DOI](https://doi.org/10.1101/2025.05.30.657132)
+
+**Improved quantitative accuracy in data-independent acquisition proteomics via retention time boundary imputation**  
+Harris L, Riffle M, Noble WS, MacCoss MJ  
+*bioRxiv* 2025 May 31 (Preprint)  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40502008/) | [DOI](https://doi.org/10.1101/2025.05.27.656394)
+
+**Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer**  
+Plubell DL, Huang E, Spencer SE, Poston KL, Montine TJ, MacCoss MJ  
+*Journal of Proteome Research* 2025 Jun 6;24(6):2885-2891  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40328514/) | [DOI](https://doi.org/10.1021/acs.jproteome.5c00016)
+
+**Molecular basis of SIFI activity in the integrated stress response**  
+Yang Z, Haakonsen DL, Heider M, Witus SR, Zelter A, Beschauner T, MacCoss MJ, Rapé M  
+*Nature* 2025 Jul;643(8073):1117-1126  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40328314/) | [DOI](https://doi.org/10.1038/s41586-025-09074-z)
+
+**Quantification of glucagon and oxyntomodulin by protein precipitation-immunoaffinity enrichment-LC-MS/MS**  
+Becker JO, Shijo SK, Huynh HH, Forrest KL, MacCoss MJ, Emrick MA, Goonatilleke E, Hoofnagle AN  
+*Journal of Mass Spectrometry and Advances in the Clinical Lab* 2025 Apr;36:37-45  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40385697/) | [DOI](https://doi.org/10.1016/j.jmsacl.2025.04.002)
+
+**The Need for Better Validation: Evaluating Aptamer and Proximity Extension Assays for Large-Scale Clinical Proteomics Studies**  
+Hoofnagle AN, MacCoss MJ  
+*Clinical Chemistry* 2025 Apr 24  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40272410/) | [DOI](https://doi.org/10.1093/clinchem/hvaf046)
+
+**Open-Source and FAIR Research Software for Proteomics**  
+Perez-Riverol Y, Bittremieux W, Noble WS, Martens L, Bilbao A, Lazear MR, Grüning B, Katz DS, MacCoss MJ, Dai C, Eng JK, Bouwmeester R, Shortreed MR, Audain E, Sachsenberg T, Van Goey J, Wallmann G, Wen B, Käll L, Fondrie WE  
+*Journal of Proteome Research* 2025 May 2;24(5):2222-2234  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40267229/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c01079)
+
+**Comprehensive Proteomics Metadata and Integrative Web Portals Facilitate Sharing and Integration of LINCS Multiomics Data**  
+Vidović D, Shamsaei B, Schürer SC, Kogan P, Chojnacki S, Kouril M, Medvedovic M, Niu W, Azeloglu EU, Birtwistle MR, Chen Y, Chen T, Hansen J, Hu B, Iyengar R, Jayaraman G, Li H, Liu T, Sobie EA, Xiong Y, Berberich MJ, Bradshaw G, Chung M, Everley RA, Gaudio B, Hafner M, Kalocsay M, Mills CE, Nariya MK, Sorger PK, Subramanian K, Victor C, Banuelos M, Dardov V, Holewinski R, Manalo DM, Mandefro B, Matlock AD, Ornelas L, Sareen D, Svendsen CN, Vaibhav V, Van Eyk JE, Venkatraman V, Finkbiener S, Fraenkel E, Rothstein J, Thompson L, Asiedu J, Carr SA, Christianson KE, Davison D, Dele-Oni DO, DeRuff KC, Egri SB, Jacome ASV, Jaffe JD, Lam D, Litichevskiy L, Lu X, Mullahoo J, Officer A, Papanastasiou M, Peckner R, Toder C, Blanchard J, Bula M, Ko T, Tsai LH, Young JZ, Sharma V, Pillai A, Meller J, MacCoss MJ  
+*Molecular & Cellular Proteomics* 2025 Mar 13;24(7):100947  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40089066/) | [DOI](https://doi.org/10.1016/j.mcpro.2025.100947)
+
+**Massively parallel assessment of designed protein solution properties using mass spectrometry and peptide barcoding**  
+Feldman D, Sims JN, Li X, Johnson R, Gerben S, Kim DE, Richardson C, Koepnick B, Eisenach H, Hicks DR, Yang EC, Wicky BIM, Milles LF, Bera AK, Kang A, Brackenbrough E, Joyce E, Sankaran B, Lubner JM, Goreshnik I, Vafeados D, Allen A, Stewart L, MacCoss MJ, Baker D  
+*bioRxiv* 2025 Feb 28 (Preprint)  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40060547/) | [DOI](https://doi.org/10.1101/2025.02.24.639402)
+
+**Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research**  
+Nierves LA, Lin TT, Moradian A, Shen Q, Sechi S, MacCoss MJ, Qu J, van Eyk JE, Hoofnagle AN, Qian WJ  
+*Journal of Clinical Endocrinology & Metabolism* 2025 May 19;110(6):1514-1523  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40056450/) | [DOI](https://doi.org/10.1210/clinem/dgaf159)
+
+**Limelight: An Open, Web-Based Tool for Visualizing, Sharing, and Analyzing Mass Spectrometry Data from DDA Pipelines**  
+Riffle M, Zelter A, Jaschob D, Hoopmann MR, Faivre DA, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N  
+*Journal of Proteome Research* 2025 Apr 4;24(4):1895-1906  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40036265/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c00968)
+
+**Data from a multi-year targeted proteomics study of a longitudinal birth cohort of type 1 diabetes**  
+Bramer LM, Nakayasu ES, Flores JE, Van Eyk JE, MacCoss MJ, Parikh HM, Metz TO, Webb-Robertson BM  
+*Scientific Data* 2025 Jan 20;12(1):112  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39833216/) | [DOI](https://doi.org/10.1038/s41597-024-04249-1)
+
 ### 2024
 
-**Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer**  
-Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston K, Montine T, MacCoss MJ  
-*bioRxiv* 2024 June 11 (Preprint)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/38895256/) | [DOI](https://doi.org/10.1101/2024.06.04.597431)
+**Hybrid Quadrupole Mass Filter-Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics**  
+Remes PM, Jacob CC, Heil LR, Shulman N, MacLean BX, MacCoss MJ  
+*Journal of Proteome Research* 2024 Dec 6;23(12):5476-5486  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39475161/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c00599)
 
-**A Framework for Quality Control in Quantitative Proteomics**  
-Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ  
-*Journal of Proteome Research* 2024 Oct 4;23(10):4392-4408  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/39248652/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c00363)
+**Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics**  
+Wen B, Hsu C, Zeng WF, Riffle M, Chang A, Mudge M, Nunn B, Berg MD, Villén J, MacCoss MJ, Noble WS  
+*bioRxiv* 2024 Oct 18 (Preprint)  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39463980/) | [DOI](https://doi.org/10.1101/2024.10.15.618504)
 
-**Data-independent acquisition proteomic analysis of the brain microvasculature in Alzheimer's disease identifies major pathways of dysfunction and upregulation of cytoprotective responses**  
-Erickson MA, Johnson RS, Damodarasamy M, MacCoss MJ, Keene CD, Banks WA, Reed MJ  
-*Fluids Barriers CNS* 2024 Oct 21;21(1):84  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/39434151/) | [DOI](https://doi.org/10.1186/s12987-024-00581-1)
+**Detection and Quantification of Drug-Protein Adducts in Human Liver**  
+Zelter A, Riffle M, Shteynberg DD, Zhong G, Riddle EB, Hoopmann MR, Jaschob D, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N  
+*Journal of Proteome Research* 2024 Nov 1;23(11):5143-5152  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39442081/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c00663)
 
 ### 2023
 
@@ -41,63 +128,11 @@ Merrihew GE, Park J, Plubell D, Searle BC, Keene CD, Larson EB, Bateman R, Perri
 *Scientific Data* 2023 Apr 14;10(1):206  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/37059743/) | [DOI](https://doi.org/10.1038/s41597-023-02057-7)
 
-## Key Software Publications
-
-### Skyline
-
-**Skyline: an open source document editor for creating and analyzing targeted proteomics experiments**  
-MacLean B, Tomazela DM, Shulman N, Chambers M, Finney GL, Frewen B, Kern R, Tabb DL, Liebler DC, MacCoss MJ  
-*Bioinformatics* 2010 May 1;26(7):966-8  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/20147306/) | [DOI](https://doi.org/10.1093/bioinformatics/btq054)
-
-**Chromatogram libraries improve peptide detection and quantification by data independent acquisition mass spectrometry**  
-Searle BC, Pino LK, Egertson JD, Ting YS, Lawrence RT, MacLean BX, Villén J, MacCoss MJ  
-*Nature Communications* 2018 Dec 3;9(1):5128  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/30510204/) | [DOI](https://doi.org/10.1038/s41467-018-07454-w)
-
-### Panorama
-
-**Panorama Public: A Public Repository for Quantitative Data Sets Processed in Skyline**  
-Sharma V, Eckels J, Taylor GK, Shulman NJ, Stergachis AB, Joyner SA, Yan P, Whiteaker JR, Halusa GN, Schilling B, Gibson BW, Colangelo CM, Paulovich AG, Carr SA, Jaffe JD, MacCoss MJ, MacLean B  
-*Molecular & Cellular Proteomics* 2018 Feb;17(2):411-416  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/29242379/) | [DOI](https://doi.org/10.1074/mcp.RA117.000543)
-
-## High-Impact Method Development
-
-**Rapid empirical discovery of optimal peptides for targeted proteomics**  
-Stergachis AB, MacLean B, Lee K, Stamatoyannopoulos JA, MacCoss MJ  
-*Nature Methods* 2011 Dec;8(12):1041-3  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/22056676/) | [DOI](https://doi.org/10.1038/nmeth.1770)
-
-**A deeper look into Comet--implementation and features**  
-Eng JK, Hoopmann MR, Jahan TA, Egertson JD, Noble WS, MacCoss MJ  
-*Journal of the American Society for Mass Spectrometry* 2015 Nov;26(11):1865-74  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/26115965/) | [DOI](https://doi.org/10.1007/s13361-015-1179-x)
-
-**Calibration Using a Single-Point External Reference Material Harmonizes Quantitative Mass Spectrometry Proteomics Data between Platforms and Laboratories**  
-Pino LK, Searle BC, Huang EL, Noble WS, Hoofnagle AN, MacCoss MJ  
-*Analytical Chemistry* 2018 Nov 6;90(21):13112-13117  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/30350613/) | [DOI](https://doi.org/10.1021/acs.analchem.8b04581)
-
-## Clinical Applications
-
-**Implementation of statistical process control for proteomic experiments via LC MS/MS**  
-Bereman MS, Johnson R, Bollinger J, Boss Y, Shulman N, MacLean B, Hoofnagle AN, MacCoss MJ  
-*Journal of the American Society for Mass Spectrometry* 2014 Apr;25(4):581-7  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/24496601/) | [DOI](https://doi.org/10.1007/s13361-013-0824-5)
-
-## Data Analysis Tools
-
-**Identification of peptide features in precursor spectra using Hardklör and Krönik**  
-Hoopmann MR, MacCoss MJ, Moritz RL  
-*Current Protocols in Bioinformatics* 2012 Mar;Chapter 13:Unit13.18  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/22389013/) | [DOI](https://doi.org/10.1002/0471250953.bi1318s37)
-
 ## Publication Metrics
 
-- **Total Citations**: 25,000+ (Google Scholar)
-- **h-index**: 75+
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (3,000+ citations)
+- **Total Citations**: >50,185 (Google Scholar)
+- **h-index**: >103
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,064+ citations)
 
 ## Research Themes
 
@@ -133,16 +168,6 @@ Most recent publications include:
 - **Skyline documents** available on Panorama Public
 - **Raw mass spectrometry data** deposited in public repositories
 - **Analysis code** available on GitHub: [github.com/uw-maccosslab](https://github.com/uw-maccosslab)
-- **Protocols and workflows** detailed in supplementary materials
-
-## Citation Guidelines
-
-When using our software or methods, please cite the appropriate papers:
-
-- **Skyline**: MacLean et al., Bioinformatics (2010)
-- **Panorama Public**: Sharma et al., Mol Cell Proteomics (2018)
-- **Chromatogram Libraries**: Searle et al., Nat Commun (2018)
-- **Quality Control Framework**: Tsantilas et al., J Proteome Res (2024)
 
 ---
 
