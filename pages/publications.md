@@ -6,9 +6,12 @@ permalink: /publications/
 
 # Publications
 
-<div class="publications-header">
-  <p>View our complete publication list on <a href="https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en">Google Scholar</a> or search <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Maccoss%2C+Michael%5BFull+Author+Name%5D+OR+MacCoss+MJ%5BAuthor%5D&sort=date">PubMed</a>.</p>
-</div>
+View our complete publication list on [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) or search [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Maccoss%2C+Michael%5BFull+Author+Name%5D+OR+MacCoss+MJ%5BAuthor%5D&sort=date).
+
+## Publication Metrics
+- **Total Citations**: >50,185 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: >103
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,064+ citations)
 
 ## Recent Publications
 
@@ -128,11 +131,6 @@ Merrihew GE, Park J, Plubell D, Searle BC, Keene CD, Larson EB, Bateman R, Perri
 *Scientific Data* 2023 Apr 14;10(1):206  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/37059743/) | [DOI](https://doi.org/10.1038/s41597-023-02057-7)
 
-## Publication Metrics
-
-- **Total Citations**: >50,185 (Google Scholar)
-- **h-index**: >103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,064+ citations)
 
 ## Research Themes
 

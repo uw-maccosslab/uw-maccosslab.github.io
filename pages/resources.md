@@ -27,6 +27,8 @@ permalink: /resources/
 - **Download at**: [skyline.ms](https://skyline.ms/skyline.url)
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
+- **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
+- **Cited >5064 times**
 
 ### Panorama
 **Web-based repository for Skyline documents and colaboration**
