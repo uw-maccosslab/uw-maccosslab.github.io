@@ -1,5 +1,5 @@
 title: MacCoss Lab
-description: Protein Mass Spectrometry Laboratory
+description: Biological Mass Spectrometry Laboratory
 url: "https://maccosslab.github.io"
 baseurl: ""
 
@@ -20,6 +20,7 @@ plugins:
 
 # Navigation
 header_pages:
+  - pages/positions.md
   - pages/about.md
   - pages/research.md
   - pages/publications.md
@@ -27,7 +28,7 @@ header_pages:
   - pages/people.md
   - pages/news.md
   - pages/resources.md
-  - pages/positions.md
+  - pages/funding.md
   - pages/contact.md
 
 # Collections
