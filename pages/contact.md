@@ -24,7 +24,10 @@ Professor, Department of Genome Sciences <lf/>
 **Office Phone:** (206) 616-7451 *Note: I rarely answer the phone.*
 **Office:** Foege S-232, Box 355065
 
-## Lab Contact
+## Lab Contacts
+- **General Lab Contact:**
+  - Email: admin[at]maccosslab[dot]org  
+  - Lab Phone: (206) 616-9023
 - **Lab Manager and Director of Research Operations:** 
   - Gennifer Merrihew
   - Contact for general lab inquiries, research projects, purchasing, etc...
@@ -37,9 +40,6 @@ Professor, Department of Genome Sciences <lf/>
   - Christine Wu, Ph.D.
   - Contact for grants and large projects
   - Email: chriscwu[at]uw[dot]edu
-- **General Lab Contact:**
-  - Email: admin[at]maccosslab[dot]org  
-  - Lab Phone: (206) 616-9023
 
 ## Research Inquiries
 
@@ -48,7 +48,7 @@ Professor, Department of Genome Sciences <lf/>
   - Email: maccoss[at]uw[dot]edu
 
 ### Software Support
-For questions about Skyline or Panorama software:
+
 - **Skyline Support:** [Skyline Support Board](https://skyline.ms/project/home/support/begin.view)
 - **Panorama Support:** [Panorama Support Board](https://panoramaweb.org/home/support/project-begin.view)
 - **EncyclopeDIA Support:** [EncyclopeDIA](https://bitbucket.org/searleb/encyclopedia/wiki/Home)
