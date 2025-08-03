@@ -55,6 +55,21 @@ permalink: /resources/
 - **Support** is available via a [Google Groups](https://groups.google.com/g/comet-ms).
 - **Source Code** is available on [GitHub](https://github.com/UWPR/Comet) under an Apache 2.0 license
 
+### Crux
+**The Crux mass spectrometry analysis toolkit is an open source project that aims to provide users with a cross-platform suite of analysis tools for interpreting peptide MS/MS data.**
+- The toolkit includes several search engines for both standard and cross-linked database search, as well as a variety of pre- and post-processing engines for assigning high-resolution precursor masses to spectra, assigning statistical confidence estimates to spectra, peptides and proteins, and performing label free quantification. Crux comes pre-complied for the Linux, Windows and MacOS operating systems. It is implemented as a single program that offers a wide variety of commands.
+- **Support** is available via a [Google Groups](https://groups.google.com/g/crux-users).
+- **Download and Documentation** are available on the [Crux website](https://crux.ms/).
+- **Source Code** is available on [GitHub](https://github.com/crux-toolkit/crux-toolkit) under an Apache 2.0 license
+
+### Percolator
+**Semi-supervised learning for peptide identification from shotgun proteomics datasets**
+- Percolator has become the gold standard for post-processing and FDR control for bottom-up proteomics. Our software is incorporated as part of Proteome Discoverer, FragPipe, Mascot, Crux, 
+- **Original Publication** Lukas Käll et al, [Semi-supervised learning for peptide indentification from shotgun proteomics datasets](https://www.nature.com/articles/nmeth1113) *Nature Methods* 2007
+- **Download and Documentation** are available on the [Percolator website](http://percolator.ms/). Percolator is also part of the [Crux project](https://crux.ms/).
+- **Source Code** is available on [GitHub](https://github.com/crux-toolkit/crux-toolkit) under an Apache 2.0 license.
+
+
 </div>
 </div>
 
@@ -340,7 +355,7 @@ permalink: /resources/
 - **Targeted Proteomics Course** - EMBO course at PRBB, Barcelona
 - **Pre-HUPO Targeted Proteomics Courses** - International locations
 - **Proteomics Informatics Short Courses** - Various international venues
-- **Cape Town Targeted Quantitative Proteomics Course** - South Africa
+- **Cape Town Quantitative Proteomics Course** - South Africa
 - **IIT Bombay Workshops** - Mumbai, India (multiple years)
 
 #### Historical Course Highlights (2012-2023)
