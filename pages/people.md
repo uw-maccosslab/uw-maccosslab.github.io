@@ -8,20 +8,12 @@ permalink: /people/
 
 ## Principal Investigator
 
-<div class="person-card pi-card">
-  <img src="../assets/images/people/mike-maccoss.jpg" alt="Michael MacCoss" class="person-photo">
-  <div class="person-info">
-    <h3>Michael J. MacCoss</h3>
-    <p class="title">Professor, Department of Genome Sciences</p>
-    <p class="email">maccoss@uw.edu</p>
-    <p class="bio">Mike leads the lab's research in quantitative proteomics and mass spectrometry method development. His work focuses on developing robust, quantitative protein assays for biological and clinical applications.</p>
-    <div class="person-links">
-      <a href="https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en">Google Scholar</a> |
-      <a href="https://www.linkedin.com/in/maccoss/">LinkedIn</a> |
-      <a href="https://www.gs.washington.edu/faculty/maccoss.htm">UW Profile</a>
-    </div>
-  </div>
-</div>
+- **Michael J. MacCoss, Ph.D.** - Professor, Department of Genome Sciences  
+  Email: maccoss@uw.edu  
+  Mike leads the lab's research in quantitative proteomics and mass spectrometry method development. His work focuses on developing robust, quantitative protein assays for biological and clinical applications.  
+  Links: [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/maccoss/) | [UW Profile](https://www.gs.washington.edu/faculty/maccoss.htm)
+
+![Michael MacCoss](../assets/images/people/mike-maccoss.jpg)
 
 <div class="tab-container">
   <div class="tab-navigation">
@@ -106,15 +98,14 @@ permalink: /people/
 
 ## Former Lab Members
 
+**Currently under development**
+
 ### Former Postdocs
 
 **Dr. [Name]** (20XX-20XX)  
 *Current Position*: [Current role] at [Institution/Company]  
 *Research Area*: [Previous research focus]
 
-**Dr. [Name]** (20XX-20XX)  
-*Current Position*: [Current role] at [Institution/Company]  
-*Research Area*: [Previous research focus]
 
 ### Former Graduate Students
 
@@ -122,9 +113,6 @@ permalink: /people/
 *Thesis*: "[Thesis title]"  
 *Current Position*: [Current role] at [Institution/Company]
 
-**Dr. [Name]** (Ph.D. 20XX)  
-*Thesis*: "[Thesis title]"  
-*Current Position*: [Current role] at [Institution/Company]
 
 ### Former Research Scientists & Staff
 
