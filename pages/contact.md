@@ -40,6 +40,10 @@ Professor, Department of Genome Sciences
   - Christine Wu, Ph.D.
   - Contact for grants and large projects
   - Email: chriscwu[at]uw[dot]edu
+- **Questions about Service Projects:**
+  - Email: service[at]maccosslab[dot]org
+  - Website: [https://panoramaweb.org/services/](https://panoramaweb.org/services/)
+  - FAQ: [Frequently Asked Questions](https://panoramaweb.org/Services/wiki-page.view?name=Frequently%20Asked%20Questions)
 
 ---
 ## Research Inquiries
