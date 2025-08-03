@@ -118,7 +118,13 @@ We are continuing to extend our analytical software tools to support Thermo Fish
 - 9/1/2013 – 12/31/2027
 We are continuing to extend our analytical software tools to support Waters mass spectrometers.
 
+### Support for Mass Spectrometry Technology Development
+**ThermoFisher Sponsored Search Agreement**
+- Data Acquisition and Analysis Strategies for Improving the Analysis of Peptide Mixtures Using Thermo Fisher Mass Spectrometers
+- 3/27/2017 - 6/15/2026
 
+### Pharma/Biotech Service Agreements
+The MacCoss lab has regular short and medium term agreements to work on projects with Pharma collaboratively.
 
 </div>
 </div>
