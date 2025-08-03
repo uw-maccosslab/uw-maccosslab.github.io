@@ -24,16 +24,28 @@ Professor, Department of Genome Sciences
 **Phone:** (206) 616-7451 
 **Office:** Foege S-232, Box 355065
 
-## Lab Manager & Administrative Contact
-
-**Email:** admin[at]maccosslab[dot]org  
-**Phone:** (206) 616-9023
+## Lab Contact
+- **Lab Manager and Director of Research Operations:** 
+  - Gennifer Merrihew
+  - Contact for general lab inquiries, research projects, purchasing, etc...
+  - Email: genn[at]uw[dot]edu
+- **Mass Spectrometry Instrumentation:**
+  - Richard Johnson, Ph.D.
+  - Contact for LC-MS instrumentation
+  - Email: rj8[at]uw[dot]edu
+- **Project Management and Grants:**
+  - Christine Wu, Ph.D.
+  - Contact for grants and large projects
+  - Email: chriscwu[at]uw[dot]edu
+- **General Lab Contact:**
+  - Email: admin[at]maccosslab[dot]org  
+  - Lab Phone: (206) 616-9023
 
 ## Research Inquiries
 
 ### Collaboration Opportunities
-For research collaborations, method development partnerships, or joint projects:
-**Email:** maccoss[at]uw[dot]edu
+- For research collaborations, method development partnerships, or joint projects:
+  - Email: maccoss[at]uw[dot]edu
 
 ### Software Support
 For questions about Skyline or Panorama software:
@@ -96,7 +108,5 @@ We are located in the South William H. Foege Building on the University of Washi
 </div>
 
 **Alternative: [View on Google Maps](https://maps.google.com/?q=Genome+Sciences,+University+of+Washington,+Seattle,+WA)**
-
-**We look forward to hearing from you!**
 
 Whether you're interested in collaboration, have questions about our software, or want to join our research team, please don't hesitate to reach out.
