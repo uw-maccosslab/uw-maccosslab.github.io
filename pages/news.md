@@ -14,12 +14,6 @@ permalink: /news/
 - 2025 July 1 -- New Publication in Nature Methods. [A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data](https://www.nature.com/articles/s41592-025-02718-y). Great collaborative project pushed by Justin Sanders in the Noble Lab. If you asked me 5 years ago if it would be possible to use a de novo tool on DIA data, I would have thought it would only exist in science fiction. Love being proven wrong.
 - 2025 June -- Skyline User Group Meeting at ASMS. Another year and another fantastic user group meeting. We had 10 fastastic talks from colleagues describing how they are using Skyline in their research. See recordings on the [Skyline website](https://skyline.ms/project/home/software/Skyline/events/2025%20User%20Group%20Meeting%20at%20ASMS/begin.view).
 
-### Upcoming Events
-- 2025 October 5-10 -- [EMBO Practical Course on Targeted Proteomics: Advanced Tools for Biomedical Research](https://meetings.embo.org/event/25-targeted-proteomics)
-- 2025 September 21-26 -- [MSACL](https://www.msacl.org/index.php?header=MSACL_2025) in Montreal Canada. Tuesday workshop on Quantification of Protein and Peptide Biomarkers in Diabetes Clinical Research
-- 2025 September 17 -- Cambridge Proteomics and Mass Spectrometry Meeting *more soon*
-- 2025 Fall -- Skyline Online *dates coming soon* 
-- 2025 August 17-21 --  [The 15th international symposium on proteomics in the life sciences](https://www.asbmb.org/meetings-events/proteomics-2025), Cambridge, MA 
 
 
 ---
