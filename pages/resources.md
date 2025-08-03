@@ -19,7 +19,7 @@ permalink: /resources/
 
 ## MacCoss Lab Software Tools
 
-### Skyline
+### ![Skyline](../assets/images/skyline_logo_h_blue.jpg "Skyline")
 **Windows Client Tool for the visualization, analysis, and development of methods for quantitative mass spectrometry**
 - **Free, open-source quantitative mass spectrometry software.** Skyline is a freely-available, open-source Windows client application for building Selected Reaction Monitoring (SRM) / Multiple Reaction Monitoring (MRM), Parallel Reaction Monitoring (PRM), Data Independent Acquisition (DIA/SWATH) and DDA with MS1 quantitative methods and analyzing the resulting mass spectrometer data. Its flexible configuration supports All Molecules. It aims to employ cutting-edge technologies for creating and iteratively refining targeted methods for large-scale quantitative mass spectrometry studies in life sciences.
 - **Supports proteomics, metabolomics, and small molecule workflows.**
@@ -30,7 +30,7 @@ permalink: /resources/
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
 - **Cited >5064 times**
 
-### Panorama
+### ![Panorama](../assets/images/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
 - Panorama is a freely-available, open-source webserver for sharing experiments and validated assays that integrates into a Skyline proteomics workflow. Panorama can be installed on a local server, or you can request a project on the PanoramaWeb.org server, hosted by the MacCoss Lab at the University of Washington. Access privileges within a project may be customized, allowing you to control fully who has access to data you publish to Panorama.
 - **Access**: [panoramaweb.org](https://panoramaweb.org)
@@ -39,16 +39,19 @@ permalink: /resources/
 - **Features**: Unique tools for data sharing, collaboration, quality control
 - **API**: Programmatic access for automated workflows
 
-### Limelight
+### ![Limelight](../assets/images/limelight-page-logo.png "Limelight")
 **Open Source Server for the Analysis and Sharing of Data Dependent Acquisition Mass Spectrometry Results**
 - Limelight is designed to provide you with the full-stack of proteomics results, regardless of which processing pipeline you used to search your data. Full-stack means that you have access to the global views of your data (such as statistically comparing conditions), to viewing lists of proteins and peptides, to individual PSMs and spectra–all showing the native scores from whichever pipeline you used. Additionally, all native scores from your pipeline are available to you for filtering–even when contrasting multiple searches that each used different pipelines.
 - [Limelight](https://limelight.yeastrc.org/limelight/) can be installed locally or you can request an account on a server hosted at the University of Washington.
 - Detailed documentation for using Limelight is available [here](https://limelight-ms.readthedocs.io/en/latest/#).
 - **Source Code** is available on [GitHub](https://github.com/yeastrc/limelight-core).
 
-### EncyclopeDIA
+### ![EncyclopeDIA](../assets/images/encyclopedia_logo_small.png)
 **Open source tool for peptide-centric analysis of data independent acquisition-mass spectrometry data**
 - EncyclopeDIA is library search engine comprised of several algorithms for DIA data analysis and can search for peptides using either DDA-based spectrum libraries or DIA-based chromatogram libraries. Check out our manuscript describing EncyclopeDIA at Nature Communications ([Searle et al, 2018](https://www.nature.com/articles/s41467-018-07454-w)) for more information. EncyclopeDIA contains Walnut, an implementation of the PECAN ([Ting et al, 2017](https://www.nature.com/articles/nmeth.4390)) scoring system, to enable chromatogram library generation from FASTA protein sequence databases when spectrum libraries are unavailable. EncyclopeDIA also supports Prosit, a deep learning tool for generating peptide fragmentation spectra, as described in ([Searle et al, 2020](https://www.nature.com/articles/s41467-020-15346-1)). EncyclopeDIA also contains Thesaurus for localizing and quantifying PTMS with DIA experiments ([Searle et al, 2019]((https://www.nature.com/articles/s41592-019-0498-4)))
+- **Suport** -- EncyclopeDIA is maintained and supported by the [Searle lab](https://www.searlelab.org/) at the Mayo Clinic.
+- **Downloads and Documentation** -- Details can be found on the [EncyclopeDIA Bitbucket](https://bitbucket.org/searleb/encyclopedia/wiki/Home) page.
+- **Source Code** is also available on the [Bitbucket](https://bitbucket.org/searleb/encyclopedia/src/master/) page under an Apache 2.0 license.
 
 ### Comet
 **Comet is an open source fork of the original SEQUEST database tool for proteomics**
