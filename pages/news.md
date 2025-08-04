@@ -3,18 +3,18 @@ layout: default
 title: News
 permalink: /news/
 ---
-# Lab News & Updates
-
-## RSS Feed
-Subscribe to our RSS feed for automatic updates: [RSS Feed](/feed.xml)
-
----
 *News is updated regularly. For real-time updates follow us on social media.*
 
 ### Social Media & Online Presence
 - **BlueSky:** [@maccoss.bsky.social](https://bsky.app/profile/maccoss.bsky.social)
 - **LinkedIn:** [MacCoss LinkedIn](https://www.linkedin.com/in/maccoss/)
+
 ---
+
+# Lab News & Updates
+
+Subscribe to our RSS feed for automatic updates: [RSS Feed](/feed.xml)
+
 ## Recent News
 
 {% for post in site.posts limit:10 %}
