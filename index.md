@@ -18,11 +18,11 @@ The focus of our research is in the development of mass spectrometry and stable 
 *Current research areas include:*
 
 - **New Mass Spectrometry Technologies:** We are working on new methods to improve the sensitivity, speed, precision, accuracy, and dynamic range of quantitative measurements.
-- **Improved Sample Preparation:** New biochemical sample preparation methods for  the analysis of protein mixtures. We have been working on methods to reduce the cost and improve the robustness or historically challenging sample types.
-- **Experimental Design and Quality Control:** We are very interested in Omics experimental design. We develop novel methods to assess system suitability and data quality.
-- **Stable Isotope Methods:** Developing stable isotope methods for studying protein metabolism or analyte quantity
+- **Improved Sample Preparation:** New biochemical sample preparation methods for the analysis of protein mixtures. We have been working on methods to reduce the cost and improve the robustness of historically challenging sample types.
+- **Experimental Design and Quality Control:** We are very interested in quantitative experimental design. We develop novel methods to assess system suitability and data quality.
+- **Stable Isotope Methods:** Developing stable isotope methods for studying protein metabolism and analyte quantity
 - **Spatial and Tissue Heterogeneity:** We are developing methods for the multiplex analysis of proteins in individual cells, spatial regions, or functional subunits of complex tissue samples.
-- **Computational Tools:** Developing computational tools for automated conversion of mass spectrometry data into biologically meaningful results
+- **Computational Tools:** Development of computational tools for automated conversion of mass spectrometry data into biologically meaningful results
 
 
 ## Highlighted Publications
@@ -33,7 +33,7 @@ The focus of our research is in the development of mass spectrometry and stable 
 - **Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism** - Royal Society Open Science, July 2025
 
 ## Quantitative Proteomics Services
-The MacCoss lab offers a number of mass spectrometry based proteomics services.  These range from biofluid proteomics, targeted assay development, etc... Some information about these services see [here](https://panoramaweb.org/Services/). Email at services[at]maccosslab[dot]org for mroe information
+The MacCoss lab offers a number of mass spectrometry based proteomics services.  These range from biofluid proteomics, targeted assay development, etc... For information about these services see [here](https://panoramaweb.org/Services/). Email at services[at]maccosslab[dot]org for mroe information
 
 ## Nunn Lab
 We share lab space and resources with [Brook Nunn's lab](https://www.environmentalproteomics.org/) here in the Department of Genome Sciences. The focus in the Nunn lab is to use mass spectrometry-based proteomics as a tool to understand a variety of environmental questions- from proteins preserved in sediments of the deep sea to the adaptation of bacteria cells to subzero temperatures.

@@ -20,11 +20,11 @@ permalink: /resources/
 
 ## MacCoss Lab Mass Spectrometry Instrumentation
 
-The MacCoss Lab maintains a state-of-the-art mass spectrometry facility equipped with cutting-edge instrumentation for proteomics, metabolomics, and targeted quantitative analysis. Our instruments support a wide range of acquisition modes including targeted SRM/MRM, parallel reaction monitoring (PRM), data-independent acquisition (DIA), and data-dependent acquisition (DDA).
+The MacCoss Lab maintains a state-of-the-art mass spectrometry facility equipped with cutting-edge instrumentation for both untargeted and targeted quantitative proteomics. Our instruments support a wide range of acquisition modes including targeted selected reaction monitoring (SRM), parallel reaction monitoring (PRM), data-independent acquisition (DIA), and data-dependent acquisition (DDA).
 
 #### ![Orbitrap Astral](../assets/images/instruments/astral.jpg "Orbitrap Astral") **Thermo Fisher Orbitrap Astral**
-*Next-generation mass spectrometer ideally suited for data independent acquisition*  
-Example publications describing the use of the Orbitrap Astral and Astral Zoom for quantitative proteomics.
+*State-of-the-art mass spectrometer optimized for untargeted data independent acquisition-mass spectrometry*  
+Example publications from our lab describing the use of the Orbitrap Astral and Astral Zoom for quantitative proteomics.
 - [Hsu et al., Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists *bioRxiv* 2025](https://doi.org/10.1101/2025.05.30.657132)
 - [Heil et al, Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data-Independent Acquisition *J. Proteome Res.* 2023](https://doi.org/10.1021/acs.jproteome.3c00357)
 
@@ -40,11 +40,16 @@ Example publications describing the Stellar from the MacCoss lab include:
 #### ![Orbitrap Exploris 480](../assets/images/instruments/exploris480.jpg "Orbitrap Exploris 480") **Thermo Fisher Orbitrap Exploris 480**
 *High-performance Orbitrap mass spectrometer for comprehensive proteomics workflows*
 
-#### ![Orbitrap Fusion Lumos](../assets/images/instruments/lumos1.jpg "Orbitrap Fusion Lumos") **Thermo Fisher Orbitrap Fusion Lumos #1**
-*Ultra-high field Orbitrap-based tribrid mass spectrometer for advanced proteomics*
-
-#### ![Orbitrap Fusion Lumos](../assets/images/instruments/lumos2.jpg "Orbitrap Fusion Lumos") **Thermo Fisher Orbitrap Fusion Lumos #2**
-*Second Orbitrap Fusion Lumos for high-throughput proteomics applications*
+<div class="instrument-pair">
+  <div class="instrument-item">
+    <h4><img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> <strong>Thermo Fisher Orbitrap Fusion Lumos #1</strong></h4>
+    <p><em>Ultra-high field Orbitrap-based tribrid mass spectrometer for advanced proteomics</em></p>
+  </div>
+  <div class="instrument-item">
+    <h4><img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> <strong>Thermo Fisher Orbitrap Fusion Lumos #2</strong></h4>
+    <p><em>Second Orbitrap Fusion Lumos for high-throughput proteomics applications</em></p>
+  </div>
+</div>
 
 #### ![Q Exactive HF](../assets/images/instruments/qe-hf.jpg "Q Exactive HF") **Thermo Fisher Q Exactive HF**
 *High-field Orbitrap mass spectrometer for quantitative proteomics*
@@ -65,7 +70,7 @@ Our instrumentation suite enables:
 
 </div>
 </div>
-  <div id="software" class="tab-content active">
+  <div id="software" class="tab-content">
     <div markdown="1">
 
 ## MacCoss Lab Software Tools
