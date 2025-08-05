@@ -42,14 +42,15 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 <div class="instrument-pair">
   <div class="instrument-item">
-    <h4><img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> <strong>Thermo Fisher Orbitrap Fusion Lumos #1</strong></h4>
-    <p><em>Ultra-high field Orbitrap-based tribrid mass spectrometer for advanced proteomics</em></p>
+    <img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> 
   </div>
   <div class="instrument-item">
-    <h4><img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> <strong>Thermo Fisher Orbitrap Fusion Lumos #2</strong></h4>
-    <p><em>Second Orbitrap Fusion Lumos for high-throughput proteomics applications</em></p>
+    <img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> 
   </div>
 </div>
+<p><em>
+<h4><strong>Thermo Fisher Orbitrap Fusion Lumos Mass Spectrometers x2</strong></h4>
+We operate two Fusion Lumos tribrid mass spectrometers for advanced proteomics. These instruments combine quadrupole, ion trap, and Orbitrap technologies and are a workhorse for proteomics technology development.</em></p>
 
 #### ![Q Exactive HF](../assets/images/instruments/qe-hf.jpg "Q Exactive HF") **Thermo Fisher Q Exactive HF**
 *High-field Orbitrap mass spectrometer for quantitative proteomics*
