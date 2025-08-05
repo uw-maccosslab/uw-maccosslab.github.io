@@ -2,7 +2,7 @@
 
 This is the website for the MacCoss Lab at the University of Washington. It can be viewed at: [https://uw-maccosslab.github.io/](https://uw-maccosslab.github.io/) and [https://maccosslab.org](https://maccosslab.org)
 
-## 🏗️ Technical Overview
+## Technical Overview
 
 This website is built using **Jekyll** with the **Minima** theme and hosted on **GitHub Pages**. It features responsive design, tabbed navigation, RSS feeds, and organized content management.
 
@@ -34,7 +34,7 @@ This website is built using **Jekyll** with the **Minima** theme and hosted on *
 └── index.md               # Homepage
 ```
 
-## 🎨 Layout & Styling
+## Layout & Styling
 
 ### Custom Width System
 - **Main content**: 1400px max-width on large screens
@@ -64,7 +64,7 @@ Multiple pages use JavaScript-powered tabbed interfaces:
 - URL hash support (`#tabname`) for direct linking
 - Mobile-responsive (stacked on small screens)
 
-## 🖼️ Image Organization
+## Image Organization
 
 ### Directory Structure
 ```
@@ -112,7 +112,7 @@ assets/images/
 }
 ```
 
-## 📰 News & RSS Feed
+## News & RSS Feed
 
 ### RSS Implementation
 The site uses **Jekyll-feed plugin** to generate RSS at `/feed.xml`
@@ -198,7 +198,7 @@ All email addresses use obfuscation to reduce spam:
 - `@media (max-width: 768px)` - Mobile breakpoint
 - `@media (max-width: 800px)` - Content width breakpoint
 
-## 🔧 Development Tips
+## Development Tips
 
 ### Testing Locally
 ```bash
