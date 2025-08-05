@@ -42,10 +42,10 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 <div class="instrument-pair">
   <div class="instrument-item">
-    <img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> 
+    <img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos"> 
   </div>
   <div class="instrument-item">
-    <img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos" style="width: 200px; height: auto;"> 
+    <img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos"> 
   </div>
 </div>
 <p><em>
