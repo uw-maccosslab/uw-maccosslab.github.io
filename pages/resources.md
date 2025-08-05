@@ -8,12 +8,61 @@ permalink: /resources/
 
 <div class="tab-container">
   <div class="tab-navigation">
-    <button class="tab-button active" onclick="openTab(event, 'software')">Software</button>
+    <button class="tab-button active" onclick="openTab(event, 'instrumentation')">Instrumentation</button>
+    <button class="tab-button" onclick="openTab(event, 'software')">Software</button>
     <button class="tab-button" onclick="openTab(event, 'datasets')">Datasets</button>
     <button class="tab-button" onclick="openTab(event, 'educational')">Educational Materials</button>
     <button class="tab-button" onclick="openTab(event, 'support')">Support & Training</button>
   </div>
 
+  <div id="instrumentation" class="tab-content active">
+    <div markdown="1">
+
+## MacCoss Lab Mass Spectrometry Instrumentation
+
+The MacCoss Lab maintains a state-of-the-art mass spectrometry facility equipped with cutting-edge instrumentation for proteomics, metabolomics, and targeted quantitative analysis. Our instruments support a wide range of acquisition modes including targeted SRM/MRM, parallel reaction monitoring (PRM), data-independent acquisition (DIA), and data-dependent acquisition (DDA).
+
+### High-Resolution Mass Spectrometers
+
+#### ![Orbitrap Astral](../assets/images/instruments/astral.jpg "Orbitrap Astral") **Thermo Fisher Orbitrap Astral**
+*Next-generation mass spectrometer for ultra-high speed proteomics*
+
+#### ![Orbitrap Eclipse](../assets/images/instruments/eclipse.jpg "Orbitrap Eclipse") **Thermo Fisher Orbitrap Eclipse Tribrid**
+*Advanced tribrid mass spectrometer combining quadrupole, ion trap, and Orbitrap technologies*
+
+#### ![Orbitrap Exploris 480](../assets/images/instruments/exploris480.jpg "Orbitrap Exploris 480") **Thermo Fisher Orbitrap Exploris 480**
+*High-performance Orbitrap mass spectrometer for comprehensive proteomics workflows*
+
+#### ![Orbitrap Fusion Lumos](../assets/images/instruments/lumos1.jpg "Orbitrap Fusion Lumos") **Thermo Fisher Orbitrap Fusion Lumos #1**
+*Ultra-high field Orbitrap-based tribrid mass spectrometer for advanced proteomics*
+
+#### ![Orbitrap Fusion Lumos](../assets/images/instruments/lumos2.jpg "Orbitrap Fusion Lumos") **Thermo Fisher Orbitrap Fusion Lumos #2**
+*Second Orbitrap Fusion Lumos for high-throughput proteomics applications*
+
+#### ![Q Exactive HF](../assets/images/instruments/qe-hf.jpg "Q Exactive HF") **Thermo Fisher Q Exactive HF**
+*High-field Orbitrap mass spectrometer for quantitative proteomics*
+
+#### ![Stellar Mass Spectrometer](../assets/images/instruments/stellar.jpg "Stellar Mass Spectrometer") **Thermo Fisher Stellar Mass Spectrometer**
+*Revolutionary mass spectrometer technology for next-generation proteomics*
+
+### Triple Quadrupole Mass Spectrometers
+
+#### ![TSQ Altis](../assets/images/instruments/tsqaltis.jpg "TSQ Altis") **Thermo Fisher TSQ Altis**
+*High-performance triple quadrupole mass spectrometer for targeted quantitative analysis*
+
+### Capabilities
+
+Our instrumentation suite enables:
+- **Targeted Proteomics**: SRM/MRM and PRM workflows for precise quantification
+- **Discovery Proteomics**: DDA and DIA methods for comprehensive protein identification
+- **Clinical Applications**: Robust, reproducible assays for biomarker validation
+- **Method Development**: Optimization of acquisition parameters and workflows
+- **High-Throughput Analysis**: Automated sample processing and data acquisition
+
+
+
+</div>
+</div>
   <div id="software" class="tab-content active">
     <div markdown="1">
 
