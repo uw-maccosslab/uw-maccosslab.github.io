@@ -152,16 +152,19 @@
   font-style: italic;
 }
 
-/* General instrumentation tab image styling - reduce to 75% */
+/* General instrumentation tab image styling - reduce to 75% with max width limits */
 #instrumentation img {
-  max-width: 75% !important;
+  max-width: 400px !important;
+  width: 75% !important;
   height: auto !important;
+  display: block !important;
+  margin: 1rem auto !important;
 }
 
 /* Specific overrides for paired instruments (already sized smaller) */
 .instrument-pair .instrument-item img {
   width: 150px !important;
-  max-width: none !important;
+  max-width: 150px !important;
 }
 
 @media (max-width: 768px) {
@@ -181,7 +184,8 @@
   
   /* Reduce mobile images further for better fit */
   #instrumentation img {
-    max-width: 80% !important;
+    max-width: 300px !important;
+    width: 90% !important;
   }
 }
 
