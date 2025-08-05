@@ -184,3 +184,29 @@
     max-width: 80% !important;
   }
 }
+
+/* Hide any arrows or navigation indicators that might appear on tab buttons */
+.tab-button::before,
+.tab-button::after {
+  display: none !important;
+}
+
+/* Hide any child elements that might be arrows or indicators */
+.tab-button > *:not(.tab-text),
+.tab-button > span:empty,
+.tab-button > i,
+.tab-button > svg {
+  display: none !important;
+}
+
+/* Ensure clean tab button appearance */
+.tab-navigation button {
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+/* Remove any potential content that might be added by browser extensions */
+.tab-navigation button[aria-expanded]::after,
+.tab-navigation button[aria-haspopup]::after {
+  display: none !important;
+}
