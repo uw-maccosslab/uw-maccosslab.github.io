@@ -5,7 +5,11 @@
 
   <body>
 
-    {%- include header.html -%}
+    <header class="site-header" role="banner" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
+      <div class="wrapper" style="max-width: none; padding: 0;">
+        {%- include header.html -%}
+      </div>
+    </header>
 
     <main class="page-content" aria-label="Content" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
       <div class="wrapper" style="max-width: none;">
@@ -13,7 +17,11 @@
       </div>
     </main>
 
-    {%- include footer.html -%}
+    <footer class="site-footer" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
+      <div class="wrapper" style="max-width: none; padding: 0;">
+        {%- include footer.html -%}
+      </div>
+    </footer>
 
   </body>
 
