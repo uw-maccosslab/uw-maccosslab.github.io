@@ -5,23 +5,15 @@
 
   <body>
 
-    <header class="site-header" role="banner" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
-      <div class="wrapper" style="max-width: none; padding: 0;">
-        {%- include header.html -%}
-      </div>
-    </header>
+    {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
-      <div class="wrapper" style="max-width: none;">
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
         {{ content }}
       </div>
     </main>
 
-    <footer class="site-footer" style="max-width: 1400px; margin: 0 auto; padding: 0 30px;">
-      <div class="wrapper" style="max-width: none; padding: 0;">
-        {%- include footer.html -%}
-      </div>
-    </footer>
+    {%- include footer.html -%}
 
   </body>
 

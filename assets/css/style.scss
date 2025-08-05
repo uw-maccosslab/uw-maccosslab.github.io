@@ -3,50 +3,24 @@
 
 @import "minima";
 
-/* Custom width for main content - this should work now with custom layout */
-.page-content {
-  max-width: 1200px !important;
+/* Custom width for main content */
+.page-content .wrapper {
+  max-width: 1400px !important;
   margin: 0 auto !important;
   padding: 0 30px !important;
 }
 
-/* Make header match the same width as content */
-.site-header {
-  max-width: 1200px !important;
-  margin: 0 auto !important;
-  padding: 0 30px !important;
-}
-
+/* Match header width to content width */
 .site-header .wrapper {
-  max-width: none !important;
-  padding: 0 !important;
-}
-
-/* Make footer match the same width as content */
-.site-footer {
-  max-width: 1200px !important;
+  max-width: 1400px !important;
   margin: 0 auto !important;
   padding: 0 30px !important;
-}
-
-.site-footer .wrapper {
-  max-width: none !important;
-  padding: 0 !important;
 }
 
 /* Responsive adjustments */
-@media screen and (min-width: 1400px) {
-  .page-content,
-  .site-header,
-  .site-footer {
-    max-width: 1400px !important;
-  }
-}
-
 @media screen and (max-width: 800px) {
-  .page-content,
-  .site-header,
-  .site-footer {
+  .page-content .wrapper,
+  .site-header .wrapper {
     max-width: 100% !important;
     padding: 0 15px !important;
   }
