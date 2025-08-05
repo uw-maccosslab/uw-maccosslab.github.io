@@ -3,36 +3,91 @@
 
 @import "minima";
 
-/* Responsive width adjustments */
-.wrapper {
-  max-width: calc(2200px - (30px * 2));
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 30px;
-  padding-left: 30px;
+/* Responsive width adjustments - Force wider layouts */
+.wrapper, 
+.site-wrapper,
+.page-content,
+main {
+  max-width: calc(1400px - (30px * 2)) !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+/* Force wider content specifically */
+.page-content .wrapper {
+  max-width: calc(1400px - (30px * 2)) !important;
 }
 
 /* For very large screens */
-@media screen and (min-width: 2400px) {
-  .wrapper {
-    max-width: calc(2400px - (30px * 2));
+@media screen and (min-width: 1600px) {
+  .wrapper, 
+  .site-wrapper,
+  .page-content,
+  main {
+    max-width: calc(1600px - (30px * 2)) !important;
+  }
+  
+  .page-content .wrapper {
+    max-width: calc(1600px - (30px * 2)) !important;
   }
 }
 
 /* Maintain mobile responsiveness */
 @media screen and (max-width: 800px) {
-  .wrapper {
-    max-width: calc(800px - (30px * 2));
-    padding-right: 15px;
-    padding-left: 15px;
+  .wrapper,
+  .site-wrapper,
+  .page-content,
+  main {
+    max-width: calc(800px - (30px * 2)) !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .wrapper {
-    padding-right: 15px;
-    padding-left: 15px;
+  .wrapper,
+  .site-wrapper,
+  .page-content,
+  main {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
   }
+}
+
+/* Additional width forcing for minima theme */
+.minima .page-content {
+  max-width: calc(1400px - (30px * 2)) !important;
+  margin: 0 auto !important;
+}
+
+/* Container width override */
+.container,
+.container-fluid {
+  max-width: calc(1400px - (30px * 2)) !important;
+  margin: 0 auto !important;
+}
+
+/* Debug: Test if CSS is loading - should make all h1 tags red temporarily */
+h1 {
+  border-left: 5px solid red !important;
+}
+
+/* Force body width */
+body {
+  max-width: none !important;
+}
+
+/* Override any max-width constraints */
+* {
+  max-width: none !important;
+}
+
+*:not(.instrument-pair *):not(.tab-container *) {
+  max-width: calc(1400px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 /* Hero section styling */
