@@ -6,7 +6,7 @@ title: Home
 # Welcome to the MacCoss Lab
 
 <div class="hero-section">
-  <img src="assets/images/lab-logo.jpg" alt="MacCoss Lab Logo" class="lab-logo">
+  <img src="assets/images/logos/lab-logo.jpg" alt="MacCoss Lab Logo" class="lab-logo">
   
   <p class="lead">We are a protein mass spectrometry laboratory located in the <a href="http://www.gs.washington.edu/">Department of Genome Sciences</a> at the <a href="http://washington.edu/">University of Washington in Seattle</a>.</p>
 </div>
