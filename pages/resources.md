@@ -451,28 +451,34 @@ Our instrumentation suite enables:
 <style>
 .tab-container {
   max-width: 100%;
+  width: 100%;
 }
 
 .tab-navigation {
   display: flex;
   border-bottom: 2px solid #e0e0e0;
   margin-bottom: 20px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  overflow-x: auto;
+  min-width: fit-content;
 }
 
 .tab-button {
   background-color: #f8f9fa;
   border: none;
-  padding: 12px 24px;
+  padding: 12px 20px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  margin-right: 4px;
+  margin-right: 3px;
   margin-bottom: -2px;
   transition: all 0.3s ease;
   color: #333;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .tab-button:hover {
