@@ -15,7 +15,7 @@ permalink: /resources/
     <button class="tab-button" onclick="openTab(event, 'support')">Support & Training</button>
   </div>
 
-  <div id="instrumentation" class="tab-content active">
+  <div id="instrumenntation" class="tab-content active">
     <div markdown="1">
 
 ## MacCoss Lab Mass Spectrometry Instrumentation
