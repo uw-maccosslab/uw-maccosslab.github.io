@@ -5,7 +5,7 @@
 
 /* Responsive width adjustments */
 .wrapper {
-  max-width: calc(1200px - (30px * 2));
+  max-width: calc(2200px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
@@ -13,9 +13,9 @@
 }
 
 /* For very large screens */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 2400px) {
   .wrapper {
-    max-width: calc(1400px - (30px * 2));
+    max-width: calc(2400px - (30px * 2));
   }
 }
 
