@@ -138,7 +138,7 @@
 }
 
 .instrument-pair .instrument-item img {
-  width: 200px !important;
+  width: 150px !important;
   height: auto !important;
   border-radius: 5px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -150,6 +150,18 @@
   margin-top: 0.5rem;
   color: #666;
   font-style: italic;
+}
+
+/* General instrumentation tab image styling - reduce to 75% */
+#instrumentation img {
+  max-width: 75% !important;
+  height: auto !important;
+}
+
+/* Specific overrides for paired instruments (already sized smaller) */
+.instrument-pair .instrument-item img {
+  width: 150px !important;
+  max-width: none !important;
 }
 
 @media (max-width: 768px) {
@@ -164,6 +176,11 @@
   }
   
   .instrument-pair .instrument-item img {
-    width: 180px !important;
+    width: 135px !important;
+  }
+  
+  /* Reduce mobile images further for better fit */
+  #instrumentation img {
+    max-width: 80% !important;
   }
 }
