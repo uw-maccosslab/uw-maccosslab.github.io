@@ -55,18 +55,17 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 
 
-**Thermo Fisher Orbitrap Fusion Lumos Mass Spectrometers x2**
-*We operate two Fusion Lumos tribrid mass spectrometers for advanced proteomics.* These instruments combine quadrupole, ion trap, and Orbitrap technologies and are a workhorse for proteomics technology development.
+#### **Thermo Fisher Orbitrap Fusion Lumos Mass Spectrometers x2**
+*We operate two Fusion Lumos tribrid mass spectrometers for advanced proteomics. These instruments combine quadrupole, ion trap, and Orbitrap technologies and are a workhorse for proteomics technology development.*
 
 <div class="instrument-pair">
   <div class="instrument-item">
-    <img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos"> 
+    <img src="../assets/images/instruments/lumos1.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos">
   </div>
   <div class="instrument-item">
-    <img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos"> 
+    <img src="../assets/images/instruments/lumos2.jpg" alt="Orbitrap Fusion Lumos" title="Orbitrap Fusion Lumos">
   </div>
 </div>
-<p><em>
 
 **Thermo Fisher Q Exactive HF**
 *High-field Orbitrap mass spectrometer for quantitative proteomics*  
@@ -483,7 +482,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 .tab-button {
   background-color: #f8f9fa;
   border: none;
-  padding: 12px 20px;
+  padding: 14px 20px;
   cursor: pointer;
   font-size: 15px;
   font-weight: 500;
@@ -495,6 +494,10 @@ Example publications describing the Stellar from the MacCoss lab include:
   color: #333;
   white-space: nowrap;
   flex-shrink: 0;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tab-button:hover {
