@@ -5,15 +5,15 @@
 
 /* Custom width for main content - this should work now with custom layout */
 .page-content {
-  max-width: 1400px !important;
+  max-width: 1200px !important;
   margin: 0 auto !important;
   padding: 0 30px !important;
 }
 
 /* Responsive adjustments */
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1400px) {
   .page-content {
-    max-width: 1600px !important;
+    max-width: 1400px !important;
   }
 }
 
