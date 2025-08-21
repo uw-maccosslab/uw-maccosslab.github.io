@@ -33,26 +33,25 @@ Our instrumentation suite enables:
 **Thermo Fisher Orbitrap Astral**  
 *State-of-the-art mass spectrometer optimized for untargeted data independent acquisition-mass spectrometry*  
 
-![Orbitrap Astral](../assets/images/instruments/astral.jpg "Orbitrap Astral")
+![Orbitrap Astral](../assets/images/instruments/astral.jpg "Orbitrap Astral")  
 Example publications from our lab describing the use of the Orbitrap Astral and Astral Zoom for quantitative proteomics.
 - [Hsu et al., Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists *bioRxiv* 2025](https://doi.org/10.1101/2025.05.30.657132)
 - [Heil et al, Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data-Independent Acquisition *J. Proteome Res.* 2023](https://doi.org/10.1021/acs.jproteome.3c00357)
 
  **Thermo Fisher Stellar Mass Spectrometer**  
 *Hybrid Quadrupole Mass Filter-Radial Ejection Linear Ion Trap*
-![Stellar Mass Spectrometer](../assets/images/instruments/stellar.jpg "Stellar Mass Spectrometer")    
+![Stellar Mass Spectrometer](../assets/images/instruments/stellar.jpg "Stellar Mass Spectrometer")  
 Example publications describing the Stellar from the MacCoss lab include:
 - [Plubell et al., Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer *bioRxiv* 2024](https://pubmed.ncbi.nlm.nih.gov/38895256/)
 - [Remes et al., Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics *J. Proteome Res.* 2024](https://doi.org/10.1021/acs.jproteome.4c00599)
 
 **Thermo Fisher Orbitrap Eclipse Tribrid**
 *Advanced tribrid mass spectrometer combining quadrupole, ion trap, and Orbitrap technologies*  
-![Orbitrap Eclipse](../assets/images/instruments/eclipse.jpg "Orbitrap Eclipse") 
+![Orbitrap Eclipse](../assets/images/instruments/eclipse.jpg "Orbitrap Eclipse")  
 
  **Thermo Fisher Orbitrap Exploris 480**
 *High-performance Orbitrap mass spectrometer for comprehensive proteomics workflows*  
-![Orbitrap Exploris 480](../assets/images/instruments/exploris480.jpg "Orbitrap Exploris 480")
-
+![Orbitrap Exploris 480](../assets/images/instruments/exploris480.jpg "Orbitrap Exploris 480")  
 
 
 **Thermo Fisher Orbitrap Fusion Lumos Mass Spectrometers x2**  
@@ -69,7 +68,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **Thermo Fisher Q Exactive HF**  
 *High-field Orbitrap mass spectrometer for quantitative proteomics*  
-![Q Exactive HF](../assets/images/instruments/qe-hf.jpg "Q Exactive HF")
+![Q Exactive HF](../assets/images/instruments/qe-hf.jpg "Q Exactive HF")  
 
 **Thermo Fisher TSQ Altis**  
 *High-performance triple quadrupole mass spectrometer for targeted quantitative analysis*  
