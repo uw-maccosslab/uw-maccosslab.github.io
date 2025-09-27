@@ -85,15 +85,11 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - **[Vagisha Sharma](https://www.linkedin.com/in/vagisha/)** - Developer, Support, Documentation (Panorama)  
   Vagisha got involved with proteomics at UC San Diego working with Prof. Vineet Bafna. She has worked on Mass Spectrometry pipelines for the Aebersold group at ISB and developed data management systems at UW Proteomics Resource. She joined the Skyline team in October 2011, focusing on tools that help researchers get work done.
 
-- **David Shteynberg** - Developer  
-  David spent over 20 years at the Institute for Systems Biology, starting with microarray robotics in Dr. Leroy Hood's lab and shifting to computational mass spectrometry by 2004. He has developed novel computational algorithms including iProphet and PTMProphet, and is currently advancing machine-learning AI for peptide spectrum prediction and PTM identification in DIA data.
-
 - **[Nicholas Shulman](https://www.linkedin.com/in/nicholas-shulman-19b7bb/)** - Developer  
   Nick worked at Microsoft on the Access team from 1995-2000, then joined Westside Corporation and later BEA Systems creating development environments. At LabKey Corporation, he created the flow cytometry module and graphical query designer. Since March 2009, he has worked in the MacCoss lab on Skyline and Topograph.
 
 - **[Mark Belanger](https://www.linkedin.com/in/markbelanger/)** - Project Manager - Outreach & User Education  
   Mark has had a full career in communications across travel, start-ups, games and other industries. He has implemented web solutions from first-generation presence to full ecommerce platforms, established communication programs, and managed outreach teams. He has an MBA in Information Systems from Seattle University and is responsible for webinars, courses, user meetings, and international outreach.
-
 
 </div>
 </div>
@@ -108,7 +104,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 ### Former Graduate Students
 - Deanna Plubell, Ph.D. -- ThermoFisher Scientific, Seattle, WA
 - Lilian Heil, Ph.D. -- ThermoFisher Scientific, San Jose, CA
-- Danielle Faive, Ph.D. -- EvoTech/Just, Seattle, WA
+- Danielle Faive, Ph.D. -- Just-EvoTech Biologics, Redmond, WA
 - Lindsay Pino, Ph.D. (2014-2019) -- Talus Biosciences, Inc., Seattle WA 
 - Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Ohio State University
 - Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
@@ -124,20 +120,22 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 
 ### Former Post Docs
 - Kristine Tsantilas, Ph.D. -- Paulovich Lab, Fred Hutch, Seattle, WA
-- Jason Gilmore, Ph.D. (2014-2018) -- Seattle Genetics
+- Jason Gilmore, Ph.D. (2014-2018) -- Just-Evotec Biologics, Seattle, WA 
 - Sandi Spencer, Ph.D. (2016-2018) -- Proteomics Platform Manager, British Columbia Cancer Research Agency
 - Jim Bollinger, Ph.D. (2013-2016) -- Scientist Bateman Lab, Washington University St. Louis
 - Huilin Shi, Ph.D. (2013-2015) -- Working towards a CS degree
 - Michael Bereman, Ph.D. (2009-2013) -- Assistant Professor, North Carolina State University
 - Ed Hsieh, Ph.D. (2008-2013) -- Gilead Sciences, Inc. Foster City, CA 
-- Daniela Tomazela, Ph.D. (2008-2011) -- Merck Research Labs, Palo Alto, CA
-- Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Resident UW Pathology
+- Daniela Tomazela, Ph.D. (2008-2011) -- Gilean Sciences, Palo Alto, CA
+- Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Physician Scientist, Johns Hopkins, Baltimore, MD
 - Jason Wooden, Ph.D. (2006-2010) 
-- Josh McElwee, Ph.D. (2006-2007) 
+- Josh McElwee, Ph.D. (2006-2007) -- Nimbus Therapeutics, Boston, MA
 - Xianhua Yi, Ph.D. (2004-2007) -- Momenta Pharmaceuticals, Boston, MA
 
 ### Former Research Staff
-- Jea Park
+- Batool Mutawe (2023-2025)
+- David Shteynberg (2024-2025)
+- Jea Park (2019-2024)
 - Julia Robbins (2018-2022) -- Talus Biosciences, Inc., Seattle, WA
 - Austin Keller (2016-2019) -- Smartsheet
 - Dawn Counts (2012-2018)
