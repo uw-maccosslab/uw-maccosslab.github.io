@@ -123,7 +123,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Jason Gilmore, Ph.D. (2014-2018) -- Just-Evotec Biologics, Seattle, WA 
 - Sandi Spencer, Ph.D. (2016-2018) -- Proteomics Platform Manager, British Columbia Cancer Research Agency
 - Jim Bollinger, Ph.D. (2013-2016) -- Scientist Bateman Lab, Washington University St. Louis
-- Huilin Shi, Ph.D. (2013-2015) -- Working towards a CS degree
+- Huilin Shi, Ph.D. (2013-2015) -- LinkedIn, Bellevue, WA
 - Michael Bereman, Ph.D. (2009-2013) -- Assistant Professor, North Carolina State University
 - Ed Hsieh, Ph.D. (2008-2013) -- Gilead Sciences, Inc. Foster City, CA 
 - Daniela Tomazela, Ph.D. (2008-2011) -- Gilean Sciences, Palo Alto, CA
