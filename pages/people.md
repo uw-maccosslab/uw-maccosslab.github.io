@@ -137,9 +137,9 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - David Shteynberg (2024-2025)
 - Jea Park (2019-2024)
 - Julia Robbins (2018-2022) -- Talus Biosciences, Inc., Seattle, WA
-- Austin Keller (2016-2019) -- Smartsheet
+- Austin Keller (2016-2019) -- Google, Kirkland, WA
 - Dawn Counts (2012-2018)
-- Barbara Frewen (2004-2012) -- ThermoFisher Scientific, BRIMS, Boston, MA
+- Barbara Frewen (2004-2012) -- Ginkgo Bioworks, Inc., Boston, MA
 - Jesse Canterbury (2005-2011) -- ThermoFisher Scientific, San Jose, CA
 - Eileen Heimer (2010-2011)
 - Jessica Novak (2006-2008) -- Institute for Systems Biology, Seattle, WA
