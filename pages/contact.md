@@ -25,10 +25,11 @@ Professor, Department of Genome Sciences
 - **Office:** Foege S-232
 
 ## Lab Contacts
+
 - **General Lab Contact:**
   - Email: admin[at]maccosslab[dot]org  
   - Lab Phone: (206) 616-9023
-- **Lab Manager and Director of Research Operations:** 
+- **Lab Manager and Director of Research Operations:**
   - Gennifer Merrihew
   - Contact for general lab inquiries, research projects, purchasing, etc...
   - Email: genn[at]uw[dot]edu
@@ -46,9 +47,11 @@ Professor, Department of Genome Sciences
   - FAQ: [Frequently Asked Questions](https://panoramaweb.org/Services/wiki-page.view?name=Frequently%20Asked%20Questions)
 
 ---
+
 ## Research Inquiries
 
 ### Collaboration Opportunities
+
 - For research collaborations, method development partnerships, or joint projects:
   - Email: maccoss[at]uw[dot]edu
 
@@ -59,6 +62,7 @@ Professor, Department of Genome Sciences
 - **EncyclopeDIA Support:** [EncyclopeDIA](https://bitbucket.org/searleb/encyclopedia/wiki/Home)
 
 ---
+
 ## Department & University Contacts
 
 **Department of Genome Sciences**  
@@ -68,11 +72,14 @@ University of Washington
 **Website:** [gs.washington.edu](https://www.gs.washington.edu)  
 
 **Genome Sciences Graduate Program**  
+
 - **Questions:** Brian Giebel (bgiebel[at]uw[dot]edu)  
 - **Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/gradprogram/)
 
 ---
+
 ## Lab Mailing Address
+
 University of Washington  
 Department of Genome Sciences  
 MacCoss Laboratory  
@@ -81,7 +88,9 @@ Box 355065, Foege S113
 Seattle, WA 98195-5065
 
 ## Getting to Our Lab
+
 ### Directions & Maps
+
 We are located in the South William H. Foege Building on the University of Washington Campus.
 
 <div class="contact-map">
@@ -91,16 +100,19 @@ We are located in the South William H. Foege Building on the University of Washi
 **Alternative: [View on Google Maps](https://maps.google.com/?q=Genome+Sciences,+University+of+Washington,+Seattle,+WA)**
 
 ### Transportation
+
 - **Light Rail:** Take Link Light Rail to University of Washington Station
 - **Bus:** Multiple Metro bus routes serve the University District
 - **Parking:** Best option is street parking on [NE Boat St](https://maps.app.goo.gl/mwKbXTnNSKTNNKaY6). This is metered parking but in close proximity to our lab.
 
 ### From Seattle-Tacoma International Airport
+
 - **Light Rail:** Take Link Light Rail directly to UW Station (~45 minutes)
 - **Taxi/Ride Share:** ~30-45 minutes depending on traffic
 - **Rental Car:** Available at airport with campus parking options
 
 ---
+
 ## Social Media & Online Presence
 
 - **Lab Website:** [maccosslab.org](https://maccosslab.org)
@@ -111,3 +123,5 @@ We are located in the South William H. Foege Building on the University of Washi
 ---
 
 Whether you're interested in collaboration, have questions about our software, or want to join our research team, please don't hesitate to reach out.
+
+

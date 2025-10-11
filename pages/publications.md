@@ -9,13 +9,24 @@ permalink: /publications/
 View our complete publication list on [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) or search [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Maccoss%2C+Michael%5BFull+Author+Name%5D+OR+MacCoss+MJ%5BAuthor%5D&sort=date).
 
 ## Publication Metrics
-- **Total Citations**: >50,565 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+
+- **Total Citations**: >51,312 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: >103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,098+ citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,148+ citations)
 
 ## Recent Publications
 
 ### 2025
+
+**The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols**  
+McGrath S, Hull E, Dunbar MD, Prescott J, Keyser AJ, MacLean E, Darvas M, Latimer C, Moreno J, MacCoss MJ, Kauffman M, Litwin P, Castelhano M, Kaeberlein M, Keene CD; Dog Aging Project Consortium  
+*Alzheimer's & Dementia* 2025 Sep;21(9):e70630  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40995864/) | [DOI](https://doi.org/10.1002/alz.70630)
+
+**The kinesin motor Kif9 regulates centriolar satellite positioning during interphase**  
+Vicente JJ, Wagenbach M, Decarreau J, Zelter A, MacCoss MJ, Davis TN, Wordeman L  
+*Current Biology* 2025 Sep 19;S0960-9822(25)01130-3  
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40975050/) | [DOI](https://doi.org/10.1016/j.cub.2025.08.064)
 
 **Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism**  
 Coig R, Harrison B, Johnson R, MacCoss MJ, Promislow D  
@@ -137,24 +148,28 @@ Merrihew GE, Park J, Plubell D, Searle BC, Keene CD, Larson EB, Bateman R, Perri
 Our publications span several key areas:
 
 ### Method Development
+
 - Targeted proteomics workflows
 - Data-independent acquisition (DIA)
 - Quality control and standardization
 - Cross-platform harmonization
 
 ### Software Development
+
 - Open-source proteomics tools
 - Data analysis platforms
 - Spectral libraries and databases
 - Workflow automation
 
 ### Clinical Applications
+
 - Biomarker discovery and validation
 - Alzheimer's disease research
 - Precision medicine applications
 - Large-scale clinical studies
 
 ### Computational Proteomics
+
 - Database search algorithms
 - Statistical frameworks
 - Machine learning applications
@@ -163,6 +178,7 @@ Our publications span several key areas:
 ## Data Availability
 
 Most recent publications include:
+
 - **Skyline documents** available on Panorama Public
 - **Raw mass spectrometry data** deposited in public repositories
 - **Analysis code** available on GitHub: [github.com/uw-maccosslab](https://github.com/uw-maccosslab)
