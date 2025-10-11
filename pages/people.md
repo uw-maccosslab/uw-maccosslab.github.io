@@ -32,7 +32,7 @@ permalink: /people/
 ## Current Lab Members
 ### Research Scientists
 - Daniel Jaschob
-- [Rich Johnson](https://www.hairyfatguy.com/)
+- [Rich Johnson](https://www.linkedin.com/in/richard-johnson-a7381115/) - [Website](https://www.hairyfatguy.com/)
 - [Gennifer Merrihew](https://www.linkedin.com/in/gennifer-merrihew-b98a8918a/) - Director of Research Operations, Lab Manager  
 Gennifer started at the MacCoss lab when it was just beginning--she was, in fact, Dr. MacCoss's first employee. Since then she has worked on a multitude of projects covering several areas of biological interest. Her current work focuses on Alzheimer's disease research in both humans and mice.
 - [Mike Riffle](https://scholar.google.com/citations?user=Lo6u7hUAAAAJ&hl=en)
