@@ -20,6 +20,7 @@ Seattle, WA 98195-5065
 
 [**Michael J. MacCoss**](maccoss.md)  
 Professor, Department of Genome Sciences
+
 - **Email:** maccoss[at]uw[dot]edu
 - **Office Phone:** (206) 616-7451 *Note: I rarely answer the phone.*
 - **Office:** Foege S-232
@@ -123,5 +124,3 @@ We are located in the South William H. Foege Building on the University of Washi
 ---
 
 Whether you're interested in collaboration, have questions about our software, or want to join our research team, please don't hesitate to reach out.
-
-

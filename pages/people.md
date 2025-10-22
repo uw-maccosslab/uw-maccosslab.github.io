@@ -110,7 +110,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
 - Sonia Ting, Ph.D. (2011-2017) -- Neon Therapeutics,  Cambridge, MA
 - Scott Goulding, Ph.D. (2013-2015) -- Moderna,  Cambridge, MA
-- Veronika Glukhova, Ph.D. (2007-2014) -- Intellectual Ventures, Bellevue, WA
+- Veronika Glukhova, Ph.D. (2007-2014) -- Staff Scientist, Schweppe Lab, Genome Sciences UW
 - Jarrett Egertson, Ph.D. (2009-2017) -- Nautilus Biotechnology, San Carlos, CA
 - Andrew Stergachis, Ph.D. (2009-2013) -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
 - Greg Finney, Ph.D. (2004-2012) 
@@ -120,6 +120,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 
 ### Former Post Docs
 - Kristine Tsantilas, Ph.D. -- Paulovich Lab, Fred Hutch, Seattle, WA
+- Genevieve Mezoh (2023) -- Bruker
 - Jason Gilmore, Ph.D. (2014-2018) -- Just-Evotec Biologics, Seattle, WA 
 - Sandi Spencer, Ph.D. (2016-2018) -- Proteomics Platform Manager, British Columbia Cancer Research Agency
 - Jim Bollinger, Ph.D. (2013-2016) -- Scientist Bateman Lab, Washington University St. Louis
@@ -128,6 +129,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Ed Hsieh, Ph.D. (2008-2013) -- Gilead Sciences, Inc. Foster City, CA 
 - Daniela Tomazela, Ph.D. (2008-2011) -- Gilean Sciences, Palo Alto, CA
 - Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Physician Scientist, Johns Hopkins, Baltimore, MD
+- Lukas Käll (2006-2008) – with Bill Noble, Professor of Applied Systems Biology at KTH - Royal Institute of Technology and a member of the Science for Life Laboratory
 - Jason Wooden, Ph.D. (2006-2010) 
 - Josh McElwee, Ph.D. (2006-2007) -- Nimbus Therapeutics, Boston, MA
 - Xianhua Yi, Ph.D. (2004-2007) -- Momenta Pharmaceuticals, Boston, MA
@@ -136,6 +138,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Batool Mutawe (2023-2025)
 - David Shteynberg (2024-2025)
 - Jea Park (2019-2024)
+- Eric Huang (2018-2024) -- Just-EvoTech Biologics, Redmond, WA
 - Julia Robbins (2018-2022) -- Talus Biosciences, Inc., Seattle, WA
 - Austin Keller (2016-2019) -- Google, Kirkland, WA
 - Dawn Counts (2012-2018)
