@@ -102,11 +102,11 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 **Currently under development** -- this needs to be updated
 
 ### Former Graduate Students
-- Deanna Plubell, Ph.D. -- ThermoFisher Scientific, Seattle, WA
-- Lilian Heil, Ph.D. -- ThermoFisher Scientific, San Jose, CA
-- Danielle Faive, Ph.D. -- Just-EvoTech Biologics, Redmond, WA
+- Deanna Plubell, Ph.D. (2017-2024) -- ThermoFisher Scientific, Seattle, WA
+- Lilian Heil, Ph.D. (2019-2023) -- ThermoFisher Scientific, San Jose, CA
+- Danielle Faivre, Ph.D. (2017-2023) -- Just-EvoTech Biologics, Redmond, WA
 - Lindsay Pino, Ph.D. (2014-2019) -- Talus Biosciences, Inc., Seattle WA 
-- Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Ohio State University
+- Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Mayo Clinic, Rochester, Minnesota
 - Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
 - Sonia Ting, Ph.D. (2011-2017) -- Neon Therapeutics,  Cambridge, MA
 - Scott Goulding, Ph.D. (2013-2015) -- Moderna,  Cambridge, MA
@@ -119,7 +119,8 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 
 
 ### Former Post Docs
-- Kristine Tsantilas, Ph.D. -- Paulovich Lab, Fred Hutch, Seattle, WA
+- Deanna Plubell, Ph.D. (2024-2025) -- ThermoFisher Scientific, Seattle, WA
+- Kristine Tsantilas, Ph.D. (2021-2024) -- Paulovich Lab, Fred Hutch, Seattle, WA
 - Genevieve Mezoh (2023) -- Bruker
 - Jason Gilmore, Ph.D. (2014-2018) -- Just-Evotec Biologics, Seattle, WA 
 - Sandi Spencer, Ph.D. (2016-2018) -- Proteomics Platform Manager, British Columbia Cancer Research Agency
