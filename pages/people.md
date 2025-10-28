@@ -105,19 +105,18 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Deanna Plubell, Ph.D. (2017-2024) -- ThermoFisher Scientific, Seattle, WA
 - Lilian Heil, Ph.D. (2019-2023) -- ThermoFisher Scientific, San Jose, CA
 - Danielle Faivre, Ph.D. (2017-2023) -- Just-EvoTech Biologics, Redmond, WA
-- Lindsay Pino, Ph.D. (2014-2019) -- Talus Biosciences, Inc., Seattle WA 
+- Lindsay Pino, Ph.D. (2014-2019) - joint with Bill Noble -- Talus Biosciences, Inc., Seattle WA 
 - Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Mayo Clinic, Rochester, Minnesota
 - Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
 - Sonia Ting, Ph.D. (2011-2017) -- Neon Therapeutics,  Cambridge, MA
-- Scott Goulding, Ph.D. (2013-2015) -- Moderna,  Cambridge, MA
-- Nathan Basisty, Ph.D. (2010-2015) -- Investigator National Institute on Aging (NIA)
-- Veronika Glukhova, Ph.D. (2007-2014) -- Staff Scientist, Schweppe Lab, Genome Sciences UW
+- Scott Goulding, Ph.D. (2013-2015) - joint with Christine Wu -- Moderna,  Cambridge, MA
+- Nathan Basisty, Ph.D. (2010-2015) - joint with Peter Rabinovitch -- Investigator National Institute on Aging (NIA)
+- Veronika Glukhova, Ph.D. (2007-2014) - joint with Ray Monnat -- Staff Scientist, Schweppe Lab, Genome Sciences UW
 - Jarrett Egertson, Ph.D. (2009-2017) -- Nautilus Biotechnology, San Carlos, CA
-- Andrew Stergachis, Ph.D. (2009-2013) -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
+- Andrew Stergachis, Ph.D. (2009-2013) - joint with John Stamatoyanopolous -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
 - Greg Finney, Ph.D. (2004-2012) 
 - Mike Hoopmann, Ph.D. (2005-2009) -- Schweppe Lab/UWPR, University of Washington 
-- Aaron Klammer, Ph.D. (2004-2008) -- Pacific Biosciences,  Menlo Park, CA 
-
+- Aaron Klammer, Ph.D. (2004-2008) - joint with Bill Noble -- Eikon Therapautics Hayward, CA 
 
 ### Former Post Docs
 - Deanna Plubell, Ph.D. (2024-2025) -- ThermoFisher Scientific, Seattle, WA
