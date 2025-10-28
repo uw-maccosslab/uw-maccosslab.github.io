@@ -110,6 +110,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
 - Sonia Ting, Ph.D. (2011-2017) -- Neon Therapeutics,  Cambridge, MA
 - Scott Goulding, Ph.D. (2013-2015) -- Moderna,  Cambridge, MA
+- Nathan Basisty, Ph.D. (2010-2015) -- Investigator National Institute on Aging (NIA)
 - Veronika Glukhova, Ph.D. (2007-2014) -- Staff Scientist, Schweppe Lab, Genome Sciences UW
 - Jarrett Egertson, Ph.D. (2009-2017) -- Nautilus Biotechnology, San Carlos, CA
 - Andrew Stergachis, Ph.D. (2009-2013) -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
@@ -131,7 +132,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Daniela Tomazela, Ph.D. (2008-2011) -- Gilean Sciences, Palo Alto, CA
 - Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Physician Scientist, Johns Hopkins, Baltimore, MD
 - Lukas Käll (2006-2008) – with Bill Noble, Professor of Applied Systems Biology at KTH - Royal Institute of Technology and a member of the Science for Life Laboratory
-- Jason Wooden, Ph.D. (2006-2010) 
+- Jason Wooden, Ph.D. (2006-2010)
 - Josh McElwee, Ph.D. (2006-2007) -- Nimbus Therapeutics, Boston, MA
 - Xianhua Yi, Ph.D. (2004-2007) -- Momenta Pharmaceuticals, Boston, MA
 
