@@ -88,7 +88,7 @@ We are committed to:
 
 **Regular Communication**
 - Meet regularly with your mentor to discuss progress, challenges, and goals
-- Respond promptly to emails from lab members (within 48 hours when possible)
+- Respond promptly to emails/slack messages from lab members (within 48 hours when possible)
 - Communicate uncertainties and requests for support openly
 - Notify the lab in advance of planned absences
 
