@@ -291,4 +291,4 @@ This is a living document that should evolve with our lab community. We welcome 
 
 ---
 
-*Last updated: [Date]*
+*Last updated: October 30, 2025*

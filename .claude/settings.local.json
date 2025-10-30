@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "Bash(git add:*)",
+      "Bash(.git/hooks/pre-commit)",
+      "Bash(bundle install:*)",
+      "Bash(ruby --version:*)",
+      "Bash(gem --version:*)",
+      "Bash(gem install:*)",
+      "Bash(sudo gem install:*)",
+      "Bash(bundle config:*)",
+      "Bash(sudo apt-get update:*)",
+      "Bash(sudo apt-get install:*)"
     ],
     "deny": [],
     "ask": []
