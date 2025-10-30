@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Orbitrap Astral Zoom Paper Publisher"
+title: "Orbitrap Astral Zoom Paper Published"
 date: 2025-10-30
 categories: [publications, journal of proteome research, astral]
 ---
