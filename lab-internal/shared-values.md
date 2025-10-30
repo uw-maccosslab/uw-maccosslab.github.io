@@ -172,8 +172,15 @@ We recognize that:
 - There may be intensive periods (e.g. approaching grant or conference deadline) requiring extra effort
 - Individual circumstances vary, and we aim for flexibility while maintaining high standards
 
-### Time Commitments
+### Time Commitments and Work Location
 
+**In-Person Presence**
+- Lab members are expected to work in person at the lab unless otherwise agreed upon with their mentor
+- In-person presence facilitates collaboration, mentorship, troubleshooting, and building lab community
+- Remote work arrangements must be discussed and approved in advance by your mentor
+- Flexibility may be available for specific circumstances, but this should be established through clear communication
+
+**Schedule and Hours**
 - Flexibility in setting your own schedule as long as expectations are met
 - Advanced approval required for travel and extended absences
 - Consideration for University holidays, with awareness of research participant schedules
