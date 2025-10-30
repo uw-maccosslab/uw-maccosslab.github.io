@@ -1,3 +1,9 @@
+---
+layout: default
+title: "MacCoss Lab: Shared Values and Expectations"
+permalink: /lab-internal/shared-values/
+---
+
 # MacCoss Lab: Shared Values and Expectations
 
 ## Our Mission
