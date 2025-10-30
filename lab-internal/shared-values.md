@@ -145,16 +145,14 @@ We are committed to:
 
 - The ultimate goal of our research is dissemination through publication in scientific journals
 - We aim to publish research in a timely manner throughout training, not only at the end
-- Master's students: Expected to author or make major contributions to at least one journal paper
 - Doctoral students: Expected to be lead author on at least 2-4 journal papers
 - All publications should reflect the highest standards of scientific quality and integrity
 
 ### Authorship Guidelines
 
-- Students are first author on work where they led data collection and prepared the initial manuscript draft
 - Authorship should be discussed early in projects to ensure clear expectations
 - All contributors should be acknowledged appropriately
-- Undergraduate researchers who contribute meaningfully should be included as authors
+- All researchers who contribute meaningfully should be included as authors
 - Additional authors should be discussed with your mentor before approaching potential co-authors
 
 ## Work-Life Balance
@@ -165,12 +163,11 @@ We recognize that:
 - Creative thinking and good health require rest and personal time
 - Sustainable work habits lead to better long-term outcomes
 - Vacation and time away from the lab are essential
-- There may be intensive periods (e.g., field seasons, approaching deadlines) requiring extra effort
+- There may be intensive periods (e.g. approaching grant or conference deadline) requiring extra effort
 - Individual circumstances vary, and we aim for flexibility while maintaining high standards
 
 ### Time Commitments
 
-- Graduate students: Average of ~50 hours per week balancing coursework and research
 - Flexibility in setting your own schedule as long as expectations are met
 - Advanced approval required for travel and extended absences
 - Consideration for University holidays, with awareness of research participant schedules
@@ -238,7 +235,6 @@ The MacCoss Lab is committed to fostering an inclusive environment where all mem
 - We acknowledge that our data collection, analysis methods, and interpretations can perpetuate or challenge existing biases
 
 **Algorithmic Fairness**
-- We are committed to developing computational methods that do not perpetuate discrimination
 - We consider how our algorithms and software tools might be used and potentially misused
 - We work to understand and mitigate biases in our datasets and analyses
 - We engage with communities who may be affected by our research
@@ -246,11 +242,10 @@ The MacCoss Lab is committed to fostering an inclusive environment where all mem
 ### Accessibility and Open Science
 
 **Removing Barriers to Knowledge**
-- We strive to make our publications open access whenever possible
+- We strive to release preprints of our manuscripts prior to publication whenever possible
 - We provide copies of our publications upon request to anyone who cannot access them
 - We develop and maintain open-source software to democratize access to our tools
 - We create documentation and tutorials that are accessible to diverse audiences
-- We consider accessibility in our communications (e.g., alt text for images, clear language)
 
 ### Institutional Support and Resources
 
@@ -261,7 +256,7 @@ The MacCoss Lab is committed to fostering an inclusive environment where all mem
 
 **Safe Reporting**
 - Lab members should feel empowered to report concerns about discrimination, harassment, or bias
-- Multiple reporting pathways are available: direct conversation with lab leadership, department channels, or university ombuds and Title IX offices
+- Multiple reporting pathways are available: direct conversation with lab leadership, department channels, or university ombuds
 - We commit to taking all concerns seriously and working toward resolution
 - We do not tolerate retaliation against those who raise concerns
 
@@ -269,7 +264,6 @@ The MacCoss Lab is committed to fostering an inclusive environment where all mem
 
 **Ongoing Commitment**
 - This section is a living statement that will evolve as we learn and grow
-- We welcome suggestions for improving our diversity, equity, and inclusion practices
 - We commit to regular self-assessment and accountability
 - We recognize that this work is never finished and requires sustained effort and attention
 
