@@ -32,7 +32,7 @@ permalink: /people/
 ## Current Lab Members
 ### Research Scientists
 - Daniel Jaschob
-- [Rich Johnson](https://www.hairyfatguy.com/)
+- [Rich Johnson](https://www.linkedin.com/in/richard-johnson-a7381115/) - [Website](https://www.hairyfatguy.com/)
 - [Gennifer Merrihew](https://www.linkedin.com/in/gennifer-merrihew-b98a8918a/) - Director of Research Operations, Lab Manager  
 Gennifer started at the MacCoss lab when it was just beginning--she was, in fact, Dr. MacCoss's first employee. Since then she has worked on a multitude of projects covering several areas of biological interest. Her current work focuses on Alzheimer's disease research in both humans and mice.
 - [Mike Riffle](https://scholar.google.com/citations?user=Lo6u7hUAAAAJ&hl=en)
@@ -102,24 +102,26 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 **Currently under development** -- this needs to be updated
 
 ### Former Graduate Students
-- Deanna Plubell, Ph.D. -- ThermoFisher Scientific, Seattle, WA
-- Lilian Heil, Ph.D. -- ThermoFisher Scientific, San Jose, CA
-- Danielle Faive, Ph.D. -- Just-EvoTech Biologics, Redmond, WA
-- Lindsay Pino, Ph.D. (2014-2019) -- Talus Biosciences, Inc., Seattle WA 
-- Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Ohio State University
+- Deanna Plubell, Ph.D. (2017-2024) -- ThermoFisher Scientific, Seattle, WA
+- Lilian Heil, Ph.D. (2019-2023) -- ThermoFisher Scientific, San Jose, CA
+- Danielle Faivre, Ph.D. (2017-2023) -- Just-EvoTech Biologics, Redmond, WA
+- Lindsay Pino, Ph.D. (2014-2019) - joint with Bill Noble -- Talus Biosciences, Inc., Seattle WA 
+- Brian Searle, Ph.D. (2014-2018) -- Assistant Professor, Mayo Clinic, Rochester, Minnesota
 - Han-Yin Yang, Ph.D. (2012-2018) -- Amgen, South San  Francisco, CA
 - Sonia Ting, Ph.D. (2011-2017) -- Neon Therapeutics,  Cambridge, MA
-- Scott Goulding, Ph.D. (2013-2015) -- Moderna,  Cambridge, MA
-- Veronika Glukhova, Ph.D. (2007-2014) -- Intellectual Ventures, Bellevue, WA
+- Scott Goulding, Ph.D. (2013-2015) - joint with Christine Wu -- Moderna,  Cambridge, MA
+- Nathan Basisty, Ph.D. (2010-2015) - joint with Peter Rabinovitch -- Investigator National Institute on Aging (NIA)
+- Veronika Glukhova, Ph.D. (2007-2014) - joint with Ray Monnat -- Staff Scientist, Schweppe Lab, Genome Sciences UW
 - Jarrett Egertson, Ph.D. (2009-2017) -- Nautilus Biotechnology, San Carlos, CA
-- Andrew Stergachis, Ph.D. (2009-2013) -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
+- Andrew Stergachis, Ph.D. (2009-2013) - joint with John Stamatoyanopolous -- University of  Washington, Assistant Professor, Medical Genetics and Genome Sciences
 - Greg Finney, Ph.D. (2004-2012) 
 - Mike Hoopmann, Ph.D. (2005-2009) -- Schweppe Lab/UWPR, University of Washington 
-- Aaron Klammer, Ph.D. (2004-2008) -- Pacific Biosciences,  Menlo Park, CA 
-
+- Aaron Klammer, Ph.D. (2004-2008) - joint with Bill Noble -- Eikon Therapautics Hayward, CA 
 
 ### Former Post Docs
-- Kristine Tsantilas, Ph.D. -- Paulovich Lab, Fred Hutch, Seattle, WA
+- Deanna Plubell, Ph.D. (2024-2025) -- ThermoFisher Scientific, Seattle, WA
+- Kristine Tsantilas, Ph.D. (2021-2024) -- Paulovich Lab, Fred Hutch, Seattle, WA
+- Genevieve Mezoh (2023) -- Bruker
 - Jason Gilmore, Ph.D. (2014-2018) -- Just-Evotec Biologics, Seattle, WA 
 - Sandi Spencer, Ph.D. (2016-2018) -- Proteomics Platform Manager, British Columbia Cancer Research Agency
 - Jim Bollinger, Ph.D. (2013-2016) -- Scientist Bateman Lab, Washington University St. Louis
@@ -128,7 +130,8 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Ed Hsieh, Ph.D. (2008-2013) -- Gilead Sciences, Inc. Foster City, CA 
 - Daniela Tomazela, Ph.D. (2008-2011) -- Gilean Sciences, Palo Alto, CA
 - Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Physician Scientist, Johns Hopkins, Baltimore, MD
-- Jason Wooden, Ph.D. (2006-2010) 
+- Lukas Käll (2006-2008) – with Bill Noble, Professor of Applied Systems Biology at KTH - Royal Institute of Technology and a member of the Science for Life Laboratory
+- Jason Wooden, Ph.D. (2006-2010)
 - Josh McElwee, Ph.D. (2006-2007) -- Nimbus Therapeutics, Boston, MA
 - Xianhua Yi, Ph.D. (2004-2007) -- Momenta Pharmaceuticals, Boston, MA
 
@@ -136,6 +139,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Batool Mutawe (2023-2025)
 - David Shteynberg (2024-2025)
 - Jea Park (2019-2024)
+- Eric Huang (2018-2024) -- Just-EvoTech Biologics, Redmond, WA
 - Julia Robbins (2018-2022) -- Talus Biosciences, Inc., Seattle, WA
 - Austin Keller (2016-2019) -- Google, Kirkland, WA
 - Dawn Counts (2012-2018)

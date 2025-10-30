@@ -25,10 +25,11 @@ Professor, Department of Genome Sciences
 - **Office:** Foege S-232
 
 ## Lab Contacts
+
 - **General Lab Contact:**
   - Email: admin[at]maccosslab[dot]org  
   - Lab Phone: (206) 616-9023
-- **Lab Manager and Director of Research Operations:** 
+- **Lab Manager and Director of Research Operations:**
   - Gennifer Merrihew
   - Contact for general lab inquiries, research projects, purchasing, etc...
   - Email: genn[at]uw[dot]edu
@@ -46,9 +47,11 @@ Professor, Department of Genome Sciences
   - FAQ: [Frequently Asked Questions](https://panoramaweb.org/Services/wiki-page.view?name=Frequently%20Asked%20Questions)
 
 ---
+
 ## Research Inquiries
 
 ### Collaboration Opportunities
+
 - For research collaborations, method development partnerships, or joint projects:
   - Email: maccoss[at]uw[dot]edu
 
@@ -72,7 +75,9 @@ University of Washington
 - **Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/gradprogram/)
 
 ---
+
 ## Lab Mailing Address
+
 University of Washington  
 Department of Genome Sciences  
 MacCoss Laboratory  
@@ -81,7 +86,9 @@ Box 355065, Foege S113
 Seattle, WA 98195-5065
 
 ## Getting to Our Lab
+
 ### Directions & Maps
+
 We are located in the South William H. Foege Building on the University of Washington Campus.
 
 <div class="contact-map">
