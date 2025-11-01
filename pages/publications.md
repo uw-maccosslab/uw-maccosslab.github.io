@@ -10,17 +10,22 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Citations**: >51,312 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Citations**: >51,611 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: >103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,148+ citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,169+ citations)
 
 ## Recent Publications
 
 ### 2025
 
-**The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols**  
-McGrath S, Hull E, Dunbar MD, Prescott J, Keyser AJ, MacLean E, Darvas M, Latimer C, Moreno J, MacCoss MJ, Kauffman M, Litwin P, Castelhano M, Kaeberlein M, Keene CD; Dog Aging Project Consortium  
-*Alzheimer's & Dementia* 2025 Sep;21(9):e70630  
+**Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists**
+Hsu C, Shulman N, Stewart HI, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc NE, MacLean BX, Remes PM, Canterbury JD, Makarov AA, Hock C, Zabrouskov V, Wu CC, MacCoss MJ
+*Journal of Proteome Research* 2025 Oct 22 (Online ahead of print)
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41122818/) | [DOI](https://doi.org/10.1021/acs.jproteome.5c00593)
+
+**The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols**
+McGrath S, Hull E, Dunbar MD, Prescott J, Keyser AJ, MacLean E, Darvas M, Latimer C, Moreno J, MacCoss MJ, Kauffman M, Litwin P, Castelhano M, Kaeberlein M, Keene CD; Dog Aging Project Consortium
+*Alzheimer's & Dementia* 2025 Sep;21(9):e70630
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40995864/) | [DOI](https://doi.org/10.1002/alz.70630)
 
 **The kinesin motor Kif9 regulates centriolar satellite positioning during interphase**  
@@ -48,15 +53,10 @@ Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthe
 *Nature Communications* 2025 Jul 1;16(1):5447  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40595564/) | [DOI](https://doi.org/10.1038/s41467-025-60595-7)
 
-**Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment**  
-Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U  
-*Nature Methods* 2025 Jul;22(7):1454-1463  
+**Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment**
+Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U
+*Nature Methods* 2025 Jul;22(7):1454-1463
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40524023/) | [DOI](https://doi.org/10.1038/s41592-025-02719-x)
-
-**Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists**  
-Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ  
-*bioRxiv* 2025 Jun 25 (Preprint)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/40501761/) | [DOI](https://doi.org/10.1101/2025.05.30.657132)
 
 **Improved quantitative accuracy in data-independent acquisition proteomics via retention time boundary imputation**  
 Harris L, Riffle M, Noble WS, MacCoss MJ  
