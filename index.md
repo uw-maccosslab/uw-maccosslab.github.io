@@ -26,11 +26,11 @@ The focus of our research is in the development of mass spectrometry and stable 
 
 ## Highlighted Publications
 
+- **Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists** - Journal of Proteome Research, October 2025
 - **The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols** - Alzheimer's & Dementia, September 2025
 - **Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment** - Alzheimer's & Dementia, July 2025
 - **A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data** - Nature Methods, July 2025
 - **Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome** - Nature Communications, July 2025
-- **Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism** - Royal Society Open Science, July 2025
 
 ## Quantitative Proteomics Services
 
