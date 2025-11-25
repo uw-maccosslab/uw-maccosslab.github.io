@@ -53,6 +53,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 
 ### UW Proteomics Resource (UWPR)
 - Jimmy Eng
+- Mike Hoopmann
 - Vagisha Sharma
 
 ### Visiting Scientists
@@ -64,9 +65,6 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - **[Brendan MacLean](https://www.linkedin.com/in/brmaclean/)** - Principal Developer  
   Brendan worked at Microsoft for 8 years in the 1990s as a lead developer and development manager for Visual C++/Developer Studio. He was Vice President of Engineering for Westside Corporation, Director of Engineering for BEA Systems, and a founding partner of LabKey Software. Since August 2008, he has been responsible for all aspects of design, development and support in creating the Skyline Targeted Mass Spec Environment.
 
-- **Eduardo Armendariz** - Developer  
-  Eduardo began his software career in 2013 at Mirth, supporting the open-source clinical health data messaging engine. He worked at Amazon on Prime Now 3P services and AWS Lambda, and most recently at Microsoft designing services to advance Chaos engineering within Office infrastructure.
-
 - **[Matthew Chambers](https://www.linkedin.com/in/matthew-chambers-1a749911/)** - Developer (ProteoWizard)  
   Matt has worked in mass spectrometry informatics since 2005, first at Vanderbilt University Medical Center and since then as an independent consultant. Along with Darren Kessner, he developed ProteoWizard and has been its principal developer since 2009. For Skyline, he focuses on reading data directly from vendor proprietary data formats.
 
@@ -75,9 +73,6 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 
 - **[Brian Connolly](https://www.linkedin.com/in/connollyb/)** - Information Technology and DevOps  
   Brian has worked for companies including Microsoft, BEA Systems and Cray. He joined LabKey in 2007 where he helped customers design and operate LabKey Servers and pipelines, and became an expert in FISMA and HIPAA regulations. As part of the Skyline Team, he manages growth of PanoramaWeb.org and Skyline.ms servers and cloud infrastructure.
-
-- **[Eddie O'Neil](https://www.linkedin.com/in/ekoneil)** - Developer  
-  Eddie started his career in the 90s working on software for teaching biochemistry at the University of Virginia. He has built products and cross-functional teams in engineering and product management roles at Meta, Salesforce, BEA Systems, and startups. He holds degrees in computer science from UVa.
 
 - **[Brian Pratt](https://www.linkedin.com/in/brian-pratt-90b468/)** - Developer, Support  
   Brian's computing career extends back to the Apple II and TRS-80 days. His proteomics work prior to joining Skyline included contributions to TPP, X!Tandem, LabKey's CPAS, and ProteoWizard. He values performance, reliability, and usability in the support of science.
