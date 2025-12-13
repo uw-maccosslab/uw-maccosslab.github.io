@@ -28,7 +28,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install requests beautifulsoup4 matplotlib numpy
 
       - name: Fetch publications from PubMed
         run: python scripts/fetch_publications.py
@@ -36,7 +36,7 @@ jobs:
       - name: Check for changes
         id: check_changes
         run: |
-          git diff --quiet pages/publications.md || echo "changes=true" >> $GITHUB_OUTPUT
+          git diff --quiet pages/publications.md assets/images/publication-metrics.png 2>/dev/null || echo "changes=true" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         if: steps.check_changes.outputs.changes == 'true'

@@ -10,33 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Citations**: >52,303 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
-- **h-index**: >103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,219+ citations)
+- **Total Citations**: 52,303 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: 103
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,219 citations)
+
+![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
 ## Recent Publications
 
 ### 2025
 
-**Corrigendum to "Comprehensive Proteomics Metadata and Integrative Web Portals Facilitate Sharing and Integration of LINCS Multiomics Data"**
-Vidović D, Shamsaei B, Schürer SC, Kogan P, Chojnacki S, Kouril M, Medvedovic M, Niu W, Azeloglu EU, Birtwistle MR, Chen Y, Chen T, Hansen J, Hu B, Iyengar R, Jayaraman G, Li H, Liu T, Sobie EA, Xiong Y, Berberich MJ, Bradshaw G, Chung M, Everley RA, Gaudio B, Hafner M, Kalocsay M, Mills CE, Nariya MK, Sorger PK, Subramanian K, Victor C, Banuelos M, Dardov V, Holewinski R, Manalo DM, Mandefro B, Matlock AD, Ornelas L, Sareen D, Svendsen CN, Vaibhav V, Van Eyk JE, Venkatraman V, Finkbiener S, Fraenkel E, Rothstein J, Thompson L, Asiedu J, Carr SA, Christianson KE, Davison D, Dele-Oni DO, DeRuff KC, Egri SB, Vaca Jacome AS, Jaffe JD, Lam D, Litichevskiy L, Lu X, Mullahoo J, Officer A, Papanastasiou M, Peckner R, Toder C, Blanchard J, Bula M, Ko T, Tsai LH, Young JZ, Sharma V, Meller J, MacCoss MJ
-*Molecular & cellular proteomics : MCP* 2025 Jul;24(7):100995
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/40783300/) | [DOI](https://doi.org/10.1016/j.mcpro.2025.100995)
-
-**Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists**
-Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2025 Jul
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/40501761/) | [DOI](https://doi.org/10.1101/2025.05.30.657132)
-
 **Data-independent acquisition proteomic analysis of the brain microvasculature in Alzheimer's disease identifies major pathways of dysfunction and upregulation of cytoprotective responses**
 Erickson MA, Johnson RS, Damodarasamy M, MacCoss MJ, Keene CD, Banks WA, Reed MJ
 *Fluids and barriers of the CNS* 2024 Oct;21(1):84
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/39434151/) | [DOI](https://doi.org/10.1186/s12987-024-00581-1)
-
-**Tissue-specific metabolomic signatures for a **
-Coig R, Harrison BR, Johnson RS, MacCoss MJ, Promislow DEL
-*bioRxiv : the preprint server for biology* 2024 Sep
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/39345368/) | [DOI](https://doi.org/10.1101/2024.09.11.612537)
 
 **A Framework for Quality Control in Quantitative Proteomics**
 Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ
@@ -98,11 +85,6 @@ Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U
 *Nature Methods* 2025 Jul;22(7):1454-1463
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40524023/) | [DOI](https://doi.org/10.1038/s41592-025-02719-x)
 
-**Improved quantitative accuracy in data-independent acquisition proteomics via retention time boundary imputation**  
-Harris L, Riffle M, Noble WS, MacCoss MJ  
-*bioRxiv* 2025 May 31 (Preprint)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/40502008/) | [DOI](https://doi.org/10.1101/2025.05.27.656394)
-
 **Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer**  
 Plubell DL, Huang E, Spencer SE, Poston KL, Montine TJ, MacCoss MJ  
 *Journal of Proteome Research* 2025 Jun 6;24(6):2885-2891  
@@ -133,11 +115,6 @@ Vidović D, Shamsaei B, Schürer SC, Kogan P, Chojnacki S, Kouril M, Medvedovic 
 *Molecular & Cellular Proteomics* 2025 Mar 13;24(7):100947  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40089066/) | [DOI](https://doi.org/10.1016/j.mcpro.2025.100947)
 
-**Massively parallel assessment of designed protein solution properties using mass spectrometry and peptide barcoding**  
-Feldman D, Sims JN, Li X, Johnson R, Gerben S, Kim DE, Richardson C, Koepnick B, Eisenach H, Hicks DR, Yang EC, Wicky BIM, Milles LF, Bera AK, Kang A, Brackenbrough E, Joyce E, Sankaran B, Lubner JM, Goreshnik I, Vafeados D, Allen A, Stewart L, MacCoss MJ, Baker D  
-*bioRxiv* 2025 Feb 28 (Preprint)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/40060547/) | [DOI](https://doi.org/10.1101/2025.02.24.639402)
-
 **Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research**  
 Nierves LA, Lin TT, Moradian A, Shen Q, Sechi S, MacCoss MJ, Qu J, van Eyk JE, Hoofnagle AN, Qian WJ  
 *Journal of Clinical Endocrinology & Metabolism* 2025 May 19;110(6):1514-1523  
@@ -159,11 +136,6 @@ Bramer LM, Nakayasu ES, Flores JE, Van Eyk JE, MacCoss MJ, Parikh HM, Metz TO, W
 Remes PM, Jacob CC, Heil LR, Shulman N, MacLean BX, MacCoss MJ  
 *Journal of Proteome Research* 2024 Dec 6;23(12):5476-5486  
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/39475161/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c00599)
-
-**Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics**  
-Wen B, Hsu C, Zeng WF, Riffle M, Chang A, Mudge M, Nunn B, Berg MD, Villén J, MacCoss MJ, Noble WS  
-*bioRxiv* 2024 Oct 18 (Preprint)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/39463980/) | [DOI](https://doi.org/10.1101/2024.10.15.618504)
 
 **Detection and Quantification of Drug-Protein Adducts in Human Liver**  
 Zelter A, Riffle M, Shteynberg DD, Zhong G, Riddle EB, Hoopmann MR, Jaschob D, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N  

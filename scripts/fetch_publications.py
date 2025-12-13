@@ -14,6 +14,10 @@ from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 import time
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend for server/CI
+import matplotlib.pyplot as plt
+import numpy as np
 
 # Configuration
 PUBMED_SEARCH_TERM = 'Maccoss, Michael[Full Author Name] OR MacCoss MJ[Author]'
@@ -23,6 +27,9 @@ MAX_RESULTS = 30  # Number of recent publications to fetch
 # Google Scholar profile URL
 GOOGLE_SCHOLAR_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en'
 GOOGLE_SCHOLAR_SORTED_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en&sortby=pubdate'
+
+# Output paths
+PLOT_OUTPUT_FILE = Path(__file__).parent.parent / 'assets' / 'images' / 'publication-metrics.png'
 
 # NCBI E-utilities base URLs
 ESEARCH_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
@@ -174,12 +181,50 @@ def get_existing_pmids(content):
     return set(re.findall(pmid_pattern, content))
 
 
+def should_exclude_publication(pub):
+    """
+    Check if a publication should be excluded from the publications list.
+    
+    Excludes:
+    - Preprints (bioRxiv, arXiv, medRxiv, etc.)
+    - Corrigenda, errata, and corrections
+    """
+    # Check journal name for preprint servers
+    journal_lower = pub.get('journal', '').lower()
+    preprint_journals = ['biorxiv', 'arxiv', 'medrxiv', 'preprint', 'chemrxiv', 'ssrn']
+    if any(preprint in journal_lower for preprint in preprint_journals):
+        return True
+    
+    # Check title for corrigenda, errata, corrections
+    title_lower = pub.get('title', '').lower()
+    correction_terms = ['corrigendum', 'erratum', 'correction', 'retraction', 'addendum']
+    if any(term in title_lower for term in correction_terms):
+        return True
+    
+    return False
+
+
 def update_publications_file(publications, existing_pmids):
     """Update the publications.md file with new publications."""
     content = PUBLICATIONS_FILE.read_text()
     
     # Filter out publications already in the file
     new_pubs = [p for p in publications if p['pmid'] not in existing_pmids]
+    
+    # Filter out preprints and corrigenda
+    filtered_pubs = []
+    excluded_count = 0
+    for pub in new_pubs:
+        if should_exclude_publication(pub):
+            excluded_count += 1
+            print(f"  Excluding: {pub['title'][:60]}... ({pub['journal']})")
+        else:
+            filtered_pubs.append(pub)
+    
+    if excluded_count > 0:
+        print(f"Excluded {excluded_count} preprint(s)/corrigendum(a)")
+    
+    new_pubs = filtered_pubs
     
     if not new_pubs:
         print("No new publications found.")
@@ -341,36 +386,36 @@ def update_publication_metrics(metrics):
     
     # Update total citations
     if metrics.get('total_citations'):
-        # Match pattern like: - **Total Citations**: >51,611
+        # Match pattern like: - **Total Citations**: 51,611
         pattern = r'(\*\*Total Citations\*\*:\s*>?)[\d,]+'
-        replacement = f"**Total Citations**: >{metrics['total_citations']:,}"
+        replacement = f"**Total Citations**: {metrics['total_citations']:,}"
         new_content, count = re.subn(pattern, replacement, content)
         if count > 0:
             content = new_content
             updated = True
-            print(f"Updated total citations to >{metrics['total_citations']:,}")
+            print(f"Updated total citations to {metrics['total_citations']:,}")
     
     # Update h-index
     if metrics.get('h_index'):
-        # Match pattern like: - **h-index**: >103
+        # Match pattern like: - **h-index**: 103
         pattern = r'(\*\*h-index\*\*:\s*>?)\d+'
-        replacement = f"**h-index**: >{metrics['h_index']}"
+        replacement = f"**h-index**: {metrics['h_index']}"
         new_content, count = re.subn(pattern, replacement, content)
         if count > 0:
             content = new_content
             updated = True
-            print(f"Updated h-index to >{metrics['h_index']}")
+            print(f"Updated h-index to {metrics['h_index']}")
     
     # Update most cited paper citation count
     if metrics.get('most_cited_count'):
-        # Match pattern like: (5,169+ citations)
+        # Match pattern like: (5,169 citations)
         pattern = r'\([\d,]+\+?\s*citations\)'
-        replacement = f"({metrics['most_cited_count']:,}+ citations)"
+        replacement = f"({metrics['most_cited_count']:,} citations)"
         new_content, count = re.subn(pattern, replacement, content)
         if count > 0:
             content = new_content
             updated = True
-            print(f"Updated most cited paper to {metrics['most_cited_count']:,}+ citations")
+            print(f"Updated most cited paper to {metrics['most_cited_count']:,} citations")
     
     if updated:
         PUBLICATIONS_FILE.write_text(content)
@@ -381,14 +426,204 @@ def update_publication_metrics(metrics):
         return False
 
 
+def fetch_publications_per_year():
+    """
+    Fetch publication counts per year from PubMed.
+    Returns a dict of {year: count}.
+    """
+    # Search for all publications (not limited to recent)
+    params = {
+        'db': 'pubmed',
+        'term': PUBMED_SEARCH_TERM,
+        'retmax': 1000,  # Get all publications
+        'retmode': 'json'
+    }
+    
+    try:
+        response = requests.get(ESEARCH_URL, params=params, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        pmids = data.get('esearchresult', {}).get('idlist', [])
+        
+        if not pmids:
+            return {}
+        
+        # Fetch details for all PMIDs to get publication years
+        # Process in batches to avoid timeout
+        batch_size = 200
+        all_years = []
+        
+        for i in range(0, len(pmids), batch_size):
+            batch_pmids = pmids[i:i + batch_size]
+            params = {
+                'db': 'pubmed',
+                'id': ','.join(batch_pmids),
+                'retmode': 'xml'
+            }
+            response = requests.get(EFETCH_URL, params=params, timeout=30)
+            response.raise_for_status()
+            
+            root = ET.fromstring(response.text)
+            for article in root.findall('.//PubmedArticle'):
+                pub_date = article.find('.//PubDate')
+                if pub_date is not None:
+                    year_elem = pub_date.find('Year')
+                    if year_elem is not None:
+                        try:
+                            year = int(year_elem.text)
+                            all_years.append(year)
+                        except (ValueError, TypeError):
+                            pass
+        
+        # Count publications per year
+        year_counts = {}
+        for year in all_years:
+            year_counts[year] = year_counts.get(year, 0) + 1
+        
+        print(f"Fetched publication counts for {len(year_counts)} years ({len(all_years)} total publications)")
+        return year_counts
+        
+    except Exception as e:
+        print(f"Error fetching publications per year: {e}")
+        return {}
+
+
+def fetch_citations_per_year():
+    """
+    Fetch citations per year from Google Scholar.
+    Returns a dict of {year: count}.
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+    }
+    
+    try:
+        response = requests.get(GOOGLE_SCHOLAR_URL, headers=headers, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Find the citation graph data - it's in a script or in the chart elements
+        # Google Scholar has a "Citations per year" section with class gsc_md_hist_b
+        # The years are in elements with class gsc_g_t and counts in gsc_g_al
+        
+        year_elements = soup.find_all('span', class_='gsc_g_t')
+        count_elements = soup.find_all('span', class_='gsc_g_al')
+        
+        citations_per_year = {}
+        
+        if year_elements and count_elements and len(year_elements) == len(count_elements):
+            for year_elem, count_elem in zip(year_elements, count_elements):
+                try:
+                    year = int(year_elem.get_text(strip=True))
+                    count = int(count_elem.get_text(strip=True).replace(',', ''))
+                    citations_per_year[year] = count
+                except (ValueError, TypeError):
+                    pass
+        
+        if citations_per_year:
+            print(f"Fetched citation counts for {len(citations_per_year)} years")
+        else:
+            print("Could not parse citations per year from Google Scholar")
+            
+        return citations_per_year
+        
+    except Exception as e:
+        print(f"Error fetching citations per year: {e}")
+        return {}
+
+
+def generate_metrics_plot(pubs_per_year, citations_per_year):
+    """
+    Generate a two-panel plot showing publications per year and citations per year.
+    Saves the plot to assets/images/publication-metrics.png
+    """
+    if not pubs_per_year and not citations_per_year:
+        print("No data available for plot generation")
+        return False
+    
+    # Create figure with two subplots
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    
+    # Define colors
+    pub_color = '#2E86AB'  # Blue
+    cite_color = '#A23B72'  # Magenta/Pink
+    
+    # Left panel: Publications per year
+    if pubs_per_year:
+        years = sorted(pubs_per_year.keys())
+        counts = [pubs_per_year[y] for y in years]
+        
+        ax1.bar(years, counts, color=pub_color, edgecolor='white', linewidth=0.5)
+        ax1.set_xlabel('Year', fontsize=11)
+        ax1.set_ylabel('Number of Publications', fontsize=11)
+        ax1.set_title('Publications per Year', fontsize=13, fontweight='bold')
+        ax1.set_xlim(min(years) - 0.5, max(years) + 0.5)
+        ax1.set_ylim(0, max(counts) * 1.1)
+        
+        # Add gridlines
+        ax1.yaxis.grid(True, linestyle='--', alpha=0.3)
+        ax1.set_axisbelow(True)
+        
+        # Rotate x-axis labels for better readability
+        ax1.tick_params(axis='x', rotation=45)
+    else:
+        ax1.text(0.5, 0.5, 'No publication data available', 
+                ha='center', va='center', transform=ax1.transAxes)
+        ax1.set_title('Publications per Year', fontsize=13, fontweight='bold')
+    
+    # Right panel: Citations per year
+    if citations_per_year:
+        years = sorted(citations_per_year.keys())
+        counts = [citations_per_year[y] for y in years]
+        
+        ax2.bar(years, counts, color=cite_color, edgecolor='white', linewidth=0.5)
+        ax2.set_xlabel('Year', fontsize=11)
+        ax2.set_ylabel('Number of Citations', fontsize=11)
+        ax2.set_title('Citations per Year', fontsize=13, fontweight='bold')
+        ax2.set_xlim(min(years) - 0.5, max(years) + 0.5)
+        ax2.set_ylim(0, max(counts) * 1.1)
+        
+        # Add gridlines
+        ax2.yaxis.grid(True, linestyle='--', alpha=0.3)
+        ax2.set_axisbelow(True)
+        
+        # Rotate x-axis labels for better readability
+        ax2.tick_params(axis='x', rotation=45)
+    else:
+        ax2.text(0.5, 0.5, 'No citation data available', 
+                ha='center', va='center', transform=ax2.transAxes)
+        ax2.set_title('Citations per Year', fontsize=13, fontweight='bold')
+    
+    # Adjust layout
+    plt.tight_layout()
+    
+    # Ensure output directory exists
+    PLOT_OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    
+    # Save the plot
+    plt.savefig(PLOT_OUTPUT_FILE, dpi=150, bbox_inches='tight', 
+                facecolor='white', edgecolor='none')
+    plt.close()
+    
+    print(f"Generated metrics plot: {PLOT_OUTPUT_FILE}")
+    return True
+
+
 def main():
-    # First, update Google Scholar metrics
+    # First, update Google Scholar metrics and get citations per year
     print("Fetching Google Scholar metrics...")
     metrics = fetch_google_scholar_metrics()
     if metrics:
         update_publication_metrics(metrics)
     else:
         print("Could not fetch Google Scholar metrics")
+    
+    # Fetch citations per year for the plot
+    print()
+    print("Fetching citations per year...")
+    citations_per_year = fetch_citations_per_year()
     
     print()  # Blank line for readability
     print(f"Searching PubMed for: {PUBMED_SEARCH_TERM}")
@@ -412,6 +647,15 @@ def main():
     
     # Update the file
     update_publications_file(publications, existing_pmids)
+    
+    # Fetch publications per year and generate the plot
+    print()
+    print("Fetching publications per year for plot...")
+    pubs_per_year = fetch_publications_per_year()
+    
+    print()
+    print("Generating metrics plot...")
+    generate_metrics_plot(pubs_per_year, citations_per_year)
 
 
 if __name__ == '__main__':

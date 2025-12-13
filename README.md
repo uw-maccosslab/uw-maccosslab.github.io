@@ -145,6 +145,7 @@ The site includes a GitHub Actions workflow that automatically updates publicati
 - **Total citations** from Google Scholar profile
 - **h-index** from Google Scholar
 - **Most cited paper** citation count from Google Scholar
+- **Metrics plot** showing publications per year (PubMed) and citations per year (Google Scholar)
 
 ### Workflow Schedule
 - **Automatic**: Runs weekly on Sundays at midnight UTC
@@ -167,6 +168,8 @@ The site includes a GitHub Actions workflow that automatically updates publicati
 The workflow installs these Python packages:
 - `requests` - HTTP requests for API calls
 - `beautifulsoup4` - HTML parsing for Google Scholar scraping
+- `matplotlib` - Generating the publication/citation plots
+- `numpy` - Numerical support for plotting
 
 ### Files Involved
 ```
@@ -174,6 +177,8 @@ The workflow installs these Python packages:
 │   └── fetch_publications.py    # Main update script
 ├── .github/workflows/
 │   └── update-publications.yml  # GitHub Actions workflow
+├── assets/images/
+│   └── publication-metrics.png  # Auto-generated metrics plot
 └── pages/
     └── publications.md          # Updated by the script
 ```
