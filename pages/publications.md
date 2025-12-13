@@ -50,7 +50,7 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 </div>
 <div class="publications-content">
 
-<div id="year-2025" class="year-content active">
+<div id="year-2025" class="year-content active" markdown="1">
 
 ### 2025
 
@@ -84,7 +84,7 @@ Vicente JJ, Wagenbach M, Decarreau J, Zelter A, MacCoss MJ, Davis TN, Wordeman L
 *Current biology : CB* 2025 Nov;35(21):5119-5135.e4
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40975050/) | [DOI](https://doi.org/10.1016/j.cub.2025.08.064)
 
-**Tissue-specific metabolomic signatures for a **
+**Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism**
 Coig R, Harrison B, Johnson R, MacCoss MJ, Promislow D
 *Royal Society open science* 2025 Jul;12(7):250770
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40740708/) | [DOI](https://doi.org/10.1098/rsos.250770)
@@ -156,7 +156,7 @@ Bramer LM, Nakayasu ES, Flores JE, Van Eyk JE, MacCoss MJ, Parikh HM, Metz TO, W
 
 </div>
 
-<div id="year-2024" class="year-content">
+<div id="year-2024" class="year-content" markdown="1">
 
 ### 2024
 
@@ -200,7 +200,7 @@ Bailey LRJ, Bugg D, Reichardt IM, Ortaç CD, Nagle A, Gunaje J, Martinson A, Joh
 *Circulation* 2024 Jun;149(23):1812-1829
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/38426339/) | [DOI](https://doi.org/10.1161/CIRCULATIONAHA.123.066860)
 
-**Longitudinal Transcriptomic, Proteomic, and Metabolomic Response of **
+**Longitudinal Transcriptomic, Proteomic, and Metabolomic Response of Citrus sinensis to Diaphorina citri Inoculation of Candidatus Liberibacter asiaticus**
 Lombardi RL, Ramsey JS, Mahoney JE, MacCoss MJ, Heck ML, Slupsky CM
 *Journal of proteome research* 2024 Aug;23(8):2857-2869
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/38373055/) | [DOI](https://doi.org/10.1021/acs.jproteome.3c00485)
@@ -212,7 +212,7 @@ Vázquez Torres S, Leung PJY, Venkatesh P, Lutz ID, Hink F, Huynh HH, Becker J, 
 
 </div>
 
-<div id="year-2023" class="year-content">
+<div id="year-2023" class="year-content" markdown="1">
 
 ### 2023
 
@@ -308,7 +308,7 @@ Basisty N, Shulman N, Wehrfritz C, Marsh AN, Shah S, Rose J, Ebert S, Miller M, 
 
 </div>
 
-<div id="year-2022" class="year-content">
+<div id="year-2022" class="year-content" markdown="1">
 
 ### 2022
 
@@ -412,19 +412,19 @@ Hubbard EE, Heil LR, Merrihew GE, Chhatwal JP, Farlow MR, McLean CA, Ghetti B, N
 *Journal of proteome research* 2022 Jan;21(1):118-131
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/34818016/) | [DOI](https://doi.org/10.1021/acs.jproteome.1c00558)
 
-**Host Plant Adaptation Drives Changes in **
+**Host Plant Adaptation Drives Changes in Diaphorina citri Proteome Regulation, Proteoform Expression, and Transmission of 'Candidatus Liberibacter asiaticus', the Citrus Greening Pathogen**
 Ramsey JS, Ammar ED, Mahoney JE, Rivera K, Johnson R, Igwe DO, Thannhauser TW, MacCoss MJ, Hall DG, Heck M
 *Phytopathology* 2022 Jan;112(1):101-115
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/34738832/) | [DOI](https://doi.org/10.1094/PHYTO-06-21-0275-R)
 
-**Lysosomal targetomics of **
+**Lysosomal targetomics of ghr KO mice shows chaperone-mediated autophagy degrades nucleocytosolic acetyl-coA enzymes**
 Endicott SJ, Monovich AC, Huang EL, Henry EI, Boynton DN, Beckmann LJ, MacCoss MJ, Miller RA
 *Autophagy* 2022 Jul;18(7):1551-1571
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/34704522/) | [DOI](https://doi.org/10.1080/15548627.2021.1990670)
 
 </div>
 
-<div id="year-2021" class="year-content">
+<div id="year-2021" class="year-content" markdown="1">
 
 ### 2021
 
@@ -473,7 +473,7 @@ DeBlasio SL, Wilson JR, Tamborindeguy C, Johnson RS, Pinheiro PV, MacCoss MJ, Gr
 *Journal of proteome research* 2021 Jun;20(6):3365-3387
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/34019426/) | [DOI](https://doi.org/10.1021/acs.jproteome.1c00313)
 
-**Staging Encystation Progression in **
+**Staging Encystation Progression in Giardia lamblia Using Encystation-Specific Vesicle Morphology and Associating Molecular Markers**
 Thomas EB, Sutanto R, Johnson RS, Shih HW, Alas GCM, Krtková J, MacCoss MJ, Paredez AR
 *Frontiers in cell and developmental biology* 2021;9:662945
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/33987184/) | [DOI](https://doi.org/10.3389/fcell.2021.662945)
@@ -490,7 +490,7 @@ Vincow ES, Thomas RE, Merrihew GE, MacCoss MJ, Pallanck LJ
 
 </div>
 
-<div id="year-2020" class="year-content">
+<div id="year-2020" class="year-content" markdown="1">
 
 ### 2020
 
@@ -559,7 +559,7 @@ Pino LK, Searle BC, Yang HY, Hoofnagle AN, Noble WS, MacCoss MJ
 *Journal of proteome research* 2020 Mar;19(3):1147-1153
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/32037841/) | [DOI](https://doi.org/10.1021/acs.jproteome.9b00666)
 
-**Peptidomics Approaches for the Identification of Bioactive Molecules from **
+**Peptidomics Approaches for the Identification of Bioactive Molecules from Diaphorina citri**
 Fleites LA, Johnson R, Kruse AR, Nachman RJ, Hall DG, MacCoss M, Heck ML
 *Journal of proteome research* 2020 Apr;19(4):1392-1408
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/32037832/) | [DOI](https://doi.org/10.1021/acs.jproteome.9b00509)
@@ -579,7 +579,7 @@ Quarles E, Basisty N, Chiao YA, Merrihew G, Gu H, Sweetwyne MT, Fredrickson J, N
 *Aging cell* 2020 Feb;19(2):e13086
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/31823466/) | [DOI](https://doi.org/10.1111/acel.13086)
 
-**Assessing Protein Sequence Database Suitability Using **
+**Assessing Protein Sequence Database Suitability Using De Novo Sequencing**
 Johnson RS, Searle BC, Nunn BL, Gilmore JM, Phillips M, Amemiya CT, Heck M, MacCoss MJ
 *Molecular & cellular proteomics : MCP* 2020 Jan;19(1):198-208
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/31732549/) | [DOI](https://doi.org/10.1074/mcp.TIR119.001752)
@@ -596,7 +596,7 @@ Pino LK, Searle BC, Bollinger JG, Nunn B, MacLean B, MacCoss MJ
 
 </div>
 
-<div id="year-2019" class="year-content">
+<div id="year-2019" class="year-content" markdown="1">
 
 ### 2019
 
@@ -652,7 +652,7 @@ Kim YJ, Sweet SMM, Egertson JD, Sedgewick AJ, Woo S, Liao WL, Merrihew GE, Searl
 
 </div>
 
-<div id="year-2018" class="year-content">
+<div id="year-2018" class="year-content" markdown="1">
 
 ### 2018
 
@@ -711,7 +711,7 @@ Peckner R, Myers SA, Jacome ASV, Egertson JD, Abelin JG, MacCoss MJ, Carr SA, Ja
 *Nature methods* 2018 May;15(5):371-378
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/29608554/) | [DOI](https://doi.org/10.1038/nmeth.4643)
 
-**A Stem-Loop Structure in **
+**A Stem-Loop Structure in Potato Leafroll Virus Open Reading Frame 5 (ORF5) Is Essential for Readthrough Translation of the Coat Protein ORF Stop Codon 700 Bases Upstream**
 Xu Y, Ju HJ, DeBlasio S, Carino EJ, Johnson R, MacCoss MJ, Heck M, Miller WA, Gray SM
 *Journal of virology* 2018 Jun;92(11)
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/29514911/) | [DOI](https://doi.org/10.1128/JVI.01544-17)
@@ -758,7 +758,7 @@ Basisty NB, Liu Y, Reynolds J, Karunadharma PP, Dai DF, Fredrickson J, Beyer RP,
 
 </div>
 
-<div id="year-2017" class="year-content">
+<div id="year-2017" class="year-content" markdown="1">
 
 ### 2017
 
@@ -802,7 +802,7 @@ Kubota A, Ito S, Shim JS, Johnson RS, Song YH, Breton G, Goralogia GS, Kwon MS, 
 *PLoS genetics* 2017 Jun;13(6):e1006856
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/28628608/) | [DOI](https://doi.org/10.1371/journal.pgen.1006856)
 
-**Proteomics Analysis Identifies Orthologs of Human Chitinase-Like Proteins as Inducers of Tube Morphogenesis Defects in **
+**Proteomics Analysis Identifies Orthologs of Human Chitinase-Like Proteins as Inducers of Tube Morphogenesis Defects in Drosophila melanogaster**
 Zimmerman SG, Merrihew GE, MacCoss MJ, Berg CA
 *Genetics* 2017 Jun;206(2):973-984
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/28404605/) | [DOI](https://doi.org/10.1534/genetics.116.199323)
@@ -829,7 +829,7 @@ Henderson CM, Bollinger JG, Becker JO, Wallace JM, Laha TJ, MacCoss MJ, Hoofnagl
 
 </div>
 
-<div id="year-2016" class="year-content">
+<div id="year-2016" class="year-content" markdown="1">
 
 ### 2016
 
@@ -900,7 +900,7 @@ Kruse SE, Karunadharma PP, Basisty N, Johnson R, Beyer RP, MacCoss MJ, Rabinovit
 
 </div>
 
-<div id="year-2015" class="year-content">
+<div id="year-2015" class="year-content" markdown="1">
 
 ### 2015
 
@@ -991,7 +991,7 @@ Kim TY, Siesser PF, Rossman KL, Goldfarb D, Mackinnon K, Yan F, Yi X, MacCoss MJ
 
 </div>
 
-<div id="year-2014" class="year-content">
+<div id="year-2014" class="year-content" markdown="1">
 
 ### 2014
 
@@ -1077,7 +1077,7 @@ Woo S, Cha SW, Merrihew G, He Y, Castellana N, Guest C, MacCoss M, Bafna V
 
 </div>
 
-<div id="year-2013" class="year-content">
+<div id="year-2013" class="year-content" markdown="1">
 
 ### 2013
 
@@ -1163,7 +1163,7 @@ Marsillach J, Hsieh EJ, Richter RJ, MacCoss MJ, Furlong CE
 
 </div>
 
-<div id="year-2012" class="year-content">
+<div id="year-2012" class="year-content" markdown="1">
 
 ### 2012
 
@@ -1259,7 +1259,7 @@ Dai DF, Hsieh EJ, Liu Y, Chen T, Beyer RP, Chin MT, MacCoss MJ, Rabinovitch PS
 
 </div>
 
-<div id="year-2011" class="year-content">
+<div id="year-2011" class="year-content" markdown="1">
 
 ### 2011
 
@@ -1310,7 +1310,7 @@ Friedman DB, Andacht TM, Bunger MK, Chien AS, Hawke DH, Krijgsveld J, Lane WS, L
 
 </div>
 
-<div id="year-2010" class="year-content">
+<div id="year-2010" class="year-content" markdown="1">
 
 ### 2010
 
@@ -1401,7 +1401,7 @@ Aagaard JE, Vacquier VD, MacCoss MJ, Swanson WJ
 
 </div>
 
-<div id="year-2009" class="year-content">
+<div id="year-2009" class="year-content" markdown="1">
 
 ### 2009
 
@@ -1447,7 +1447,7 @@ Hoopmann MR, Merrihew GE, von Haller PD, MacCoss MJ
 
 </div>
 
-<div id="year-2008" class="year-content">
+<div id="year-2008" class="year-content" markdown="1">
 
 ### 2008
 
@@ -1508,7 +1508,7 @@ Käll L, Storey JD, MacCoss MJ, Noble WS
 
 </div>
 
-<div id="year-2007" class="year-content">
+<div id="year-2007" class="year-content" markdown="1">
 
 ### 2007
 
@@ -1569,7 +1569,7 @@ Wegner DJ, Hertzberg T, Heins HB, Elmberger G, MacCoss MJ, Carlson CS, Nogee LM,
 
 </div>
 
-<div id="year-2006" class="year-content">
+<div id="year-2006" class="year-content" markdown="1">
 
 ### 2006
 
@@ -1605,7 +1605,7 @@ Blackler AR, Klammer AA, MacCoss MJ, Wu CC
 
 </div>
 
-<div id="year-2005" class="year-content">
+<div id="year-2005" class="year-content" markdown="1">
 
 ### 2005
 
@@ -1641,7 +1641,7 @@ MacCoss MJ
 
 </div>
 
-<div id="year-2004" class="year-content">
+<div id="year-2004" class="year-content" markdown="1">
 
 ### 2004
 
@@ -1667,7 +1667,7 @@ Wu CC, MacCoss MJ, Mardones G, Finnigan C, Mogelsvang S, Yates JR, Howell KE
 
 </div>
 
-<div id="year-2003" class="year-content">
+<div id="year-2003" class="year-content" markdown="1">
 
 ### 2003
 
@@ -1688,7 +1688,7 @@ Wu CC, MacCoss MJ, Howell KE, Yates JR
 
 </div>
 
-<div id="year-2002" class="year-content">
+<div id="year-2002" class="year-content" markdown="1">
 
 ### 2002
 
@@ -1719,7 +1719,7 @@ MacCoss MJ, McDonald WH, Saraf A, Sadygov R, Clark JM, Tasto JJ, Gould KL, Wolte
 
 </div>
 
-<div id="year-2001" class="year-content">
+<div id="year-2001" class="year-content" markdown="1">
 
 ### 2001
 
@@ -1750,7 +1750,7 @@ Toth MJ, Poehlman ET, Matthews DE, Tchernof A, MacCoss MJ
 
 </div>
 
-<div id="year-1999" class="year-content">
+<div id="year-1999" class="year-content" markdown="1">
 
 ### 1999
 
@@ -1761,7 +1761,7 @@ MacCoss MJ, Fukagawa NK, Matthews DE
 
 </div>
 
-<div id="year-1995" class="year-content">
+<div id="year-1995" class="year-content" markdown="1">
 
 ### 1995
 

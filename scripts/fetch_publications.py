@@ -91,9 +91,12 @@ def parse_pubmed_xml(xml_text):
         pmid = article.find('.//PMID')
         pub['pmid'] = pmid.text if pmid is not None else ''
         
-        # Get title
+        # Get title - use itertext() to handle embedded tags like <i>gene</i>
         title = article.find('.//ArticleTitle')
-        pub['title'] = title.text if title is not None else ''
+        if title is not None:
+            pub['title'] = ''.join(title.itertext())
+        else:
+            pub['title'] = ''
         
         # Get authors
         authors = []
@@ -305,7 +308,7 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
     # Add publication content for each year
     for year in sorted_years:
         active_class = " active" if year == sorted_years[0] else ""
-        pubs_section += f'\n<div id="year-{year}" class="year-content{active_class}">\n\n'
+        pubs_section += f'\n<div id="year-{year}" class="year-content{active_class}" markdown="1">\n\n'
         pubs_section += f'### {year}\n\n'
         
         # Sort publications within the year (try to sort by month if available)
