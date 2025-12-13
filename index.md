@@ -26,6 +26,7 @@ The focus of our research is in the development of mass spectrometry and stable 
 
 ## Highlighted Publications
 
+- **Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics** - Nature Communications, November 2025
 - **Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists** - Journal of Proteome Research, October 2025
 - **The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols** - Alzheimer's & Dementia, September 2025
 - **Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment** - Alzheimer's & Dementia, July 2025
