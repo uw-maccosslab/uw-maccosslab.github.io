@@ -543,12 +543,12 @@ def generate_metrics_plot(pubs_per_year, citations_per_year):
         print("No data available for plot generation")
         return False
     
-    # Create figure with two subplots
-    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+    # Create figure with two subplots (shorter height)
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 3.5))
     
-    # Define colors
+    # Define colors (same color for both panels)
     pub_color = '#2E86AB'  # Blue
-    cite_color = '#A23B72'  # Magenta/Pink
+    cite_color = '#2E86AB'  # Blue (matching publications)
     
     # Left panel: Publications per year
     if pubs_per_year:
