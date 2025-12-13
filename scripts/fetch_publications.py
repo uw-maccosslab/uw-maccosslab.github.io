@@ -289,24 +289,23 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 ## Publications by Year
 
 <div class="publications-container">
-  <div class="year-navigation">
+<div class="year-navigation">
 """
     
     # Add year buttons
     for year in sorted_years:
         count = len(pubs_by_year[year])
         active_class = " active" if year == sorted_years[0] else ""
-        pubs_section += f'    <button class="year-button{active_class}" onclick="showYear(event, \'{year}\')">{year} ({count})</button>\n'
+        pubs_section += f'<button class="year-button{active_class}" onclick="showYear(event, \'{year}\')">{year} ({count})</button>\n'
     
-    pubs_section += """  </div>
-  <div class="publications-content">
+    pubs_section += """</div>
+<div class="publications-content">
 """
     
     # Add publication content for each year
     for year in sorted_years:
         active_class = " active" if year == sorted_years[0] else ""
-        pubs_section += f'\n    <div id="year-{year}" class="year-content{active_class}">\n'
-        pubs_section += f'      <div markdown="1">\n\n'
+        pubs_section += f'\n<div id="year-{year}" class="year-content{active_class}">\n\n'
         pubs_section += f'### {year}\n\n'
         
         # Sort publications within the year (try to sort by month if available)
@@ -316,10 +315,9 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
         for pub in year_pubs:
             pubs_section += format_publication(pub) + '\n\n'
         
-        pubs_section += '      </div>\n'
-        pubs_section += '    </div>\n'
+        pubs_section += '</div>\n'
     
-    pubs_section += """  </div>
+    pubs_section += """</div>
 </div>
 
 <style>

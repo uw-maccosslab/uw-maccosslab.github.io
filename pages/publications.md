@@ -19,39 +19,38 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 ## Publications by Year
 
 <div class="publications-container">
-  <div class="year-navigation">
-    <button class="year-button active" onclick="showYear(event, '2025')">2025 (20)</button>
-    <button class="year-button" onclick="showYear(event, '2024')">2024 (10)</button>
-    <button class="year-button" onclick="showYear(event, '2023')">2023 (18)</button>
-    <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
-    <button class="year-button" onclick="showYear(event, '2021')">2021 (12)</button>
-    <button class="year-button" onclick="showYear(event, '2020')">2020 (20)</button>
-    <button class="year-button" onclick="showYear(event, '2019')">2019 (10)</button>
-    <button class="year-button" onclick="showYear(event, '2018')">2018 (20)</button>
-    <button class="year-button" onclick="showYear(event, '2017')">2017 (13)</button>
-    <button class="year-button" onclick="showYear(event, '2016')">2016 (13)</button>
-    <button class="year-button" onclick="showYear(event, '2015')">2015 (17)</button>
-    <button class="year-button" onclick="showYear(event, '2014')">2014 (16)</button>
-    <button class="year-button" onclick="showYear(event, '2013')">2013 (16)</button>
-    <button class="year-button" onclick="showYear(event, '2012')">2012 (18)</button>
-    <button class="year-button" onclick="showYear(event, '2011')">2011 (9)</button>
-    <button class="year-button" onclick="showYear(event, '2010')">2010 (17)</button>
-    <button class="year-button" onclick="showYear(event, '2009')">2009 (8)</button>
-    <button class="year-button" onclick="showYear(event, '2008')">2008 (11)</button>
-    <button class="year-button" onclick="showYear(event, '2007')">2007 (11)</button>
-    <button class="year-button" onclick="showYear(event, '2006')">2006 (6)</button>
-    <button class="year-button" onclick="showYear(event, '2005')">2005 (6)</button>
-    <button class="year-button" onclick="showYear(event, '2004')">2004 (4)</button>
-    <button class="year-button" onclick="showYear(event, '2003')">2003 (3)</button>
-    <button class="year-button" onclick="showYear(event, '2002')">2002 (5)</button>
-    <button class="year-button" onclick="showYear(event, '2001')">2001 (5)</button>
-    <button class="year-button" onclick="showYear(event, '1999')">1999 (1)</button>
-    <button class="year-button" onclick="showYear(event, '1995')">1995 (1)</button>
-  </div>
-  <div class="publications-content">
+<div class="year-navigation">
+<button class="year-button active" onclick="showYear(event, '2025')">2025 (20)</button>
+<button class="year-button" onclick="showYear(event, '2024')">2024 (10)</button>
+<button class="year-button" onclick="showYear(event, '2023')">2023 (18)</button>
+<button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
+<button class="year-button" onclick="showYear(event, '2021')">2021 (12)</button>
+<button class="year-button" onclick="showYear(event, '2020')">2020 (20)</button>
+<button class="year-button" onclick="showYear(event, '2019')">2019 (10)</button>
+<button class="year-button" onclick="showYear(event, '2018')">2018 (20)</button>
+<button class="year-button" onclick="showYear(event, '2017')">2017 (13)</button>
+<button class="year-button" onclick="showYear(event, '2016')">2016 (13)</button>
+<button class="year-button" onclick="showYear(event, '2015')">2015 (17)</button>
+<button class="year-button" onclick="showYear(event, '2014')">2014 (16)</button>
+<button class="year-button" onclick="showYear(event, '2013')">2013 (16)</button>
+<button class="year-button" onclick="showYear(event, '2012')">2012 (18)</button>
+<button class="year-button" onclick="showYear(event, '2011')">2011 (9)</button>
+<button class="year-button" onclick="showYear(event, '2010')">2010 (17)</button>
+<button class="year-button" onclick="showYear(event, '2009')">2009 (8)</button>
+<button class="year-button" onclick="showYear(event, '2008')">2008 (11)</button>
+<button class="year-button" onclick="showYear(event, '2007')">2007 (11)</button>
+<button class="year-button" onclick="showYear(event, '2006')">2006 (6)</button>
+<button class="year-button" onclick="showYear(event, '2005')">2005 (6)</button>
+<button class="year-button" onclick="showYear(event, '2004')">2004 (4)</button>
+<button class="year-button" onclick="showYear(event, '2003')">2003 (3)</button>
+<button class="year-button" onclick="showYear(event, '2002')">2002 (5)</button>
+<button class="year-button" onclick="showYear(event, '2001')">2001 (5)</button>
+<button class="year-button" onclick="showYear(event, '1999')">1999 (1)</button>
+<button class="year-button" onclick="showYear(event, '1995')">1995 (1)</button>
+</div>
+<div class="publications-content">
 
-    <div id="year-2025" class="year-content active">
-      <div markdown="1">
+<div id="year-2025" class="year-content active">
 
 ### 2025
 
@@ -155,11 +154,9 @@ Bramer LM, Nakayasu ES, Flores JE, Van Eyk JE, MacCoss MJ, Parikh HM, Metz TO, W
 *Scientific data* 2025 Jan;12(1):112
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/39833216/) | [DOI](https://doi.org/10.1038/s41597-024-04249-1)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2024" class="year-content">
-      <div markdown="1">
+<div id="year-2024" class="year-content">
 
 ### 2024
 
@@ -213,11 +210,9 @@ Vázquez Torres S, Leung PJY, Venkatesh P, Lutz ID, Hink F, Huynh HH, Becker J, 
 *Nature* 2024 Feb;626(7998):435-442
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/38109936/) | [DOI](https://doi.org/10.1038/s41586-023-06953-1)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2023" class="year-content">
-      <div markdown="1">
+<div id="year-2023" class="year-content">
 
 ### 2023
 
@@ -311,11 +306,9 @@ Basisty N, Shulman N, Wehrfritz C, Marsh AN, Shah S, Rose J, Ebert S, Miller M, 
 *Journal of proteome research* 2023 Feb;22(2):311-322
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/36165806/) | [DOI](https://doi.org/10.1021/acs.jproteome.2c00173)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2022" class="year-content">
-      <div markdown="1">
+<div id="year-2022" class="year-content">
 
 ### 2022
 
@@ -429,11 +422,9 @@ Endicott SJ, Monovich AC, Huang EL, Henry EI, Boynton DN, Beckmann LJ, MacCoss M
 *Autophagy* 2022 Jul;18(7):1551-1571
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/34704522/) | [DOI](https://doi.org/10.1080/15548627.2021.1990670)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2021" class="year-content">
-      <div markdown="1">
+<div id="year-2021" class="year-content">
 
 ### 2021
 
@@ -497,11 +488,9 @@ Vincow ES, Thomas RE, Merrihew GE, MacCoss MJ, Pallanck LJ
 *The journals of gerontology. Series A, Biological sciences and medical sciences* 2021 Sep;76(10):1734-1739
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/33453098/) | [DOI](https://doi.org/10.1093/gerona/glab015)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2020" class="year-content">
-      <div markdown="1">
+<div id="year-2020" class="year-content">
 
 ### 2020
 
@@ -605,11 +594,9 @@ Pino LK, Searle BC, Bollinger JG, Nunn B, MacLean B, MacCoss MJ
 *Mass spectrometry reviews* 2020 May;39(3):229-244
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/28691345/) | [DOI](https://doi.org/10.1002/mas.21540)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2019" class="year-content">
-      <div markdown="1">
+<div id="year-2019" class="year-content">
 
 ### 2019
 
@@ -663,11 +650,9 @@ Kim YJ, Sweet SMM, Egertson JD, Sedgewick AJ, Woo S, Liao WL, Merrihew GE, Searl
 *Journal of proteome research* 2019 Jan;18(1):426-435
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/30481034/) | [DOI](https://doi.org/10.1021/acs.jproteome.8b00699)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2018" class="year-content">
-      <div markdown="1">
+<div id="year-2018" class="year-content">
 
 ### 2018
 
@@ -771,11 +756,9 @@ Basisty NB, Liu Y, Reynolds J, Karunadharma PP, Dai DF, Fredrickson J, Beyer RP,
 *The journals of gerontology. Series A, Biological sciences and medical sciences* 2018 Apr;73(5):561-570
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/28958078/) | [DOI](https://doi.org/10.1093/gerona/glx047)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2017" class="year-content">
-      <div markdown="1">
+<div id="year-2017" class="year-content">
 
 ### 2017
 
@@ -844,11 +827,9 @@ Henderson CM, Bollinger JG, Becker JO, Wallace JM, Laha TJ, MacCoss MJ, Hoofnagl
 *Proteomics. Clinical applications* 2017 Jul;11(7-8)
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/28112871/) | [DOI](https://doi.org/10.1002/prca.201600103)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2016" class="year-content">
-      <div markdown="1">
+<div id="year-2016" class="year-content">
 
 ### 2016
 
@@ -917,11 +898,9 @@ Kruse SE, Karunadharma PP, Basisty N, Johnson R, Beyer RP, MacCoss MJ, Rabinovit
 *Aging cell* 2016 Feb;15(1):89-99
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/26498839/) | [DOI](https://doi.org/10.1111/acel.12412)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2015" class="year-content">
-      <div markdown="1">
+<div id="year-2015" class="year-content">
 
 ### 2015
 
@@ -1010,11 +989,9 @@ Kim TY, Siesser PF, Rossman KL, Goldfarb D, Mackinnon K, Yan F, Yi X, MacCoss MJ
 *Molecular and cellular biology* 2015 Jan;35(1):167-81
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/25332235/) | [DOI](https://doi.org/10.1128/MCB.00857-14)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2014" class="year-content">
-      <div markdown="1">
+<div id="year-2014" class="year-content">
 
 ### 2014
 
@@ -1098,11 +1075,9 @@ Woo S, Cha SW, Merrihew G, He Y, Castellana N, Guest C, MacCoss M, Bafna V
 *Journal of proteome research* 2014 Jan;13(1):21-8
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/23802565/) | [DOI](https://doi.org/10.1021/pr400294c)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2013" class="year-content">
-      <div markdown="1">
+<div id="year-2013" class="year-content">
 
 ### 2013
 
@@ -1186,11 +1161,9 @@ Marsillach J, Hsieh EJ, Richter RJ, MacCoss MJ, Furlong CE
 *Chemico-biological interactions* 2013 Mar;203(1):85-90
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/23123252/) | [DOI](https://doi.org/10.1016/j.cbi.2012.10.019)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2012" class="year-content">
-      <div markdown="1">
+<div id="year-2012" class="year-content">
 
 ### 2012
 
@@ -1284,11 +1257,9 @@ Dai DF, Hsieh EJ, Liu Y, Chen T, Beyer RP, Chin MT, MacCoss MJ, Rabinovitch PS
 *Cardiovascular research* 2012 Jan;93(1):79-88
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/22012956/) | [DOI](https://doi.org/10.1093/cvr/cvr274)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2011" class="year-content">
-      <div markdown="1">
+<div id="year-2011" class="year-content">
 
 ### 2011
 
@@ -1337,11 +1308,9 @@ Friedman DB, Andacht TM, Bunger MK, Chien AS, Hawke DH, Krijgsveld J, Lane WS, L
 *Proteomics* 2011 Apr;11(8):1371-81
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/21394914/) | [DOI](https://doi.org/10.1002/pmic.201000736)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2010" class="year-content">
-      <div markdown="1">
+<div id="year-2010" class="year-content">
 
 ### 2010
 
@@ -1430,11 +1399,9 @@ Aagaard JE, Vacquier VD, MacCoss MJ, Swanson WJ
 *Molecular biology and evolution* 2010 Jan;27(1):193-203
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/19767347/) | [DOI](https://doi.org/10.1093/molbev/msp221)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2009" class="year-content">
-      <div markdown="1">
+<div id="year-2009" class="year-content">
 
 ### 2009
 
@@ -1478,11 +1445,9 @@ Hoopmann MR, Merrihew GE, von Haller PD, MacCoss MJ
 *Journal of proteome research* 2009 Apr;8(4):1870-5
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/19256536/) | [DOI](https://doi.org/10.1021/pr800828p)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2008" class="year-content">
-      <div markdown="1">
+<div id="year-2008" class="year-content">
 
 ### 2008
 
@@ -1541,11 +1506,9 @@ Käll L, Storey JD, MacCoss MJ, Noble WS
 *Journal of proteome research* 2008 Jan;7(1):40-4
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/18052118/) | [DOI](https://doi.org/10.1021/pr700739d)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2007" class="year-content">
-      <div markdown="1">
+<div id="year-2007" class="year-content">
 
 ### 2007
 
@@ -1604,11 +1567,9 @@ Wegner DJ, Hertzberg T, Heins HB, Elmberger G, MacCoss MJ, Carlson CS, Nogee LM,
 *Acta paediatrica (Oslo, Norway : 1992)* 2007 Apr;96(4):516-20
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/17391469/) | [DOI](https://doi.org/10.1111/j.1651-2227.2006.00188.x)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2006" class="year-content">
-      <div markdown="1">
+<div id="year-2006" class="year-content">
 
 ### 2006
 
@@ -1642,11 +1603,9 @@ Blackler AR, Klammer AA, MacCoss MJ, Wu CC
 *Analytical chemistry* 2006 Feb;78(4):1337-44
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/16478131/) | [DOI](https://doi.org/10.1021/ac051486a)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2005" class="year-content">
-      <div markdown="1">
+<div id="year-2005" class="year-content">
 
 ### 2005
 
@@ -1680,11 +1639,9 @@ MacCoss MJ
 *Current opinion in chemical biology* 2005 Feb;9(1):88-94
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/15701459/) | [DOI](https://doi.org/10.1016/j.cbpa.2004.12.010)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2004" class="year-content">
-      <div markdown="1">
+<div id="year-2004" class="year-content">
 
 ### 2004
 
@@ -1708,11 +1665,9 @@ Wu CC, MacCoss MJ, Mardones G, Finnigan C, Mogelsvang S, Yates JR, Howell KE
 *Molecular biology of the cell* 2004 Jun;15(6):2907-19
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/15047867/) | [DOI](https://doi.org/10.1091/mbc.e04-02-0101)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2003" class="year-content">
-      <div markdown="1">
+<div id="year-2003" class="year-content">
 
 ### 2003
 
@@ -1731,11 +1686,9 @@ Wu CC, MacCoss MJ, Howell KE, Yates JR
 *Nature biotechnology* 2003 May;21(5):532-8
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/12692561/) | [DOI](https://doi.org/10.1038/nbt819)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2002" class="year-content">
-      <div markdown="1">
+<div id="year-2002" class="year-content">
 
 ### 2002
 
@@ -1764,11 +1717,9 @@ MacCoss MJ, McDonald WH, Saraf A, Sadygov R, Clark JM, Tasto JJ, Gould KL, Wolte
 *Proceedings of the National Academy of Sciences of the United States of America* 2002 Jun;99(12):7900-5
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/12060738/) | [DOI](https://doi.org/10.1073/pnas.122231399)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-2001" class="year-content">
-      <div markdown="1">
+<div id="year-2001" class="year-content">
 
 ### 2001
 
@@ -1797,11 +1748,9 @@ Toth MJ, Poehlman ET, Matthews DE, Tchernof A, MacCoss MJ
 *American journal of physiology. Endocrinology and metabolism* 2001 Mar;280(3):E496-501
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/11171605/) | [DOI](https://doi.org/10.1152/ajpendo.2001.280.3.E496)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-1999" class="year-content">
-      <div markdown="1">
+<div id="year-1999" class="year-content">
 
 ### 1999
 
@@ -1810,11 +1759,9 @@ MacCoss MJ, Fukagawa NK, Matthews DE
 *Analytical chemistry* 1999 Oct;71(20):4527-33
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/10546531/) | [DOI](https://doi.org/10.1021/ac990541a)
 
-      </div>
-    </div>
+</div>
 
-    <div id="year-1995" class="year-content">
-      <div markdown="1">
+<div id="year-1995" class="year-content">
 
 ### 1995
 
@@ -1823,9 +1770,8 @@ Griffin PR, MacCoss MJ, Eng JK, Blevins RA, Aaronson JS, Yates JR
 *Rapid communications in mass spectrometry : RCM* 1995;9(15):1546-51
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/8652878/) | [DOI](https://doi.org/10.1002/rcm.1290091515)
 
-      </div>
-    </div>
-  </div>
+</div>
+</div>
 </div>
 
 <style>
