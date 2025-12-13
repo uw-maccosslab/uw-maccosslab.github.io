@@ -18,9 +18,24 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2025
 
+**Genetic variation in the Nr1d1 transcription factor binding site shapes metabolism-related protein networks associated with cognitive resilience in an Alzheimer's disease mouse reference panel**
+Chen Y, Stevenson TK, Cao Y, Fish LA, Robbins JE, Merrihew GE, Park J, Hohman TJ, MacCoss MJ, Kaczorowski CC
+*Alzheimer's & Dementia* 2025 Nov;21(11):e70896
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41225772/) | [DOI](https://doi.org/10.1002/alz.70896)
+
+**The ProteomeXchange consortium in 2026: making proteomics data FAIR**
+Deutsch EW, Bandeira N, Perez-Riverol Y, Sharma V, Carver JJ, Mendoza L, Kundu DJ, Bandla C, Kamatchinathan S, Hewapathirana S, Sun Z, Kawano S, Okuda S, Connolly B, MacLean B, MacCoss MJ, Chen T, Zhu Y, Ishihama Y, Vizcaíno JA
+*Nucleic Acids Research* 2025 Nov 6;gkaf1146 (Online ahead of print)
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41206473/) | [DOI](https://doi.org/10.1093/nar/gkaf1146)
+
+**Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics**
+Wen B, Hsu C, Shteynberg D, Zeng WF, Riffle M, Chang A, Mudge MC, Nunn BL, MacLean BX, Berg MD, Villén J, MacCoss MJ, Noble WS
+*Nature Communications* 2025 Nov 6;16(1):9815
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41198693/) | [DOI](https://doi.org/10.1038/s41467-025-64928-4)
+
 **Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists**
 Hsu C, Shulman N, Stewart HI, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc NE, MacLean BX, Remes PM, Canterbury JD, Makarov AA, Hock C, Zabrouskov V, Wu CC, MacCoss MJ
-*Journal of Proteome Research* 2025 Oct 22 (Online ahead of print)
+*Journal of Proteome Research* 2025 Nov 7;24(11):5742-5754
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/41122818/) | [DOI](https://doi.org/10.1021/acs.jproteome.5c00593)
 
 **The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols**

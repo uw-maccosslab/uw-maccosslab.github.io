@@ -1,0 +1,56 @@
+name: Update Publications from PubMed
+
+on:
+  # Run weekly on Sundays at midnight UTC
+  schedule:
+    - cron: '0 0 * * 0'
+  # Allow manual trigger
+  workflow_dispatch:
+  # Optionally run on push to main (commented out to avoid too frequent updates)
+  # push:
+  #   branches: [main]
+
+jobs:
+  update-publications:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Fetch publications from PubMed
+        run: python scripts/fetch_publications.py
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git diff --quiet pages/publications.md || echo "changes=true" >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.changes == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Auto-update publications from PubMed"
+          title: "📚 Update publications from PubMed"
+          body: |
+            This PR was automatically generated to update the publications list from PubMed.
+            
+            Please review the changes before merging.
+          branch: auto-update-publications
+          delete-branch: true
+          labels: |
+            automated
+            publications
