@@ -10,13 +10,38 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Citations**: >51,611 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Citations**: >52,303 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: >103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,169+ citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,219+ citations)
 
 ## Recent Publications
 
 ### 2025
+
+**Corrigendum to "Comprehensive Proteomics Metadata and Integrative Web Portals Facilitate Sharing and Integration of LINCS Multiomics Data"**
+Vidović D, Shamsaei B, Schürer SC, Kogan P, Chojnacki S, Kouril M, Medvedovic M, Niu W, Azeloglu EU, Birtwistle MR, Chen Y, Chen T, Hansen J, Hu B, Iyengar R, Jayaraman G, Li H, Liu T, Sobie EA, Xiong Y, Berberich MJ, Bradshaw G, Chung M, Everley RA, Gaudio B, Hafner M, Kalocsay M, Mills CE, Nariya MK, Sorger PK, Subramanian K, Victor C, Banuelos M, Dardov V, Holewinski R, Manalo DM, Mandefro B, Matlock AD, Ornelas L, Sareen D, Svendsen CN, Vaibhav V, Van Eyk JE, Venkatraman V, Finkbiener S, Fraenkel E, Rothstein J, Thompson L, Asiedu J, Carr SA, Christianson KE, Davison D, Dele-Oni DO, DeRuff KC, Egri SB, Vaca Jacome AS, Jaffe JD, Lam D, Litichevskiy L, Lu X, Mullahoo J, Officer A, Papanastasiou M, Peckner R, Toder C, Blanchard J, Bula M, Ko T, Tsai LH, Young JZ, Sharma V, Meller J, MacCoss MJ
+*Molecular & cellular proteomics : MCP* 2025 Jul;24(7):100995
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40783300/) | [DOI](https://doi.org/10.1016/j.mcpro.2025.100995)
+
+**Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists**
+Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2025 Jul
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40501761/) | [DOI](https://doi.org/10.1101/2025.05.30.657132)
+
+**Data-independent acquisition proteomic analysis of the brain microvasculature in Alzheimer's disease identifies major pathways of dysfunction and upregulation of cytoprotective responses**
+Erickson MA, Johnson RS, Damodarasamy M, MacCoss MJ, Keene CD, Banks WA, Reed MJ
+*Fluids and barriers of the CNS* 2024 Oct;21(1):84
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39434151/) | [DOI](https://doi.org/10.1186/s12987-024-00581-1)
+
+**Tissue-specific metabolomic signatures for a **
+Coig R, Harrison BR, Johnson RS, MacCoss MJ, Promislow DEL
+*bioRxiv : the preprint server for biology* 2024 Sep
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39345368/) | [DOI](https://doi.org/10.1101/2024.09.11.612537)
+
+**A Framework for Quality Control in Quantitative Proteomics**
+Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ
+*Journal of proteome research* 2024 Oct;23(10):4392-4408
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39248652/) | [DOI](https://doi.org/10.1021/acs.jproteome.4c00363)
 
 **Genetic variation in the Nr1d1 transcription factor binding site shapes metabolism-related protein networks associated with cognitive resilience in an Alzheimer's disease mouse reference panel**
 Chen Y, Stevenson TK, Cao Y, Fish LA, Robbins JE, Merrihew GE, Park J, Hohman TJ, MacCoss MJ, Kaczorowski CC

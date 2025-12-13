@@ -3,7 +3,8 @@
 Fetch publications from PubMed for the MacCoss Lab and update publications.md
 
 This script uses the NCBI E-utilities API to fetch recent publications
-and updates the publications page with new entries.
+and updates the publications page with new entries. It also scrapes
+Google Scholar for citation metrics.
 """
 
 import requests
@@ -11,11 +12,17 @@ import xml.etree.ElementTree as ET
 import re
 from datetime import datetime
 from pathlib import Path
+from bs4 import BeautifulSoup
+import time
 
 # Configuration
 PUBMED_SEARCH_TERM = 'Maccoss, Michael[Full Author Name] OR MacCoss MJ[Author]'
 PUBLICATIONS_FILE = Path(__file__).parent.parent / 'pages' / 'publications.md'
 MAX_RESULTS = 30  # Number of recent publications to fetch
+
+# Google Scholar profile URL
+GOOGLE_SCHOLAR_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en'
+GOOGLE_SCHOLAR_SORTED_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en&sortby=pubdate'
 
 # NCBI E-utilities base URLs
 ESEARCH_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
@@ -232,7 +239,158 @@ def update_publications_file(publications, existing_pmids):
             return False
 
 
+def fetch_google_scholar_metrics():
+    """
+    Fetch citation metrics from Google Scholar profile.
+    
+    Returns a dict with:
+    - total_citations: Total number of citations
+    - h_index: h-index value
+    - most_cited_count: Citation count of the most cited paper
+    - most_cited_title: Title of the most cited paper
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+    }
+    
+    try:
+        # Fetch the main profile page for citation stats
+        response = requests.get(GOOGLE_SCHOLAR_URL, headers=headers, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Extract citation metrics from the stats table
+        # The table has class gsc_rsb_st and contains rows with gsc_rsb_std class cells
+        total_citations = None
+        h_index = None
+        
+        # Find all table cells with gsc_rsb_std class (these contain the metric values)
+        # Structure: row 1 = Citations (All, Since YYYY), row 2 = h-index, row 3 = i10-index
+        stats_cells = soup.find_all('td', class_='gsc_rsb_std')
+        
+        if len(stats_cells) >= 4:
+            # First cell is "All" citations, second is "Since YYYY" citations
+            # Third cell is "All" h-index, fourth is "Since YYYY" h-index
+            try:
+                citations_text = stats_cells[0].get_text(strip=True)
+                if citations_text:
+                    total_citations = int(citations_text.replace(',', ''))
+            except (ValueError, IndexError):
+                pass
+            
+            try:
+                h_index_text = stats_cells[2].get_text(strip=True)
+                if h_index_text:
+                    h_index = int(h_index_text.replace(',', ''))
+            except (ValueError, IndexError):
+                pass
+        
+        # Find the most cited paper - it's the first one by default (sorted by citations)
+        # We need to look at the publications list
+        most_cited_count = None
+        most_cited_title = None
+        
+        # The publications are in gsc_a_tr rows
+        pub_rows = soup.find_all('tr', class_='gsc_a_tr')
+        if pub_rows:
+            # The default sort is by citations, so first paper is most cited
+            first_pub = pub_rows[0]
+            title_elem = first_pub.find('a', class_='gsc_a_at')
+            cite_elem = first_pub.find('a', class_='gsc_a_ac')
+            
+            if title_elem:
+                most_cited_title = title_elem.get_text(strip=True)
+            if cite_elem:
+                cite_text = cite_elem.get_text(strip=True)
+                if cite_text:
+                    most_cited_count = int(cite_text.replace(',', ''))
+        
+        print(f"Google Scholar metrics fetched:")
+        print(f"  Total citations: {total_citations}")
+        print(f"  h-index: {h_index}")
+        print(f"  Most cited paper: {most_cited_count} citations")
+        if most_cited_title:
+            print(f"    Title: {most_cited_title[:60]}...")
+        
+        return {
+            'total_citations': total_citations,
+            'h_index': h_index,
+            'most_cited_count': most_cited_count,
+            'most_cited_title': most_cited_title
+        }
+        
+    except requests.RequestException as e:
+        print(f"Error fetching Google Scholar data: {e}")
+        return None
+    except Exception as e:
+        print(f"Error parsing Google Scholar data: {e}")
+        return None
+
+
+def update_publication_metrics(metrics):
+    """Update the Publication Metrics section in publications.md with Google Scholar data."""
+    if not metrics:
+        print("No metrics to update")
+        return False
+    
+    content = PUBLICATIONS_FILE.read_text()
+    
+    updated = False
+    
+    # Update total citations
+    if metrics.get('total_citations'):
+        # Match pattern like: - **Total Citations**: >51,611
+        pattern = r'(\*\*Total Citations\*\*:\s*>?)[\d,]+'
+        replacement = f"**Total Citations**: >{metrics['total_citations']:,}"
+        new_content, count = re.subn(pattern, replacement, content)
+        if count > 0:
+            content = new_content
+            updated = True
+            print(f"Updated total citations to >{metrics['total_citations']:,}")
+    
+    # Update h-index
+    if metrics.get('h_index'):
+        # Match pattern like: - **h-index**: >103
+        pattern = r'(\*\*h-index\*\*:\s*>?)\d+'
+        replacement = f"**h-index**: >{metrics['h_index']}"
+        new_content, count = re.subn(pattern, replacement, content)
+        if count > 0:
+            content = new_content
+            updated = True
+            print(f"Updated h-index to >{metrics['h_index']}")
+    
+    # Update most cited paper citation count
+    if metrics.get('most_cited_count'):
+        # Match pattern like: (5,169+ citations)
+        pattern = r'\([\d,]+\+?\s*citations\)'
+        replacement = f"({metrics['most_cited_count']:,}+ citations)"
+        new_content, count = re.subn(pattern, replacement, content)
+        if count > 0:
+            content = new_content
+            updated = True
+            print(f"Updated most cited paper to {metrics['most_cited_count']:,}+ citations")
+    
+    if updated:
+        PUBLICATIONS_FILE.write_text(content)
+        print(f"Updated publication metrics in {PUBLICATIONS_FILE}")
+        return True
+    else:
+        print("No metrics were updated")
+        return False
+
+
 def main():
+    # First, update Google Scholar metrics
+    print("Fetching Google Scholar metrics...")
+    metrics = fetch_google_scholar_metrics()
+    if metrics:
+        update_publication_metrics(metrics)
+    else:
+        print("Could not fetch Google Scholar metrics")
+    
+    print()  # Blank line for readability
     print(f"Searching PubMed for: {PUBMED_SEARCH_TERM}")
     
     # Search for publications
