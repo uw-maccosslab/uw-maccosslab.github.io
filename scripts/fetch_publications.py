@@ -193,27 +193,23 @@ def get_existing_pmids(content):
     return set(re.findall(pmid_pattern, content))
 
 
-def should_exclude_publication(pub):
+def is_preprint(pub):
     """
-    Check if a publication should be excluded from the publications list.
-    
-    Excludes:
-    - Preprints (bioRxiv, arXiv, medRxiv, etc.)
-    - Corrigenda, errata, and corrections
+    Check if a publication is a preprint.
     """
-    # Check journal name for preprint servers
     journal_lower = pub.get('journal', '').lower()
     preprint_journals = ['biorxiv', 'arxiv', 'medrxiv', 'preprint', 'chemrxiv', 'ssrn']
-    if any(preprint in journal_lower for preprint in preprint_journals):
-        return True
-    
-    # Check title for corrigenda, errata, corrections
-    title_lower = pub.get('title', '').lower()
-    correction_terms = ['corrigendum', 'erratum', 'correction', 'retraction', 'addendum']
-    if any(term in title_lower for term in correction_terms):
-        return True
-    
-    return False
+    return any(preprint in journal_lower for preprint in preprint_journals)
+
+
+def count_publication_types(publications):
+    """
+    Count peer-reviewed publications and preprints.
+    Returns (total, peer_reviewed, preprints).
+    """
+    preprints = sum(1 for pub in publications if is_preprint(pub))
+    peer_reviewed = len(publications) - preprints
+    return len(publications), peer_reviewed, preprints
 
 
 def update_publications_file(publications, existing_pmids):
@@ -221,23 +217,8 @@ def update_publications_file(publications, existing_pmids):
     Completely regenerate the publications.md file with all publications grouped by year.
     Publications are sorted in reverse chronological order with year-based navigation.
     """
-    # Filter out preprints and corrigenda
-    filtered_pubs = []
-    excluded_count = 0
-    for pub in publications:
-        if should_exclude_publication(pub):
-            excluded_count += 1
-            print(f"  Excluding: {pub['title'][:60]}... ({pub['journal']})")
-        else:
-            filtered_pubs.append(pub)
-    
-    if excluded_count > 0:
-        print(f"Excluded {excluded_count} preprint(s)/corrigendum(a)")
-    
-    publications = filtered_pubs
-    
     if not publications:
-        print("No publications found after filtering.")
+        print("No publications found.")
         return False
     
     print(f"Processing {len(publications)} publications")
@@ -556,9 +537,9 @@ def fetch_google_scholar_metrics():
         return None
 
 
-def update_publication_metrics(metrics):
+def update_publication_metrics(metrics, pub_counts=None):
     """Update the Publication Metrics section in publications.md with Google Scholar data."""
-    if not metrics:
+    if not metrics and not pub_counts:
         print("No metrics to update")
         return False
     
@@ -566,8 +547,20 @@ def update_publication_metrics(metrics):
     
     updated = False
     
+    # Update total publications count
+    if pub_counts:
+        total, peer_reviewed, preprints = pub_counts
+        # Match pattern like: - **Total Publications**: 334 (312 peer-reviewed + 22 preprints)
+        pattern = r'\*\*Total Publications\*\*:\s*\d+\s*\(\d+\s*peer-reviewed\s*\+\s*\d+\s*preprints\)'
+        replacement = f"**Total Publications**: {total} ({peer_reviewed} peer-reviewed + {preprints} preprints)"
+        new_content, count = re.subn(pattern, replacement, content)
+        if count > 0:
+            content = new_content
+            updated = True
+            print(f"Updated total publications to {total} ({peer_reviewed} peer-reviewed + {preprints} preprints)")
+    
     # Update total citations
-    if metrics.get('total_citations'):
+    if metrics and metrics.get('total_citations'):
         # Match pattern like: - **Total Citations**: 51,611
         pattern = r'(\*\*Total Citations\*\*:\s*>?)[\d,]+'
         replacement = f"**Total Citations**: {metrics['total_citations']:,}"
@@ -578,7 +571,7 @@ def update_publication_metrics(metrics):
             print(f"Updated total citations to {metrics['total_citations']:,}")
     
     # Update h-index
-    if metrics.get('h_index'):
+    if metrics and metrics.get('h_index'):
         # Match pattern like: - **h-index**: 103
         pattern = r'(\*\*h-index\*\*:\s*>?)\d+'
         replacement = f"**h-index**: {metrics['h_index']}"
@@ -589,7 +582,7 @@ def update_publication_metrics(metrics):
             print(f"Updated h-index to {metrics['h_index']}")
     
     # Update most cited paper citation count
-    if metrics.get('most_cited_count'):
+    if metrics and metrics.get('most_cited_count'):
         # Match pattern like: (5,169 citations)
         pattern = r'\([\d,]+\+?\s*citations\)'
         replacement = f"({metrics['most_cited_count']:,} citations)"
@@ -597,7 +590,7 @@ def update_publication_metrics(metrics):
         if count > 0:
             content = new_content
             updated = True
-            print(f"Updated most cited paper to {metrics['most_cited_count']:,} citations")
+            print(f"Updated most cited paper to {metrics['most_cited_count']:,} citations)")
     
     if updated:
         PUBLICATIONS_FILE.write_text(content)
@@ -797,10 +790,6 @@ def main():
     # First, update Google Scholar metrics and get citations per year
     print("Fetching Google Scholar metrics...")
     metrics = fetch_google_scholar_metrics()
-    if metrics:
-        update_publication_metrics(metrics)
-    else:
-        print("Could not fetch Google Scholar metrics")
     
     # Fetch citations per year for the plot
     print()
@@ -821,6 +810,17 @@ def main():
     # Fetch publication details
     publications = fetch_publication_details(pmids)
     print(f"Fetched details for {len(publications)} publications")
+    
+    # Count publication types (peer-reviewed vs preprints)
+    pub_counts = count_publication_types(publications)
+    total, peer_reviewed, preprints = pub_counts
+    print(f"Publication breakdown: {peer_reviewed} peer-reviewed + {preprints} preprints = {total} total")
+    
+    # Update publication metrics (Google Scholar + publication counts)
+    if metrics or pub_counts:
+        update_publication_metrics(metrics, pub_counts)
+    else:
+        print("Could not fetch metrics")
     
     # Regenerate the entire publications file with year navigation
     update_publications_file(publications, set())

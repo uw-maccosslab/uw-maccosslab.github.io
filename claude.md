@@ -47,9 +47,9 @@ Publications are displayed with a sidebar showing all years. Clicking a year sho
 - `.year-navigation` - sticky sidebar with year buttons
 - `.year-content` - content divs for each year (only one visible at a time)
 
-### Important Filtering Rules
-- **Excludes preprints**: bioRxiv, arXiv, medRxiv, chemRxiv
-- **Excludes corrections**: Corrigenda, errata, retractions, addenda
+### Publication Sources
+- All publications are fetched from PubMed (including preprints)
+- This ensures the sidebar counts match the Publications per Year plot
 
 ### Workflow Schedule
 - Runs weekly on Sundays at midnight UTC

@@ -10,6 +10,7 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
+- **Total Publications**: 334 (312 peer-reviewed + 22 preprints)
 - **Total Citations**: 52,303 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 103
 - **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,219 citations)
@@ -20,11 +21,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2025')">2025 (20)</button>
-<button class="year-button" onclick="showYear(event, '2024')">2024 (10)</button>
-<button class="year-button" onclick="showYear(event, '2023')">2023 (18)</button>
+<button class="year-button active" onclick="showYear(event, '2025')">2025 (26)</button>
+<button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
+<button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
-<button class="year-button" onclick="showYear(event, '2021')">2021 (12)</button>
+<button class="year-button" onclick="showYear(event, '2021')">2021 (13)</button>
 <button class="year-button" onclick="showYear(event, '2020')">2020 (20)</button>
 <button class="year-button" onclick="showYear(event, '2019')">2019 (10)</button>
 <button class="year-button" onclick="showYear(event, '2018')">2018 (20)</button>
@@ -33,11 +34,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <button class="year-button" onclick="showYear(event, '2015')">2015 (17)</button>
 <button class="year-button" onclick="showYear(event, '2014')">2014 (16)</button>
 <button class="year-button" onclick="showYear(event, '2013')">2013 (16)</button>
-<button class="year-button" onclick="showYear(event, '2012')">2012 (18)</button>
+<button class="year-button" onclick="showYear(event, '2012')">2012 (19)</button>
 <button class="year-button" onclick="showYear(event, '2011')">2011 (9)</button>
 <button class="year-button" onclick="showYear(event, '2010')">2010 (17)</button>
 <button class="year-button" onclick="showYear(event, '2009')">2009 (8)</button>
-<button class="year-button" onclick="showYear(event, '2008')">2008 (11)</button>
+<button class="year-button" onclick="showYear(event, '2008')">2008 (12)</button>
 <button class="year-button" onclick="showYear(event, '2007')">2007 (11)</button>
 <button class="year-button" onclick="showYear(event, '2006')">2006 (6)</button>
 <button class="year-button" onclick="showYear(event, '2005')">2005 (6)</button>
@@ -84,6 +85,11 @@ Vicente JJ, Wagenbach M, Decarreau J, Zelter A, MacCoss MJ, Davis TN, Wordeman L
 *Current biology : CB* 2025 Nov;35(21):5119-5135.e4
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40975050/) | [DOI](https://doi.org/10.1016/j.cub.2025.08.064)
 
+**Corrigendum to "Comprehensive Proteomics Metadata and Integrative Web Portals Facilitate Sharing and Integration of LINCS Multiomics Data"**
+Vidović D, Shamsaei B, Schürer SC, Kogan P, Chojnacki S, Kouril M, Medvedovic M, Niu W, Azeloglu EU, Birtwistle MR, Chen Y, Chen T, Hansen J, Hu B, Iyengar R, Jayaraman G, Li H, Liu T, Sobie EA, Xiong Y, Berberich MJ, Bradshaw G, Chung M, Everley RA, Gaudio B, Hafner M, Kalocsay M, Mills CE, Nariya MK, Sorger PK, Subramanian K, Victor C, Banuelos M, Dardov V, Holewinski R, Manalo DM, Mandefro B, Matlock AD, Ornelas L, Sareen D, Svendsen CN, Vaibhav V, Van Eyk JE, Venkatraman V, Finkbiener S, Fraenkel E, Rothstein J, Thompson L, Asiedu J, Carr SA, Christianson KE, Davison D, Dele-Oni DO, DeRuff KC, Egri SB, Vaca Jacome AS, Jaffe JD, Lam D, Litichevskiy L, Lu X, Mullahoo J, Officer A, Papanastasiou M, Peckner R, Toder C, Blanchard J, Bula M, Ko T, Tsai LH, Young JZ, Sharma V, Meller J, MacCoss MJ
+*Molecular & cellular proteomics : MCP* 2025 Jul;24(7):100995
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40783300/) | [DOI](https://doi.org/10.1016/j.mcpro.2025.100995)
+
 **Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism**
 Coig R, Harrison B, Johnson R, MacCoss MJ, Promislow D
 *Royal Society open science* 2025 Jul;12(7):250770
@@ -108,6 +114,16 @@ Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthe
 Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U
 *Nature methods* 2025 Jul;22(7):1454-1463
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40524023/) | [DOI](https://doi.org/10.1038/s41592-025-02719-x)
+
+**Improved quantitative accuracy in data-independent acquisition proteomics via retention time boundary imputation**
+Harris L, Riffle M, Noble WS, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2025 May
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40502008/) | [DOI](https://doi.org/10.1101/2025.05.27.656394)
+
+**Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists**
+Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2025 Jul
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40501761/) | [DOI](https://doi.org/10.1101/2025.05.30.657132)
 
 **Quantification of glucagon and oxyntomodulin by protein precipitation-immunoaffinity enrichment-LC-MS/MS**
 Becker JO, Shijo SK, Huynh HH, Forrest KL, MacCoss MJ, Emrick MA, Goonatilleke E, Hoofnagle AN
@@ -139,6 +155,11 @@ Vidović D, Shamsaei B, Schürer SC, Kogan P, Chojnacki S, Kouril M, Medvedovic 
 *Molecular & cellular proteomics : MCP* 2025 Jul;24(7):100947
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/40089066/) | [DOI](https://doi.org/10.1016/j.mcpro.2025.100947)
 
+**Massively parallel assessment of designed protein solution properties using mass spectrometry and peptide barcoding**
+Feldman D, Sims JN, Li X, Johnson R, Gerben S, Kim DE, Richardson C, Koepnick B, Eisenach H, Hicks DR, Yang EC, Wicky BIM, Milles LF, Bera AK, Kang A, Brackenbrough E, Joyce E, Sankaran B, Lubner JM, Goreshnik I, Vafeados D, Allen A, Stewart L, MacCoss MJ, Baker D
+*bioRxiv : the preprint server for biology* 2025 Feb
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/40060547/) | [DOI](https://doi.org/10.1101/2025.02.24.639402)
+
 **Biomarkers, Proteoforms, and Mass Spectrometry-Based Assays for Diabetes Clinical Research**
 Nierves LA, Lin TT, Moradian A, Shen Q, Sechi S, MacCoss MJ, Qu J, van Eyk JE, Hoofnagle AN, Qian WJ
 *The Journal of clinical endocrinology and metabolism* 2025 May;110(6):1514-1523
@@ -153,6 +174,16 @@ Riffle M, Zelter A, Jaschob D, Hoopmann MR, Faivre DA, Moritz RL, Davis TN, MacC
 Bramer LM, Nakayasu ES, Flores JE, Van Eyk JE, MacCoss MJ, Parikh HM, Metz TO, Webb-Robertson BM
 *Scientific data* 2025 Jan;12(1):112
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/39833216/) | [DOI](https://doi.org/10.1038/s41597-024-04249-1)
+
+**Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics**
+Wen B, Hsu C, Shteynberg D, Zeng WF, Riffle M, Chang A, Mudge M, Nunn BL, MacLean BX, Berg MD, Villén J, MacCoss MJ, Noble WS
+*bioRxiv : the preprint server for biology* 2025 Aug
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39463980/) | [DOI](https://doi.org/10.1101/2024.10.15.618504)
+
+**Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment**
+Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U
+*bioRxiv : the preprint server for biology* 2025 Jan
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38895431/) | [DOI](https://doi.org/10.1101/2024.06.01.596967)
 
 </div>
 
@@ -175,6 +206,11 @@ Erickson MA, Johnson RS, Damodarasamy M, MacCoss MJ, Keene CD, Banks WA, Reed MJ
 *Fluids and barriers of the CNS* 2024 Oct;21(1):84
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/39434151/) | [DOI](https://doi.org/10.1186/s12987-024-00581-1)
 
+**Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism**
+Coig R, Harrison BR, Johnson RS, MacCoss MJ, Promislow DEL
+*bioRxiv : the preprint server for biology* 2024 Sep
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39345368/) | [DOI](https://doi.org/10.1101/2024.09.11.612537)
+
 **A Framework for Quality Control in Quantitative Proteomics**
 Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ
 *Journal of proteome research* 2024 Oct;23(10):4392-4408
@@ -189,6 +225,41 @@ Thangudu RR, Holck M, Singhal D, Pilozzi A, Edwards N, Rudnick PA, Domagalski MJ
 Kerr HL, Krumm K, Anderson B, Christiani A, Strait L, Li T, Irwin B, Jiang S, Rybachok A, Chen A, Dacek E, Caeiro L, Merrihew GE, MacDonald JW, Bammler TK, MacCoss MJ, Garcia JM
 *The Journal of clinical investigation* 2024 Jun;134(16)
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/39145448/) | [DOI](https://doi.org/10.1172/JCI172890)
+
+**A second X chromosome improves cognition in aging male and female mice**
+Marino F, Wang D, Merrihew GE, MacCoss MJ, Dubal DB
+*bioRxiv : the preprint server for biology* 2024 Jul
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/39091744/) | [DOI](https://doi.org/10.1101/2024.07.26.605328)
+
+**Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer**
+Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston K, Montine T, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2024 Jun
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38895256/) | [DOI](https://doi.org/10.1101/2024.06.04.597431)
+
+**Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics**
+Remes PM, Jacob CC, Heil LR, Shulman N, MacLean BX, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2024 Jun
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38854069/) | [DOI](https://doi.org/10.1101/2024.05.31.596848)
+
+**Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer**
+Plubell DL, Huang E, Spencer SE, Poston K, Montine TJ, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2024 May
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38853953/) | [DOI](https://doi.org/10.1101/2024.05.29.596554)
+
+**A framework for quality control in quantitative proteomics**
+Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2024 Aug
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38645098/) | [DOI](https://doi.org/10.1101/2024.04.12.589318)
+
+**The kinesin motor Kif9 regulates centriolar satellite positioning and mitotic progression**
+Vicente JJ, Wagenbach M, Decarreau J, Zelter A, MacCoss MJ, Davis TN, Wordeman L
+*bioRxiv : the preprint server for biology* 2024 Apr
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38617353/) | [DOI](https://doi.org/10.1101/2024.04.03.587821)
+
+**Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome**
+Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2024 Apr
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38617345/) | [DOI](https://doi.org/10.1101/2023.06.10.544439)
 
 **Interlaboratory Comparison of Antibody-Free LC-MS/MS Measurements of C-peptide and Insulin**
 Moradian A, Goonatilleke E, Lin TT, Hatten-Beck M, Emrick M, Schepmoes AA, Fillmore TL, MacCoss MJ, Sechi S, Sobhani K, Little R, Kabytaev K, van Eyk JE, Qian WJ, Hoofnagle AN
@@ -205,6 +276,11 @@ Lombardi RL, Ramsey JS, Mahoney JE, MacCoss MJ, Heck ML, Slupsky CM
 *Journal of proteome research* 2024 Aug;23(8):2857-2869
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/38373055/) | [DOI](https://doi.org/10.1021/acs.jproteome.3c00485)
 
+**Hippocampus Glutathione S Reductase Potentially Confers Genetic Resilience to Cognitive Decline in the AD-BXD Mouse Population**
+Saul MC, Litkowski EM, Hadad N, Dunn AR, Boas SM, Wilcox JAL, Robbins JE, Wu Y, Philip VM, Merrihew GE, Park J, De Jager PL, Bridges DE, Menon V, Bennett DA, Hohman TJ, MacCoss MJ, Kaczorowski CC
+*bioRxiv : the preprint server for biology* 2024 Jan
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38260300/) | [DOI](https://doi.org/10.1101/2024.01.09.574219)
+
 **De novo design of high-affinity binders of bioactive helical peptides**
 Vázquez Torres S, Leung PJY, Venkatesh P, Lutz ID, Hink F, Huynh HH, Becker J, Yeh AH, Juergens D, Bennett NR, Hoofnagle AN, Huang E, MacCoss MJ, Expòsit M, Lee GR, Bera AK, Kang A, De La Cruz J, Levine PM, Li X, Lamb M, Gerben SR, Murray A, Heine P, Korkmaz EN, Nivala J, Stewart L, Watson JL, Rogers JM, Baker D
 *Nature* 2024 Feb;626(7998):435-442
@@ -220,6 +296,11 @@ Vázquez Torres S, Leung PJY, Venkatesh P, Lutz ID, Hink F, Huynh HH, Becker J, 
 Montine KS, Berson E, Phongpreecha T, Huang Z, Aghaeepour N, Zou JY, MacCoss MJ, Montine TJ
 *Frontiers in neuroscience* 2023;17:1311157
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/38192507/) | [DOI](https://doi.org/10.3389/fnins.2023.1311157)
+
+**Human cerebrospinal fluid single exosomes in Parkinson's and Alzheimer's diseases**
+Yakabi K, Berson E, Montine KS, Bendall SC, MacCoss MJ, Poston KL, Montine TJ
+*bioRxiv : the preprint server for biology* 2023 Dec
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/38187636/) | [DOI](https://doi.org/10.1101/2023.12.22.573124)
 
 **Skeletal muscle TFEB signaling promotes central nervous system function and reduces neuroinflammation during aging and neurodegenerative disease**
 Matthews I, Birnbaum A, Gromova A, Huang AW, Liu K, Liu EA, Coutinho K, McGraw M, Patterson DC, Banks MT, Nobles AC, Nguyen N, Merrihew GE, Wang L, Baeuerle E, Fernandez E, Musi N, MacCoss MJ, Miranda HC, La Spada AR, Cortes CJ
@@ -256,6 +337,11 @@ Pharaoh G, Kamat V, Kannan S, Stuppard RS, Whitson J, Martín-Pérez M, Qian WJ,
 *GeroScience* 2023 Dec;45(6):3529-3548
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/37462785/) | [DOI](https://doi.org/10.1007/s11357-023-00861-y)
 
+**Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition**
+Heil LR, Damoc E, Arrey TN, Pashkova A, Denisov E, Petzoldt J, Peterson AC, Hsu C, Searle BC, Shulman N, Riffle M, Connolly B, MacLean BX, Remes PM, Senko MW, Stewart HI, Hock C, Makarov AA, Hermanson D, Zabrouskov V, Wu CC, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2023 Aug
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/37398334/) | [DOI](https://doi.org/10.1101/2023.06.03.543570)
+
 **Metrologically Traceable Quantification of 3 Apolipoprotein E Isoforms in Cerebrospinal Fluid**
 Huynh HH, Kuch K, Orquillas A, Forrest K, Barahona-Carrillo L, Keene D, Henderson VW, Wagner AD, Poston KL, Montine TJ, Lin A, Tian L, MacCoss MJ, Emrick MA, Hoofnagle AN
 *Clinical chemistry* 2023 Jul;69(7):734-745
@@ -271,6 +357,11 @@ Merrihew GE, Park J, Plubell D, Searle BC, Keene CD, Larson EB, Bateman R, Perri
 *Scientific data* 2023 Apr;10(1):206
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/37059743/) | [DOI](https://doi.org/10.1038/s41597-023-02057-7)
 
+**MBNL1 regulates programmed postnatal switching between regenerative and differentiated cardiac states**
+Bailey LRJ, Bugg D, Reichardt IM, Ortaç CD, Gunaje J, Johnson R, MacCoss MJ, Sakamoto T, Kelly DP, Regnier M, Davis JM
+*bioRxiv : the preprint server for biology* 2023 Mar
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/36993225/) | [DOI](https://doi.org/10.1101/2023.03.16.532974)
+
 **Sampling the proteome by emerging single-molecule and mass spectrometry methods**
 MacCoss MJ, Alfaro JA, Faivre DA, Wu CC, Wanunu M, Slavov N
 *Nature methods* 2023 Mar;20(3):339-346
@@ -280,6 +371,11 @@ MacCoss MJ, Alfaro JA, Faivre DA, Wu CC, Wanunu M, Slavov N
 Gatto L, Aebersold R, Cox J, Demichev V, Derks J, Emmott E, Franks AM, Ivanov AR, Kelly RT, Khoury L, Leduc A, MacCoss MJ, Nemes P, Perlman DH, Petelski AA, Rose CM, Schoof EM, Van Eyk J, Vanderaa C, Yates JR, Slavov N
 *Nature methods* 2023 Mar;20(3):375-386
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/36864200/) | [DOI](https://doi.org/10.1038/s41592-023-01785-3)
+
+**Elamipretide Improves ADP Sensitivity in Aged Mitochondria by Increasing Uptake through the Adenine Nucleotide Translocator (ANT)**
+Pharaoh G, Kamat V, Kannan S, Stuppard RS, Whitson J, Martin-Perez M, Qian WJ, MacCoss MJ, Villen J, Rabinovitch P, Campbell MD, Sweet IR, Marcinek DJ
+*bioRxiv : the preprint server for biology* 2023 Feb
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/36778398/) | [DOI](https://doi.org/10.1101/2023.02.01.525989)
 
 **Improved Analysis of Cross-Linking Mass Spectrometry Data with Kojak 2.0, Advanced by Integration into the Trans-Proteomic Pipeline**
 Hoopmann MR, Shteynberg DD, Zelter A, Riffle M, Lyon AS, Agard DA, Luan Q, Nolen BJ, MacCoss MJ, Davis TN, Moritz RL
@@ -452,6 +548,11 @@ Dele-Oni DO, Christianson KE, Egri SB, Vaca Jacome AS, DeRuff KC, Mullahoo J, Sh
 Heil LR, Remes PM, MacCoss MJ
 *Journal of proteome research* 2021 Sep;20(9):4435-4442
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/34319745/) | [DOI](https://doi.org/10.1021/acs.jproteome.1c00377)
+
+**Immunogenic SARS-CoV2 Epitopes Defined by Mass Spectrometry**
+Pan K, Chiu Y, Huang E, Chen M, Wang J, Lai I, Singh S, Shaw R, MacCoss M, Yee C
+*bioRxiv : the preprint server for biology* 2021 Jul
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/34312620/) | [DOI](https://doi.org/10.1101/2021.07.20.453160)
 
 **Identification of Actin Filament-Associated Proteins in Giardia lamblia**
 Steele-Ogus MC, Johnson RS, MacCoss MJ, Paredez AR
@@ -1182,6 +1283,11 @@ Chambers MC, Maclean B, Burke R, Amodei D, Ruderman DL, Neumann S, Gatto L, Fisc
 *Nature biotechnology* 2012 Oct;30(10):918-20
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/23051804/) | [DOI](https://doi.org/10.1038/nbt.2377)
 
+**De novo correction of mass measurement error in low resolution tandem MS spectra for shotgun proteomics**
+Egertson JD, Eng JK, Bereman MS, Hsieh EJ, Merrihew GE, MacCoss MJ
+*Journal of the American Society for Mass Spectrometry* 2012 Dec;23(12):2075-82
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/23007965/) | [DOI](https://doi.org/10.1007/s13361-012-0482-z)
+
 **An expansive human regulatory lexicon encoded in transcription factor footprints**
 Neph S, Vierstra J, Stergachis AB, Reynolds AP, Haugen E, Vernot B, Thurman RE, John S, Sandstrom R, Johnson AK, Maurano MT, Humbert R, Rynes E, Wang H, Vong S, Lee K, Bates D, Diegel M, Roach V, Dunn D, Neri J, Schafer A, Hansen RS, Kutyavin T, Giste E, Weaver M, Canfield T, Sabo P, Zhang M, Balasundaram G, Byron R, MacCoss MJ, Akey JM, Bender MA, Groudine M, Kaul R, Stamatoyannopoulos JA
 *Nature* 2012 Sep;489(7414):83-90
@@ -1475,6 +1581,11 @@ Canterbury JD, Yi X, Hoopmann MR, MacCoss MJ
 Findlay GD, Yi X, Maccoss MJ, Swanson WJ
 *PLoS biology* 2008 Jul;6(7):e178
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/18666829/) | [DOI](https://doi.org/10.1371/journal.pbio.0060178)
+
+**Use of shotgun proteomics for the identification, confirmation, and correction of C. elegans gene annotations**
+Merrihew GE, Davis C, Ewing B, Williams G, Käll L, Frewen BE, Noble WS, Green P, Thomas JH, MacCoss MJ
+*Genome research* 2008 Oct;18(10):1660-9
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/18653799/) | [DOI](https://doi.org/10.1101/gr.077644.108)
 
 **Modeling peptide fragmentation with dynamic Bayesian networks for peptide identification**
 Klammer AA, Reynolds SM, Bilmes JA, MacCoss MJ, Noble WS
