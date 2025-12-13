@@ -37,9 +37,15 @@ scripts/
 The site has an automated system (`scripts/fetch_publications.py`) that:
 
 1. **Fetches Google Scholar metrics** (total citations, h-index, most cited paper)
-2. **Fetches publications from PubMed** (searches for MacCoss MJ as author)
+2. **Fetches ALL publications from PubMed** (searches for MacCoss MJ as author)
 3. **Generates a metrics plot** (publications/citations per year)
-4. **Updates `pages/publications.md`** with new publications
+4. **Regenerates `pages/publications.md`** with year-based navigation sidebar
+
+### Year-Based Navigation
+Publications are displayed with a sidebar showing all years. Clicking a year shows only that year's publications. The layout uses:
+- `.publications-container` - flexbox layout with sidebar
+- `.year-navigation` - sticky sidebar with year buttons
+- `.year-content` - content divs for each year (only one visible at a time)
 
 ### Important Filtering Rules
 - **Excludes preprints**: bioRxiv, arXiv, medRxiv, chemRxiv

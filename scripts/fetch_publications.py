@@ -22,7 +22,7 @@ import numpy as np
 # Configuration
 PUBMED_SEARCH_TERM = 'Maccoss, Michael[Full Author Name] OR MacCoss MJ[Author]'
 PUBLICATIONS_FILE = Path(__file__).parent.parent / 'pages' / 'publications.md'
-MAX_RESULTS = 30  # Number of recent publications to fetch
+MAX_RESULTS = 1000  # Fetch all publications
 
 # Google Scholar profile URL
 GOOGLE_SCHOLAR_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en'
@@ -58,16 +58,25 @@ def fetch_publication_details(pmids):
     if not pmids:
         return []
     
-    params = {
-        'db': 'pubmed',
-        'id': ','.join(pmids),
-        'retmode': 'xml'
-    }
+    # Process in batches to avoid timeout
+    batch_size = 200
+    all_publications = []
     
-    response = requests.get(EFETCH_URL, params=params)
-    response.raise_for_status()
+    for i in range(0, len(pmids), batch_size):
+        batch_pmids = pmids[i:i + batch_size]
+        params = {
+            'db': 'pubmed',
+            'id': ','.join(batch_pmids),
+            'retmode': 'xml'
+        }
+        
+        response = requests.get(EFETCH_URL, params=params, timeout=60)
+        response.raise_for_status()
+        
+        batch_pubs = parse_pubmed_xml(response.text)
+        all_publications.extend(batch_pubs)
     
-    return parse_pubmed_xml(response.text)
+    return all_publications
 
 
 def parse_pubmed_xml(xml_text):
@@ -205,16 +214,14 @@ def should_exclude_publication(pub):
 
 
 def update_publications_file(publications, existing_pmids):
-    """Update the publications.md file with new publications."""
-    content = PUBLICATIONS_FILE.read_text()
-    
-    # Filter out publications already in the file
-    new_pubs = [p for p in publications if p['pmid'] not in existing_pmids]
-    
+    """
+    Completely regenerate the publications.md file with all publications grouped by year.
+    Publications are sorted in reverse chronological order with year-based navigation.
+    """
     # Filter out preprints and corrigenda
     filtered_pubs = []
     excluded_count = 0
-    for pub in new_pubs:
+    for pub in publications:
         if should_exclude_publication(pub):
             excluded_count += 1
             print(f"  Excluding: {pub['title'][:60]}... ({pub['journal']})")
@@ -224,64 +231,238 @@ def update_publications_file(publications, existing_pmids):
     if excluded_count > 0:
         print(f"Excluded {excluded_count} preprint(s)/corrigendum(a)")
     
-    new_pubs = filtered_pubs
+    publications = filtered_pubs
     
-    if not new_pubs:
-        print("No new publications found.")
+    if not publications:
+        print("No publications found after filtering.")
         return False
     
-    print(f"Found {len(new_pubs)} new publication(s)")
+    print(f"Processing {len(publications)} publications")
     
-    # Group by year
-    current_year = datetime.now().year
+    # Group publications by year
+    pubs_by_year = {}
+    for pub in publications:
+        year = pub.get('year', '')
+        if year:
+            try:
+                year = int(year)
+                if year not in pubs_by_year:
+                    pubs_by_year[year] = []
+                pubs_by_year[year].append(pub)
+            except ValueError:
+                pass
     
-    # Find the insertion point (after "### {current_year}" header)
-    year_header = f"### {current_year}"
+    # Sort years in reverse order (newest first)
+    sorted_years = sorted(pubs_by_year.keys(), reverse=True)
     
-    if year_header in content:
-        # Find position after the year header
-        header_pos = content.find(year_header)
-        insert_pos = content.find('\n', header_pos) + 1
-        
-        # Skip any blank lines after header
-        while insert_pos < len(content) and content[insert_pos] == '\n':
-            insert_pos += 1
-        
-        # Format new publications
-        new_content = '\n\n'.join(format_publication(p) for p in new_pubs)
-        new_content += '\n\n'
-        
-        # Insert new publications
-        updated_content = content[:insert_pos] + new_content + content[insert_pos:]
-        
-        PUBLICATIONS_FILE.write_text(updated_content)
-        print(f"Updated {PUBLICATIONS_FILE}")
-        return True
+    # Read existing content to preserve the header and metrics section
+    content = PUBLICATIONS_FILE.read_text()
+    
+    # Extract the header portion (everything up to and including the plot)
+    header_end_marker = "![Publication and Citation Metrics](../assets/images/publication-metrics.png)"
+    if header_end_marker in content:
+        header_end = content.find(header_end_marker) + len(header_end_marker)
+        header_content = content[:header_end]
     else:
-        # Year header doesn't exist - we need to create it
-        # Find the "## Recent Publications" section and the previous year header
-        recent_pubs_header = "## Recent Publications"
-        previous_year = current_year - 1
-        previous_year_header = f"### {previous_year}"
+        # Fallback: create minimal header
+        header_content = """---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+# Publications
+
+View our complete publication list on [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) or search [PubMed](https://pubmed.ncbi.nlm.nih.gov/?term=Maccoss%2C+Michael%5BFull+Author+Name%5D+OR+MacCoss+MJ%5BAuthor%5D&sort=date).
+
+## Publication Metrics
+
+- **Total Citations**: -- ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: --
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (-- citations)
+
+![Publication and Citation Metrics](../assets/images/publication-metrics.png)"""
+    
+    # Build the new publications section with year navigation
+    pubs_section = """
+
+## Publications by Year
+
+<div class="publications-container">
+  <div class="year-navigation">
+"""
+    
+    # Add year buttons
+    for year in sorted_years:
+        count = len(pubs_by_year[year])
+        active_class = " active" if year == sorted_years[0] else ""
+        pubs_section += f'    <button class="year-button{active_class}" onclick="showYear(event, \'{year}\')">{year} ({count})</button>\n'
+    
+    pubs_section += """  </div>
+  <div class="publications-content">
+"""
+    
+    # Add publication content for each year
+    for year in sorted_years:
+        active_class = " active" if year == sorted_years[0] else ""
+        pubs_section += f'\n    <div id="year-{year}" class="year-content{active_class}">\n'
+        pubs_section += f'      <div markdown="1">\n\n'
+        pubs_section += f'### {year}\n\n'
         
-        if recent_pubs_header in content and previous_year_header in content:
-            # Find position of previous year header
-            prev_year_pos = content.find(previous_year_header)
-            
-            # Create new year section
-            new_year_section = f"### {current_year}\n\n"
-            new_year_section += '\n\n'.join(format_publication(p) for p in new_pubs)
-            new_year_section += '\n\n'
-            
-            # Insert new year section before the previous year
-            updated_content = content[:prev_year_pos] + new_year_section + content[prev_year_pos:]
-            
-            PUBLICATIONS_FILE.write_text(updated_content)
-            print(f"Created new year header for {current_year} and updated {PUBLICATIONS_FILE}")
-            return True
-        else:
-            print(f"Could not find appropriate insertion point for new publications")
-            return False
+        # Sort publications within the year (try to sort by month if available)
+        year_pubs = pubs_by_year[year]
+        # Publications are already sorted by date from PubMed, so just use them
+        
+        for pub in year_pubs:
+            pubs_section += format_publication(pub) + '\n\n'
+        
+        pubs_section += '      </div>\n'
+        pubs_section += '    </div>\n'
+    
+    pubs_section += """  </div>
+</div>
+
+<style>
+.publications-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.year-navigation {
+  flex: 0 0 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.year-button {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.2s ease;
+  color: #333;
+  text-align: left;
+}
+
+.year-button:hover {
+  background-color: #e9ecef;
+  color: #0056b3;
+}
+
+.year-button.active {
+  background-color: #0056b3;
+  color: white;
+  border-color: #0056b3;
+}
+
+.publications-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.year-content {
+  display: none;
+}
+
+.year-content.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .publications-container {
+    flex-direction: column;
+  }
+  
+  .year-navigation {
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: static;
+    max-height: none;
+    gap: 8px;
+  }
+  
+  .year-button {
+    padding: 6px 10px;
+    font-size: 13px;
+  }
+}
+</style>
+
+<script>
+function showYear(evt, year) {
+  var i, yearContent, yearButtons;
+  
+  // Hide all year content
+  yearContent = document.getElementsByClassName("year-content");
+  for (i = 0; i < yearContent.length; i++) {
+    yearContent[i].classList.remove("active");
+  }
+  
+  // Remove active class from all year buttons
+  yearButtons = document.getElementsByClassName("year-button");
+  for (i = 0; i < yearButtons.length; i++) {
+    yearButtons[i].classList.remove("active");
+  }
+  
+  // Show the selected year content and mark button as active
+  document.getElementById("year-" + year).classList.add("active");
+  evt.currentTarget.classList.add("active");
+  
+  // Update URL hash without scrolling
+  if (history.pushState) {
+    history.pushState(null, null, '#' + year);
+  }
+}
+
+// Handle initial load and hash changes
+function handleYearHash() {
+  var hash = window.location.hash.substring(1);
+  if (hash && !isNaN(hash)) {
+    var yearButton = null;
+    var buttons = document.getElementsByClassName('year-button');
+    for (var i = 0; i < buttons.length; i++) {
+      if (buttons[i].getAttribute('onclick').includes("'" + hash + "'")) {
+        yearButton = buttons[i];
+        break;
+      }
+    }
+    if (yearButton) {
+      yearButton.click();
+    }
+  }
+}
+
+// Listen for hash changes
+window.addEventListener('hashchange', handleYearHash);
+
+// Handle initial page load
+document.addEventListener('DOMContentLoaded', handleYearHash);
+</script>
+"""
+    
+    # Combine header and publications
+    new_content = header_content + pubs_section
+    
+    PUBLICATIONS_FILE.write_text(new_content)
+    print(f"Regenerated {PUBLICATIONS_FILE} with {len(publications)} publications across {len(sorted_years)} years")
+    return True
 
 
 def fetch_google_scholar_metrics():
@@ -628,7 +809,7 @@ def main():
     print()  # Blank line for readability
     print(f"Searching PubMed for: {PUBMED_SEARCH_TERM}")
     
-    # Search for publications
+    # Search for ALL publications
     pmids = search_pubmed(PUBMED_SEARCH_TERM, MAX_RESULTS)
     print(f"Found {len(pmids)} publications")
     
@@ -640,13 +821,8 @@ def main():
     publications = fetch_publication_details(pmids)
     print(f"Fetched details for {len(publications)} publications")
     
-    # Get existing PMIDs from the file
-    content = PUBLICATIONS_FILE.read_text()
-    existing_pmids = get_existing_pmids(content)
-    print(f"Found {len(existing_pmids)} existing publications in file")
-    
-    # Update the file
-    update_publications_file(publications, existing_pmids)
+    # Regenerate the entire publications file with year navigation
+    update_publications_file(publications, set())
     
     # Fetch publications per year and generate the plot
     print()
