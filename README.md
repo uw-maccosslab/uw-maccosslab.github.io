@@ -136,6 +136,53 @@ categories: [category1, category2]
 - Links to RSS feed
 - Styled with `.news-item`, `.post-meta`, `.category-tag` classes
 
+## Automated Publication Updates
+
+The site includes a GitHub Actions workflow that automatically updates publications from PubMed and Google Scholar.
+
+### What Gets Updated
+- **New publications** from PubMed (searches for MacCoss MJ as author)
+- **Total citations** from Google Scholar profile
+- **h-index** from Google Scholar
+- **Most cited paper** citation count from Google Scholar
+
+### Workflow Schedule
+- **Automatic**: Runs weekly on Sundays at midnight UTC
+- **Manual**: Can be triggered anytime from Actions tab
+
+### How It Works
+1. Workflow runs `scripts/fetch_publications.py`
+2. Script fetches Google Scholar metrics and updates the Publication Metrics section
+3. Script searches PubMed for recent publications
+4. If changes detected, creates a Pull Request for review
+5. PR includes all new publications and updated metrics
+
+### Manual Trigger
+1. Go to **Actions** tab in GitHub
+2. Select **"Update Publications from PubMed"**
+3. Click **"Run workflow"**
+4. Review and merge the resulting PR
+
+### Dependencies
+The workflow installs these Python packages:
+- `requests` - HTTP requests for API calls
+- `beautifulsoup4` - HTML parsing for Google Scholar scraping
+
+### Files Involved
+```
+├── scripts/
+│   └── fetch_publications.py    # Main update script
+├── .github/workflows/
+│   └── update-publications.yml  # GitHub Actions workflow
+└── pages/
+    └── publications.md          # Updated by the script
+```
+
+### Troubleshooting
+- **Google Scholar metrics not updating**: Google may temporarily block requests. The script will continue with PubMed updates and skip metrics.
+- **No new publications found**: The script checks for existing PMIDs to avoid duplicates.
+- **Workflow not running**: Check that GitHub Actions is enabled for the repository.
+
 ## Security Features
 
 ### Email Protection
