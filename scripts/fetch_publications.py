@@ -10,14 +10,11 @@ Google Scholar for citation metrics.
 import requests
 import xml.etree.ElementTree as ET
 import re
-from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
-import time
 import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend for server/CI
 import matplotlib.pyplot as plt
-import numpy as np
 
 # Configuration
 PUBMED_SEARCH_TERM = 'Maccoss, Michael[Full Author Name] OR MacCoss MJ[Author]'
@@ -515,7 +512,7 @@ def fetch_google_scholar_metrics():
                 if cite_text:
                     most_cited_count = int(cite_text.replace(',', ''))
         
-        print(f"Google Scholar metrics fetched:")
+        print("Google Scholar metrics fetched:")
         print(f"  Total citations: {total_citations}")
         print(f"  h-index: {h_index}")
         print(f"  Most cited paper: {most_cited_count} citations")
