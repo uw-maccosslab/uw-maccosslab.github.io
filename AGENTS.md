@@ -15,7 +15,6 @@ The lab focuses on **mass spectrometry-based proteomics** research, developing m
 - **Static Site Generator**: Jekyll with Minima theme
 - **Hosting**: GitHub Pages
 - **Styling**: SCSS (assets/css/style.scss)
-- **Automation**: GitHub Actions for publication updates
 
 ## Key Files and Directories
 
@@ -28,8 +27,7 @@ assets/
   images/                # All images (logos, instruments, people, plots)
 pages/                   # Main site content pages
 scripts/
-  fetch_publications.py  # Automated publication fetcher
-.github/workflows/       # GitHub Actions workflows
+  fetch_publications.py  # Automated publication fetcher (run manually)
 ```
 
 ## Automated Publication System
@@ -52,9 +50,8 @@ Publications are displayed with a sidebar showing all years. Clicking a year sho
 - This ensures the sidebar counts match the Publications per Year plot
 
 ### Workflow Schedule
-- Runs weekly on Sundays at midnight UTC
-- Can be manually triggered from GitHub Actions tab
-- Creates a Pull Request (not direct commit) for review
+- **Run manually**: `python3 scripts/fetch_publications.py`
+- GitHub Actions was removed because Google Scholar blocks scraping from CI environments
 
 ## Content Guidelines
 
