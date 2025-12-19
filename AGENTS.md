@@ -49,9 +49,23 @@ Publications are displayed with a sidebar showing all years. Clicking a year sho
 - All publications are fetched from PubMed (including preprints)
 - This ensures the sidebar counts match the Publications per Year plot
 
-### Workflow Schedule
-- **Run manually**: `python3 scripts/fetch_publications.py`
-- GitHub Actions was removed because Google Scholar blocks scraping from CI environments
+### Running the Script
+
+The script must be run manually from a local machine (Google Scholar blocks CI environments).
+
+**First-time setup:**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install requests beautifulsoup4 matplotlib numpy
+```
+
+**To update publications:**
+```bash
+source .venv/bin/activate
+python3 scripts/fetch_publications.py
+git add -A && git commit -m "Update publications" && git push
+```
 
 ## Content Guidelines
 
@@ -84,9 +98,11 @@ Post content here...
 
 ## Common Tasks
 
-### Update publications manually
+### Update publications
 ```bash
+source .venv/bin/activate
 python3 scripts/fetch_publications.py
+git add -A && git commit -m "Update publications" && git push
 ```
 
 ### Test site locally

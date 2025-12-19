@@ -136,36 +136,44 @@ categories: [category1, category2]
 - Links to RSS feed
 - Styled with `.news-item`, `.post-meta`, `.category-tag` classes
 
-## Automated Publication Updates
+## Updating Publications
 
-The site includes a GitHub Actions workflow that automatically updates publications from PubMed and Google Scholar.
+The publications page is updated using a Python script that fetches data from PubMed and Google Scholar.
+
+> **Note**: This script must be run manually from a local machine. Google Scholar blocks scraping from cloud/CI environments like GitHub Actions.
 
 ### What Gets Updated
-- **New publications** from PubMed (searches for MacCoss MJ as author)
+- **All publications** from PubMed (searches for MacCoss MJ as author)
 - **Total citations** from Google Scholar profile
 - **h-index** from Google Scholar
 - **Most cited paper** citation count from Google Scholar
 - **Metrics plot** showing publications per year (PubMed) and citations per year (Google Scholar)
 
-### Workflow Schedule
-- **Automatic**: Runs weekly on Sundays at midnight UTC
-- **Manual**: Can be triggered anytime from Actions tab
+### How to Run
 
-### How It Works
-1. Workflow runs `scripts/fetch_publications.py`
-2. Script fetches Google Scholar metrics and updates the Publication Metrics section
-3. Script searches PubMed for recent publications
-4. If changes detected, creates a Pull Request for review
-5. PR includes all new publications and updated metrics
+1. **Set up Python environment** (first time only):
+   ```bash
+   cd /path/to/uw-maccosslab.github.io
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install requests beautifulsoup4 matplotlib numpy
+   ```
 
-### Manual Trigger
-1. Go to **Actions** tab in GitHub
-2. Select **"Update Publications from PubMed"**
-3. Click **"Run workflow"**
-4. Review and merge the resulting PR
+2. **Run the script**:
+   ```bash
+   source .venv/bin/activate
+   python3 scripts/fetch_publications.py
+   ```
+
+3. **Review and commit changes**:
+   ```bash
+   git add -A
+   git commit -m "Update publications"
+   git push
+   ```
 
 ### Dependencies
-The workflow installs these Python packages:
+The script requires these Python packages:
 - `requests` - HTTP requests for API calls
 - `beautifulsoup4` - HTML parsing for Google Scholar scraping
 - `matplotlib` - Generating the publication/citation plots
@@ -175,8 +183,6 @@ The workflow installs these Python packages:
 ```
 ├── scripts/
 │   └── fetch_publications.py    # Main update script
-├── .github/workflows/
-│   └── update-publications.yml  # GitHub Actions workflow
 ├── assets/images/
 │   └── publication-metrics.png  # Auto-generated metrics plot
 └── pages/
@@ -184,9 +190,9 @@ The workflow installs these Python packages:
 ```
 
 ### Troubleshooting
-- **Google Scholar metrics not updating**: Google may temporarily block requests. The script will continue with PubMed updates and skip metrics.
-- **No new publications found**: The script checks for existing PMIDs to avoid duplicates.
-- **Workflow not running**: Check that GitHub Actions is enabled for the repository.
+- **Google Scholar metrics not updating**: Google may temporarily block requests. Try again later or from a different network.
+- **No new publications found**: The script fetches all publications and regenerates the page.
+- **"No citation data available" in plot**: This happens if Google Scholar blocked the request. Run again from a different machine/network.
 
 ## Security Features
 
