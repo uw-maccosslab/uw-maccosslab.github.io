@@ -14,6 +14,7 @@ And updates the Educational Materials tab in pages/resources.md.
 import re
 import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 from pathlib import Path
 
 # URLs to scrape
@@ -292,8 +293,14 @@ def generate_educational_section(tutorials, documentation, uwpr_tips, uwpr_tools
     """Generate the Educational Materials section content."""
     lines = []
 
-    # Header
+    # Count total tutorials
+    total_tutorials = sum(len(t) for t in tutorials.values())
+
+    # Header with last updated timestamp
     lines.append("## Educational Materials")
+    lines.append("")
+    current_date = datetime.now().strftime("%B %d, %Y")
+    lines.append(f"*Last updated: {current_date} — {total_tutorials} Skyline tutorials available*")
     lines.append("")
 
     # UWPR Resources - quick links

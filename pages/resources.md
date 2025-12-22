@@ -149,7 +149,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 </div>
 </div>
 
-          <div id="datasets" class="tab-content">
+                <div id="datasets" class="tab-content">
     <div markdown="1">
 
 ## Public Datasets on [Panorama Public](http://panoramaweb.org/public.url)
@@ -162,152 +162,123 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 ### 2025
 
-- **[Evaluation of a modified Orbitrap Astral Zoom prototype for quantitative proteomics - Beyond identification lists](https://panoramaweb.org/Panorama Public/2025/MacCoss - Prototype Orbitrap Astral manuscript/project-begin.view)**
-  - Homo sapiens (taxid:9606),Gallus gallus (taxid:9031) | [PXD064536](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD064536)
-- **[DIA Analysis of Microvasculature in Alzheimers Disease](https://panoramaweb.org/Panorama Public/2025/MacCoss - DIA Analysis of Microvasculature in Alzheimers Disease/project-begin.view)**
-  - Homo sapiens (taxid:9606)
-- **[Tutorials on How to Use PRM Conductor, a Skyline External Tool](https://panoramaweb.org/Panorama Public/2025/Thermo Fisher Research and Development - PRM Conductor/project-begin.view)**
-- **[Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer](https://panoramaweb.org/Panorama Public/2025/MacCoss - Stellar highly multiplex fluid assays/project-begin.view)**
-  - Homo sapiens (taxid:9606),Gallus gallus (taxid:9031) | [PXD065471](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD065471)
-- **[DIA to inform Triple Quad Assay development](https://panoramaweb.org/Panorama Public/2025/MacCoss - DIA to SRM Assays/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD059611](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD059611)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - Prototype Orbitrap Astral manuscript/project-begin.view">Evaluation of a modified Orbitrap Astral Zoom prototype for quantitative proteomics - Beyond identification lists</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD064536">PXD064536</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - DIA Analysis of Microvasculature in Alzheimers Disease/project-begin.view">DIA Analysis of Microvasculature in Alzheimers Disease</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/Thermo Fisher Research and Development - PRM Conductor/project-begin.view">Tutorials on How to Use PRM Conductor, a Skyline External Tool</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - Stellar highly multiplex fluid assays/project-begin.view">Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD065471">PXD065471</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - DIA to SRM Assays/project-begin.view">DIA to inform Triple Quad Assay development</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD059611">PXD059611</a></td></tr>
+</table>
 
 ### 2024
 
-- **[Evaluation of Linearity, Lower Limit of Measurement Interval and Imprecision](https://panoramaweb.org/Panorama Public/2024/TAMADOR - Glucagon and Oxyntomodulin/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD041410](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD041410)
-- **[Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics](https://panoramaweb.org/Panorama Public/2024/MacCoss - Carafe/project-begin.view)**
-  - Homo sapiens (taxid:9606),Saccharomyces cerevisiae (taxid:4932) | [PXD056793](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD056793)
-- **[A framework for quality control in quantitative proteomics](https://panoramaweb.org/Panorama Public/2024/MacCoss - Sample QC and System Suitability/project-begin.view)**
-  - Homo sapiens (taxid:9606),Mus musculus (taxid:10090),Saccharomyces cerevisiae (taxid:4932),Bos taurus (taxid:9913) | [PXD051318](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD051318)
-- **[Detection and Quantification of Drug-Protein Adducts in Human Liver](https://panoramaweb.org/Panorama Public/2024/UW Isoherranen Lab - 2024 Drug-Protein Adducts Raloxifene Paper/project-begin.view)**
-  - Homo sapiens (taxid:9606),fall armyworm (taxid:7108) | [PXD054246](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD054246)
-- **[A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data](https://panoramaweb.org/Panorama Public/2024/MacCoss - 2024-6 Cascadia/project-begin.view)**
-  - Homo sapiens (taxid:9606),Mus musculus (taxid:10090) | [PXD053291](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD053291)
-- **[Characterization of Stellar MS](https://panoramaweb.org/Panorama Public/2024/Thermo Fisher Research and Development - 2024_Stellar_Instrument_Platform/project-begin.view)**
-  - Homo sapiens (taxid:9606),Gallus gallus (taxid:9031),Escherichia coli (taxid:562) | [PXD052734](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD052734)
-- **[AD-BXD Mouse PreFrontal Cortex Proteomics](https://panoramaweb.org/Panorama Public/2024/MacCoss - AD-BXD Mouse PreFrontal Cortex Proteomics/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD045403](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045403)
-- **[Mouse X-Chromosome Resilience to Cognitive Aging](https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse X-Chromosome Resilience to Cognitive Aging/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD049347](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD049347)
-- **[Mouse Skeletal Muscle Sarcopenia](https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse Skeletal Muscle Sarcopenia/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD048723](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD048723)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/TAMADOR - Glucagon and Oxyntomodulin/project-begin.view">Evaluation of Linearity, Lower Limit of Measurement Interval and Imprecision</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD041410">PXD041410</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Carafe/project-begin.view">Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD056793">PXD056793</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Sample QC and System Suitability/project-begin.view">A framework for quality control in quantitative proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD051318">PXD051318</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/UW Isoherranen Lab - 2024 Drug-Protein Adducts Raloxifene Paper/project-begin.view">Detection and Quantification of Drug-Protein Adducts in Human Liver</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD054246">PXD054246</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - 2024-6 Cascadia/project-begin.view">A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD053291">PXD053291</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/Thermo Fisher Research and Development - 2024_Stellar_Instrument_Platform/project-begin.view">Characterization of Stellar MS</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD052734">PXD052734</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - AD-BXD Mouse PreFrontal Cortex Proteomics/project-begin.view">AD-BXD Mouse PreFrontal Cortex Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045403">PXD045403</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse X-Chromosome Resilience to Cognitive Aging/project-begin.view">Mouse X-Chromosome Resilience to Cognitive Aging</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD049347">PXD049347</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse Skeletal Muscle Sarcopenia/project-begin.view">Mouse Skeletal Muscle Sarcopenia</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD048723">PXD048723</a></td></tr>
+</table>
 
 ### 2023
 
-- **[METLIN-CCS: an ion mobility spectrometry
-collision cross-section database](https://panoramaweb.org/Panorama Public/2023/MacCoss - CCS Library/project-begin.view)**
-- **[AD-BXD Mouse Hippocampus Proteomics](https://panoramaweb.org/Panorama Public/2023/MacCoss - AD-BXD Mouse Hippocampus Proteomics/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD045425](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045425)
-- **[Skeletal Muscle TFEB Signaling Promotes Central Nervous System Function and Reduces Neuroinflammation during Aging and Neurodegenerative Disease](https://panoramaweb.org/Panorama Public/2023/MacCoss - Skeletal Muscle TFEB Signaling/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD045241](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045241)
-- **[Comparing peptide identifications by FAIMS versus quadrupole gas phase fractionation](https://panoramaweb.org/Panorama Public/2023/MacCoss - FAIMS_vs_QuadGPF_Manuscript/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD043458](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD043458)
-- **[Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome](https://panoramaweb.org/Panorama Public/2023/MacCoss - Mag-Net Method/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD042947](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042947)
-- **[Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition](https://panoramaweb.org/Panorama Public/2023/MacCoss - AstralBenchmarking/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD042704](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042704)
-- **[Spatiotemporal Mapping of Posttranslational Modifications in the Pig Lens](https://panoramaweb.org/Panorama Public/2023/MacCoss - Pig Lens PTM Paper/project-begin.view)**
-  - Sus scrofa domesticus (taxid:9825) | [PXD040507](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD040507)
-- **[Metrologically traceable quantification of three apolipoprotein E isoforms in cerebrospinal fluid](https://panoramaweb.org/Panorama Public/2023/TPAD2.0 - ApoE Assay Paper/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD038803](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038803)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - CCS Library/project-begin.view">METLIN-CCS: an ion mobility spectrometry
+collision cross-section database</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - AD-BXD Mouse Hippocampus Proteomics/project-begin.view">AD-BXD Mouse Hippocampus Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045425">PXD045425</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - Skeletal Muscle TFEB Signaling/project-begin.view">Skeletal Muscle TFEB Signaling Promotes Central Nervous System Function and Reduces Neuroinflammation during Aging and Neurodegenerative Disease</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045241">PXD045241</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - FAIMS_vs_QuadGPF_Manuscript/project-begin.view">Comparing peptide identifications by FAIMS versus quadrupole gas phase fractionation</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD043458">PXD043458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - Mag-Net Method/project-begin.view">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042947">PXD042947</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - AstralBenchmarking/project-begin.view">Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042704">PXD042704</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - Pig Lens PTM Paper/project-begin.view">Spatiotemporal Mapping of Posttranslational Modifications in the Pig Lens</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD040507">PXD040507</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/TPAD2.0 - ApoE Assay Paper/project-begin.view">Metrologically traceable quantification of three apolipoprotein E isoforms in cerebrospinal fluid</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038803">PXD038803</a></td></tr>
+</table>
 
 ### 2022
 
-- **[Dynamic Data Independent Acquisition Mass Spectrometry with Real-Time Retrospective Alignment](https://panoramaweb.org/Panorama Public/2022/MacCoss - Dynamic DIA Results/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD038508](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038508)
-- **[Sampling the proteome by emerging single-molecule and mass-spectrometry based methods](https://panoramaweb.org/Panorama Public/2022/MacCoss - Single_Molecule_Counting_Perspective/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD035637](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD035637)
-- **[A Peptide-Centric Quantitative Proteomics Dataset for the Phenotypic Assessment of Alzheimer’s Disease](https://panoramaweb.org/Panorama Public/2022/MacCoss - Human AD Clean Diagnosis DIA Data/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD034525](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD034525)
-- **[Quantitative XL-MS Analysis of HHARI in the presence or absence of 4EHP](https://panoramaweb.org/Panorama Public/2022/MacCoss - Cross-linking analysis of HHARI/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD030871](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD030871)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Dynamic DIA Results/project-begin.view">Dynamic Data Independent Acquisition Mass Spectrometry with Real-Time Retrospective Alignment</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038508">PXD038508</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Single_Molecule_Counting_Perspective/project-begin.view">Sampling the proteome by emerging single-molecule and mass-spectrometry based methods</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD035637">PXD035637</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Human AD Clean Diagnosis DIA Data/project-begin.view">A Peptide-Centric Quantitative Proteomics Dataset for the Phenotypic Assessment of Alzheimer’s Disease</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD034525">PXD034525</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Cross-linking analysis of HHARI/project-begin.view">Quantitative XL-MS Analysis of HHARI in the presence or absence of 4EHP</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD030871">PXD030871</a></td></tr>
+</table>
 
 ### 2021
 
-- **[Skyline Batch: An Intuitive User Interface for Batch Processing with Skyline](https://panoramaweb.org/Panorama Public/2021/MacCoss - 2015-Selevsek/project-begin.view)**
-  - Saccharomyces cerevisiae (taxid:4932) | [PXD029665](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029665)
-- **[Skyline Batch: An Intuitive User Interface for Batch Processing with Skyline](https://panoramaweb.org/Panorama Public/2021/MacCoss - 2015-Bruderer/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD029663](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029663)
-- **[Development and Application of Multidimensional Lipid Libraries to Investigate Lipidomic Dysregulation Related to Smoke Inhalation Injury Severity](https://panoramaweb.org/Panorama Public/2021/NCSU Baker Lab - Smoke Inhalation and SRM 1950/project-begin.view)**
-  - Homo sapiens (taxid:9606)
-- **[Mitochondrial inorganic polyphosphate (polyP) is a contributor towards maintaining cellular bioenergetics in SH-SY5Y cells: a proteomics and metabolomics approach](https://panoramaweb.org/Panorama Public/2021/MacCoss - MitoPPX Paper/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD028185](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD028185)
-- **[Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts Correlates with Differential Loss of Function that is Attenuated by SS-31 and NMN](https://panoramaweb.org/Panorama Public/2021/MacCoss - Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts Correlates with Differential Loss of Function that is Attenuated by SS-31 and NMN/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD027458](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD027458)
-- **[The metabolome as a biomarker of aging in Drosophila melanogaster](https://panoramaweb.org/Panorama Public/2021/MacCoss - SRM_Data-The metabolome as a biomarker of aging in Drosophila melanogaster/project-begin.view)**
-  - Drosophila melanogaster (taxid:7227)
-- **[Comparison of unit resolution versus high-resolution accurate mass for parallel reaction monitoring](https://panoramaweb.org/Panorama Public/2021/MacCoss - Q-OT vs Q-LIT submission/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD023334](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023334)
-- **[Alzheimer's Disease Isomerization](https://panoramaweb.org/Panorama Public/2021/MacCoss - AD Isomer Paper/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD025668](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD025668)
-- **[Quantification of Raloxifene Specific 471 Da Adducts in CYP3A4 and P450-Reductase](https://panoramaweb.org/Panorama Public/2021/MacCoss - CYP3A4 Raloxifene/project-begin.view)**
-  - Homo sapiens (taxid:9606),Rattus norvegicus (taxid:10116) | [PXD024932](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD024932)
-- **[Phospho-proteomic Profiling Dataset of Chemical Perturbations in Multiple Biological Backgrounds](https://panoramaweb.org/Panorama Public/2021/LINCS PCCSE P100 2020/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD017458](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017458)
-- **[Utilizing Skyline to Analyze Lipidomics Data Containing Liquid Chromatography, Ion Mobility Spectrometry and Mass Spectrometry Dimensions](https://panoramaweb.org/Panorama Public/2021/NCSU Baker Lab - Lipid Libraries/project-begin.view)**
-  - Homo sapiens (taxid:9606)
-- **[Mouse Heart SS31 Targeted Proteomics](https://panoramaweb.org/Panorama Public/2021/MacCoss - SS31-PTM/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD024247](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD024247)
-- **[Grizzly Bear Serum DIA Proteomics](https://panoramaweb.org/Panorama Public/2021/MacCoss - Grizzly Bear Serum DIA Proteomics/project-begin.view)**
-  - grizzly bear (taxid:9644) | [PXD023555](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023555)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - 2015-Selevsek/project-begin.view">Skyline Batch: An Intuitive User Interface for Batch Processing with Skyline</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029665">PXD029665</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - 2015-Bruderer/project-begin.view">Skyline Batch: An Intuitive User Interface for Batch Processing with Skyline</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029663">PXD029663</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/NCSU Baker Lab - Smoke Inhalation and SRM 1950/project-begin.view">Development and Application of Multidimensional Lipid Libraries to Investigate Lipidomic Dysregulation Related to Smoke Inhalation Injury Severity</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - MitoPPX Paper/project-begin.view">Mitochondrial inorganic polyphosphate (polyP) is a contributor towards maintaining cellular bioenergetics in SH-SY5Y cells: a proteomics and metabolomics approach</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD028185">PXD028185</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts Correlates with Differential Loss of Function that is Attenuated by SS-31 and NMN/project-begin.view">Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts Correlates with Differential Loss of Function that is Attenuated by SS-31 and NMN</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD027458">PXD027458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - SRM_Data-The metabolome as a biomarker of aging in Drosophila melanogaster/project-begin.view">The metabolome as a biomarker of aging in Drosophila melanogaster</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - Q-OT vs Q-LIT submission/project-begin.view">Comparison of unit resolution versus high-resolution accurate mass for parallel reaction monitoring</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023334">PXD023334</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - AD Isomer Paper/project-begin.view">Alzheimer's Disease Isomerization</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD025668">PXD025668</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - CYP3A4 Raloxifene/project-begin.view">Quantification of Raloxifene Specific 471 Da Adducts in CYP3A4 and P450-Reductase</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD024932">PXD024932</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/LINCS PCCSE P100 2020/project-begin.view">Phospho-proteomic Profiling Dataset of Chemical Perturbations in Multiple Biological Backgrounds</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017458">PXD017458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/NCSU Baker Lab - Lipid Libraries/project-begin.view">Utilizing Skyline to Analyze Lipidomics Data Containing Liquid Chromatography, Ion Mobility Spectrometry and Mass Spectrometry Dimensions</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - SS31-PTM/project-begin.view">Mouse Heart SS31 Targeted Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD024247">PXD024247</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - Grizzly Bear Serum DIA Proteomics/project-begin.view">Grizzly Bear Serum DIA Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023555">PXD023555</a></td></tr>
+</table>
 
 ### 2020
 
-- **[Lysosomal targetomics in ghrKO mice reveals a role for chaperone-mediated autophagy in shaping the nucleocytosolic acetyl-coA production pathway](https://panoramaweb.org/Panorama Public/2020/MacCoss - Lysosome and Liver DIA Quant/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD023309](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023309)
-- **[Highly Multiplex Targeted Proteomics Enabled by Real-Time Chromatographic Alignment](https://panoramaweb.org/Panorama Public/2020/MacCoss - Real-Time Chromatogram Alignment/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD018675](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD018675)
-- **[Acarbose improves late-life physical function in mice of both sexes, but rejuvenates cardiac structure and lipid profile in males only](https://panoramaweb.org/Panorama Public/2020/MacCoss - Acarbose Paper/project-begin.view)**
-  - Mus musculus (taxid:10090) | [PXD017706](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017706)
-- **[Global Chromatin Profiling Dataset of Chemical Perturbations in Multiple Biological Backgrounds](https://panoramaweb.org/Panorama Public/2020/LINCS PCCSE GCP 2020/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD017459](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017459)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/MacCoss - Lysosome and Liver DIA Quant/project-begin.view">Lysosomal targetomics in ghrKO mice reveals a role for chaperone-mediated autophagy in shaping the nucleocytosolic acetyl-coA production pathway</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023309">PXD023309</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/MacCoss - Real-Time Chromatogram Alignment/project-begin.view">Highly Multiplex Targeted Proteomics Enabled by Real-Time Chromatographic Alignment</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD018675">PXD018675</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/MacCoss - Acarbose Paper/project-begin.view">Acarbose improves late-life physical function in mice of both sexes, but rejuvenates cardiac structure and lipid profile in males only</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017706">PXD017706</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/LINCS PCCSE GCP 2020/project-begin.view">Global Chromatin Profiling Dataset of Chemical Perturbations in Multiple Biological Backgrounds</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017459">PXD017459</a></td></tr>
+</table>
 
 ### 2019
 
-- **[A simple mass-action model predicts protein timecourses from mRNA trajectories during a dynamic response in two strains of S. cerevisiae](https://panoramaweb.org/Panorama Public/2019/UCSD Rifkin Lab - Pheromone_RNAProtein/project-begin.view)**
-  - Saccharomyces cerevisiae (taxid:4932) | [PXD015745](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD015745)
-- **[Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics](https://panoramaweb.org/Panorama Public/2019/Duke Proteomics Core - Skyline for Small Molecules/project-begin.view)**
-  - Homo sapiens (taxid:9606),Mus musculus (taxid:10090)
-- **[Matrix-matched calibration curves](https://panoramaweb.org/Panorama Public/2019/MacCoss - matched matrix cal curves/project-begin.view)**
-  - Saccharomyces cerevisiae (taxid:4932),Homo sapiens (taxid:9606) | [PXD014815](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014815)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/UCSD Rifkin Lab - Pheromone_RNAProtein/project-begin.view">A simple mass-action model predicts protein timecourses from mRNA trajectories during a dynamic response in two strains of S. cerevisiae</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD015745">PXD015745</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/Duke Proteomics Core - Skyline for Small Molecules/project-begin.view">Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/MacCoss - matched matrix cal curves/project-begin.view">Matrix-matched calibration curves</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014815">PXD014815</a></td></tr>
+</table>
 
 ### 2018
 
-- **[Improving Precursor Selectivity in Data Independent Acquisition Using Overlapping Windows](https://panoramaweb.org/Panorama Public/2018/MacCoss - Improving Precursor Selectivity in Data Independent Acquisition Using Overlapping Windows/project-begin.view)**
-  - Saccharomyces cerevisiae (taxid:4932),Bos taurus (taxid:9913) | [PXD011910](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011910)
-- **[Single-point Calibration](https://panoramaweb.org/Panorama Public/2018/MacCoss - Single-point Calibration/project-begin.view)**
-  - Saccharomyces cerevisiae (taxid:4932) | [PXD011297](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011297)
-- **[Data-independent acquisition mass spectrometry to quantify protein levels in FFPE tumor biopsies for molecular diagnostics](https://panoramaweb.org/Panorama Public/2018/NantOmics - Data-independent acquisition mass spectrometry to quantify protein levels in FFPE tumor biopsies for molecular diagnostics/project-begin.view)**
-  - Homo sapiens (taxid:9606) | [PXD010934](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010934)
-- **[Using Skyline to Analyze Data-Containing Liquid Chromatography, Ion Mobility Spectrometry, and Mass Spectrometry Dimensions. Journal of The American Society for Mass Spectrometry](https://panoramaweb.org/Panorama Public/2018/MacLean - Baker IMS/project-begin.view)**
-  - Bos taurus (taxid:9913),Saccharomyces cerevisiae (taxid:4932) | [PXD010650](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010650)
-- **[Design, Implementation and Multisite Evaluation of a System Suitability Protocol for the Quantitative Assessment of Instrument Performance in Liquid Chromatography-Multiple Reaction Monitoring-MS (LC-MRM-MS)](https://panoramaweb.org/Panorama Public/2018/Study_9S/project-begin.view)**
-  - Bos taurus (taxid:9913) | [PXD010535](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010535)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/MacCoss - Improving Precursor Selectivity in Data Independent Acquisition Using Overlapping Windows/project-begin.view">Improving Precursor Selectivity in Data Independent Acquisition Using Overlapping Windows</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011910">PXD011910</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/MacCoss - Single-point Calibration/project-begin.view">Single-point Calibration</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011297">PXD011297</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/NantOmics - Data-independent acquisition mass spectrometry to quantify protein levels in FFPE tumor biopsies for molecular diagnostics/project-begin.view">Data-independent acquisition mass spectrometry to quantify protein levels in FFPE tumor biopsies for molecular diagnostics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010934">PXD010934</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/MacLean - Baker IMS/project-begin.view">Using Skyline to Analyze Data-Containing Liquid Chromatography, Ion Mobility Spectrometry, and Mass Spectrometry Dimensions. Journal of The American Society for Mass Spectrometry</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010650">PXD010650</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/Study_9S/project-begin.view">Design, Implementation and Multisite Evaluation of a System Suitability Protocol for the Quantitative Assessment of Instrument Performance in Liquid Chromatography-Multiple Reaction Monitoring-MS (LC-MRM-MS)</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010535">PXD010535</a></td></tr>
+</table>
 
 ### 2017
 
-- **[A mass spectrometry-based proteomic analysis of Homer2-interacting proteins in the mouse brain](https://panoramaweb.org/Panorama Public/2017/MacCoss - Homer2 Interactome/project-begin.view)**
-  - Mus musculus (taxid:10090)
-- **[Proteomics analysis identifies orthologs of human chitinase-like proteins as inducers of tube-morphogenesis defects in Drosophila](https://panoramaweb.org/Panorama Public/2017/Berg - Skyline_Analysis_Idgfs/project-begin.view)**
-  - Drosophila melanogaster (taxid:7227)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2017/MacCoss - Homer2 Interactome/project-begin.view">A mass spectrometry-based proteomic analysis of Homer2-interacting proteins in the mouse brain</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2017/Berg - Skyline_Analysis_Idgfs/project-begin.view">Proteomics analysis identifies orthologs of human chitinase-like proteins as inducers of tube-morphogenesis defects in Drosophila</a></td><td></td></tr>
+</table>
 
 ### 2015
 
-- **[Multiplexed, scheduled high resolution (sMRM-HR) acquisition on a full scan QqTOF instrument with integrated data-dependent and targeted mass spectrometric workflows.](https://panoramaweb.org/Panorama Public/2015/Schilling - MRM_HR_TripleTOF_MS2_FullScanFiltering/project-begin.view)**
-  - Bos taurus (taxid:9913),Saccharomyces cerevisiae (taxid:4932),Escherichia coli (taxid:562)
-- **[MS1 Peptide Ion Intensity Chromatograms in MS2 (SWATH) Data Independent Acquisitions. Improving Post Acquisition Analysis of Proteomic Experiments](https://panoramaweb.org/Panorama Public/2015/Schilling - MS1_MS2_SWATH/project-begin.view)**
-  - Mus musculus (taxid:10090)
-- **[Analytical protein standards](https://panoramaweb.org/Panorama Public/2015/Searle_PREGO_manuscript/project-begin.view)**
-  - Homo sapiens (taxid:9606)
-- **[Large-scale inter-laboratory study to develop, analytically validate and apply highly multiplexed, quantitative peptide assays to measure cancer-relevant proteins in plasma](https://panoramaweb.org/Panorama Public/2015/Schilling - main_Study_9/project-begin.view)**
-  - Homo sapiens (taxid:9606)
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Schilling - MRM_HR_TripleTOF_MS2_FullScanFiltering/project-begin.view">Multiplexed, scheduled high resolution (sMRM-HR) acquisition on a full scan QqTOF instrument with integrated data-dependent and targeted mass spectrometric workflows.</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Schilling - MS1_MS2_SWATH/project-begin.view">MS1 Peptide Ion Intensity Chromatograms in MS2 (SWATH) Data Independent Acquisitions. Improving Post Acquisition Analysis of Proteomic Experiments</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Searle_PREGO_manuscript/project-begin.view">Analytical protein standards</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Schilling - main_Study_9/project-begin.view">Large-scale inter-laboratory study to develop, analytically validate and apply highly multiplexed, quantitative peptide assays to measure cancer-relevant proteins in plasma</a></td><td></td></tr>
+</table>
 
 *All datasets include processed results as Skyline documents and raw datafiles. Many datasets are paired with published manuscripts.*
 
 
 </div>
   </div>
+
+
+
+
+
+
 
 
 

@@ -214,3 +214,33 @@
 .tab-navigation button[aria-haspopup]::after {
   display: none !important;
 }
+
+/* Invisible table styling for datasets */
+.invisible-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  background: transparent;
+}
+
+.invisible-table tr {
+  border: none;
+  background: transparent;
+}
+
+.invisible-table td {
+  border: none;
+  padding: 0.3rem 0.5rem;
+  vertical-align: top;
+  background: transparent;
+}
+
+.invisible-table td:first-child {
+  width: 85%;
+}
+
+.invisible-table td:last-child {
+  width: 15%;
+  text-align: right;
+  white-space: nowrap;
+}

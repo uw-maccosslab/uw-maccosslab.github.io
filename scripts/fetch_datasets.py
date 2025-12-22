@@ -608,6 +608,7 @@ def generate_datasets_section(datasets):
 
     Supports both API data (year-based organization) and hardcoded data (category-based).
     API data doesn't have categories, so we organize by year instead.
+    Uses invisible tables with dataset title on left, PXD on right.
     """
     lines = []
 
@@ -662,31 +663,32 @@ def generate_datasets_section(datasets):
             lines.append(f"*{cat_desc}*")
             lines.append("")
 
+            # Invisible table
+            lines.append('<table class="invisible-table">')
             for ds in cat_datasets:
                 title = ds.get("title", "Untitled")
                 pxid = ds.get("pxid", "")
                 year = ds.get("year", "")
-                organism = ds.get("organism", "")
+                url = ds.get("url", "")
 
-                # Build the entry
-                entry = f"- **{title}**"
+                # Build title with optional year
+                if url:
+                    title_cell = f'<a href="{url}">{title}</a>'
+                else:
+                    title_cell = title
                 if year:
-                    entry += f" ({year})"
+                    title_cell += f" ({year})"
 
-                lines.append(entry)
-
-                # Add details on next line if we have them
-                details = []
-                if organism:
-                    details.append(organism)
+                # Build PXD link
                 if pxid:
-                    details.append(
-                        f"[{pxid}](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID={pxid})"
-                    )
+                    pxd_cell = (f'<a href="http://proteomecentral.proteomexchange.org/'
+                                f'cgi/GetDataset?ID={pxid}">{pxid}</a>')
+                else:
+                    pxd_cell = ""
 
-                if details:
-                    lines.append(f"  - {' | '.join(details)}")
+                lines.append(f"<tr><td>{title_cell}</td><td>{pxd_cell}</td></tr>")
 
+            lines.append("</table>")
             lines.append("")
     else:
         # Group datasets by year (API data)
@@ -704,38 +706,30 @@ def generate_datasets_section(datasets):
             lines.append(f"### {year}")
             lines.append("")
 
+            # Invisible table
+            lines.append('<table class="invisible-table">')
             for ds in year_datasets:
                 title = ds.get("title", "Untitled")
                 pxid = ds.get("pxid", "")
-                organism = ds.get("organism", "")
                 path = ds.get("path", "")
 
                 # Build Panorama URL from path
                 if path:
                     url = f"https://panoramaweb.org{path}/project-begin.view"
+                    title_cell = f'<a href="{url}">{title}</a>'
                 else:
-                    url = ""
+                    title_cell = title
 
-                # Build the entry - link title to Panorama if we have path
-                if url:
-                    entry = f"- **[{title}]({url})**"
-                else:
-                    entry = f"- **{title}**"
-
-                lines.append(entry)
-
-                # Add details on next line if we have them
-                details = []
-                if organism:
-                    details.append(organism)
+                # Build PXD link
                 if pxid:
-                    details.append(
-                        f"[{pxid}](http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID={pxid})"
-                    )
+                    pxd_cell = (f'<a href="http://proteomecentral.proteomexchange.org/'
+                                f'cgi/GetDataset?ID={pxid}">{pxid}</a>')
+                else:
+                    pxd_cell = ""
 
-                if details:
-                    lines.append(f"  - {' | '.join(details)}")
+                lines.append(f"<tr><td>{title_cell}</td><td>{pxd_cell}</td></tr>")
 
+            lines.append("</table>")
             lines.append("")
 
     lines.append("*All datasets include processed results as Skyline documents and raw datafiles. "

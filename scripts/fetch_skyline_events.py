@@ -13,6 +13,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
 
 # URLs to scrape
@@ -237,8 +238,16 @@ def generate_support_section(events, webinars):
     """Generate the Support & Training section with year-based navigation."""
     lines = []
 
-    # Header
+    # Count total events and webinars
+    total_past_events = sum(len(e) for e in events["past"].values())
+    total_webinars = sum(len(w) for w in webinars.values())
+    total_upcoming = len(events["upcoming"])
+
+    # Header with last updated timestamp
     lines.append("## Support & Training")
+    lines.append("")
+    current_date = datetime.now().strftime("%B %d, %Y")
+    lines.append(f"*Last updated: {current_date} — {total_upcoming} upcoming events, {total_past_events} past events, {total_webinars} webinars*")
     lines.append("")
     lines.append("### Forums and Discussion")
     lines.append("- [Skyline Support Board](https://skyline.ms/forum)")

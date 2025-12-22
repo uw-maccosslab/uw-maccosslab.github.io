@@ -10,6 +10,7 @@ Google Scholar for citation metrics.
 import requests
 import xml.etree.ElementTree as ET
 import re
+from datetime import datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 import matplotlib
@@ -264,8 +265,14 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)"""
     
+    # Get current date and total publication count
+    current_date = datetime.now().strftime("%B %d, %Y")
+    total_pubs = sum(len(pubs) for pubs in pubs_by_year.values())
+    
     # Build the new publications section with year navigation
-    pubs_section = """
+    pubs_section = f"""
+
+*Last updated: {current_date} — {total_pubs} publications*
 
 ## Publications by Year
 
