@@ -33,10 +33,6 @@ The focus of our research is in the development of mass spectrometry and stable 
 - **A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data** - Nature Methods, July 2025
 - **Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome** - Nature Communications, July 2025
 
-## Quantitative Proteomics Services
-
-The MacCoss lab offers a number of mass spectrometry based proteomics services.  These range from biofluid proteomics, targeted assay development, etc... For information about these services see [our services page](https://panoramaweb.org/Services/). Email at services[at]maccosslab[dot]org for mroe information
-
 ## Nunn Lab
 
 We share lab space and resources with [Brook Nunn's lab](https://www.environmentalproteomics.org/) here in the Department of Genome Sciences. The focus in the Nunn lab is to use mass spectrometry-based proteomics as a tool to understand a variety of environmental questions- from proteins preserved in sediments of the deep sea to the adaptation of bacteria cells to subzero temperatures.

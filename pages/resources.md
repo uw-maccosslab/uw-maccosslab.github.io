@@ -13,6 +13,7 @@ permalink: /resources/
     <button class="tab-button" onclick="openTab(event, 'datasets')">Datasets</button>
     <button class="tab-button" onclick="openTab(event, 'educational')">Educational Materials</button>
     <button class="tab-button" onclick="openTab(event, 'support')">Support & Training</button>
+    <button class="tab-button" onclick="openTab(event, 'services')">Services</button>
   </div>
 
   <div id="instrumentation" class="tab-content active">
@@ -596,4 +597,33 @@ document.addEventListener('DOMContentLoaded', function() {
   handleHashChange();
 });
 </script>
+
+  <div id="services" class="tab-content">
+    <div markdown="1">
+
+## Proteomics Services
+
+The MacCoss Lab offers mass spectrometry-based proteomics services to researchers at the University of Washington and external collaborators. Our services leverage our state-of-the-art instrumentation and decades of expertise in quantitative proteomics.
+
+### Available Services
+
+- **Biofluid Proteomics**: Analysis of plasma, serum, CSF, and other biofluids
+- **Targeted Assay Development**: Custom SRM/MRM and PRM method development for specific proteins of interest
+- **Data-Independent Acquisition (DIA)**: Comprehensive proteome profiling using our latest instruments
+- **Method Consultation**: Expert guidance on experimental design and sample preparation
+
+### Getting Started
+
+For detailed information about our services, pricing, and to submit a project request, please visit our services portal:
+
+<p style="text-align: center; margin: 2em 0;">
+  <a href="https://panoramaweb.org/Services/" class="button" style="display: inline-block; padding: 12px 24px; background-color: #4b2e83; color: white; text-decoration: none; border-radius: 4px; font-weight: bold;">View Services Portal →</a>
+</p>
+
+### Contact
+
+For questions about our proteomics services, please contact us at **services[at]maccosslab[dot]org**
+
+</div>
+  </div>
 
