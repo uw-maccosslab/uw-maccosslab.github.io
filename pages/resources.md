@@ -319,8 +319,9 @@ Example publications describing the Stellar from the MacCoss lab include:
 [**View all LC-MS tips**](https://proteomicsresource.washington.edu/protocols05/)
 
 </div>
-</div>
-</div>
+  </div>
+
+
 
 
 
