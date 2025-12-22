@@ -149,7 +149,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 </div>
 </div>
 
-                <div id="datasets" class="tab-content">
+                  <div id="datasets" class="tab-content">
     <div markdown="1">
 
 ## Public Datasets on [Panorama Public](http://panoramaweb.org/public.url)
@@ -273,6 +273,8 @@ collision cross-section database</a></td><td></td></tr>
 
 </div>
   </div>
+
+
   <div id="educational" class="tab-content">
     <div markdown="1">
 
@@ -621,17 +623,6 @@ function showEventYear(year) {
 }
 </script>
 
-### Annual and Regular Course Series
-
-- **Skyline Online** - Multi-day virtual training courses (typically October)
-- **UW Targeted Mass Spectrometry Course** - Annual summer course at University of Washington, Seattle
-- **May Institute** - Annual computation and statistics course at Northeastern University, Boston
-- **ISAS Dortmund Skyline Training Course** - Annual course in Germany (typically March/April)
-- **ASMS Short Courses** - Two-day quantitative proteomics courses at ASMS annual conference
-- **Skyline User Group Meetings** - Annual meetings at ASMS conferences
-- **Targeted Proteomics Course at PRBB, Barcelona** - Biennial EMBO course
-
-*For current course schedules and registration, visit [Skyline Events](https://skyline.ms/home/software/Skyline/events/project-begin.view)*
 
 </div>
 </div>

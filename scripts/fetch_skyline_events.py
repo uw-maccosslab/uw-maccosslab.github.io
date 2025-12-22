@@ -70,8 +70,9 @@ def fetch_events():
         if event_info:
             event_info["year"] = year
 
-            # Determine if upcoming (2026 or future, or explicitly marked)
-            if year >= 2026:
+            # Determine if upcoming (next year or future)
+            current_year = datetime.now().year
+            if year > current_year:
                 upcoming_events.append(event_info)
             else:
                 past_events[year].append(event_info)
@@ -363,33 +364,6 @@ def generate_support_section(events, webinars):
         lines.append("}")
         lines.append("</script>")
         lines.append("")
-
-    # Annual Course Series
-    lines.append("### Annual and Regular Course Series")
-    lines.append("")
-    lines.append(
-        "- **Skyline Online** - Multi-day virtual training courses (typically October)"
-    )
-    lines.append(
-        "- **UW Targeted Mass Spectrometry Course** - Annual summer course at University of Washington, Seattle"
-    )
-    lines.append(
-        "- **May Institute** - Annual computation and statistics course at Northeastern University, Boston"
-    )
-    lines.append(
-        "- **ISAS Dortmund Skyline Training Course** - Annual course in Germany (typically March/April)"
-    )
-    lines.append(
-        "- **ASMS Short Courses** - Two-day quantitative proteomics courses at ASMS annual conference"
-    )
-    lines.append("- **Skyline User Group Meetings** - Annual meetings at ASMS conferences")
-    lines.append(
-        "- **Targeted Proteomics Course at PRBB, Barcelona** - Biennial EMBO course"
-    )
-    lines.append("")
-    lines.append(
-        "*For current course schedules and registration, visit [Skyline Events](https://skyline.ms/home/software/Skyline/events/project-begin.view)*"
-    )
 
     return "\n".join(lines)
 
