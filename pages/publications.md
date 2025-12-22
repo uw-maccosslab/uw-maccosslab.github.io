@@ -17,6 +17,8 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
+*Last updated: December 22, 2025 — 334 publications*
+
 ## Publications by Year
 
 <div class="publications-container">
