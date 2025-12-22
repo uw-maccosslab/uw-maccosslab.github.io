@@ -213,187 +213,118 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 </div>
 </div>
-
   <div id="educational" class="tab-content">
     <div markdown="1">
 
 ## Educational Materials
-### Useful Mass Spectrometry Information
-- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/protocols05/)** -- A collection of URLs with LC-MS tricks, instrument setup, etc... *Definitely bookmark this page.* 
-- **[UWPR Analysis Tools](https://proteomicsresource.washington.edu/protocols06/)** -- A collection of websites and tools for proteomics and mass spectrometry. 
 
-### Skyline Webinars
-**Interactive 90-minute tutorial webinars with Q&A sessions**
+### UWPR Mass Spectrometry Resources
 
-#### 2025
-- **[#25: Comparing Acquisition Methods](https://skyline.ms/project/home/software/Skyline/events/2025%20Webinars/Webinar%2025/begin.view?)** (Jan 2025)
+- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/protocols05/)** — Protocols, tips, and resources for LC-MS analyses. *Definitely bookmark this page.*
+- **[UWPR Data Analysis Tools](https://proteomicsresource.washington.edu/protocols06/)** — Online calculators, database search tools, and computational resources.
 
-#### 2024
-- **[#24: Skyline for Lipidomics](https://skyline.ms/project/home/software/Skyline/events/2024%20Webinars/Webinar%2024/begin.view?)** (Nov 2024)
-- **[#23: Using Skyline Live Reports](https://skyline.ms/project/home/software/Skyline/events/2024%20Webinars/Webinar%2023/begin.view?)** (Sept 2024)
-
-#### 2023 & 2021
-- **[#22: Using DIA Data To Create SRM Methods](https://skyline.ms/project/home/software/Skyline/events/2023%20Webinars/Webinar%2022/begin.view?)** (Mar 2023)
-- **[#21: Analysis of diaPASEF Data](https://skyline.ms/project/home/software/Skyline/events/2021%20Webinars/Webinar%2021/begin.view?)** (Dec 2021)
-- **[#20: Using Skyline Batch for Large-Scale DIA](https://skyline.ms/project/home/software/Skyline/events/2021%20Webinars/Webinar%2020/begin.view?)** (July 2021)
-
-#### 2020 & 2018
-- **[#19: Ion Mobility Spectrum Filtering](https://skyline.ms/project/home/software/Skyline/events/2020%20Webinars/Webinar%2019/begin.view?)** (April 2020)
-- **[#18: DIA Data Analysis Revisited](https://skyline.ms/project/home/software/Skyline/events/2020%20Webinars/Webinar%2018/begin.view?)** (April 2020)
-- **[#17: PRM Method Dev and Data Analysis](https://skyline.ms/project/home/software/Skyline/events/2018%20Webinars/Webinar%2017/begin.view?)** (Jan 2018)
-
-#### 2017 & 2016
-- **[#16: Small Molecule Research](https://skyline.ms/project/home/software/Skyline/events/2017%20Webinars/Webinar%2016/begin.view?)** (Nov 2017)
-- **[#15: Optimizing Large Scale DIA](https://skyline.ms/project/home/software/Skyline/events/2017%20Webinars/Webinar%2015/begin.view?)** (Apr 2017)
-- **[#14: Large Scale DIA](https://skyline.ms/project/home/software/Skyline/events/2017%20Webinars/Webinar%2014/begin.view?)** (Jan 2017)
-
-#### 2015
-- **[#12: Isotope Labeled Standards](https://skyline.ms/project/home/software/Skyline/events/2015%20Webinars/Webinar%2012/begin.view?)** (Dec 2015)
-- **[#11: Panorama and Panorama Public](https://skyline.ms/project/home/software/Skyline/events/2015%20Webinars/Webinar%2011/begin.view?)** (Oct 2015)
-- **[#10: Working with Modifications](https://skyline.ms/project/home/software/Skyline/events/2015%20Webinars/Webinar%2010/begin.view?)** (Sep 2015)
-- **[#9: PRM for PTM Studies](https://skyline.ms/project/home/software/Skyline/events/2015%20Webinars/Webinar%209/begin.view?)** (Aug 2015)
-
-#### 2014
-- **[#2: Jump Start DIA Analysis with DDA Data](https://skyline.ms/project/home/software/Skyline/events/2014%20Webinars/Webinar%202/begin.view?)** (Dec 2014)
-- **[#1: Getting the Most Out of DDA Data](https://skyline.ms/project/home/software/Skyline/events/2014%20Webinars/Webinar%201/begin.view?)** (Nov 2014)
-
-[**View all webinars**](https://skyline.ms/wiki/home/software/Skyline/page.view?name=webinars)
+#### UWPR Online Calculators
+- [MS/MS fragmentation calculator](https://proteomicsresource.washington.edu/cgi-bin/fragment.cgi)
+- [Protein sequence digestion calculator](https://proteomicsresource.washington.edu/cgi-bin/digest.cgi)
+- [Isotope distribution calculator](https://proteomicsresource.washington.edu/cgi-bin/calcisotopes.cgi)
+- [Elemental mass calculator](https://proteomicsresource.washington.edu/cgi-bin/element.cgi)
+- [Lorikeet Spectrum viewer](https://proteomicsresource.washington.edu/lorikeet/)
+- [Koina (Prosit, ms2pip, AlphaPeptDeep) spectrum prediction viewer](https://proteomicsresource.washington.edu/lorikeet/html/specview-koina.html)
+- [Table of relevant masses (amino acids, elements)](https://proteomicsresource.washington.edu/protocols06/masses.php)
 
 ### Skyline Tutorials
-**Hands-on tutorials with real data and step-by-step instructions**
+*Hands-on tutorials with real data and step-by-step instructions*
 
 #### Introductory
-- **[Targeted Method Editing](https://skyline.ms/tutorial_method_edit.url)** (26 pages) - Learn the basics of creating and editing targeted methods
-- **[Targeted Method Refinement](https://skyline.ms/tutorial_method_refine.url)** (28 pages) - Optimize your methods for better results
-- **[Grouped Study Data Processing](https://skyline.ms/tutorial_grouped.url)** (70 pages) - Analyze grouped experimental data
-- **[Existing & Quantitative Experiments](https://skyline.ms/tutorial_existing_quant.url)** (43 pages) - Work with existing data and quantitative analysis
+- **[Targeted Method Editing](https://skyline.ms/tutorial_method_edit.url)** (26 pages)
+- **[Targeted Method Refinement](https://skyline.ms/tutorial_method_refine.url)** (28 pages)
+- **[Grouped Study Data Processing](https://skyline.ms/tutorial_grouped.url)** (70 pages)
+- **[Existing & Quantitative Experiments](https://skyline.ms/tutorial_existing_quant.url)** (43 pages)
 
 #### Introduction to Full-Scan Acquisition Data
-- **[Comparing PRM, DIA, and DDA](https://skyline.ms/tutorial_comp_acq.url)** (38 pages) - Compare different acquisition methods
-- **[PRM With an Orbitrap](https://skyline.ms/tutorial_prm_orbi.url)** (44 pages) - Parallel reaction monitoring on Orbitrap instruments
-- **[Basic Data Independent Acquisition](https://skyline.ms/tutorial_dia.url)** (40 pages) - Introduction to DIA analysis
+- **[Comparing PRM, DIA, and DDA](https://skyline.ms/tutorial_comp_acq.url)** (38 pages)
+- **[PRM With an Orbitrap](https://skyline.ms/tutorial_prm_orbi.url)** (44 pages)
+- **[Basic Data Independent Acquisition](https://skyline.ms/tutorial_dia.url)** (40 pages)
 
 #### Full-Scan Acquisition Data
-- **[MS1 Full-Scan Filtering](https://skyline.ms/tutorial_ms1_filtering.url)** (41 pages) - Extract quantitative information from MS1 data
-- **[DDA Search for MS1 Filtering](https://skyline.ms/tutorial_dda_search.url)** (19 pages) - Use DDA results to enhance MS1 analysis
-- **[Parallel Reaction Monitoring (PRM)](https://skyline.ms/tutorial_prm.url)** (40 pages) - Comprehensive PRM workflow
-- **[Analysis of DIA/SWATH Data](https://skyline.ms/tutorial_dia_swath.url)** (32 pages) - Process DIA and SWATH-MS data
-- **[Analysis of diaPASEF Data](https://skyline.ms/tutorial_dia_pasef.url)** (36 pages) - Work with ion mobility DIA data
-- **[Library-Free DIA/SWATH](https://skyline.ms/tutorial_dia_umpire_ttof.url)** (26 pages) - DIA analysis without spectral libraries
+- **[MS1 Full-Scan Filtering](https://skyline.ms/tutorial_ms1_filtering.url)** (41 pages)
+- **[DDA Search for MS1 Filtering](https://skyline.ms/tutorial_dda_search.url)** (19 pages)
+- **[Parallel Reaction Monitoring (PRM)](https://skyline.ms/tutorial_prm.url)** (40 pages)
+- **[Analysis of DIA/SWATH Data](https://skyline.ms/tutorial_dia_swath.url)** (32 pages)
+- **[Analysis of diaPASEF Data](https://skyline.ms/tutorial_dia_pasef.url)** (36 pages)
+- **[Library-Free DIA/SWATH](https://skyline.ms/tutorial_dia_umpire_ttof.url)** (26 pages)
 
 #### Small Molecules
-- **[Small Molecule Targets](https://skyline.ms/tutorial_small_molecule.url)** (10 pages) - Basic small molecule analysis
-- **[Small Molecule Method Development](https://skyline.ms/tutorial_small_method_ce.url)** (37 pages) - Develop targeted small molecule methods
-- **[Small Mol. Multidimension Spec. Lib.](https://skyline.ms/tutorial_small_ims.url)** (23 pages) - Use ion mobility for small molecules
-- **[Small Molecule Quantification](https://skyline.ms/tutorial_small_quant.url)** (27 pages) - Quantitative small molecule workflows
-- **[Hi-Res Metabolomics](https://skyline.ms/tutorial_hi_res_metabolomics.url)** (17 pages) - High-resolution metabolomics analysis
+- **[Small Molecule Targets](https://skyline.ms/tutorial_small_molecule.url)** (10 pages)
+- **[Small Molecule Method Development](https://skyline.ms/tutorial_small_method_ce.url)** (37 pages)
+- **[Small Mol. Multidimension Spec. Lib.](https://skyline.ms/tutorial_small_ims.url)** (23 pages)
+- **[Small Molecule Quantification](https://skyline.ms/tutorial_small_quant.url)** (27 pages)
+- **[Hi-Res Metabolomics](https://skyline.ms/tutorial_hi_res_metabolomics.url)** (17 pages)
+
+#### Reports
+- **[Custom Reports](https://skyline.ms/tutorial_custom_reports.url)** (33 pages)
+- **[Live Reports](https://skyline.ms/tutorial_live_reports.url)** (48 pages)
 
 #### Advanced Topics
-- **[Absolute Quantification](https://skyline.ms/tutorial_absolute_quant.url)** (19 pages) - Calculate absolute protein concentrations
-- **[Custom Reports](https://skyline.ms/tutorial_custom_reports.url)** (33 pages) - Create custom data reports
-- **[Advanced Peak Picking Models](https://skyline.ms/tutorial_peak_picking.url)** (28 pages) - Optimize peak detection algorithms
-- **[iRT Retention Time Prediction](https://skyline.ms/tutorial_irt.url)** (36 pages) - Use indexed retention times
-- **[Collision Energy Optimization](https://skyline.ms/tutorial_optimize_ce.url)** (12 pages) - Optimize fragmentation conditions
-- **[Ion Mobility Spectrum Filtering](https://skyline.ms/tutorial_ims.url)** (26 pages) - Advanced ion mobility analysis
-- **[Spectral Library Explorer](https://skyline.ms/tutorial_library_explorer.url)** (22 pages) - Explore and manage spectral libraries
-- **[Audit Logging](https://skyline.ms/tutorial_audit_log.url)** - Track document changes for compliance
+- **[Absolute Quantification](https://skyline.ms/tutorial_absolute_quant.url)** (19 pages)
+- **[Advanced Peak Picking Models](https://skyline.ms/tutorial_peak_picking.url)** (28 pages)
+- **[iRT Retention Time Prediction](https://skyline.ms/tutorial_irt.url)** (36 pages)
+- **[Collision Energy Optimization](https://skyline.ms/tutorial_optimize_ce.url)** (12 pages)
+- **[Ion Mobility Spectrum Filtering](https://skyline.ms/tutorial_ims.url)** (26 pages)
+- **[Spectral Library Explorer](https://skyline.ms/tutorial_library_explorer.url)** (22 pages)
+- **[Audit Logging](https://skyline.ms/tutorial_audit_log.url)** (23 pages)
 
 [**View all tutorials**](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tutorials)
 
-### Skyline Videos
-**Quick instructional videos for getting started**
+### Skyline Documentation
+*Advanced reference documentation and developer resources*
 
-- **[Video Demo 1: Creating SRM/MRM Methods](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_0-2)** (28 minutes) - Learn to create targeted methods
-- **[Video Demo 2: Results Analysis and Method Refinement](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_0-5)** (25 minutes) - Analyze results and refine methods
-- **[Video Demo 3: Importing Existing Experiments](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_0-5b)** (27 minutes) - Work with existing data and isotope standards
-- **[Skyline Trailer Video](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_trailer)** - Overview of Skyline capabilities
+- **[Skyline Custom Reports](https://skyline.ms/wiki/home/software/Skyline/page.view?name=custom_reports)** — Learn about the vast array of values you can show in the Document Grid or export
+- **[Skyline Command-Line Interface](https://skyline.ms/wiki/home/software/Skyline/page.view?name=SkylineCmd)** — Use SkylineRunner.exe and SkylineCmd.exe for command-line operations
+- **[Skyline Keyboard Shortcuts](https://skyline.ms/wiki/home/software/Skyline/page.view?name=keyboard_shortcuts)** — Quick access to commands without leaving the keyboard
+- **[External Tools Documentation](https://skyline.ms/labkey/_webdav/home/software/Skyline/@files/docs/Skyline%20External%20Tools-2_1.pdf)** — Integrate statistical and bioinformatics tools with Skyline
+- **[Interactive Tools Documentation](https://skyline.ms/labkey/_webdav/home/software/Skyline/@files/docs/Skyline%20Interactive%20Tool%20Support-3_1.pdf)** — Develop .NET tools that interact with Skyline in real-time
+
+[**View all documentation**](https://skyline.ms/wiki/home/software/Skyline/page.view?name=documentation)
+
+### Skyline Videos
+*Quick instructional videos for getting started*
+
+- **[Video Demo 1: Creating SRM/MRM Methods](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_0-2)** (28 minutes)
+- **[Video Demo 2: Results Analysis and Method Refinement](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_0-5)** (25 minutes)
+- **[Video Demo 3: Importing Existing Experiments](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_0-5b)** (27 minutes)
+- **[Skyline Trailer Video](https://skyline.ms/labkey/wiki/home/software/Skyline/page.view?name=video_trailer)**
 
 [**View all videos**](https://skyline.ms/wiki/home/software/Skyline/page.view?name=videos)
 
 ### YouTube Channels
-**Course content and instructional videos**
+*Course content and instructional videos*
 
-- **[Skyline Course at UW (2017 & 2018)](https://www.youtube.com/channel/UCOdJj3Spesm_U_2-N_FT7wg)** - University of Washington course materials
-- **[May Institute at Northeastern University (2018-2020)](https://www.youtube.com/channel/UCnbUMFlIRLaY7fwfSintWuQ)** - Comprehensive proteomics course content
-- **[Targeted Proteomics Course at ETH, Zurich (2016 & 2018)](https://www.youtube.com/channel/UCLLENascNxL22j3pntI7jVA/playlists)** - International course materials
+- **[Skyline Course at UW](https://www.youtube.com/channel/UCOdJj3Spesm_U_2-N_FT7wg)** — University of Washington course materials
+- **[May Institute at Northeastern University](https://www.youtube.com/channel/UCnbUMFlIRLaY7fwfSintWuQ)** — Comprehensive proteomics course content
+- **[Targeted Proteomics Course at ETH, Zurich](https://www.youtube.com/channel/UCLLENascNxL22j3pntI7jVA/playlists)** — International course materials
 
 [**View YouTube resources**](https://skyline.ms/wiki/home/software/Skyline/page.view?name=youtube)
 
-### Skyline Tips
-**Quick tips and troubleshooting guides**
+### LC-MS Tips and Protocols
+*Selected resources from the UWPR LC-MS Tips page*
 
-- **Adduct Descriptions** - Understanding different adduct types
-- **Working with Other Quantitative Tools** - Integration with external software
-- **How to Display Multiple Peptides** - Visualization techniques
-- **Terminology Cheat Sheet** - Key terms and definitions
-- **How Skyline Builds Spectral Libraries** - Library construction process
-- **ID Annotations Missing with Mascot Search Results** - Troubleshooting search imports
-- **DIA Configuration for Thermo Q Exactive Instruments** - Instrument-specific settings
-- **How Skyline Calculates Peak Areas and Heights** - Understanding quantification
-- **Support for Bruker TOF Instruments** - Vendor-specific guidance
-- **Recovering From a Broken Installation** - Troubleshooting installation issues
-- **Sharing MS/MS Spectra with Manuscripts** - Publication guidelines
-- **Share Skyline Documents in Manuscripts** - Document sharing best practices
-- **Export SRM Methods for a Thermo LTQ** - Method export procedures
-- **Skyline Lists** - Working with peptide and protein lists
-- **Pivot Editor** - Advanced data manipulation
-- **Result File Rules** - Managing multiple result files
+- [DIA Overview](https://proteomicsresource.washington.edu/protocols05/DIA.php)
+- [PRM Overview](https://proteomicsresource.washington.edu/protocols05/PRM.php)
+- [MRM/SRM Overview](https://proteomicsresource.washington.edu/protocols05/MRM.php)
+- [Common Mass Spec Background Ions](https://proteomicsresource.washington.edu/protocols05/esi_background_ions.php)
+- [Avoid Contaminations Guide](https://proteomicsresource.washington.edu/docs/protocols05/Avoid%20Contaminations.pdf)
+- [Packing Capillary Columns](https://proteomicsresource.washington.edu/docs/protocols05/Packing_Capillary_Columns.pdf)
 
-[**View all tips**](https://skyline.ms/wiki/home/software/Skyline/page.view?name=tips)
-
-### Panorama Documentation
-**Comprehensive guides for using Panorama web-based repository**
-
-#### Getting Started
-- **Create a Folder in Panorama** - Set up project structure and organization
-- **Folder Navigation in Panorama** - Navigate through project hierarchies
-- **Adding Users to a Project** - Manage user access and permissions
-- **Import Data Into Panorama** - Upload Skyline documents and results
-- **Upload Raw Data** - Store mass spectrometry raw files
-- **Upload Supplementary Files** - Include additional project materials
-
-#### Data Management
-- **Include Subfolders in Panorama Public Submission** - Organize complex datasets
-- **Submit Data to Panorama Public** - Share data with the proteomics community
-- **Data Validation for ProteomeXchange** - Ensure compliance with repository standards
-- **Download Data From Panorama Public** - Access publicly available datasets
-- **Finding Unimod matches** - Identify modification annotations
-
-#### Advanced Features
-- **Quality Control with AutoQC** - Automated instrument performance monitoring
-- **[Document Version Tracking](https://www.labkey.org/Documentation/wiki-page.view?name=panoramaRevisionTrack)** - Track changes and document history
-- **Adding Links in Wiki Pages** - Create interconnected documentation
-- **Install Panorama** - Set up local Panorama installations
-
-[**View all documentation**](https://panoramaweb.org/home/wiki-page.view?name=documentation) | [**LabKey Panorama Documentation**](https://www.labkey.org/Documentation/wiki-page.view?name=panorama)
-
-### Panorama Tutorials
-**Hands-on tutorials for Panorama workflows**
-
-- **[Sharing Skyline Documents](https://panoramaweb.org/home/wiki-page.view?name=tutorials)** - Learn to upload and share Skyline documents in Panorama
-- **[Panorama Chromatogram Libraries](https://panoramaweb.org/home/wiki-page.view?name=tutorials)** - Build and manage chromatogram libraries for DIA analysis
-- **[Submit Data to Panorama Public](https://panoramaweb.org/home/wiki-page.view?name=tutorials)** - Complete workflow for making data publicly available
-
-[**View all tutorials**](https://panoramaweb.org/home/wiki-page.view?name=tutorials)
-
-### Panorama Webinars
-**Educational webinars covering Panorama features and best practices**
-
-#### Recent Webinars (2017-2021)
-- **[System Suitability Best Practices with Skyline and Panorama](https://www.labkey.com/webinar/lc-ms-system-suitability-skyline-panorama/)** (June 29, 2021) - LabKey hosted webinar on QC workflows
-- **[Introduction to Panorama](https://www.labkey.com/webinar/panorama-targeted-proteomics-research/)** (September 21, 2017) - LabKey hosted overview of Panorama capabilities
-
-#### Skyline/Panorama Joint Webinars
-- **[Panorama Public and Panorama AutoQC](https://brendanx-uw1.gs.washington.edu/labkey/project/home/software/Skyline/events/2015%20Webinars/Webinar%2011/begin.view?)** (October 20, 2015) - Skyline Tutorial Webinar #11
-
-#### Historical Webinars (2013-2014)
-- **[Panorama: Managing and Analyzing Large Datasets](https://www.youtube.com/watch?v=eZSoBU622Ws)** (August 19, 2014) - YouTube video
-- **[Panorama targeted proteomics knowledge base](https://www.youtube.com/watch?v=YyPo0447VUM)** (August 8, 2013) - YouTube video
-
-[**View all webinars**](https://panoramaweb.org/home/wiki-page.view?name=webinars)
+[**View all LC-MS tips**](https://proteomicsresource.washington.edu/protocols05/)
 
 </div>
 </div>
+</div>
+
+
+
+
   <div id="support" class="tab-content">
     <div markdown="1">
 
