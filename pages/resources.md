@@ -394,7 +394,6 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 </div>
 </div>
-
   <div id="support" class="tab-content">
     <div markdown="1">
 
@@ -405,63 +404,248 @@ Example publications describing the Stellar from the MacCoss lab include:
 - [Panorama Support Board](https://panoramaweb.org/forum)
 - **[University of Washington Proteomics Listserv](https://mailman23.u.washington.edu/mailman/listinfo/proteomics)** - If you are at UW and doing proteomics you should join this list.
 
-### Proteomics and Mass Spectrometry Courses
+### Upcoming Events
 
-#### Upcoming Events (2025)
-- **Fall 2025 Skyline Online** - Dates coming soon
-- **[The 15th international symposium on proteomics in the life sciences](https://www.asbmb.org/meetings-events/proteomics-2025)** - Cambridge, MA (August 17-21, 2025)
-- **[Skyline Course at the University of Washington](https://skyline.ms/project/home/software/Skyline/events/2025%20UW%20Course/begin.view)** - Seattle, WA (July 7-11, 2025)
+- **[2026 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline-kurs-2026)** (March 2-5, 2026)
+- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)**
 
-#### Recent Past Events (2024-2025)
-- **[Two-day Short Course: 08 Quantitative Proteomics: Case Studies](https://www.asms.org/conferences/annual-conference/short-courses)** - ASMS Baltimore, MD (May 31 - June 1, 2025)
-- **[Skyline User Group Meeting](https://skyline.ms/2025-ugm.url)** - ASMS Baltimore, MD (June 1, 2025)
-- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)** - Northeastern University, Boston (April 28 - May 11, 2025)
-- **[2025 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline-course-2025)** - (April 7-10, 2025)
-- **[Practical Course on Targeted Proteomics](https://courses.crg.eu/events/targetedproteomics)** - Barcelona, Spain (November 17-22, 2024)
-- **[2024 Skyline Online](https://skyline.ms/project/home/software/Skyline/events/2024-10%20Skyline%20Online/begin.view)** - (October 8-9, 10-11, 15-16, 17-18, 2024)
-- **[UW Targeted Mass Spectrometry Course](https://skyline.ms/project/home/software/Skyline/events/2024%20UW%20Course/begin.view)** - Seattle, WA (July 8-12, 2024)
-- **[Two-day Short Course: 08 Quantitative Proteomics: Case Studies](https://www.asms.org/conferences/annual-conference/short-courses/two-day-courses)** - ASMS Anaheim, CA (June 1-2, 2024)
-- **[Skyline User Group Meeting](https://skyline.ms/project/home/software/Skyline/events/2024%20User%20Group%20Meeting%20at%20ASMS/begin.view)** - ASMS Anaheim, CA (June 2, 2024)
-- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)** - Northeastern University, Boston (April 29 - May 10, 2024)
-- **[2024 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline2024)** - (March 4-7, 2024)
-- **[2024 Advances in Proteomics Technologies Hands-on Workshop](https://portal.iitb.ac.in/ceqipapp/courseDetails.jsp?c_id=5476)** - IIT Bombay, India (February 17-18, 2024)
+### Skyline Webinar Series
 
-#### Annual and Regular Course Series
-- **Skyline Online** - Multi-day virtual training courses (typically October/November)
+The Skyline Team presents tutorial webinars designed to help you get the most out of Skyline targeted proteomics software. Each ~90 minute webinar includes Q&A, presentations, and tutorial data.
+
+**Recent Webinars (2025):**
+- [#26: DIA with FragPipe, DIA-NN and Skyline](https://skyline.ms/project/home/software/Skyline/events/2025%20Webinars/Webinar%2026/begin.view?) (Sept 2025)
+- [#25: Comparing Acquisition Methods](https://skyline.ms/project/home/software/Skyline/events/2025%20Webinars/Webinar%2025/begin.view?) (Jan 2025)
+
+*[View all 26 webinars](https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars)*
+
+### Past Events by Year
+
+<div class="events-container">
+
+<div class="event-year-navigation">
+<button class="active" onclick="showEventYear(2025)">2025 (7)</button>
+<button onclick="showEventYear(2024)">2024 (8)</button>
+<button onclick="showEventYear(2023)">2023 (8)</button>
+<button onclick="showEventYear(2022)">2022 (5)</button>
+<button onclick="showEventYear(2021)">2021 (3)</button>
+<button onclick="showEventYear(2020)">2020 (4)</button>
+<button onclick="showEventYear(2019)">2019 (9)</button>
+<button onclick="showEventYear(2018)">2018 (17)</button>
+<button onclick="showEventYear(2017)">2017 (9)</button>
+<button onclick="showEventYear(2016)">2016 (8)</button>
+<button onclick="showEventYear(2015)">2015 (12)</button>
+<button onclick="showEventYear(2014)">2014 (10)</button>
+<button onclick="showEventYear(2013)">2013 (1)</button>
+</div>
+
+<div class="event-year-content-area">
+<div id="events-2025" style="display: block;">
+<h4>2025 Events</h4>
+<ul>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2025-10%20Skyline%20Online/project-begin.view">Skyline Online 2025</a> (October 7-17, 2025)</li>
+<li><a href="https://meetings.embo.org/event/25-targeted-proteomics">Practical Course on Targeted Proteomics</a> - Barcelona, Spain (October 5-10, 2025)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2025%20UW%20Course/project-begin.view">Skyline Course at the University of Washington</a> - Seattle, WA (July 7 - 11, 2025)</li>
+<li><a href="https://www.asms.org/conferences/annual-conference/short-courses">Two-day Short Course: 08 Quantitative Proteomics: Case Studies</a> - Baltimore, MD</li>
+<li><a href="https://skyline.ms/2025-ugm.url">Skyline User Group Meeting</a> - Baltimore, MD (June 1, 2025)</li>
+<li><a href="https://computationalproteomics.khoury.northeastern.edu/">May Institute - Computation and statistics for mass spectrometry and proteomics</a> - Northeastern University</li>
+<li><a href="https://www.isas.de/en/events/skyline-course-2025">2025 ISAS Dortmund Skyline Training Course</a> - Dortmund (April 7-10, 2025)</li>
+</ul>
+</div>
+
+<div id="events-2024" style="display: none;">
+<h4>2024 Events</h4>
+<ul>
+<li><a href="https://courses.crg.eu/events/targetedproteomics">Practical Course on Targeted Proteomics</a> - Barcelona, Spain (November 17-22, 2024)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2024-10%20Skyline%20Online/project-begin.view">2024 Skyline Online</a></li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2024%20UW%20Course/project-begin.view">UW Targeted Mass Spectrometry Course</a> - Seattle, WA (July 8 - 12, 2024)</li>
+<li><a href="https://www.asms.org/conferences/annual-conference/short-courses/two-day-courses%0A">Two-day Short Course: 08 Quantitative Proteomics: Case Studies</a> - Anaheim, CA (June 1 - 2, 2024)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2024%20User%20Group%20Meeting%20at%20ASMS/project-begin.view">Skyline User Group Meeting</a> - Anaheim, CA (June 2, 2024)</li>
+<li><a href="https://computationalproteomics.khoury.northeastern.edu/">May Institute - Computation and statistics for mass spectrometry and proteomics</a> - Northeastern University</li>
+<li><a href="https://www.isas.de/en/events/skyline2024">2024 ISAS Dortmund Skyline Training Course</a> - Dortmund (March 4-7, 2024)</li>
+<li><a href="https://portal.iitb.ac.in/ceqipapp/courseDetails.jsp?c_id=5476">2024 Advances in Proteomics Technologies Hands-on Workshop</a> - IIT, Bombay (February 17-18, 2024)</li>
+</ul>
+</div>
+
+<div id="events-2023" style="display: none;">
+<h4>2023 Events</h4>
+<ul>
+<li><a href="https://meetings.embo.org/event/23-targeted-proteomics">Targeted Proteomics Course</a> (November 12 - 17, 2023)</li>
+<li><a href="https://www.ctosymposium.org/workshop">Option 2: Clinical and Translational Omics Symposium</a> (November 3, 2023)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2023-10%20Skyline%20Online/project-begin.view">2023-10 Skyline Online</a></li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2023%20UW%20Course/project-begin.view">UW Targeted Mass Spectrometry Course</a> - Seattle, WA</li>
+<li><a href="https://skyline.ms/2023-ugm.url">Skyline User Group Meeting at ASMS</a> - Houston, TX (June 4, 2023)</li>
+<li><a href="https://www.asms.org/conferences/annual-conference/short-courses/two-day-courses">Short Course at ASMS</a> - Houston, TX (June 3-4, 2023)</li>
+<li><a href="https://www.isas.de/en/compact/skyline-course-2023-register-now">2023 ISAS Dortmund Skyline Training Course</a> - Dortmund (March 20-23, 2023)</li>
+<li><a href="https://mrmproteomics.com/product/workshop-registration/">MRM Proteomics Virtual MRM Targeted Quantitation Workshop</a> (January 21-22, 2023)</li>
+</ul>
+</div>
+
+<div id="events-2022" style="display: none;">
+<h4>2022 Events</h4>
+<ul>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2022-10%20Skyline%20Online/page.view?name=all-sessions">2022-10 Skyline Online</a> (October 10 - 21, 2022)</li>
+<li><a href="https://skyline.ms/2022-uw-course.url">UW Targeted Mass Spectrometry Course</a> - Seattle, WA</li>
+<li><a href="https://skyline.ms/2022-ugm.url">Skyline User Group Meeting at ASMS (in-person)</a> - Minneapolis, MN (June 5, 2022)</li>
+<li><a href="https://computationalproteomics.khoury.northeastern.edu/">May Institute - Computation and statistics for mass spectrometry and proteomics</a> - Northeastern University (May 9 - 20, 2022)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2022%20Skyline%20Online/project-begin.view">2022 Skyline Online</a> (February 7 - 18, 2022)</li>
+</ul>
+</div>
+
+<div id="events-2021" style="display: none;">
+<h4>2021 Events</h4>
+<ul>
+<li><a href="https://skyline.ms/2021-ugm.url">Skyline User Group Meeting at ASMS online</a> (October 27 - 28, 2021)</li>
+<li><a href="https://computationalproteomics.khoury.northeastern.edu/">May Institute - Computation and statistics for mass spectrometry and proteomics</a> - Northeastern University (May 3 - 14, 2021)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2021%20Skyline%20Online/project-begin.view">2021 Skyline Online</a> (April 12- 24, 2021)</li>
+</ul>
+</div>
+
+<div id="events-2020" style="display: none;">
+<h4>2020 Events</h4>
+<ul>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2020%20Skyline%20Online/project-begin.view">2020 Skyline Online</a></li>
+<li><a href="https://skyline.ms/2020-ugm.url">Skyline User Group Meeting at ASMS online</a> (May 27 - 28, 2020)</li>
+<li><a href="https://computationalproteomics.ccis.northeastern.edu/">May Institute for computation and statistics for mass spectrometry and proteomics</a> - Boston MA</li>
+<li><a href="https://skyline.ms/2020-buck-course.url">Targeted Proteomics Course</a> (April 13 - 17, 2020)</li>
+</ul>
+</div>
+
+<div id="events-2019" style="display: none;">
+<h4>2019 Events</h4>
+<ul>
+<li><a href="https://web.archive.orghttp//meetings.embo.org/event/19-proteomics">Targeted Proteomics Course</a> (November 11 - 15, 2019)</li>
+<li><a href="https://www.qut.edu.au/institute-for-future-environments/about/events/carf-skyline-workshop">Pre-HUPO Targeted Proteomics Course</a> (September 9 - 13, 2019)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2019%20UW%20Course/project-begin.view">Skyline@UW: Targeted Quantitiative Mass Spec Course</a> - Seattle WA</li>
+<li><a href="https://computationalproteomics.ccis.northeastern.edu/">May Institute for computation and statistics for mass spectrometry and proteomics</a> - Boston MA</li>
+<li><a href="https://www.msacl.org/index.php?header=MSACL_2019_US&tab=Details&subtab=Short_Courses#skyline">Practical Proteomics with Skyline Short Course</a></li>
+<li><a href="https://www.msacl.org/index.php?header=MSACL_2019_US&tab=Details&subtab=Description">MSACL</a></li>
+<li><a href="https://skyline.ms/2019-buck-reg.url">Targeted Proteomics Course</a> (March 18 - 22, 2019)</li>
+<li><a href="https://web.archive.orghttp//www.ushupo.org/Conference/ShortCourses/tabid/68/Default.aspx#Design">Design and Analysis of Quantitative Proteomic Experiments</a> (March 2 - 3, 2019)</li>
+<li><a href="https://www.ushupo.org/Home/tabid/36/Default.aspx">US HUPO</a> (March 2 - 3, 2019)</li>
+</ul>
+</div>
+
+<div id="events-2018" style="display: none;">
+<h4>2018 Events</h4>
+<ul>
+<li><a href="https://skyline.ms/2018-duke-course.url">Skyline@Duke Short Course</a> (December 10 - 14, 2018)</li>
+<li><a href="https://web.archive.orghttp//meetings.embo.org/event/18-proteomics">Targeted Proteomics Course</a> (November 12-16, 2018)</li>
+<li><a href="https://web.archive.orghttp//iwtp2018.scievent.com/">International Targeted Proteomics Course</a> (October 22 - 23, 2018)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2018%20UW%20Course/project-begin.view">Targeted Proteomics Course</a> - Seattle WA</li>
+<li><a href="https://web.archive.orghttp//dia-swath-course.ethz.ch/">SWATH/DIA Course</a> - Zurich (July 2 - 6, 2018)</li>
+<li><a href="https://skyline.ms/users-2018.url">Skyline User Group Meeting at ASMS</a> (June 3, 2018)</li>
+<li><a href="https://web.archive.orghttp//www.asms.org/conferences/annual-conference/short-courses/two-day-courses">Case Studies in Quantitative Proteomics Workshop</a> (June 2 -3, 2018)</li>
+<li><a href="https://web.archive.orghttp//www.asms.org/conferences/annual-conference">ASMS</a> (June 2 -3, 2018)</li>
+<li><a href="https://web.archive.orghttp//www.asms.org/docs/default-source/conference-short-course-descriptions/14-quantitative-proteomics-case-studies.pdf?sfvrsn=2">Description</a> (June 2 -3, 2018)</li>
+<li><a href="https://web.archive.orghttp//computationalproteomics.ccis.northeastern.edu/">Computation & Statistics for Mass Spec & Proteomics Course</a> - Boston, MA</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2018%20Buck%20Institute%20Course/project-begin.view">Targeted Proteomics Course</a> (April 2 - 6, 2018)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2018%20Buck%20Institute%20Course/project-begin.view">Targeted Proteomics Course</a> (April 2 - 6, 2018)</li>
+<li><a href="https://web.archive.orghttp//www.bio.iitb.ac.in/~sanjeeva/massfiitb/index.php/targeted-proteomics/">Targeted Proteomics Workshop</a> - IIT Bombay (February 24 - 27, 2018)</li>
+<li><a href="https://web.archive.orghttp//www.bio.iitb.ac.in/~sanjeeva/massfiitb/">IIT Bombay</a> - IIT Bombay (February 24 - 27, 2018)</li>
+<li><a href="https://web.archive.orghttp//www.australasianproteomics.org/pre-lorne-workshop-2018/">Pre-Lorne Workshop</a> (January 29-31, 2018)</li>
+<li><a href="https://www.msacl.org/index.php?header=MSACL_2018_US&tab=Details&subtab=Short_Courses#skyline">Practical Proteomics with Skyline Short Course</a> (January 21-23, 2018)</li>
+<li><a href="https://www.msacl.org/index.php?header=MSACL_2018_US&tab=Details&subtab=Description">MSACL</a> (January 21-23, 2018)</li>
+</ul>
+</div>
+
+<div id="events-2017" style="display: none;">
+<h4>2017 Events</h4>
+<ul>
+<li><a href="https://web.archive.orghttp//meetings.embo.org/event/17-proteomics">Targeted Proteomics Course</a> (November 13-17, 2017)</li>
+<li><a href="https://web.archive.orghttp//hupo2017.ie/pre-hupo-workshop-on-targeted-proteomics/">Quantitative Proteomic Workshop</a> (Sept 16-17, 2017)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2017%20UW%20Course/project-begin.view">Targeted Proteomics Course</a> - Seattle WA (July 24-28, 2017)</li>
+<li><a href="https://web.archive.orghttp//dia-swath-course.ethz.ch/">DIA/SWATH Proteomics Course</a> - Zurich (June 26-30, 2017)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2017%20User%20Group%20Meeting%20at%20ASMS/project-begin.view">Skyline User Group Meeting</a> (June 4, 2017)</li>
+<li><a href="https://web.archive.orghttp//www.asms.org/conferences/annual-conference/short-courses/two-day-courses">Short Course #21: Case Studies in Quantitative Proteomics</a> (June 3-4, 2017)</li>
+<li><a href="https://web.archive.orghttp//computationalproteomics.ccis.northeastern.edu/">Computation Statistics for Targeted Proteomics Course</a> - Boston, MA (May 1-3, 2017)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2017%20Buck%20Institute%20Course/project-begin.view">Targeted Proteomics Course</a></li>
+<li><a href="https://www.ushupo.org/Conference/ShortCourses/tabid/68/Default.aspx#Design">Design and Analysis of Quantitative Proteomic Experiments</a> - San Diego, CA (March 18-19, 2017)</li>
+</ul>
+</div>
+
+<div id="events-2016" style="display: none;">
+<h4>2016 Events</h4>
+<ul>
+<li><a href="https://web.archive.orghttp//www.acgt.co.za/">2016 ACGT Proteomics Symposium and Skyline Workshop</a> (December 5-8, 2016)</li>
+<li><a href="https://web.archive.orghttp//events.embo.org/16-targeted-proteomics/">Targeted Proteomics Course</a> (November 14-18, 2016)</li>
+<li><a href="https://web.archive.orghttp//events.embo.org/16-proteomics/">European Summer School on: Advanced Proteomics</a></li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2016%20UW%20Course/project-begin.view">Targeted Proteomics Course</a> - Seattle WA (July 18-22, 2016)</li>
+<li><a href="https://web.archive.orghttp//olga-vitek-lab.org/neu-short-course/">Computation & Statistics for Targeted Proteomics Course</a> - Boston, MA (May 2-6, 2016)</li>
+<li><a href="https://www.hupo.org/events/us-hupo-annual-conference-2016/">Short Course</a> (March 13, 2016)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2016%20Buck%20Institute%20Course/project-begin.view">Targeted Proteomics Course</a></li>
+<li><a href="https://web.archive.orghttp//targetedproteomics.ethz.ch/">Targeted Proteomics Course</a> - Zurich (February 8-12, 2016)</li>
+</ul>
+</div>
+
+<div id="events-2015" style="display: none;">
+<h4>2015 Events</h4>
+<ul>
+<li><a href="https://web.archive.orghttp//www.bio.iitb.ac.in/~sanjeeva/itpws/targeted/">Targeted Proteomics Course</a> (December 10-14, 2015)</li>
+<li><a href="https://web.archive.orghttp//events.embo.org/15-targeted-proteomics/index.html">EMBO Practical Course: Targeted Proteomics</a> (November 15-20, 2015)</li>
+<li><a href="https://web.archive.orghttp//www.smp.org.mx/insmp/index.html">Skyline Pre-Symposium Short Course</a> (November 8-9, 2015)</li>
+<li><a href="https://skyline.ms/download.view?entityId=35c8929e-4003-102f-a8bb-da20258202b3&name=1st_jPOST%20workshop_v2.pdf">Short Course</a> (October 12, 2015)</li>
+<li><a href="https://web.archive.orghttp//www.fiocruz.br/ioc/cgi/cgilua.exe/sys/start.htm?infoid=2394&sid=32">Targeted Proteomics Workshop</a></li>
+<li><a href="https://web.archive.orghttp//targetedproteomics.ethz.ch/">Targeted Proteomics Course</a> - Zurich (June 22-26, 2015)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2015%20User%20Group%20Meeting%20at%20ASMS/project-begin.view">Skyline User Group Meeting</a> (May 31, 2015)</li>
+<li><a href="https://web.archive.orghttp//www.asms.org/conferences/annual-conference/short-courses/two-day-courses">ASMS Short Course - Case Studies in Quantitative Proteome Bioinformatics</a></li>
+<li><a href="https://web.archive.orghttp//www.asms.org/docs/default-source/conference-short-course-descriptions/14---case-studies-quantitative.pdf?sfvrsn=2">description</a></li>
+<li><a href="https://web.archive.orghttp//olga-vitek-lab.org/neu-short-course/">Computation and Statistics for Discovery and Targeted Proteomics</a> (May 18-22, 2015)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2015%20UW%20Course/project-begin.view">Targeted Quantitative Proteomics Course</a> (March 23-27, 2015)</li>
+<li><a href="https://web.archive.orghttp//www.ushupo.org/Conference/ShortCourses/tabid/68/Default.aspx">Short Course</a> (March 15, 2015)</li>
+</ul>
+</div>
+
+<div id="events-2014" style="display: none;">
+<h4>2014 Events</h4>
+<ul>
+<li><a href="https://web.archive.orghttp//www.bio.iitb.ac.in/~sanjeeva/psi2014/?page_id=2935">Targeted Proteomics Workshop</a> - IIT Bombay (Dec 10-11, 2014)</li>
+<li><a href="https://web.archive.orghttp//goo.gl/AYZcSm">Targeted Proteomics Workshop</a> (Nov 26, 2014)</li>
+<li><a href="https://web.archive.orghttp//events.embo.org/14-targeted-proteomics/index.html">Targeted Proteomics Course</a></li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2014%20EMBO%20Course%20-%20Targeted%20Proteomics/project-begin.view">watch presentations</a></li>
+<li><a href="https://web.archive.orghttp//www.proteomic-basics.eu/">EU Proteomics Summer School Workshops</a> (August 3-9, 2014)</li>
+<li><a href="https://web.archive.orghttp//www.asms.org/conferences/annual-conference/short-courses/two-day-courses">ASMS 2-Day Courses</a> - Baltimore, MD</li>
+<li><a href="https://web.archive.orghttp//www.ushupo.org/Conference/ShortCourses/tabid/68/Default.aspx">US HUPO Short Course</a> - Seattle, WA (April 6, 2014)</li>
+<li><a href="https://skyline.ms/home/software/Skyline/events/2014%20UW%20Course/project-begin.view">Targeted Quantitative Proteomics Course</a></li>
+<li><a href="https://web.archive.orghttp//conf.abrf.org/sw2">ABRF Workshop</a> (March 22, 2014)</li>
+<li><a href="https://web.archive.orghttp//www.srmcourse.ch/">SRM Course</a> - Zurich (Feb 10-14, 2014)</li>
+</ul>
+</div>
+
+<div id="events-2013" style="display: none;">
+<h4>2013 Events</h4>
+<ul>
+<li><a href="https://web.archive.orghttp//www.srmcourse.ch/">SRM Course</a> - Zurich (July 15-19, 2013)</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<script>
+function showEventYear(year) {
+  document.querySelectorAll('.event-year-content-area > div').forEach(d => d.style.display = 'none');
+  document.querySelectorAll('.event-year-navigation button').forEach(b => b.classList.remove('active'));
+  document.getElementById('events-' + year).style.display = 'block';
+  event.target.classList.add('active');
+}
+</script>
+
+### Annual and Regular Course Series
+
+- **Skyline Online** - Multi-day virtual training courses (typically October)
 - **UW Targeted Mass Spectrometry Course** - Annual summer course at University of Washington, Seattle
 - **May Institute** - Annual computation and statistics course at Northeastern University, Boston
-- **ISAS Dortmund Skyline Training Course** - Annual course in Germany
+- **ISAS Dortmund Skyline Training Course** - Annual course in Germany (typically March/April)
 - **ASMS Short Courses** - Two-day quantitative proteomics courses at ASMS annual conference
 - **Skyline User Group Meetings** - Annual meetings at ASMS conferences
 - **Targeted Proteomics Course at PRBB, Barcelona** - Biennial EMBO course
-- **ETH Zurich DIA/SWATH Courses** - Periodic specialized courses in Switzerland
 
-#### International Workshop Series (2018-2023)
-- **Targeted Proteomics Course** - EMBO course at PRBB, Barcelona
-- **Pre-HUPO Targeted Proteomics Courses** - International locations
-- **Proteomics Informatics Short Courses** - Various international venues
-- **Cape Town Quantitative Proteomics Course** - South Africa
-- **IIT Bombay Workshops** - Mumbai, India (multiple years)
-
-#### Historical Course Highlights (2012-2023)
-- **Pre-Lorne Workshops** - University of Melbourne, Australia
-- **MSACL Practical Proteomics Short Courses** - Palm Springs, CA
-- **Buck Institute Targeted Proteomics Courses** - Northern San Francisco Bay Area, CA
-- **US HUPO Short Courses** - Various US locations
-- **Duke University Short Courses** - Durham, NC
-- **International Targeted Proteomics Courses** - Shanghai, China
-- **MRM Proteomics Virtual Workshops** - Online targeted quantitation training
-- **European Summer School Workshops** - Brixen/Bressanone, Italy
-- **J-HUPO Workshops** - Tokyo, Japan
-- **Fiocruz Workshops** - Brazil
-- **ACGT Proteomics Symposiums** - Johannesburg, South Africa
-
-*For current course schedules and registration, visit [Skyline Events](https://skyline.ms/project/home/software/Skyline/events/begin.view)*
+*For current course schedules and registration, visit [Skyline Events](https://skyline.ms/home/software/Skyline/events/project-begin.view)*
 
 </div>
 </div>
 </div>
-
 <style>
 .tab-container {
   max-width: 100%;
@@ -542,6 +726,77 @@ Example publications describing the Stellar from the MacCoss lab include:
     border: 2px solid #0056b3;
   }
 }
+
+.events-container {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.event-year-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-width: 100px;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.event-year-navigation button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  background: #f8f9fa;
+  cursor: pointer;
+  text-align: left;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.event-year-navigation button:hover {
+  background: #e9ecef;
+}
+
+.event-year-navigation button.active {
+  background: #2E86AB;
+  color: white;
+  border-color: #2E86AB;
+}
+
+.event-year-content-area {
+  flex: 1;
+}
+
+.event-year-content-area h4 {
+  margin-top: 0;
+  color: #2E86AB;
+}
+
+.event-year-content-area ul {
+  padding-left: 20px;
+}
+
+.event-year-content-area li {
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .events-container {
+    flex-direction: column;
+  }
+  
+  .event-year-navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: static;
+  }
+  
+  .event-year-navigation button {
+    flex: 0 0 auto;
+  }
+}
+
 </style>
 
 <script>

@@ -27,7 +27,8 @@ assets/
   images/                # All images (logos, instruments, people, plots)
 pages/                   # Main site content pages
 scripts/
-  fetch_publications.py  # Automated publication fetcher (run manually)
+  fetch_publications.py   # Automated publication fetcher
+  fetch_skyline_events.py # Automated Skyline events/webinars fetcher
 ```
 
 ## Automated Publication System
@@ -67,6 +68,29 @@ python3 scripts/fetch_publications.py
 git add -A && git commit -m "Update publications" && git push
 ```
 
+## Automated Skyline Events System
+
+The site has an automated system (`scripts/fetch_skyline_events.py`) that:
+
+1. **Fetches events** from https://skyline.ms/home/software/Skyline/events/project-begin.view
+2. **Fetches webinars** from https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars
+3. **Updates `pages/resources.md`** Support & Training tab with year-based navigation
+
+### Year-Based Navigation for Events
+Past events are displayed with a sidebar showing all years (2013-present). Clicking a year shows only that year's events. The layout uses:
+- `.events-container` - flexbox layout with sidebar
+- `.event-year-navigation` - sticky sidebar with year buttons
+- `.event-year-content-area` - content divs for each year
+
+### Running the Script
+
+**To update Skyline events:**
+```bash
+source .venv/bin/activate
+python3 scripts/fetch_skyline_events.py
+git add -A && git commit -m "Update Skyline events" && git push
+```
+
 ## Content Guidelines
 
 ### Adding Publications
@@ -103,6 +127,13 @@ Post content here...
 source .venv/bin/activate
 python3 scripts/fetch_publications.py
 git add -A && git commit -m "Update publications" && git push
+```
+
+### Update Skyline events
+```bash
+source .venv/bin/activate
+python3 scripts/fetch_skyline_events.py
+git add -A && git commit -m "Update Skyline events" && git push
 ```
 
 ### Test site locally
