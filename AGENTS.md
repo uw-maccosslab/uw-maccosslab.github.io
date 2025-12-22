@@ -115,6 +115,43 @@ python3 scripts/fetch_educational_materials.py
 git add -A && git commit -m "Update educational materials" && git push
 ```
 
+## Automated Datasets System
+
+The site has an automated system (`scripts/fetch_datasets.py`) that:
+
+1. **Fetches datasets from Panorama Public API** using LabKey query-selectRows API with authentication
+2. **Falls back to curated datasets list** if API key is not available
+3. **Updates `pages/resources.md`** Datasets tab with year-based organization
+
+### API Authentication
+The Panorama Public API requires authentication to query across all subfolders. The script looks for an API key in:
+1. `PANORAMA_API_KEY` environment variable
+2. `.env` file in the project root (format: `PANORAMA_API_KEY=your_key_here`)
+3. `~/.panorama_credentials` file (just the key)
+
+**Important**: API key files (`.env`, `.panorama_credentials`) are in `.gitignore` to prevent accidental commits.
+
+### Data Source
+- Panorama Public: https://panoramaweb.org/project/Panorama%20Public/begin.view
+- Filter: Authors containing "MacCoss"
+- API endpoint: query-selectRows.api with:
+  - schemaName=panoramapublic
+  - query.queryName=experimentannotations
+  - query.containerFilterName=AllFolders (critical: includes subfolders)
+
+### Dataset Organization
+- **With API**: Datasets organized by year (2025, 2024, etc.)
+- **Fallback**: Datasets organized by category (Instrumentation, Method Development, etc.)
+
+### Running the Script
+
+**To update datasets:**
+```bash
+source .venv/bin/activate
+python3 scripts/fetch_datasets.py
+git add -A && git commit -m "Update datasets" && git push
+```
+
 ## Content Guidelines
 
 ### Adding Publications
@@ -165,6 +202,13 @@ git add -A && git commit -m "Update Skyline events" && git push
 source .venv/bin/activate
 python3 scripts/fetch_educational_materials.py
 git add -A && git commit -m "Update educational materials" && git push
+```
+
+### Update datasets
+```bash
+source .venv/bin/activate
+python3 scripts/fetch_datasets.py
+git add -A && git commit -m "Update datasets" && git push
 ```
 
 ### Test site locally
