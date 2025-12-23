@@ -28,6 +28,7 @@ GOOGLE_SCHOLAR_SORTED_URL = 'https://scholar.google.com/citations?user=icweOB0AA
 
 # Output paths
 PLOT_OUTPUT_FILE = Path(__file__).parent.parent / 'assets' / 'images' / 'publication-metrics.png'
+RESOURCES_FILE = Path(__file__).parent.parent / 'pages' / 'resources.md'
 
 # NCBI E-utilities base URLs
 ESEARCH_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
@@ -605,6 +606,126 @@ def update_publication_metrics(metrics, pub_counts=None):
         return False
 
 
+def fetch_paper_citations_from_scholar(soup, search_terms):
+    """
+    Find citation counts for specific papers from a Google Scholar profile page.
+    
+    Args:
+        soup: BeautifulSoup object of the Google Scholar profile page
+        search_terms: dict mapping paper_key to a list of search terms to match in title
+    
+    Returns:
+        dict mapping paper_key to citation count (or None if not found)
+    """
+    results = {key: None for key in search_terms}
+    
+    # Get all publication rows
+    pub_rows = soup.find_all('tr', class_='gsc_a_tr')
+    
+    for row in pub_rows:
+        title_elem = row.find('a', class_='gsc_a_at')
+        cite_elem = row.find('a', class_='gsc_a_ac')
+        
+        if not title_elem:
+            continue
+            
+        title = title_elem.get_text(strip=True).lower()
+        
+        for paper_key, terms in search_terms.items():
+            if results[paper_key] is not None:
+                continue  # Already found
+            
+            # Check if all search terms are in the title
+            if all(term.lower() in title for term in terms):
+                if cite_elem:
+                    cite_text = cite_elem.get_text(strip=True)
+                    if cite_text:
+                        try:
+                            results[paper_key] = int(cite_text.replace(',', ''))
+                        except ValueError:
+                            pass
+    
+    return results
+
+
+def update_software_citations(metrics):
+    """
+    Update citation counts for software papers in resources.md.
+    
+    Uses Google Scholar data to update:
+    - Skyline paper (MacLean et al, 2010)
+    - ProteoWizard paper (Chambers et al, 2012)
+    """
+    if not RESOURCES_FILE.exists():
+        print(f"Resources file not found: {RESOURCES_FILE}")
+        return False
+    
+    # Get citation counts - Skyline is already in metrics as most_cited
+    skyline_citations = metrics.get('most_cited_count') if metrics else None
+    proteowizard_citations = None
+    
+    # Need to fetch ProteoWizard citation from Google Scholar
+    # We'll look for "cross-platform toolkit for mass spectrometry" in the profile
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.5',
+    }
+    
+    try:
+        response = requests.get(GOOGLE_SCHOLAR_URL, headers=headers, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Search for ProteoWizard paper
+        paper_searches = {
+            'proteowizard': ['cross-platform', 'toolkit', 'proteomics']
+        }
+        
+        paper_citations = fetch_paper_citations_from_scholar(soup, paper_searches)
+        proteowizard_citations = paper_citations.get('proteowizard')
+        
+    except Exception as e:
+        print(f"Error fetching ProteoWizard citations: {e}")
+    
+    # Update resources.md
+    content = RESOURCES_FILE.read_text()
+    updated = False
+    
+    # Update Skyline citation count
+    if skyline_citations:
+        # Match pattern like: **Cited:** >5098 times
+        pattern = r'(\*\*Cited:\*\*\s*>?)[\d,]+(\s*times)'
+        # First occurrence is Skyline
+        match = re.search(pattern, content)
+        if match:
+            replacement = f"**Cited:** {skyline_citations:,} times"
+            # Replace only the first occurrence (Skyline)
+            content = content[:match.start()] + replacement + content[match.end():]
+            updated = True
+            print(f"Updated Skyline citation count to {skyline_citations:,}")
+    
+    # Update ProteoWizard citation count
+    if proteowizard_citations:
+        # Find the second occurrence of the citation pattern
+        pattern = r'(\*\*Cited:\*\*\s*>?)[\d,]+(\s*times)'
+        matches = list(re.finditer(pattern, content))
+        if len(matches) >= 2:
+            match = matches[1]  # Second occurrence is ProteoWizard
+            replacement = f"**Cited:** {proteowizard_citations:,} times"
+            content = content[:match.start()] + replacement + content[match.end():]
+            updated = True
+            print(f"Updated ProteoWizard citation count to {proteowizard_citations:,}")
+    
+    if updated:
+        RESOURCES_FILE.write_text(content)
+        print(f"Updated software citation counts in {RESOURCES_FILE}")
+        return True
+    else:
+        print("No software citation counts were updated")
+        return False
+
+
 def fetch_publications_per_year():
     """
     Fetch publication counts per year from PubMed.
@@ -825,6 +946,11 @@ def main():
         update_publication_metrics(metrics, pub_counts)
     else:
         print("Could not fetch metrics")
+    
+    # Update software citation counts in resources.md
+    print()
+    print("Updating software citation counts in resources.md...")
+    update_software_citations(metrics)
     
     # Regenerate the entire publications file with year navigation
     update_publications_file(publications, set())
