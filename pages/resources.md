@@ -392,8 +392,8 @@ collision cross-section database</a></td><td></td></tr>
 *Last updated: December 22, 2025 — 2 upcoming events, 101 past events, 26 webinars*
 
 ### Forums and Discussion
-- [Skyline Support Board](https://skyline.ms/forum)
-- [Panorama Support Board](https://panoramaweb.org/forum)
+- [Skyline Support Board](http://skyline.ms/support.url)
+- [Panorama Support Board](https://panoramaweb.org/home/support/project-begin.view)
 - **[University of Washington Proteomics Listserv](https://mailman23.u.washington.edu/mailman/listinfo/proteomics)** - If you are at UW and doing proteomics you should join this list.
 
 ### Upcoming Events
