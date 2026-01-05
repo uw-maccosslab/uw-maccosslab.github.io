@@ -136,6 +136,64 @@ categories: [category1, category2]
 - Links to RSS feed
 - Styled with `.news-item`, `.post-meta`, `.category-tag` classes
 
+## Updating Publications
+
+The publications page is updated using a Python script that fetches data from PubMed and Google Scholar.
+
+> **Note**: This script must be run manually from a local machine. Google Scholar blocks scraping from cloud/CI environments like GitHub Actions.
+
+### What Gets Updated
+- **All publications** from PubMed (searches for MacCoss MJ as author)
+- **Total citations** from Google Scholar profile
+- **h-index** from Google Scholar
+- **Most cited paper** citation count from Google Scholar
+- **Metrics plot** showing publications per year (PubMed) and citations per year (Google Scholar)
+
+### How to Run
+
+1. **Set up Python environment** (first time only):
+   ```bash
+   cd /path/to/uw-maccosslab.github.io
+   python3 -m venv .venv
+   source .venv/bin/activate
+   pip install requests beautifulsoup4 matplotlib numpy
+   ```
+
+2. **Run the script**:
+   ```bash
+   source .venv/bin/activate
+   python3 scripts/fetch_publications.py
+   ```
+
+3. **Review and commit changes**:
+   ```bash
+   git add -A
+   git commit -m "Update publications"
+   git push
+   ```
+
+### Dependencies
+The script requires these Python packages:
+- `requests` - HTTP requests for API calls
+- `beautifulsoup4` - HTML parsing for Google Scholar scraping
+- `matplotlib` - Generating the publication/citation plots
+- `numpy` - Numerical support for plotting
+
+### Files Involved
+```
+├── scripts/
+│   └── fetch_publications.py    # Main update script
+├── assets/images/
+│   └── publication-metrics.png  # Auto-generated metrics plot
+└── pages/
+    └── publications.md          # Updated by the script
+```
+
+### Troubleshooting
+- **Google Scholar metrics not updating**: Google may temporarily block requests. Try again later or from a different network.
+- **No new publications found**: The script fetches all publications and regenerates the page.
+- **"No citation data available" in plot**: This happens if Google Scholar blocked the request. Run again from a different machine/network.
+
 ## Security Features
 
 ### Email Protection

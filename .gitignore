@@ -15,3 +15,9 @@ Gemfile.lock
 # OS files
 .DS_Store
 Thumbs.db
+
+# python environment
+.venv/
+# Environment files with secrets
+.env
+.panorama_credentials

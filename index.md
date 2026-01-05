@@ -26,15 +26,12 @@ The focus of our research is in the development of mass spectrometry and stable 
 
 ## Highlighted Publications
 
+- **Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics** - Nature Communications, November 2025
 - **Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists** - Journal of Proteome Research, October 2025
 - **The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols** - Alzheimer's & Dementia, September 2025
 - **Performance of novel tau antibodies across multiple modalities for Alzheimer's disease assessment** - Alzheimer's & Dementia, July 2025
 - **A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data** - Nature Methods, July 2025
 - **Enrichment of extracellular vesicles using Mag-Net for the analysis of the plasma proteome** - Nature Communications, July 2025
-
-## Quantitative Proteomics Services
-
-The MacCoss lab offers a number of mass spectrometry based proteomics services.  These range from biofluid proteomics, targeted assay development, etc... For information about these services see [our services page](https://panoramaweb.org/Services/). Email at services[at]maccosslab[dot]org for mroe information
 
 ## Nunn Lab
 
