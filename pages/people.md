@@ -40,7 +40,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Alex Zelter
 
 ### Postdoctoral Fellows
-- Aaron Maurais
+- Lauren Fields
 - Doudou Yu
 
 ### Graduate Students
@@ -114,6 +114,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Aaron Klammer, Ph.D. (2004-2008) - joint with Bill Noble -- Eikon Therapautics Hayward, CA 
 
 ### Former Post Docs
+- Aaron Maurais, Ph.D. (2021-2025) -- IDEXX laboratories
 - Deanna Plubell, Ph.D. (2024-2025) -- ThermoFisher Scientific, Seattle, WA
 - Kristine Tsantilas, Ph.D. (2021-2024) -- Paulovich Lab, Fred Hutch, Seattle, WA
 - Genevieve Mezoh (2023) -- Bruker
