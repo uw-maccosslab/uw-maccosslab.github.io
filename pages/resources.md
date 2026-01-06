@@ -272,14 +272,12 @@ collision cross-section database</a></td><td></td></tr>
 
 </div>
   </div>
-
-
   <div id="educational" class="tab-content">
     <div markdown="1">
 
 ## Educational Materials
 
-*Last updated: January 06, 2026 — 27 Skyline tutorials available*
+*Last updated: January 06, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -316,6 +314,7 @@ collision cross-section database</a></td><td></td></tr>
 - **[Analysis of DIA/SWATH Data](https://skyline.ms/tutorial_dia_swath.url)** (32 pages)
 - **[Analysis of diaPASEF Data](https://skyline.ms/tutorial_dia_pasef.url)** (36 pages)
 - **[Library-Free DIA/SWATH](https://skyline.ms/tutorial_dia_umpire_ttof.url)** (26 pages)
+- **[Peak Boundary Imputation for DIA](https://skyline.ms/tutorial_peak_impute_dia.url)** (16 pages)
 
 #### Small Molecules
 - **[Small Molecule Targets](https://skyline.ms/tutorial_small_molecule.url)** (10 pages)
@@ -383,14 +382,12 @@ collision cross-section database</a></td><td></td></tr>
 
 </div>
   </div>
-
-
   <div id="support" class="tab-content">
     <div markdown="1">
 
 ## Support & Training
 
-*Last updated: January 06, 2026 — 0 upcoming events, 103 past events, 27 webinars*
+*Last updated: January 06, 2026 — 2 upcoming events, 101 past events, 27 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/forum)
@@ -399,7 +396,8 @@ collision cross-section database</a></td><td></td></tr>
 
 ### Upcoming Events
 
-*Check [Skyline Events](https://skyline.ms/home/software/Skyline/events/project-begin.view) for upcoming courses and events.*
+- **[2026 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline-kurs-2026)** (March 2-5, 2026)
+- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)**
 
 ### Skyline Webinar Series
 
@@ -417,8 +415,7 @@ The Skyline Team presents tutorial webinars designed to help you get the most ou
 <div class="events-container">
 
 <div class="event-year-navigation">
-<button class="active" onclick="showEventYear(2026)">2026 (2)</button>
-<button onclick="showEventYear(2025)">2025 (7)</button>
+<button class="active" onclick="showEventYear(2025)">2025 (7)</button>
 <button onclick="showEventYear(2024)">2024 (8)</button>
 <button onclick="showEventYear(2023)">2023 (8)</button>
 <button onclick="showEventYear(2022)">2022 (5)</button>
@@ -434,15 +431,7 @@ The Skyline Team presents tutorial webinars designed to help you get the most ou
 </div>
 
 <div class="event-year-content-area">
-<div id="events-2026" style="display: block;">
-<h4>2026 Events</h4>
-<ul>
-<li><a href="https://www.isas.de/en/events/skyline-kurs-2026">2026 ISAS Dortmund Skyline Training Course</a> - Dortmund (March 2-5, 2026)</li>
-<li><a href="https://computationalproteomics.khoury.northeastern.edu/">May Institute - Computation and statistics for mass spectrometry and proteomics</a> - Northeastern University</li>
-</ul>
-</div>
-
-<div id="events-2025" style="display: none;">
+<div id="events-2025" style="display: block;">
 <h4>2025 Events</h4>
 <ul>
 <li><a href="https://skyline.ms/home/software/Skyline/events/2025-10%20Skyline%20Online/project-begin.view">Skyline Online 2025</a> (October 7-17, 2025)</li>

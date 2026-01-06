@@ -32,11 +32,34 @@ HEADERS = {
 
 
 def fetch_skyline_tutorials():
-    """Fetch tutorials from the Skyline tutorials page."""
+    """Fetch tutorials from the Skyline tutorials page.
+
+    Note: We use a curated list because the Skyline tutorials page has complex
+    HTML with navigation sidebars and translation links that make scraping unreliable.
+    The tutorials list is updated manually when new tutorials are added.
+    """
     print("Fetching Skyline tutorials...")
 
-    # Define the known tutorials structure - these rarely change
-    # We use the short URL format which redirects to the full tutorial
+    # Use curated list - dynamic scraping picks up duplicates from sidebar/navigation
+    return get_fallback_tutorials()
+
+
+def category_names_lower():
+    """Return lowercase category names for filtering."""
+    return [
+        "introductory",
+        "introduction to full-scan acquisition data",
+        "full-scan acquisition data",
+        "small molecules",
+        "reports",
+        "advanced topics",
+    ]
+
+    return tutorials
+
+
+def get_fallback_tutorials():
+    """Return fallback hardcoded tutorials list in case scraping fails."""
     tutorials = {
         "Introductory": [
             {"title": "Targeted Method Editing", "url": "https://skyline.ms/tutorial_method_edit.url", "pages": "26"},
@@ -56,6 +79,7 @@ def fetch_skyline_tutorials():
             {"title": "Analysis of DIA/SWATH Data", "url": "https://skyline.ms/tutorial_dia_swath.url", "pages": "32"},
             {"title": "Analysis of diaPASEF Data", "url": "https://skyline.ms/tutorial_dia_pasef.url", "pages": "36"},
             {"title": "Library-Free DIA/SWATH", "url": "https://skyline.ms/tutorial_dia_umpire_ttof.url", "pages": "26"},
+            {"title": "Peak Boundary Imputation for DIA", "url": "https://skyline.ms/tutorial_peak_impute_dia.url", "pages": "16"},
         ],
         "Small Molecules": [
             {"title": "Small Molecule Targets", "url": "https://skyline.ms/tutorial_small_molecule.url", "pages": "10"},
@@ -79,16 +103,8 @@ def fetch_skyline_tutorials():
         ],
     }
 
-    # Count total tutorials
     total = sum(len(t) for t in tutorials.values())
-    print(f"Using {total} tutorials across {len(tutorials)} categories")
-
-    return tutorials
-
-    # Count total tutorials
-    total = sum(len(t) for t in tutorials.values())
-    print(f"Found {total} tutorials across {len(tutorials)} categories")
-
+    print(f"Using {total} fallback tutorials across {len(tutorials)} categories")
     return tutorials
 
 

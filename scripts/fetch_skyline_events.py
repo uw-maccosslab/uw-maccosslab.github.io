@@ -42,8 +42,29 @@ def fetch_events():
     upcoming_events = []
     past_events = defaultdict(list)
 
-    # Find all anchor tags with event info
-    for link in soup.find_all("a", href=True):
+    # Find the main content - look for "Upcoming" and "Past" section headers
+    # The page structure has h4 headers: "#### Upcoming" and "#### Past"
+    page_text = response.text
+
+    # Find positions of Upcoming and Past sections in the HTML
+    upcoming_start = page_text.lower().find(">upcoming<")
+    past_start = page_text.lower().find(">past<")
+
+    if upcoming_start == -1 or past_start == -1:
+        print("Warning: Could not find Upcoming/Past section markers, falling back to year-based detection")
+        # Fallback to old behavior
+        return fetch_events_by_year(soup)
+
+    # Parse upcoming section (between "Upcoming" and "Past" headers)
+    upcoming_html = page_text[upcoming_start:past_start]
+    upcoming_soup = BeautifulSoup(upcoming_html, "html.parser")
+
+    # Parse past section (after "Past" header)
+    past_html = page_text[past_start:]
+    past_soup = BeautifulSoup(past_html, "html.parser")
+
+    # Extract events from upcoming section
+    for link in upcoming_soup.find_all("a", href=True):
         text = link.get_text(strip=True)
         href = link["href"]
 
@@ -51,34 +72,88 @@ def fetch_events():
         if not text or text in ["Sign In", "MacCoss Lab Software", "#"]:
             continue
 
-        # Look for parent context to determine if upcoming or past
+        # Get parent text for context
         parent_text = ""
         for parent in link.parents:
             if parent.name in ["p", "div", "li"]:
                 parent_text = parent.get_text()
                 break
 
-        # Extract year from text using regex
+        # Extract year from text
         year_match = re.search(r"\b(20\d{2})\b", text + " " + parent_text)
         if not year_match:
             continue
 
         year = int(year_match.group(1))
 
-        # Clean up the event name and extract date info
         event_info = extract_event_info(text, href, parent_text)
         if event_info:
             event_info["year"] = year
+            upcoming_events.append(event_info)
 
-            # Determine if upcoming (next year or future)
-            current_year = datetime.now().year
-            if year > current_year:
-                upcoming_events.append(event_info)
-            else:
-                past_events[year].append(event_info)
+    # Extract events from past section
+    for link in past_soup.find_all("a", href=True):
+        text = link.get_text(strip=True)
+        href = link["href"]
+
+        # Skip navigation links and empty links
+        if not text or text in ["Sign In", "MacCoss Lab Software", "#"]:
+            continue
+
+        # Get parent text for context
+        parent_text = ""
+        for parent in link.parents:
+            if parent.name in ["p", "div", "li"]:
+                parent_text = parent.get_text()
+                break
+
+        # Extract year from text
+        year_match = re.search(r"\b(20\d{2})\b", text + " " + parent_text)
+        if not year_match:
+            continue
+
+        year = int(year_match.group(1))
+
+        event_info = extract_event_info(text, href, parent_text)
+        if event_info:
+            event_info["year"] = year
+            past_events[year].append(event_info)
 
     print(f"Found {len(upcoming_events)} upcoming events")
     print(f"Found events for years: {sorted(past_events.keys(), reverse=True)}")
+
+    return {"upcoming": upcoming_events, "past": past_events}
+
+
+def fetch_events_by_year(soup):
+    """Fallback: fetch events using year-based detection (deprecated)."""
+    upcoming_events = []
+    past_events = defaultdict(list)
+
+    for link in soup.find_all("a", href=True):
+        text = link.get_text(strip=True)
+        href = link["href"]
+
+        if not text or text in ["Sign In", "MacCoss Lab Software", "#"]:
+            continue
+
+        parent_text = ""
+        for parent in link.parents:
+            if parent.name in ["p", "div", "li"]:
+                parent_text = parent.get_text()
+                break
+
+        year_match = re.search(r"\b(20\d{2})\b", text + " " + parent_text)
+        if not year_match:
+            continue
+
+        year = int(year_match.group(1))
+
+        event_info = extract_event_info(text, href, parent_text)
+        if event_info:
+            event_info["year"] = year
+            # All events go to past in fallback mode
+            past_events[year].append(event_info)
 
     return {"upcoming": upcoming_events, "past": past_events}
 
