@@ -778,17 +778,17 @@ def update_resources_page(datasets_content):
 
     # Build the new datasets section
     new_datasets_section = f'''<div id="datasets" class="tab-content">
-    <div markdown="1">
+<div markdown="1">
 
 {datasets_content}
 
 </div>
-  </div>
+</div>
 
 '''
 
     # Replace the section
-    content = content[:datasets_start] + "  " + new_datasets_section + content[section_end:]
+    content = content[:datasets_start] + new_datasets_section + content[section_end:]
     print("Updated Datasets section.")
 
     # Write the updated content

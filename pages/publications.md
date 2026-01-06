@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 334 (315 peer-reviewed + 19 preprints)
-- **Total Citations**: 52,451 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
-- **h-index**: 103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,226 citations)
+- **Total Publications**: 335 (316 peer-reviewed + 19 preprints)
+- **Total Citations**: 52,646 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: 104
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,239 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: December 22, 2025 — 334 publications*
+*Last updated: January 06, 2026 — 335 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2025')">2025 (26)</button>
+<button class="year-button active" onclick="showYear(event, '2025')">2025 (27)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
@@ -56,6 +56,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2025" class="year-content active" markdown="1">
 
 ### 2025
+
+**Improvements to Casanovo, a Deep Learning De Novo Peptide Sequencer**
+Straub G, Ananth V, Fondrie WE, Hsu C, Klaproth-Andrade D, Pominova M, Riffle M, Sanders J, Wen B, Xu L, Yilmaz M, MacCoss MJ, Oh S, Bittremieux W, Noble WS
+*Journal of proteome research* 2025 Dec
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41468557/) | [DOI](https://doi.org/10.1021/acs.jproteome.5c00706)
 
 **Genetic variation in the Nr1d1 transcription factor binding site shapes metabolism-related protein networks associated with cognitive resilience in an Alzheimer's disease mouse reference panel**
 Chen Y, Stevenson TK, Cao Y, Fish LA, Robbins JE, Merrihew GE, Park J, Hohman TJ, MacCoss MJ, Kaczorowski CC
