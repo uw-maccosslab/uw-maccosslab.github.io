@@ -48,13 +48,13 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Bo Wen
 
 ### Nunn Lab
-- Brook Nunn
-- Emma Timmins-Schiffman
+- [Brook Nunn](https://www.environmentalproteomics.org/brook-l-nunn.html)
+- [Emma Timmins-Schiffman](https://emmatimminsschiffman.weebly.com/)
 
 ### UW Proteomics Resource (UWPR)
-- Jimmy Eng
-- Mike Hoopmann
-- Vagisha Sharma
+- [Jimmy Eng](https://proteomicsresource.washington.edu/contact.php)
+- [Mike Hoopmann](https://proteomicsresource.washington.edu/contact.php)
+- [Vagisha Sharma](https://proteomicsresource.washington.edu/contact.php)
 
 ### Visiting Scientists
 - Jesse Canterbury
