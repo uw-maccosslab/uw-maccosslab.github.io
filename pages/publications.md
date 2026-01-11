@@ -10,20 +10,21 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 335 (316 peer-reviewed + 19 preprints)
-- **Total Citations**: 52,646 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 336 (317 peer-reviewed + 19 preprints)
+- **Total Citations**: 52,727 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,239 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,243 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: January 06, 2026 — 335 publications*
+*Last updated: January 11, 2026 — 336 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2025')">2025 (27)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (1)</button>
+<button class="year-button" onclick="showYear(event, '2025')">2025 (27)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
@@ -53,7 +54,18 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 </div>
 <div class="publications-content">
 
-<div id="year-2025" class="year-content active" markdown="1">
+<div id="year-2026" class="year-content active" markdown="1">
+
+### 2026
+
+**Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer**
+Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston KL, Montine T, MacCoss MJ
+*Molecular & cellular proteomics : MCP* 2026 Jan:101506
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41512968/) | [DOI](https://doi.org/10.1016/j.mcpro.2026.101506)
+
+</div>
+
+<div id="year-2025" class="year-content" markdown="1">
 
 ### 2025
 
