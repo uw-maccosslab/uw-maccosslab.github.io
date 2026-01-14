@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Highly Multiplex Targeted Proteomics Paper Published in MCP"
+title: "Multiplex Targeted Proteomics Paper Published in MCP"
 date: 2026-01-07
 categories: [publications, MCP, targeted-proteomics, Stellar]
 ---
