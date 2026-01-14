@@ -26,6 +26,7 @@ The focus of our research is in the development of mass spectrometry and stable 
 
 ## Highlighted Publications
 
+- **Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer** - Molecular & Cellular Proteomics, January 2026
 - **Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics** - Nature Communications, November 2025
 - **Evaluation of a Prototype Orbitrap Astral Zoom Mass Spectrometer for Quantitative Proteomics─Beyond Identification Lists** - Journal of Proteome Research, October 2025
 - **The companion dog as a translational model for Alzheimer's disease: Development of a longitudinal research platform and post mortem protocols** - Alzheimer's & Dementia, September 2025
