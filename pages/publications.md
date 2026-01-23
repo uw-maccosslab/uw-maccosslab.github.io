@@ -11,20 +11,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 ## Publication Metrics
 
 - **Total Publications**: 336 (317 peer-reviewed + 19 preprints)
-- **Total Citations**: 52,773 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Citations**: 52,939 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,249 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,258 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: January 14, 2026 — 336 publications*
+*Last updated: January 23, 2026 — 336 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (1)</button>
-<button class="year-button" onclick="showYear(event, '2025')">2025 (27)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (2)</button>
+<button class="year-button" onclick="showYear(event, '2025')">2025 (26)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
@@ -63,6 +63,11 @@ Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX
 *Molecular & cellular proteomics : MCP* 2026 Jan:101506
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/41512968/) | [DOI](https://doi.org/10.1016/j.mcpro.2026.101506)
 
+**The ProteomeXchange consortium in 2026: making proteomics data FAIR**
+Deutsch EW, Bandeira N, Perez-Riverol Y, Sharma V, Carver JJ, Mendoza L, Kundu DJ, Bandla C, Kamatchinathan S, Hewapathirana S, Sun Z, Kawano S, Okuda S, Connolly B, MacLean B, MacCoss MJ, Chen T, Zhu Y, Ishihama Y, Vizcaíno JA
+*Nucleic acids research* 2026 Jan;54(D1):D459-D469
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41206473/) | [DOI](https://doi.org/10.1093/nar/gkaf1146)
+
 </div>
 
 <div id="year-2025" class="year-content" markdown="1">
@@ -78,11 +83,6 @@ Straub G, Ananth V, Fondrie WE, Hsu C, Klaproth-Andrade D, Pominova M, Riffle M,
 Chen Y, Stevenson TK, Cao Y, Fish LA, Robbins JE, Merrihew GE, Park J, Hohman TJ, MacCoss MJ, Kaczorowski CC
 *Alzheimer's & dementia : the journal of the Alzheimer's Association* 2025 Nov;21(11):e70896
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/41225772/) | [DOI](https://doi.org/10.1002/alz.70896)
-
-**The ProteomeXchange consortium in 2026: making proteomics data FAIR**
-Deutsch EW, Bandeira N, Perez-Riverol Y, Sharma V, Carver JJ, Mendoza L, Kundu DJ, Bandla C, Kamatchinathan S, Hewapathirana S, Sun Z, Kawano S, Okuda S, Connolly B, MacLean B, MacCoss MJ, Chen T, Zhu Y, Ishihama Y, Vizcaíno JA
-*Nucleic acids research* 2025 Nov
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/41206473/) | [DOI](https://doi.org/10.1093/nar/gkaf1146)
 
 **Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics**
 Wen B, Hsu C, Shteynberg D, Zeng WF, Riffle M, Chang A, Mudge MC, Nunn BL, MacLean BX, Berg MD, Villén J, MacCoss MJ, Noble WS
