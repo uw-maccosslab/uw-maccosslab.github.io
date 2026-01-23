@@ -11,8 +11,7 @@
       "Bash(gem install:*)",
       "Bash(sudo gem install:*)",
       "Bash(bundle config:*)",
-      "Bash(sudo apt-get update:*)",
-      "Bash(sudo apt-get install:*)"
+      "Bash(sudo apt-get update:*)"
     ],
     "deny": [],
     "ask": []
