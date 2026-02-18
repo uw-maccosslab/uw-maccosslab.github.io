@@ -14,7 +14,7 @@ The lab focuses on **mass spectrometry-based proteomics** research, developing m
 
 - **Static Site Generator**: Jekyll with Minima theme
 - **Hosting**: GitHub Pages
-- **Styling**: SCSS (assets/css/style.scss)
+- **Styling**: SCSS (assets/main.scss)
 
 ## Key Files and Directories
 
@@ -23,7 +23,7 @@ _config.yml              # Jekyll configuration
 _layouts/                # Custom HTML layouts
 _posts/                  # News/blog posts (for RSS feed)
 assets/
-  css/style.scss         # Custom styling
+  main.scss              # Custom styling
   images/                # All images (logos, instruments, people, plots)
 pages/                   # Main site content pages
 scripts/
