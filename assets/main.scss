@@ -244,3 +244,12 @@
   text-align: right;
   white-space: nowrap;
 }
+
+/* WCAG compliance for color contrast */
+.footer-col-wrapper {
+  color: #646363;
+}
+
+a {
+  color: #2774d7; 
+}

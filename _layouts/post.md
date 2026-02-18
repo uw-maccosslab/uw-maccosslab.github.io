@@ -14,7 +14,7 @@ layout: default
       {%- if page.categories.size > 0 -%}
         <span class="post-categories">
           {%- for category in page.categories -%}
-            <span class="category">{{ category }}</span>
+            <span class="category-tag">{{ category }}</span>
           {%- endfor -%}
         </span>
       {%- endif -%}
