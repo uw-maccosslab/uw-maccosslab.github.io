@@ -12,26 +12,25 @@ This website is built using **Jekyll** with the **Minima** theme and hosted on *
 ├── _config.yml              # Jekyll configuration
 ├── _layouts/
 │   ├── default.html         # Custom layout with consistent width
-│   └── post.html           # Blog post template
+│   └── post.html            # Blog post template
 ├── _posts/                  # News/blog posts for RSS feed
-│   ├── 2024-XX-XX-title.md # Individual news posts
+│   ├── 2024-XX-XX-title.md  # Individual news posts
 ├── assets/
-│   ├── css/
-│   │   └── style.scss      # Custom styling and responsive design
+│   ├── main.scss            # Custom styling and responsive design
 │   └── images/
-│       ├── logos/          # All software/lab logos
-│       ├── instruments/    # Mass spectrometer photos
-│       ├── people/         # Lab member photos
-│       └── *.jpg          # General photos (lab photo, etc.)
-├── pages/                  # Main site pages
+│       ├── logos/           # All software/lab logos
+│       ├── instruments/     # Mass spectrometer photos
+│       ├── people/          # Lab member photos
+│       └── *.jpg            # General photos (lab photo, etc.)
+├── pages/                   # Main site pages
 │   ├── contact.md
-│   ├── funding.md         # Tabbed funding sources
-│   ├── news.md            # News/blog listing with RSS
-│   ├── people.md          # Lab members with tabs
+│   ├── funding.md           # Tabbed funding sources
+│   ├── news.md              # News/blog listing with RSS
+│   ├── people.md            # Lab members with tabs
 │   ├── positions.md
 │   ├── publications.md
-│   └── resources.md       # Tabbed resources (instruments, software, etc.)
-└── index.md               # Homepage
+│   └── resources.md         # Tabbed resources (instruments, software, etc.)
+└── index.md                 # Homepage
 ```
 
 ## Layout & Styling
@@ -40,7 +39,7 @@ This website is built using **Jekyll** with the **Minima** theme and hosted on *
 - **Main content**: 1400px max-width on large screens
 - **Responsive**: Full width on mobile (≤800px)
 - **Consistent alignment**: Header, content, and footer all use same width
-- **Implementation**: Custom `_layouts/default.html` + CSS in `assets/css/style.scss`
+- **Implementation**: Custom `_layouts/default.html` + CSS in `assets/main.scss`
 
 ### Responsive Design
 ```scss

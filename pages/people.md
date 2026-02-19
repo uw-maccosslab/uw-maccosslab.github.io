@@ -54,7 +54,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 ### UW Proteomics Resource (UWPR)
 - [Jimmy Eng](https://proteomicsresource.washington.edu/contact.php)
 - [Mike Hoopmann](https://proteomicsresource.washington.edu/contact.php)
-- [Vagisha Sharma](https://proteomicsresource.washington.edu/contact.php)
+- [Vagisha Sharma @ UWPR](https://proteomicsresource.washington.edu/contact.php)
 
 ### Visiting Scientists
 - Jesse Canterbury
