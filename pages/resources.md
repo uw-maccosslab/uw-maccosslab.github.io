@@ -91,7 +91,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
-- **Cited:** 5,258 times
+- **Cited:** 5,274 times
 
 ### ![Proteowizard](../assets/images/logos/proteowizard-logo.jpg "Proteowizard")
 **Widely used software tools and libraries for mass spectrometry data analysis.**
@@ -99,7 +99,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **Download and Documentation:** [https://proteowizard.sourceforge.io/](https://proteowizard.sourceforge.io/)
 - **Source Code:** Available on [Github](https://github.com/ProteoWizard/pwiz) and licensed under Apache 2.0.
 - **Original Publication:** Chambers et al, [A cross-platform toolkit for mass spectrometry and proteomics](https://www.nature.com/articles/nbt.2377), *Nature Biotechnology* 2012
-- **Cited:** 4,354 times
+- **Cited:** 4,398 times
 
 ### ![Panorama](../assets/images/logos/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
@@ -157,7 +157,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: January 23, 2026 — 32 datasets available*
+*Last updated: February 22, 2026 — 32 datasets available*
 
 ### Instrumentation
 *Mass spectrometer characterization and benchmarking*
@@ -263,7 +263,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 ## Educational Materials
 
-*Last updated: January 23, 2026 — 28 Skyline tutorials available*
+*Last updated: February 22, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -368,14 +368,12 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 </div>
   </div>
-
-
   <div id="support" class="tab-content">
     <div markdown="1">
 
 ## Support & Training
 
-*Last updated: January 23, 2026 — 2 upcoming events, 101 past events, 27 webinars*
+*Last updated: February 22, 2026 — 4 upcoming events, 101 past events, 27 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/forum)
@@ -386,6 +384,8 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 - **[2026 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline-kurs-2026)** (March 2-5, 2026)
 - **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)**
+- **[Frontiers in Proteomics: Advanced Skyline Applications](https://skyline.ms/../../../../2026-uw-course.url)** (July 6-10, 2026)
+- **[Cascadia Proteomics Symposium](https://cascadiaproteomics.org/)** (July 16-17, 2026)
 
 ### Skyline Webinar Series
 
@@ -399,6 +399,8 @@ The Skyline Team presents tutorial webinars designed to help you get the most ou
 *[View all 27 webinars](https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars)*
 
 ### Past Events by Year
+
+![Skyline Events by Year](../assets/images/skyline-events-chart.png)
 
 <div class="events-container">
 

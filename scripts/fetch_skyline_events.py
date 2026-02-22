@@ -15,10 +15,17 @@ from bs4 import BeautifulSoup
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
+import matplotlib
+matplotlib.use('Agg')  # Use non-interactive backend for server/CI
+import matplotlib.pyplot as plt
+from matplotlib.patches import Patch
 
 # URLs to scrape
 EVENTS_URL = "https://skyline.ms/home/software/Skyline/events/project-begin.view"
 WEBINARS_URL = "https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars"
+
+# Output paths
+EVENTS_PLOT_FILE = Path(__file__).parent.parent / 'assets' / 'images' / 'skyline-events-chart.png'
 
 # Headers to avoid being blocked
 HEADERS = {
@@ -310,6 +317,93 @@ def fetch_webinars():
     return webinars
 
 
+def generate_events_plot(events):
+    """Generate a bar chart of Skyline events per year and save to assets/images/."""
+    print("Generating events plot...")
+
+    current_year = datetime.now().year
+    covid_years = {2020, 2021}
+
+    # Count events per year from past events
+    year_counts = {}
+    for year, event_list in events["past"].items():
+        year_counts[int(year)] = len(event_list)
+
+    # Add upcoming events by year
+    for event in events["upcoming"]:
+        year = int(event.get("year", current_year))
+        year_counts[year] = year_counts.get(year, 0) + 1
+
+    if not year_counts:
+        print("No event data for plot generation")
+        return False
+
+    years = sorted(year_counts.keys())
+    counts = [year_counts[y] for y in years]
+
+    # Color coding: COVID years -> light blue, upcoming -> purple, past -> blue
+    colors = []
+    for year in years:
+        if year in covid_years:
+            colors.append("#93c5fd")   # Light blue for COVID years
+        elif year >= current_year:
+            colors.append("#a78bfa")   # Purple for upcoming
+        else:
+            colors.append("#3b82f6")   # Blue for past
+
+    fig, ax = plt.subplots(figsize=(10, 4))
+
+    bars = ax.bar(years, counts, color=colors, edgecolor="white", linewidth=0.5,
+                  width=0.7, zorder=3)
+
+    ax.set_xlabel("Year", fontsize=11)
+    ax.set_ylabel("Number of Events", fontsize=11)
+    ax.set_title("Skyline Project Events by Year", fontsize=13, fontweight="bold")
+
+    ax.yaxis.grid(True, linestyle="--", alpha=0.3, zorder=0)
+    ax.set_axisbelow(True)
+    ax.set_xlim(min(years) - 0.5, max(years) + 0.5)
+    ax.set_ylim(0, max(counts) * 1.22)
+
+    ax.tick_params(axis="x", rotation=45)
+    ax.spines["top"].set_visible(False)
+    ax.spines["right"].set_visible(False)
+    ax.spines["left"].set_visible(False)
+
+    # Count labels on top of each bar
+    for bar, count in zip(bars, counts):
+        ax.text(
+            bar.get_x() + bar.get_width() / 2.0,
+            bar.get_height() + 0.15,
+            str(count),
+            ha="center", va="bottom", fontsize=9, color="#6b7280",
+        )
+
+    # Legend
+    legend_elements = [
+        Patch(facecolor="#3b82f6", label="Past events"),
+        Patch(facecolor="#93c5fd", label="COVID years (2020\u20132021)"),
+        Patch(facecolor="#a78bfa", label="Upcoming events"),
+    ]
+    ax.legend(handles=legend_elements, loc="upper left", fontsize=9,
+              framealpha=0.8, edgecolor="#e5e7eb")
+
+    total = sum(counts)
+    ax.text(0.98, 0.97, f"{total} total events",
+            transform=ax.transAxes, fontsize=9, color="#9ca3af",
+            ha="right", va="top")
+
+    plt.tight_layout()
+
+    EVENTS_PLOT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    plt.savefig(EVENTS_PLOT_FILE, dpi=150, bbox_inches="tight",
+                facecolor="white", edgecolor="none")
+    plt.close()
+
+    print(f"Generated events plot: {EVENTS_PLOT_FILE}")
+    return True
+
+
 def generate_support_section(events, webinars):
     """Generate the Support & Training section with year-based navigation."""
     lines = []
@@ -375,6 +469,8 @@ def generate_support_section(events, webinars):
 
     # Past Events with year navigation
     lines.append("### Past Events by Year")
+    lines.append("")
+    lines.append("![Skyline Events by Year](../assets/images/skyline-events-chart.png)")
     lines.append("")
 
     # Get all years from past events
@@ -588,6 +684,9 @@ def main():
     # Fetch data
     events = fetch_events()
     webinars = fetch_webinars()
+
+    # Generate events plot
+    generate_events_plot(events)
 
     # Generate content
     support_content = generate_support_section(events, webinars)

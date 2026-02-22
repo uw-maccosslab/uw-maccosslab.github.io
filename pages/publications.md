@@ -10,21 +10,21 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 336 (317 peer-reviewed + 19 preprints)
-- **Total Citations**: 52,939 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
-- **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,258 citations)
+- **Total Publications**: 337 (317 peer-reviewed + 20 preprints)
+- **Total Citations**: 53,209 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: 103
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,274 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: January 23, 2026 — 336 publications*
+*Last updated: February 22, 2026 — 337 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (2)</button>
-<button class="year-button" onclick="showYear(event, '2025')">2025 (26)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (4)</button>
+<button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
@@ -58,10 +58,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
-**Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer**
-Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston KL, Montine T, MacCoss MJ
-*Molecular & cellular proteomics : MCP* 2026 Jan:101506
+**Proteomic Profiling of Human Omental and Subcutaneous Adipose Tissue in Individuals with a Broad Range of BMI**
+Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaFrance J, Khandelwal S, Chen JY, Williams E, Parr Z, Kim D, Rubinow KB, MacCoss MJ, Isoherranen N
+*bioRxiv : the preprint server for biology* 2026 Jan
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41648401/) | [DOI](https://doi.org/10.64898/2026.01.14.699533)
+
+**Development of Highly Multiplex Targeted Proteomics Assays in Biofluids Using a Nominal Mass Ion Trap Mass Spectrometer**
+Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston KL, Montine TJ, MacCoss MJ
+*Molecular & cellular proteomics : MCP* 2026 Jan;25(2):101506
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/41512968/) | [DOI](https://doi.org/10.1016/j.mcpro.2026.101506)
+
+**Improvements to Casanovo, a Deep Learning De Novo Peptide Sequencer**
+Straub G, Ananth V, Fondrie WE, Hsu C, Klaproth-Andrade D, Pominova M, Riffle M, Sanders J, Wen B, Xu L, Yilmaz M, MacCoss MJ, Oh S, Bittremieux W, Noble WS
+*Journal of proteome research* 2026 Feb;25(2):755-764
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41468557/) | [DOI](https://doi.org/10.1021/acs.jproteome.5c00706)
 
 **The ProteomeXchange consortium in 2026: making proteomics data FAIR**
 Deutsch EW, Bandeira N, Perez-Riverol Y, Sharma V, Carver JJ, Mendoza L, Kundu DJ, Bandla C, Kamatchinathan S, Hewapathirana S, Sun Z, Kawano S, Okuda S, Connolly B, MacLean B, MacCoss MJ, Chen T, Zhu Y, Ishihama Y, Vizcaíno JA
@@ -73,11 +83,6 @@ Deutsch EW, Bandeira N, Perez-Riverol Y, Sharma V, Carver JJ, Mendoza L, Kundu D
 <div id="year-2025" class="year-content" markdown="1">
 
 ### 2025
-
-**Improvements to Casanovo, a Deep Learning De Novo Peptide Sequencer**
-Straub G, Ananth V, Fondrie WE, Hsu C, Klaproth-Andrade D, Pominova M, Riffle M, Sanders J, Wen B, Xu L, Yilmaz M, MacCoss MJ, Oh S, Bittremieux W, Noble WS
-*Journal of proteome research* 2025 Dec
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/41468557/) | [DOI](https://doi.org/10.1021/acs.jproteome.5c00706)
 
 **Genetic variation in the Nr1d1 transcription factor binding site shapes metabolism-related protein networks associated with cognitive resilience in an Alzheimer's disease mouse reference panel**
 Chen Y, Stevenson TK, Cao Y, Fish LA, Robbins JE, Merrihew GE, Park J, Hohman TJ, MacCoss MJ, Kaczorowski CC
