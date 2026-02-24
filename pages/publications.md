@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 337 (317 peer-reviewed + 20 preprints)
-- **Total Citations**: 53,209 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 338 (317 peer-reviewed + 21 preprints)
+- **Total Citations**: 53,288 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,274 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,277 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: February 22, 2026 — 337 publications*
+*Last updated: February 24, 2026 — 338 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (4)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (5)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -57,6 +57,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?**
+Zelter A, Riffle M, Merrihew GE, Mutawe B, Maurais A, Inman JL, Celniker SE, Mao JH, Wan KH, Snijders AM, Wu CC, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2026 Feb
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/41727134/) | [DOI](https://doi.org/10.64898/2026.02.13.705808)
 
 **Proteomic Profiling of Human Omental and Subcutaneous Adipose Tissue in Individuals with a Broad Range of BMI**
 Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaFrance J, Khandelwal S, Chen JY, Williams E, Parr Z, Kim D, Rubinow KB, MacCoss MJ, Isoherranen N
