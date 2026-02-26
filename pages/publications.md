@@ -11,13 +11,13 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 ## Publication Metrics
 
 - **Total Publications**: 338 (317 peer-reviewed + 21 preprints)
-- **Total Citations**: 53,288 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
-- **h-index**: 103
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,277 citations)
+- **Total Citations**: 53,316 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: 104
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,279 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: February 24, 2026 — 338 publications*
+*Last updated: February 26, 2026 — 338 publications*
 
 ## Publications by Year
 

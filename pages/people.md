@@ -155,7 +155,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Jim Hibbard (2012-2014)
 - Max Horowitz-Gelb - development intern - U. Wisconsin (now Google, Seattle)
 - Aaron Igra - development intern - Brown
-- Shannon Joyner - development intern - CMU (Cisco Meraki, Cornell, now Afresh)
+- Shannon Joyner - development intern - CMU (Cisco Meraki, Cornell, Microsoft Research, Afresh, Google, now MongoDB)
 - Hanna Kidanemariam - development intern - Dartmouth College (now Microsoft)
 - Alana Killeen - development intern - UW (Microsoft, Dropbox, Nautilus Biotech, now ACLU)
 - Trevor Killeen - development intern - UW (Facebook, now Stripe)

@@ -91,7 +91,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
-- **Cited:** 5,277 times
+- **Cited:** 5,279 times
 
 ### ![Proteowizard](../assets/images/logos/proteowizard-logo.jpg "Proteowizard")
 **Widely used software tools and libraries for mass spectrometry data analysis.**
@@ -99,7 +99,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **Download and Documentation:** [https://proteowizard.sourceforge.io/](https://proteowizard.sourceforge.io/)
 - **Source Code:** Available on [Github](https://github.com/ProteoWizard/pwiz) and licensed under Apache 2.0.
 - **Original Publication:** Chambers et al, [A cross-platform toolkit for mass spectrometry and proteomics](https://www.nature.com/articles/nbt.2377), *Nature Biotechnology* 2012
-- **Cited:** 4,408 times
+- **Cited:** 4,412 times
 
 ### ![Panorama](../assets/images/logos/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
@@ -157,98 +157,120 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: February 22, 2026 — 32 datasets available*
+*Last updated: February 26, 2026 — 58 datasets available*
 
-### Instrumentation
-*Mass spectrometer characterization and benchmarking*
+### 2026
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/astral-zoom/project-begin.view">Evaluation of a modified Orbitrap Astral Zoom prototype for quantitative proteomics</a> (2025)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD064536">PXD064536</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/stellar/project-begin.view">Characterization of Stellar MS</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD052734">PXD052734</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/astral-eval/project-begin.view">Evaluating the Performance of the Astral Mass Analyzer for DIA Proteomics</a> (2023)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042704">PXD042704</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - Is Protein Quantification and Physical Normalization Always Necessary in Proteomics/project-begin.view">Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?</a></td><td></td></tr>
 </table>
 
-### Method Development
-*Novel proteomics methods and workflows*
+### 2025
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/multiplex-biofluids/project-begin.view">Development of highly multiplex targeted proteomics assays in biofluids</a> (2025)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD065471">PXD065471</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/dia-tq-assay/project-begin.view">DIA to inform Triple Quad Assay development</a> (2025)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD059611">PXD059611</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/qc-framework/project-begin.view">A framework for quality control in quantitative proteomics</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD051318">PXD051318</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/faims-gpf/project-begin.view">Comparing peptide identifications by FAIMS versus quadrupole gas phase fractionation</a> (2023)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD043458">PXD043458</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/mag-net/project-begin.view">Mag-Net: Rapid enrichment of membrane-bound particles for plasma proteomics</a> (2023)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042947">PXD042947</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/dynamic-dia/project-begin.view">Dynamic DIA Mass Spectrometry with Real-Time Retrospective Alignment</a> (2022)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038508">PXD038508</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/xlms-hhari/project-begin.view">Quantitative XL-MS Analysis of HHARI</a> (2022)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD030871">PXD030871</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/realtime-align/project-begin.view">Highly Multiplex Targeted Proteomics Enabled by Real-Time Alignment</a> (2020)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD018675">PXD018675</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - Prototype Orbitrap Astral manuscript/project-begin.view">Evaluation of a modified Orbitrap Astral Zoom prototype for quantitative proteomics - Beyond identification lists</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD064536">PXD064536</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - DIA Analysis of Microvasculature in Alzheimers Disease/project-begin.view">DIA Analysis of Microvasculature in Alzheimers Disease</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/Thermo Fisher Research and Development - PRM Conductor/project-begin.view">Tutorials on How to Use PRM Conductor, a Skyline External Tool</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - Stellar highly multiplex fluid assays/project-begin.view">Development of highly multiplex targeted proteomics assays in biofluids using a nominal mass ion trap mass spectrometer</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD065471">PXD065471</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - DIA to SRM Assays/project-begin.view">DIA to inform Triple Quad Assay development</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD059611">PXD059611</a></td></tr>
 </table>
 
-### Computational Methods
-*AI, machine learning, and data analysis approaches*
+### 2024
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/carafe/project-begin.view">Carafe enables high quality in silico spectral library generation for DIA proteomics</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD056793">PXD056793</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/transformer-dia/project-begin.view">A transformer model for de novo sequencing of DIA mass spectrometry data</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD053291">PXD053291</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/TAMADOR - Glucagon and Oxyntomodulin/project-begin.view">Evaluation of Linearity, Lower Limit of Measurement Interval and Imprecision</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD041410">PXD041410</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Carafe/project-begin.view">Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD056793">PXD056793</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Sample QC and System Suitability/project-begin.view">A framework for quality control in quantitative proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD051318">PXD051318</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/UW Isoherranen Lab - 2024 Drug-Protein Adducts Raloxifene Paper/project-begin.view">Detection and Quantification of Drug-Protein Adducts in Human Liver</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD054246">PXD054246</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - 2024-6 Cascadia/project-begin.view">A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD053291">PXD053291</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/Thermo Fisher Research and Development - 2024_Stellar_Instrument_Platform/project-begin.view">Characterization of Stellar MS</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD052734">PXD052734</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - AD-BXD Mouse PreFrontal Cortex Proteomics/project-begin.view">AD-BXD Mouse PreFrontal Cortex Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045403">PXD045403</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse X-Chromosome Resilience to Cognitive Aging/project-begin.view">Mouse X-Chromosome Resilience to Cognitive Aging</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD049347">PXD049347</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse Skeletal Muscle Sarcopenia/project-begin.view">Mouse Skeletal Muscle Sarcopenia</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD048723">PXD048723</a></td></tr>
 </table>
 
-### Clinical Applications
-*Biomarker discovery and clinical proteomics*
+### 2023
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/microvasculature-ad/project-begin.view">DIA Analysis of Microvasculature in Alzheimer's Disease</a> (2025)</td><td></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/drug-adducts/project-begin.view">Detection and Quantification of Drug-Protein Adducts in Human Liver</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD054246">PXD054246</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/apoe-csf/project-begin.view">Metrologically traceable quantification of apolipoprotein E isoforms in CSF</a> (2023)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038803">PXD038803</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - CCS Library/project-begin.view">METLIN-CCS: an ion mobility spectrometry
+collision cross-section database</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - AD-BXD Mouse Hippocampus Proteomics/project-begin.view">AD-BXD Mouse Hippocampus Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045425">PXD045425</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - Skeletal Muscle TFEB Signaling/project-begin.view">Skeletal Muscle TFEB Signaling Promotes Central Nervous System Function and Reduces Neuroinflammation during Aging and Neurodegenerative Disease</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045241">PXD045241</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - FAIMS_vs_QuadGPF_Manuscript/project-begin.view">Comparing peptide identifications by FAIMS versus quadrupole gas phase fractionation</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD043458">PXD043458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - Mag-Net Method/project-begin.view">Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042947">PXD042947</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - AstralBenchmarking/project-begin.view">Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD042704">PXD042704</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/MacCoss - Pig Lens PTM Paper/project-begin.view">Spatiotemporal Mapping of Posttranslational Modifications in the Pig Lens</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD040507">PXD040507</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2023/TPAD2.0 - ApoE Assay Paper/project-begin.view">Metrologically traceable quantification of three apolipoprotein E isoforms in cerebrospinal fluid</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038803">PXD038803</a></td></tr>
 </table>
 
-### Disease Research
-*Alzheimer's, aging, and disease proteomics*
+### 2022
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/adbxd-pfc/project-begin.view">AD-BXD Mouse PreFrontal Cortex Proteomics</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045403">PXD045403</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/sarcopenia/project-begin.view">Mouse Skeletal Muscle Sarcopenia</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD048723">PXD048723</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/adbxd-hippocampus/project-begin.view">AD-BXD Mouse Hippocampus Proteomics</a> (2023)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045425">PXD045425</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/ad-peptide-quant/project-begin.view">A Peptide-Centric Quantitative Proteomics Dataset for Alzheimer's Disease</a> (2022)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD034525">PXD034525</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/ad-isomerization/project-begin.view">Alzheimer's Disease Isomerization</a> (2021)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD025668">PXD025668</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Dynamic DIA Results/project-begin.view">Dynamic Data Independent Acquisition Mass Spectrometry with Real-Time Retrospective Alignment</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD038508">PXD038508</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Single_Molecule_Counting_Perspective/project-begin.view">Sampling the proteome by emerging single-molecule and mass-spectrometry based methods</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD035637">PXD035637</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Human AD Clean Diagnosis DIA Data/project-begin.view">A Peptide-Centric Quantitative Proteomics Dataset for the Phenotypic Assessment of Alzheimer’s Disease</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD034525">PXD034525</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2022/MacCoss - Cross-linking analysis of HHARI/project-begin.view">Quantitative XL-MS Analysis of HHARI in the presence or absence of 4EHP</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD030871">PXD030871</a></td></tr>
 </table>
 
-### Method Validation
-*Analytical validation and quality control*
+### 2021
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/linearity-eval/project-begin.view">Evaluation of Linearity, Lower Limit of Measurement Interval and Imprecision</a> (2024)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD041410">PXD041410</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/matrix-matched/project-begin.view">Matrix-matched calibration curves for quantitative proteomics</a> (2019)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014815">PXD014815</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/system-suitability/project-begin.view">System Suitability Protocol for LC-MRM-MS</a> (2018)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010535">PXD010535</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - 2015-Selevsek/project-begin.view">Skyline Batch: An Intuitive User Interface for Batch Processing with Skyline</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029665">PXD029665</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - 2015-Bruderer/project-begin.view">Skyline Batch: An Intuitive User Interface for Batch Processing with Skyline</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029663">PXD029663</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/NCSU Baker Lab - Smoke Inhalation and SRM 1950/project-begin.view">Development and Application of Multidimensional Lipid Libraries to Investigate Lipidomic Dysregulation Related to Smoke Inhalation Injury Severity</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - MitoPPX Paper/project-begin.view">Mitochondrial inorganic polyphosphate (polyP) is a contributor towards maintaining cellular bioenergetics in SH-SY5Y cells: a proteomics and metabolomics approach</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD028185">PXD028185</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts Correlates with Differential Loss of Function that is Attenuated by SS-31 and NMN/project-begin.view">Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts Correlates with Differential Loss of Function that is Attenuated by SS-31 and NMN</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD027458">PXD027458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - SRM_Data-The metabolome as a biomarker of aging in Drosophila melanogaster/project-begin.view">The metabolome as a biomarker of aging in Drosophila melanogaster</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - Q-OT vs Q-LIT submission/project-begin.view">Comparison of unit resolution versus high-resolution accurate mass for parallel reaction monitoring</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023334">PXD023334</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - AD Isomer Paper/project-begin.view">Alzheimer's Disease Isomerization</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD025668">PXD025668</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - CYP3A4 Raloxifene/project-begin.view">Quantification of Raloxifene Specific 471 Da Adducts in CYP3A4 and P450-Reductase</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD024932">PXD024932</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/LINCS PCCSE P100 2020/project-begin.view">Phospho-proteomic Profiling Dataset of Chemical Perturbations in Multiple Biological Backgrounds</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017458">PXD017458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/NCSU Baker Lab - Lipid Libraries/project-begin.view">Utilizing Skyline to Analyze Lipidomics Data Containing Liquid Chromatography, Ion Mobility Spectrometry and Mass Spectrometry Dimensions</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - SS31-PTM/project-begin.view">Mouse Heart SS31 Targeted Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD024247">PXD024247</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2021/MacCoss - Grizzly Bear Serum DIA Proteomics/project-begin.view">Grizzly Bear Serum DIA Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023555">PXD023555</a></td></tr>
 </table>
 
-### Software & Methods
-*Skyline and software workflow datasets*
+### 2020
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/prm-conductor/project-begin.view">Tutorials on How to Use PRM Conductor, a Skyline External Tool</a> (2025)</td><td></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/skyline-batch/project-begin.view">Skyline Batch: An Intuitive User Interface for Batch Processing</a> (2021)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD029665">PXD029665</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/skyline-small-molecules/project-begin.view">Skyline for Small Molecules: A Unifying Software Package for Metabolomics</a> (2019)</td><td></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/skyline-ims/project-begin.view">Using Skyline for LC-IMS-MS Data Analysis</a> (2018)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010650">PXD010650</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/MacCoss - Lysosome and Liver DIA Quant/project-begin.view">Lysosomal targetomics in ghrKO mice reveals a role for chaperone-mediated autophagy in shaping the nucleocytosolic acetyl-coA production pathway</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023309">PXD023309</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/MacCoss - Real-Time Chromatogram Alignment/project-begin.view">Highly Multiplex Targeted Proteomics Enabled by Real-Time Chromatographic Alignment</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD018675">PXD018675</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/MacCoss - Acarbose Paper/project-begin.view">Acarbose improves late-life physical function in mice of both sexes, but rejuvenates cardiac structure and lipid profile in males only</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017706">PXD017706</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2020/LINCS PCCSE GCP 2020/project-begin.view">Global Chromatin Profiling Dataset of Chemical Perturbations in Multiple Biological Backgrounds</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017459">PXD017459</a></td></tr>
 </table>
 
-### Large-Scale Studies
-*Multi-site and community resource datasets*
+### 2019
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/lincs-phospho/project-begin.view">Phospho-proteomic Profiling of Chemical Perturbations (LINCS)</a> (2021)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD017458">PXD017458</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/maccoss/cptac-interlaboratory/project-begin.view">Large-scale inter-laboratory study for cancer biomarker assays</a> (2015)</td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/UCSD Rifkin Lab - Pheromone_RNAProtein/project-begin.view">A simple mass-action model predicts protein timecourses from mRNA trajectories during a dynamic response in two strains of S. cerevisiae</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD015745">PXD015745</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/Duke Proteomics Core - Skyline for Small Molecules/project-begin.view">Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/MacCoss - matched matrix cal curves/project-begin.view">Matrix-matched calibration curves</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014815">PXD014815</a></td></tr>
 </table>
 
-### Aging Research
-*Age-related proteome studies*
+### 2018
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/heart-aging/project-begin.view">Age-Related Disruption of the Proteome and Acetylome in Mouse Hearts</a> (2021)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD027458">PXD027458</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/MacCoss - Improving Precursor Selectivity in Data Independent Acquisition Using Overlapping Windows/project-begin.view">Improving Precursor Selectivity in Data Independent Acquisition Using Overlapping Windows</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011910">PXD011910</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/MacCoss - Single-point Calibration/project-begin.view">Single-point Calibration</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD011297">PXD011297</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/NantOmics - Data-independent acquisition mass spectrometry to quantify protein levels in FFPE tumor biopsies for molecular diagnostics/project-begin.view">Data-independent acquisition mass spectrometry to quantify protein levels in FFPE tumor biopsies for molecular diagnostics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010934">PXD010934</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/MacLean - Baker IMS/project-begin.view">Using Skyline to Analyze Data-Containing Liquid Chromatography, Ion Mobility Spectrometry, and Mass Spectrometry Dimensions. Journal of The American Society for Mass Spectrometry</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010650">PXD010650</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2018/Study_9S/project-begin.view">Design, Implementation and Multisite Evaluation of a System Suitability Protocol for the Quantitative Assessment of Instrument Performance in Liquid Chromatography-Multiple Reaction Monitoring-MS (LC-MRM-MS)</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD010535">PXD010535</a></td></tr>
 </table>
 
-### Wildlife Proteomics
-*Non-model organism studies*
+### 2017
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/maccoss/grizzly-bear/project-begin.view">Grizzly Bear Serum DIA Proteomics</a> (2021)</td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD023555">PXD023555</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2017/MacCoss - Homer2 Interactome/project-begin.view">A mass spectrometry-based proteomic analysis of Homer2-interacting proteins in the mouse brain</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2017/Berg - Skyline_Analysis_Idgfs/project-begin.view">Proteomics analysis identifies orthologs of human chitinase-like proteins as inducers of tube-morphogenesis defects in Drosophila</a></td><td></td></tr>
+</table>
+
+### 2015
+
+<table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Schilling - MRM_HR_TripleTOF_MS2_FullScanFiltering/project-begin.view">Multiplexed, scheduled high resolution (sMRM-HR) acquisition on a full scan QqTOF instrument with integrated data-dependent and targeted mass spectrometric workflows.</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Schilling - MS1_MS2_SWATH/project-begin.view">MS1 Peptide Ion Intensity Chromatograms in MS2 (SWATH) Data Independent Acquisitions. Improving Post Acquisition Analysis of Proteomic Experiments</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Searle_PREGO_manuscript/project-begin.view">Analytical protein standards</a></td><td></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2015/Schilling - main_Study_9/project-begin.view">Large-scale inter-laboratory study to develop, analytically validate and apply highly multiplexed, quantitative peptide assays to measure cancer-relevant proteins in plasma</a></td><td></td></tr>
 </table>
 
 *All datasets include processed results as Skyline documents and raw datafiles. Many datasets are paired with published manuscripts.*
@@ -256,14 +278,12 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 </div>
 </div>
-
-
   <div id="educational" class="tab-content">
     <div markdown="1">
 
 ## Educational Materials
 
-*Last updated: February 22, 2026 — 28 Skyline tutorials available*
+*Last updated: February 26, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -368,12 +388,14 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 </div>
   </div>
+
+
   <div id="support" class="tab-content">
     <div markdown="1">
 
 ## Support & Training
 
-*Last updated: February 22, 2026 — 4 upcoming events, 101 past events, 27 webinars*
+*Last updated: February 26, 2026 — 4 upcoming events, 101 past events, 27 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/forum)
