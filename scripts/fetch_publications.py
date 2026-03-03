@@ -7,6 +7,7 @@ and updates the publications page with new entries. It also scrapes
 Google Scholar for citation metrics.
 """
 
+import html
 import requests
 import xml.etree.ElementTree as ET
 import re
@@ -177,10 +178,17 @@ def format_publication(pub):
     lines.append(journal_info)
     
     # Links
+    title_escaped = html.escape(title)  # reuse the already-stripped title variable
     links = []
-    links.append(f"[PubMed](https://pubmed.ncbi.nlm.nih.gov/{pub['pmid']}/)")
+    links.append(
+        f'<a href="https://pubmed.ncbi.nlm.nih.gov/{pub["pmid"]}/">'
+        f'PubMed<span class="visually-hidden"> for &#8220;{title_escaped}&#8221;</span></a>'
+    )
     if pub['doi']:
-        links.append(f"[DOI](https://doi.org/{pub['doi']})")
+        links.append(
+            f'<a href="https://doi.org/{pub["doi"]}">'
+            f'DOI<span class="visually-hidden"> for &#8220;{title_escaped}&#8221;</span></a>'
+        )
     lines.append(' | '.join(links))
     
     return '\n'.join(lines)
@@ -369,6 +377,16 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+.visually-hidden {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 
 @media (max-width: 768px) {
