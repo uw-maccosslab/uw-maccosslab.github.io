@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 339 (318 peer-reviewed + 21 preprints)
-- **Total Citations**: 53,494 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 340 (319 peer-reviewed + 21 preprints)
+- **Total Citations**: 53,611 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,293 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,300 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: March 10, 2026 — 339 publications*
+*Last updated: March 16, 2026 — 340 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (6)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (7)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -58,13 +58,18 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
+**Blood proteomics: insights from public data**
+Larrea-Sebal A, Dai C, Brenes AJ, Korff K, Neely BA, Geyer PE, Dagley LF, Unwin RD, Naba A, MacCoss MJ, Guo T, Deutsch EW, Martin C, Schwenk JM, Perez-Riverol Y
+*Genome biology* 2026 Mar;27(1)
+<a href="https://pubmed.ncbi.nlm.nih.gov/41821120/">PubMed<span class="visually-hidden"> for &#8220;Blood proteomics: insights from public data&#8221;</span></a> | <a href="https://doi.org/10.1186/s13059-026-04027-9">DOI<span class="visually-hidden"> for &#8220;Blood proteomics: insights from public data&#8221;</span></a>
+
 **Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI**
 Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaFrance J, Khandelwal S, Chen JY, Williams E, Parr Z, Kim D, Rubinow KB, MacCoss MJ, Isoherranen N
 *Scientific data* 2026 Mar
 <a href="https://pubmed.ncbi.nlm.nih.gov/41786761/">PubMed<span class="visually-hidden"> for &#8220;Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI&#8221;</span></a> | <a href="https://doi.org/10.1038/s41597-026-06948-3">DOI<span class="visually-hidden"> for &#8220;Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI&#8221;</span></a>
 
 **Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?**
-Zelter A, Riffle M, Merrihew GE, Mutawe B, Maurais A, Inman JL, Celniker SE, Mao JH, Wan KH, Snijders AM, Wu CC, MacCoss MJ
+Zelter A, Riffle M, Merrihew GE, Mutawe B, Maurais A, Yang HY, Inman JL, Celniker SE, Mao JH, Wan KH, Snijders AM, Wu CC, MacCoss MJ
 *bioRxiv : the preprint server for biology* 2026 Feb
 <a href="https://pubmed.ncbi.nlm.nih.gov/41727134/">PubMed<span class="visually-hidden"> for &#8220;Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.02.13.705808">DOI<span class="visually-hidden"> for &#8220;Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?&#8221;</span></a>
 
