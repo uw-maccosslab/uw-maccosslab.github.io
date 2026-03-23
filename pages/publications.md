@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 340 (319 peer-reviewed + 21 preprints)
-- **Total Citations**: 53,631 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 341 (320 peer-reviewed + 21 preprints)
+- **Total Citations**: 53,719 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,301 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,307 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: March 19, 2026 — 340 publications*
+*Last updated: March 23, 2026 — 341 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (7)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (8)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -57,6 +57,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer's disease neuropathology**
+Damodarasamy M, Hernandez GJ, Johnson RS, Keene CD, Latimer CS, MacCoss MJ, Banks WA, Erickson MA, Reed MJ
+*Journal of Alzheimer's disease : JAD* 2026 Mar:13872877261433167
+<a href="https://pubmed.ncbi.nlm.nih.gov/41860372/">PubMed<span class="visually-hidden"> for &#8220;Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer&#x27;s disease neuropathology&#8221;</span></a> | <a href="https://doi.org/10.1177/13872877261433167">DOI<span class="visually-hidden"> for &#8220;Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer&#x27;s disease neuropathology&#8221;</span></a>
 
 **Blood proteomics: insights from public data**
 Larrea-Sebal A, Dai C, Brenes AJ, Korff K, Neely BA, Geyer PE, Dagley LF, Unwin RD, Naba A, MacCoss MJ, Guo T, Deutsch EW, Martin C, Schwenk JM, Perez-Riverol Y
