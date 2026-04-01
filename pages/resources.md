@@ -91,7 +91,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
-- **Cited:** 5,307 times
+- **Cited:** 5,315 times
 
 ### ![Proteowizard](../assets/images/logos/proteowizard-logo.jpg "Proteowizard")
 **Widely used software tools and libraries for mass spectrometry data analysis.**
@@ -99,7 +99,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **Download and Documentation:** [https://proteowizard.sourceforge.io/](https://proteowizard.sourceforge.io/)
 - **Source Code:** Available on [Github](https://github.com/ProteoWizard/pwiz) and licensed under Apache 2.0.
 - **Original Publication:** Chambers et al, [A cross-platform toolkit for mass spectrometry and proteomics](https://www.nature.com/articles/nbt.2377), *Nature Biotechnology* 2012
-- **Cited:** 4,473 times
+- **Cited:** 4,490 times
 
 ### ![Panorama](../assets/images/logos/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
@@ -157,11 +157,12 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: March 19, 2026 — 60 datasets available*
+*Last updated: April 01, 2026 — 61 datasets available*
 
 ### 2026
 
 <table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - il6-biologics-serum/project-begin.view">Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD076219">PXD076219</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - Carafe2/project-begin.view">Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD075483">PXD075483</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - Is Protein Quantification and Physical Normalization Always Necessary in Proteomics/project-begin.view">Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?</a></td><td></td></tr>
 </table>
@@ -285,7 +286,7 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Educational Materials
 
-*Last updated: March 19, 2026 — 28 Skyline tutorials available*
+*Last updated: April 01, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -395,7 +396,7 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Support & Training
 
-*Last updated: March 19, 2026 — 4 upcoming events, 101 past events, 27 webinars*
+*Last updated: April 01, 2026 — 4 upcoming events, 101 past events, 27 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/forum)
