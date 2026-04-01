@@ -124,8 +124,8 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Huilin Shi, Ph.D. (2013-2015) -- LinkedIn, Bellevue, WA
 - Michael Bereman, Ph.D. (2009-2013) -- Assistant Professor, North Carolina State University
 - Ed Hsieh, Ph.D. (2008-2013) -- Gilead Sciences, Inc. Foster City, CA 
-- Daniela Tomazela, Ph.D. (2008-2011) -- Gilean Sciences, Palo Alto, CA
-- Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Physician Scientist, Johns Hopkins, Baltimore, MD
+- Daniela Tomazela, Ph.D. (2008-2011) -- Gilead Sciences, Palo Alto, CA
+- Dao-Fu Dai, M.D., Ph.D. (2009-2010) -- Associate Professor Pathology, Johns Hopkins, Baltimore, MD
 - Lukas Käll (2006-2008) – with Bill Noble, Professor of Applied Systems Biology at KTH - Royal Institute of Technology and a member of the Science for Life Laboratory
 - Jason Wooden, Ph.D. (2006-2010)
 - Josh McElwee, Ph.D. (2006-2007) -- Nimbus Therapeutics, Boston, MA
