@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 341 (320 peer-reviewed + 21 preprints)
-- **Total Citations**: 53,872 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 343 (320 peer-reviewed + 23 preprints)
+- **Total Citations**: 53,995 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,315 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,327 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: April 01, 2026 — 341 publications*
+*Last updated: April 10, 2026 — 343 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (8)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (10)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -57,6 +57,16 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics**
+Wen B, Paez JS, Hsu C, Canzani D, Chang A, Shulman N, MacLean BX, Berg MD, Villén J, Fondrie WE, Pino LK, MacCoss MJ, Noble WS
+*bioRxiv : the preprint server for biology* 2026 Mar
+<a href="https://pubmed.ncbi.nlm.nih.gov/41959400/">PubMed<span class="visually-hidden"> for &#8220;Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.03.27.714846">DOI<span class="visually-hidden"> for &#8220;Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics&#8221;</span></a>
+
+**Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies**
+Sniezek C, Plubell D, Vlajic K, Hoofnagle A, Wu CC, Buckner JH, Schweppe D, Speake C, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2026 Mar
+<a href="https://pubmed.ncbi.nlm.nih.gov/41959136/">PubMed<span class="visually-hidden"> for &#8220;Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.03.27.712461">DOI<span class="visually-hidden"> for &#8220;Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies&#8221;</span></a>
 
 **Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer's disease neuropathology**
 Damodarasamy M, Hernandez GJ, Johnson RS, Keene CD, Latimer CS, MacCoss MJ, Banks WA, Erickson MA, Reed MJ
