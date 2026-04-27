@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 343 (320 peer-reviewed + 23 preprints)
-- **Total Citations**: 53,995 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 344 (321 peer-reviewed + 23 preprints)
+- **Total Citations**: 54,295 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,327 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,357 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: April 10, 2026 — 343 publications*
+*Last updated: April 26, 2026 — 344 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (10)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (11)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -58,6 +58,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
+**Ghrelin Receptor Deletion or Pharmacological Inhibition Improves Muscle Function in Aging Male Mice**
+Kerr HL, Krumm K, Myree N, Rybachok A, Dacek E, Irwin B, Jiang S, Caeiro L, Anderson B, Li T, Chen A, Burnside R, Li J, Sydor M, Marcinek DJ, Merrihew GE, MacDonald JW, Bammler TK, MacCoss MJ, Garcia JM
+*Aging cell* 2026 Apr;25(4):e70472
+<a href="https://pubmed.ncbi.nlm.nih.gov/41986945/">PubMed<span class="visually-hidden"> for &#8220;Ghrelin Receptor Deletion or Pharmacological Inhibition Improves Muscle Function in Aging Male Mice&#8221;</span></a> | <a href="https://doi.org/10.1111/acel.70472">DOI<span class="visually-hidden"> for &#8220;Ghrelin Receptor Deletion or Pharmacological Inhibition Improves Muscle Function in Aging Male Mice&#8221;</span></a>
+
 **Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics**
 Wen B, Paez JS, Hsu C, Canzani D, Chang A, Shulman N, MacLean BX, Berg MD, Villén J, Fondrie WE, Pino LK, MacCoss MJ, Noble WS
 *bioRxiv : the preprint server for biology* 2026 Mar
@@ -80,7 +85,7 @@ Larrea-Sebal A, Dai C, Brenes AJ, Korff K, Neely BA, Geyer PE, Dagley LF, Unwin 
 
 **Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI**
 Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaFrance J, Khandelwal S, Chen JY, Williams E, Parr Z, Kim D, Rubinow KB, MacCoss MJ, Isoherranen N
-*Scientific data* 2026 Mar
+*Scientific data* 2026 Mar;13(1)
 <a href="https://pubmed.ncbi.nlm.nih.gov/41786761/">PubMed<span class="visually-hidden"> for &#8220;Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI&#8221;</span></a> | <a href="https://doi.org/10.1038/s41597-026-06948-3">DOI<span class="visually-hidden"> for &#8220;Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI&#8221;</span></a>
 
 **Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?**
