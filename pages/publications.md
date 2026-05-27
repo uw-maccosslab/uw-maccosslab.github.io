@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 344 (321 peer-reviewed + 23 preprints)
-- **Total Citations**: 54,295 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
-- **h-index**: 104
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,357 citations)
+- **Total Publications**: 346 (322 peer-reviewed + 24 preprints)
+- **Total Citations**: 54,982 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: 106
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,411 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: April 26, 2026 — 344 publications*
+*Last updated: May 26, 2026 — 346 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (11)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (13)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -58,6 +58,16 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
+**Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry**
+Zelter A, Zhong G, Maes M, Hoopmann MR, Riffle M, Jaschob D, Carlson Ii EA, Nelson WL, Dalvie D, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N
+*Drug metabolism reviews* 2026 May:1-22
+<a href="https://pubmed.ncbi.nlm.nih.gov/42124481/">PubMed<span class="visually-hidden"> for &#8220;Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry&#8221;</span></a> | <a href="https://doi.org/10.1080/03602532.2026.2670538">DOI<span class="visually-hidden"> for &#8220;Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry&#8221;</span></a>
+
+**Multimodal analysis of molecular remodeling in aging spleen identified global and cell type specific changes**
+Vlajic K, Luciano A, Merrihew GE, Sanchez CR, Riffle M, Tsantilas KA, Attar S, Beliveau BJ, Sweetwyne MT, MacCoss MJ, Churchill G, Schweppe DK
+*bioRxiv : the preprint server for biology* 2026 Apr
+<a href="https://pubmed.ncbi.nlm.nih.gov/42079143/">PubMed<span class="visually-hidden"> for &#8220;Multimodal analysis of molecular remodeling in aging spleen identified global and cell type specific changes&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.04.17.719305">DOI<span class="visually-hidden"> for &#8220;Multimodal analysis of molecular remodeling in aging spleen identified global and cell type specific changes&#8221;</span></a>
+
 **Ghrelin Receptor Deletion or Pharmacological Inhibition Improves Muscle Function in Aging Male Mice**
 Kerr HL, Krumm K, Myree N, Rybachok A, Dacek E, Irwin B, Jiang S, Caeiro L, Anderson B, Li T, Chen A, Burnside R, Li J, Sydor M, Marcinek DJ, Merrihew GE, MacDonald JW, Bammler TK, MacCoss MJ, Garcia JM
 *Aging cell* 2026 Apr;25(4):e70472
@@ -75,7 +85,7 @@ Sniezek C, Plubell D, Vlajic K, Hoofnagle A, Wu CC, Buckner JH, Schweppe D, Spea
 
 **Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer's disease neuropathology**
 Damodarasamy M, Hernandez GJ, Johnson RS, Keene CD, Latimer CS, MacCoss MJ, Banks WA, Erickson MA, Reed MJ
-*Journal of Alzheimer's disease : JAD* 2026 Mar:13872877261433167
+*Journal of Alzheimer's disease : JAD* 2026 May;111(2):530-536
 <a href="https://pubmed.ncbi.nlm.nih.gov/41860372/">PubMed<span class="visually-hidden"> for &#8220;Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer&#x27;s disease neuropathology&#8221;</span></a> | <a href="https://doi.org/10.1177/13872877261433167">DOI<span class="visually-hidden"> for &#8220;Lecanemab alters basement membrane collagen IV in viable microvessels isolated from brains with high Alzheimer&#x27;s disease neuropathology&#8221;</span></a>
 
 **Blood proteomics: insights from public data**

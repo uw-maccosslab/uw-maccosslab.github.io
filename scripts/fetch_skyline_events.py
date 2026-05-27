@@ -126,8 +126,9 @@ def fetch_events():
             event_info["year"] = year
             past_events[year].append(event_info)
 
-    print(f"Found {len(upcoming_events)} upcoming events")
-    print(f"Found events for years: {sorted(past_events.keys(), reverse=True)}")
+    upcoming_years = sorted({e["year"] for e in upcoming_events}, reverse=True)
+    print(f"Found {len(upcoming_events)} upcoming events for years: {upcoming_years}")
+    print(f"Found past events for years: {sorted(past_events.keys(), reverse=True)}")
 
     return {"upcoming": upcoming_events, "past": past_events}
 
@@ -283,26 +284,30 @@ def fetch_webinars():
             if month_match:
                 month = month_match.group(0).strip("()")
 
-            # Infer year from webinar number if not found
+            # Infer year from webinar number if not found.
+            # Known anchors map the smallest webinar number observed in each year.
+            # For any number higher than the most recent anchor, assume the
+            # current year so the script doesn't need an annual update.
             if not year:
-                if number >= 25:
-                    year = 2025
-                elif number >= 23:
-                    year = 2024
-                elif number >= 22:
-                    year = 2023
-                elif number >= 20:
-                    year = 2021
-                elif number >= 18:
-                    year = 2020
-                elif number >= 17:
-                    year = 2018
-                elif number >= 13:
-                    year = 2017
-                elif number >= 8:
-                    year = 2015
+                known_anchors = [
+                    (25, 2025),
+                    (23, 2024),
+                    (22, 2023),
+                    (20, 2021),
+                    (18, 2020),
+                    (17, 2018),
+                    (13, 2017),
+                    (8, 2015),
+                    (0, 2014),
+                ]
+                highest_known_number = known_anchors[0][0]
+                if number > highest_known_number:
+                    year = datetime.now().year
                 else:
-                    year = 2014
+                    for min_num, anchor_year in known_anchors:
+                        if number >= min_num:
+                            year = anchor_year
+                            break
 
             webinars[year].append(
                 {"number": number, "title": title, "url": href, "month": month}

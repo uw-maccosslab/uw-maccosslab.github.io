@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/maccoss/GitHub-Repo/uw-maccosslab/maccosslab.github.io/scripts/**)",
+      "Read(//mnt/d/GitHub-Repo/uw-maccosslab/maccosslab.github.io/scripts/**)"
+    ]
+  }
+}
