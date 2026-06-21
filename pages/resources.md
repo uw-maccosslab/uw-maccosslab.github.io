@@ -157,7 +157,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: June 20, 2026 — 65 datasets available*
+*Last updated: June 20, 2026 — 64 datasets available*
 
 ### 2026
 
@@ -174,6 +174,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 ### 2025
 
 <table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2025/UW Xu Lab - ToxBase/project-begin.view">Exposomic Analysis of Human Plasma, Urine, and Fecal Samples</a></td><td></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2025/UC Riverside Julian Lab - Comorbid AD Tau Isomerization/project-begin.view">Comorbid Alzheimer’s Disease Tau Isomerization</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD070505">PXD070505</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2025/MacCoss - Prototype Orbitrap Astral manuscript/project-begin.view">Evaluation of a modified Orbitrap Astral Zoom prototype for quantitative proteomics - Beyond identification lists</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD064536">PXD064536</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2025/UW Isoherranen Lab - Human OM and SQ Adipose Data from Lean and Obese Individuals/project-begin.view">Proteomic profiling of human omental and subcutaneous adipose tissue in individuals with a broad range of BMI</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD067514">PXD067514</a></td></tr>
@@ -193,7 +194,6 @@ Example publications describing the Stellar from the MacCoss lab include:
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - 2024-6 Cascadia/project-begin.view">A transformer model for de novo sequencing of data-independent acquisition mass spectrometry data</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD053291">PXD053291</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2024/Thermo Fisher Research and Development - 2024_Stellar_Instrument_Platform/project-begin.view">Characterization of Stellar MS</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD052734">PXD052734</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - AD-BXD Mouse PreFrontal Cortex Proteomics/project-begin.view">AD-BXD Mouse PreFrontal Cortex Proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD045403">PXD045403</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse X-Chromosome Resilience to Cognitive Aging/project-begin.view">Mouse X-Chromosome Resilience to Cognitive Aging</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD049347">PXD049347</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2024/MacCoss - Mouse Skeletal Muscle Sarcopenia/project-begin.view">Mouse Skeletal Muscle Sarcopenia</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD048723">PXD048723</a></td></tr>
 </table>
 
@@ -249,7 +249,6 @@ collision cross-section database</a></td><td></td></tr>
 ### 2019
 
 <table class="invisible-table">
-<tr><td><a href="https://panoramaweb.org/Panorama Public/2019/UCSD Rifkin Lab - Pheromone_RNAProtein/project-begin.view">A simple mass-action model predicts protein timecourses from mRNA trajectories during a dynamic response in two strains of S. cerevisiae</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD015745">PXD015745</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2019/Duke Proteomics Core - Skyline for Small Molecules/project-begin.view">Skyline for Small Molecules: A Unifying Software Package for Quantitative Metabolomics</a></td><td></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2019/MacCoss - matched matrix cal curves/project-begin.view">Matrix-matched calibration curves</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD014815">PXD014815</a></td></tr>
 </table>
@@ -285,6 +284,8 @@ collision cross-section database</a></td><td></td></tr>
 
 </div>
 </div>
+
+
   <div id="educational" class="tab-content">
     <div markdown="1">
 

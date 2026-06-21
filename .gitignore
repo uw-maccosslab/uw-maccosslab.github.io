@@ -21,3 +21,4 @@ Thumbs.db
 # Environment files with secrets
 .env
 .panorama_credentials
+scripts/__pycache__/fetch_datasets.cpython-312.pyc

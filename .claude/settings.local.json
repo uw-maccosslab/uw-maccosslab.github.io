@@ -11,7 +11,15 @@
       "Bash(gem install:*)",
       "Bash(sudo gem install:*)",
       "Bash(bundle config:*)",
-      "Bash(sudo apt-get update:*)"
+      "Bash(sudo apt-get update:*)",
+      "Bash(awk '/<div id=\"datasets\"/,/<\\\\/div>/' pages/resources.md)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(awk '/<div id=\"datasets\"/,/^<\\\\/div>$/')",
+      "Bash(awk '/def get_hardcoded_datasets/,/^def [a-z]/' scripts/fetch_datasets.py)",
+      "Bash(awk '/^def get_hardcoded_datasets/,/^def [a-z_]/' scripts/fetch_datasets.py)",
+      "Bash(curl -s -o /tmp/panorama_test.json -w \"HTTP %{http_code}\\\\n\" \"https://panoramaweb.org/Panorama%20Public/query-selectRows.api?schemaName=panoramapublic&query.queryName=experimentannotations&query.columns=Created,Title,pxid&query.Authors~contains=MacCoss&query.showRows=all&query.containerFilterName=AllFolders\")",
+      "Bash(awk 'NR<141 || NR>=558' scripts/fetch_datasets.py)",
+      "Bash(awk 'NR>=135 && NR<=145' /tmp/fetch_datasets_trimmed.py)"
     ],
     "deny": [],
     "ask": []
