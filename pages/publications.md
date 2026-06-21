@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 346 (322 peer-reviewed + 24 preprints)
-- **Total Citations**: 54,982 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 350 (323 peer-reviewed + 27 preprints)
+- **Total Citations**: 55,397 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,411 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,429 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: May 26, 2026 — 346 publications*
+*Last updated: June 20, 2026 — 350 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (13)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (17)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
@@ -58,9 +58,29 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
+**Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition**
+Hsu C, Heil LR, Wen B, McAlister G, Merrihew G, Remes PM, Plubell DL, Melani R, Zabrouskov V, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2026 Jun
+<a href="https://pubmed.ncbi.nlm.nih.gov/42282639/">PubMed<span class="visually-hidden"> for &#8220;Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.05.31.729078">DOI<span class="visually-hidden"> for &#8220;Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition&#8221;</span></a>
+
+**ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis**
+Nguyen R, Rangel G, Liu X, Santoso RA, Bantwal A, Ross DH, Seguin RP, Liem J, Lin YS, Pratt B, MacLean BX, MacCoss MJ, Xu L
+*Environmental science & technology* 2026 Jun
+<a href="https://pubmed.ncbi.nlm.nih.gov/42262507/">PubMed<span class="visually-hidden"> for &#8220;ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis&#8221;</span></a> | <a href="https://doi.org/10.1021/acs.est.5c18068">DOI<span class="visually-hidden"> for &#8220;ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis&#8221;</span></a>
+
+**Prioritizing peptides for targeted mass spectrometry experiments using deep learning**
+Sonthalia S, Dasgupta P, Hsu C, Wen B, MacCoss MJ, Noble WS
+*bioRxiv : the preprint server for biology* 2026 May
+<a href="https://pubmed.ncbi.nlm.nih.gov/42244555/">PubMed<span class="visually-hidden"> for &#8220;Prioritizing peptides for targeted mass spectrometry experiments using deep learning&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.05.21.727053">DOI<span class="visually-hidden"> for &#8220;Prioritizing peptides for targeted mass spectrometry experiments using deep learning&#8221;</span></a>
+
+**A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice**
+Zelter A, Riffle M, Merrihew GE, Mutawe B, Shulman N, Sanders JA, Noble WS, Johnson Erickson DP, Morimoto A, Shaver BA, Steins TN, Cao N, Ford EC, Rudnick PA, Chelsky D, Wan KH, Inman JL, Chang H, Snijders AM, Mao JH, Celniker SE, De Chant J, Obst-Huebl L, Nakamura K, Wu CC, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2026 May
+<a href="https://pubmed.ncbi.nlm.nih.gov/42239236/">PubMed<span class="visually-hidden"> for &#8220;A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.05.18.725951">DOI<span class="visually-hidden"> for &#8220;A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice&#8221;</span></a>
+
 **Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry**
 Zelter A, Zhong G, Maes M, Hoopmann MR, Riffle M, Jaschob D, Carlson Ii EA, Nelson WL, Dalvie D, Moritz RL, Davis TN, MacCoss MJ, Isoherranen N
-*Drug metabolism reviews* 2026 May:1-22
+*Drug metabolism reviews* 2026 Jun:1-20
 <a href="https://pubmed.ncbi.nlm.nih.gov/42124481/">PubMed<span class="visually-hidden"> for &#8220;Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry&#8221;</span></a> | <a href="https://doi.org/10.1080/03602532.2026.2670538">DOI<span class="visually-hidden"> for &#8220;Identification and characterization of a novel aldehyde metabolite of WIN18,446 and associated WIN18,446-ALDH1A2 protein adducts using mass spectrometry&#8221;</span></a>
 
 **Multimodal analysis of molecular remodeling in aging spleen identified global and cell type specific changes**
