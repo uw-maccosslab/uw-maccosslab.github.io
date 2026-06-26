@@ -157,7 +157,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: June 20, 2026 — 64 datasets available*
+*Last updated: June 25, 2026 — 64 datasets available*
 
 ### 2026
 
@@ -291,7 +291,7 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Educational Materials
 
-*Last updated: June 20, 2026 — 28 Skyline tutorials available*
+*Last updated: June 25, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -356,9 +356,9 @@ collision cross-section database</a></td><td></td></tr>
 ### Skyline Documentation
 *Advanced reference documentation and developer resources*
 
-- **[Skyline Custom Reports](https://skyline.ms/home/software/Skyline/wiki-page.view?name=Reports)** — Learn about the vast array of values you can show in the Document Grid or export
-- **[Skyline Command-Line Interface](https://skyline.ms/home/software/Skyline/wiki-page.view?name=CommandLine)** — Use SkylineRunner.exe and SkylineCmd.exe for command-line operations
-- **[Skyline Keyboard Shortcuts](https://skyline.ms/home/software/Skyline/wiki-page.view?name=KeyboardShortcuts)** — Quick access to commands without leaving the keyboard
+- **[Skyline Custom Reports](https://skyline.ms/wiki/home/software/Skyline/page.view?name=custom_reports)** — Learn about the vast array of values you can show in the Document Grid or export
+- **[Skyline Command-Line Interface](https://skyline.ms/wiki/home/software/Skyline/page.view?name=SkylineCmd)** — Use SkylineRunner.exe and SkylineCmd.exe for command-line operations
+- **[Skyline Keyboard Shortcuts](https://skyline.ms/wiki/home/software/Skyline/page.view?name=keyboard_shortcuts)** — Quick access to commands without leaving the keyboard
 - **[External Tools Documentation](https://skyline.ms/labkey/_webdav/home/software/Skyline/@files/docs/Skyline%20External%20Tools-2_1.pdf)** — Integrate statistical and bioinformatics tools with Skyline
 - **[Interactive Tools Documentation](https://skyline.ms/labkey/_webdav/home/software/Skyline/@files/docs/Skyline%20Interactive%20Tool%20Support-3_1.pdf)** — Develop .NET tools that interact with Skyline in real-time
 
