@@ -782,66 +782,23 @@ def update_software_citations(metrics):
         return False
 
 
-def fetch_publications_per_year():
+def count_publications_per_year(publications):
+    """Count publications per year from the already-fetched (and deduped) list.
+
+    Uses the same publication set rendered on the page, so superseded preprints
+    that were dropped in dedupe_superseded_preprints don't get double-counted
+    in the per-year plot.
     """
-    Fetch publication counts per year from PubMed.
-    Returns a dict of {year: count}.
-    """
-    # Search for all publications (not limited to recent)
-    params = {
-        'db': 'pubmed',
-        'term': PUBMED_SEARCH_TERM,
-        'retmax': 1000,  # Get all publications
-        'retmode': 'json'
-    }
-    
-    try:
-        response = requests.get(ESEARCH_URL, params=params, timeout=30)
-        response.raise_for_status()
-        data = response.json()
-        pmids = data.get('esearchresult', {}).get('idlist', [])
-        
-        if not pmids:
-            return {}
-        
-        # Fetch details for all PMIDs to get publication years
-        # Process in batches to avoid timeout
-        batch_size = 200
-        all_years = []
-        
-        for i in range(0, len(pmids), batch_size):
-            batch_pmids = pmids[i:i + batch_size]
-            params = {
-                'db': 'pubmed',
-                'id': ','.join(batch_pmids),
-                'retmode': 'xml'
-            }
-            response = requests.get(EFETCH_URL, params=params, timeout=30)
-            response.raise_for_status()
-            
-            root = ET.fromstring(response.text)
-            for article in root.findall('.//PubmedArticle'):
-                pub_date = article.find('.//PubDate')
-                if pub_date is not None:
-                    year_elem = pub_date.find('Year')
-                    if year_elem is not None:
-                        try:
-                            year = int(year_elem.text)
-                            all_years.append(year)
-                        except (ValueError, TypeError):
-                            pass
-        
-        # Count publications per year
-        year_counts = {}
-        for year in all_years:
-            year_counts[year] = year_counts.get(year, 0) + 1
-        
-        print(f"Fetched publication counts for {len(year_counts)} years ({len(all_years)} total publications)")
-        return year_counts
-        
-    except Exception as e:
-        print(f"Error fetching publications per year: {e}")
-        return {}
+    year_counts = {}
+    for pub in publications:
+        year_str = pub.get('year') or ''
+        try:
+            year = int(year_str)
+        except (ValueError, TypeError):
+            continue
+        year_counts[year] = year_counts.get(year, 0) + 1
+    print(f"Counted {sum(year_counts.values())} publications across {len(year_counts)} years")
+    return year_counts
 
 
 def fetch_citations_per_year():
@@ -1014,10 +971,10 @@ def main():
     # Regenerate the entire publications file with year navigation
     update_publications_file(publications, set())
     
-    # Fetch publications per year and generate the plot
+    # Counts per year for the plot, computed from the deduped publications list
     print()
-    print("Fetching publications per year for plot...")
-    pubs_per_year = fetch_publications_per_year()
+    print("Counting publications per year for plot...")
+    pubs_per_year = count_publications_per_year(publications)
     
     print()
     print("Generating metrics plot...")

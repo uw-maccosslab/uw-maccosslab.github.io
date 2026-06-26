@@ -22,3 +22,4 @@ Thumbs.db
 .env
 .panorama_credentials
 scripts/__pycache__/fetch_datasets.cpython-312.pyc
+scripts/__pycache__/fetch_publications.cpython-312.pyc
