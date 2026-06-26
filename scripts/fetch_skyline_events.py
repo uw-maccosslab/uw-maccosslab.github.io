@@ -176,11 +176,26 @@ def extract_event_info(text, href, parent_text):
     # Clean up the text
     name = text.strip()
 
-    # Make href absolute if needed
-    if href.startswith("/"):
+    # Make href absolute if needed. The events page lives at
+    # EVENTS_URL, so project-relative hrefs ("2025 UW Course/project-begin.view")
+    # must be resolved against it -- naive concatenation onto "skyline.ms/"
+    # produces a 404 because the real base path is /home/software/Skyline/events/.
+    if href.startswith("http"):
+        pass
+    elif href.startswith("/"):
         href = f"https://skyline.ms{href}"
-    elif not href.startswith("http"):
-        href = f"https://skyline.ms/{href}"
+    else:
+        from urllib.parse import urljoin
+        href = urljoin(EVENTS_URL, href)
+
+    # Skyline's events page hosts malformed Wayback wrappers of the form
+    # "https://web.archive.orghttp//<original>" (missing the "/web/*/http://"
+    # separator). Rewrite to the canonical Wayback form so links resolve.
+    href = re.sub(
+        r"^https?://web\.archive\.orghttps?//",
+        "https://web.archive.org/web/*/http://",
+        href,
+    )
 
     # Try to extract location and date from parent text
     location = ""
@@ -425,8 +440,8 @@ def generate_support_section(events, webinars):
     lines.append(f"*Last updated: {current_date} — {total_upcoming} upcoming events, {total_past_events} past events, {total_webinars} webinars*")
     lines.append("")
     lines.append("### Forums and Discussion")
-    lines.append("- [Skyline Support Board](https://skyline.ms/forum)")
-    lines.append("- [Panorama Support Board](https://panoramaweb.org/forum)")
+    lines.append("- [Skyline Support Board](https://skyline.ms/home/support/project-begin.view)")
+    lines.append("- [Panorama Support Board](https://panoramaweb.org/home/support/project-begin.view)")
     lines.append(
         "- **[University of Washington Proteomics Listserv](https://mailman23.u.washington.edu/mailman/listinfo/proteomics)** - If you are at UW and doing proteomics you should join this list."
     )

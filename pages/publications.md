@@ -10,23 +10,23 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 350 (323 peer-reviewed + 27 preprints)
-- **Total Citations**: 55,397 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 337 (323 peer-reviewed + 14 preprints)
+- **Total Citations**: 55,500 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,429 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,441 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: June 20, 2026 — 350 publications*
+*Last updated: June 25, 2026 — 337 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (17)</button>
-<button class="year-button" onclick="showYear(event, '2025')">2025 (25)</button>
-<button class="year-button" onclick="showYear(event, '2024')">2024 (19)</button>
-<button class="year-button" onclick="showYear(event, '2023')">2023 (22)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (16)</button>
+<button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
+<button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
+<button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
 <button class="year-button" onclick="showYear(event, '2021')">2021 (13)</button>
 <button class="year-button" onclick="showYear(event, '2020')">2020 (20)</button>
@@ -65,7 +65,7 @@ Hsu C, Heil LR, Wen B, McAlister G, Merrihew G, Remes PM, Plubell DL, Melani R, 
 
 **ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis**
 Nguyen R, Rangel G, Liu X, Santoso RA, Bantwal A, Ross DH, Seguin RP, Liem J, Lin YS, Pratt B, MacLean BX, MacCoss MJ, Xu L
-*Environmental science & technology* 2026 Jun
+*Environmental science & technology* 2026 Jun;60(24):17314-17327
 <a href="https://pubmed.ncbi.nlm.nih.gov/42262507/">PubMed<span class="visually-hidden"> for &#8220;ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis&#8221;</span></a> | <a href="https://doi.org/10.1021/acs.est.5c18068">DOI<span class="visually-hidden"> for &#8220;ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis&#8221;</span></a>
 
 **Prioritizing peptides for targeted mass spectrometry experiments using deep learning**
@@ -122,11 +122,6 @@ Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaF
 Zelter A, Riffle M, Merrihew GE, Mutawe B, Maurais A, Yang HY, Inman JL, Celniker SE, Mao JH, Wan KH, Snijders AM, Wu CC, MacCoss MJ
 *bioRxiv : the preprint server for biology* 2026 Feb
 <a href="https://pubmed.ncbi.nlm.nih.gov/41727134/">PubMed<span class="visually-hidden"> for &#8220;Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.02.13.705808">DOI<span class="visually-hidden"> for &#8220;Is Protein Quantification and Physical Normalization Always Necessary in Proteomics?&#8221;</span></a>
-
-**Proteomic Profiling of Human Omental and Subcutaneous Adipose Tissue in Individuals with a Broad Range of BMI**
-Zelter A, Wen YW, Riffle M, Czuba LC, Yadav AS, Zhu J, Snyder JM, Maurais A, LaFrance J, Khandelwal S, Chen JY, Williams E, Parr Z, Kim D, Rubinow KB, MacCoss MJ, Isoherranen N
-*bioRxiv : the preprint server for biology* 2026 Jan
-<a href="https://pubmed.ncbi.nlm.nih.gov/41648401/">PubMed<span class="visually-hidden"> for &#8220;Proteomic Profiling of Human Omental and Subcutaneous Adipose Tissue in Individuals with a Broad Range of BMI&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.01.14.699533">DOI<span class="visually-hidden"> for &#8220;Proteomic Profiling of Human Omental and Subcutaneous Adipose Tissue in Individuals with a Broad Range of BMI&#8221;</span></a>
 
 **Development of Highly Multiplex Targeted Proteomics Assays in Biofluids Using a Nominal Mass Ion Trap Mass Spectrometer**
 Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston KL, Montine TJ, MacCoss MJ
@@ -209,11 +204,6 @@ Harris L, Riffle M, Noble WS, MacCoss MJ
 *bioRxiv : the preprint server for biology* 2025 May
 <a href="https://pubmed.ncbi.nlm.nih.gov/40502008/">PubMed<span class="visually-hidden"> for &#8220;Improved quantitative accuracy in data-independent acquisition proteomics via retention time boundary imputation&#8221;</span></a> | <a href="https://doi.org/10.1101/2025.05.27.656394">DOI<span class="visually-hidden"> for &#8220;Improved quantitative accuracy in data-independent acquisition proteomics via retention time boundary imputation&#8221;</span></a>
 
-**Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists**
-Hsu C, Shulman N, Stewart H, Petzoldt J, Pashkova A, Plubell DL, Denisov E, Hagedorn B, Damoc E, MacLean BX, Remes P, Canterbury JD, Makarov A, Hock C, Zabrouskov V, Wu CC, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2025 Jul
-<a href="https://pubmed.ncbi.nlm.nih.gov/40501761/">PubMed<span class="visually-hidden"> for &#8220;Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists&#8221;</span></a> | <a href="https://doi.org/10.1101/2025.05.30.657132">DOI<span class="visually-hidden"> for &#8220;Evaluation of a prototype Orbitrap Astral Zoom mass spectrometer for quantitative proteomics - Beyond identification lists&#8221;</span></a>
-
 **Quantification of glucagon and oxyntomodulin by protein precipitation-immunoaffinity enrichment-LC-MS/MS**
 Becker JO, Shijo SK, Huynh HH, Forrest KL, MacCoss MJ, Emrick MA, Goonatilleke E, Hoofnagle AN
 *Journal of mass spectrometry and advances in the clinical lab* 2025 Apr;36:37-45
@@ -264,16 +254,6 @@ Bramer LM, Nakayasu ES, Flores JE, Van Eyk JE, MacCoss MJ, Parikh HM, Metz TO, W
 *Scientific data* 2025 Jan;12(1):112
 <a href="https://pubmed.ncbi.nlm.nih.gov/39833216/">PubMed<span class="visually-hidden"> for &#8220;Data from a multi-year targeted proteomics study of a longitudinal birth cohort of type 1 diabetes&#8221;</span></a> | <a href="https://doi.org/10.1038/s41597-024-04249-1">DOI<span class="visually-hidden"> for &#8220;Data from a multi-year targeted proteomics study of a longitudinal birth cohort of type 1 diabetes&#8221;</span></a>
 
-**Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics**
-Wen B, Hsu C, Shteynberg D, Zeng WF, Riffle M, Chang A, Mudge M, Nunn BL, MacLean BX, Berg MD, Villén J, MacCoss MJ, Noble WS
-*bioRxiv : the preprint server for biology* 2025 Aug
-<a href="https://pubmed.ncbi.nlm.nih.gov/39463980/">PubMed<span class="visually-hidden"> for &#8220;Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.10.15.618504">DOI<span class="visually-hidden"> for &#8220;Carafe enables high quality in silico spectral library generation for data-independent acquisition proteomics&#8221;</span></a>
-
-**Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment**
-Wen B, Freestone J, Riffle M, MacCoss MJ, Noble WS, Keich U
-*bioRxiv : the preprint server for biology* 2025 Jan
-<a href="https://pubmed.ncbi.nlm.nih.gov/38895431/">PubMed<span class="visually-hidden"> for &#8220;Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.06.01.596967">DOI<span class="visually-hidden"> for &#8220;Assessment of false discovery rate control in tandem mass spectrometry analysis using entrapment&#8221;</span></a>
-
 </div>
 
 <div id="year-2024" class="year-content" markdown="1">
@@ -295,11 +275,6 @@ Erickson MA, Johnson RS, Damodarasamy M, MacCoss MJ, Keene CD, Banks WA, Reed MJ
 *Fluids and barriers of the CNS* 2024 Oct;21(1):84
 <a href="https://pubmed.ncbi.nlm.nih.gov/39434151/">PubMed<span class="visually-hidden"> for &#8220;Data-independent acquisition proteomic analysis of the brain microvasculature in Alzheimer&#x27;s disease identifies major pathways of dysfunction and upregulation of cytoprotective responses&#8221;</span></a> | <a href="https://doi.org/10.1186/s12987-024-00581-1">DOI<span class="visually-hidden"> for &#8220;Data-independent acquisition proteomic analysis of the brain microvasculature in Alzheimer&#x27;s disease identifies major pathways of dysfunction and upregulation of cytoprotective responses&#8221;</span></a>
 
-**Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism**
-Coig R, Harrison BR, Johnson RS, MacCoss MJ, Promislow DEL
-*bioRxiv : the preprint server for biology* 2024 Sep
-<a href="https://pubmed.ncbi.nlm.nih.gov/39345368/">PubMed<span class="visually-hidden"> for &#8220;Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.09.11.612537">DOI<span class="visually-hidden"> for &#8220;Tissue-specific metabolomic signatures for a doublesex model of reduced sexual dimorphism&#8221;</span></a>
-
 **A Framework for Quality Control in Quantitative Proteomics**
 Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ
 *Journal of proteome research* 2024 Oct;23(10):4392-4408
@@ -319,31 +294,6 @@ Kerr HL, Krumm K, Anderson B, Christiani A, Strait L, Li T, Irwin B, Jiang S, Ry
 Marino F, Wang D, Merrihew GE, MacCoss MJ, Dubal DB
 *bioRxiv : the preprint server for biology* 2024 Jul
 <a href="https://pubmed.ncbi.nlm.nih.gov/39091744/">PubMed<span class="visually-hidden"> for &#8220;A second X chromosome improves cognition in aging male and female mice&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.07.26.605328">DOI<span class="visually-hidden"> for &#8220;A second X chromosome improves cognition in aging male and female mice&#8221;</span></a>
-
-**Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer**
-Plubell DL, Remes PM, Wu CC, Jacob CC, Merrihew GE, Hsu C, Shulman N, MacLean BX, Heil L, Poston K, Montine T, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2024 Jun
-<a href="https://pubmed.ncbi.nlm.nih.gov/38895256/">PubMed<span class="visually-hidden"> for &#8220;Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.06.04.597431">DOI<span class="visually-hidden"> for &#8220;Development of highly multiplex targeted proteomics assays in biofluids using the Stellar mass spectrometer&#8221;</span></a>
-
-**Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics**
-Remes PM, Jacob CC, Heil LR, Shulman N, MacLean BX, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2024 Jun
-<a href="https://pubmed.ncbi.nlm.nih.gov/38854069/">PubMed<span class="visually-hidden"> for &#8220;Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.05.31.596848">DOI<span class="visually-hidden"> for &#8220;Hybrid Quadrupole Mass Filter - Radial Ejection Linear Ion Trap and Intelligent Data Acquisition Enable Highly Multiplex Targeted Proteomics&#8221;</span></a>
-
-**Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer**
-Plubell DL, Huang E, Spencer SE, Poston K, Montine TJ, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2024 May
-<a href="https://pubmed.ncbi.nlm.nih.gov/38853953/">PubMed<span class="visually-hidden"> for &#8220;Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.05.29.596554">DOI<span class="visually-hidden"> for &#8220;Data Independent Acquisition to Inform the Development of Targeted Proteomics Assays Using a Triple Quadrupole Mass Spectrometer&#8221;</span></a>
-
-**A framework for quality control in quantitative proteomics**
-Tsantilas KA, Merrihew GE, Robbins JE, Johnson RS, Park J, Plubell DL, Canterbury JD, Huang E, Riffle M, Sharma V, MacLean BX, Eckels J, Wu CC, Bereman MS, Spencer SE, Hoofnagle AN, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2024 Aug
-<a href="https://pubmed.ncbi.nlm.nih.gov/38645098/">PubMed<span class="visually-hidden"> for &#8220;A framework for quality control in quantitative proteomics&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.04.12.589318">DOI<span class="visually-hidden"> for &#8220;A framework for quality control in quantitative proteomics&#8221;</span></a>
-
-**The kinesin motor Kif9 regulates centriolar satellite positioning and mitotic progression**
-Vicente JJ, Wagenbach M, Decarreau J, Zelter A, MacCoss MJ, Davis TN, Wordeman L
-*bioRxiv : the preprint server for biology* 2024 Apr
-<a href="https://pubmed.ncbi.nlm.nih.gov/38617353/">PubMed<span class="visually-hidden"> for &#8220;The kinesin motor Kif9 regulates centriolar satellite positioning and mitotic progression&#8221;</span></a> | <a href="https://doi.org/10.1101/2024.04.03.587821">DOI<span class="visually-hidden"> for &#8220;The kinesin motor Kif9 regulates centriolar satellite positioning and mitotic progression&#8221;</span></a>
 
 **Mag-Net: Rapid enrichment of membrane-bound particles enables high coverage quantitative analysis of the plasma proteome**
 Wu CC, Tsantilas KA, Park J, Plubell D, Sanders JA, Naicker P, Govender I, Buthelezi S, Stoychev S, Jordaan J, Merrihew G, Huang E, Parker ED, Riffle M, Hoofnagle AN, Noble WS, Poston KL, Montine TJ, MacCoss MJ
@@ -426,11 +376,6 @@ Pharaoh G, Kamat V, Kannan S, Stuppard RS, Whitson J, Martín-Pérez M, Qian WJ,
 *GeroScience* 2023 Dec;45(6):3529-3548
 <a href="https://pubmed.ncbi.nlm.nih.gov/37462785/">PubMed<span class="visually-hidden"> for &#8220;The mitochondrially targeted peptide elamipretide (SS-31) improves ADP sensitivity in aged mitochondria by increasing uptake through the adenine nucleotide translocator (ANT)&#8221;</span></a> | <a href="https://doi.org/10.1007/s11357-023-00861-y">DOI<span class="visually-hidden"> for &#8220;The mitochondrially targeted peptide elamipretide (SS-31) improves ADP sensitivity in aged mitochondria by increasing uptake through the adenine nucleotide translocator (ANT)&#8221;</span></a>
 
-**Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition**
-Heil LR, Damoc E, Arrey TN, Pashkova A, Denisov E, Petzoldt J, Peterson AC, Hsu C, Searle BC, Shulman N, Riffle M, Connolly B, MacLean BX, Remes PM, Senko MW, Stewart HI, Hock C, Makarov AA, Hermanson D, Zabrouskov V, Wu CC, MacCoss MJ
-*bioRxiv : the preprint server for biology* 2023 Aug
-<a href="https://pubmed.ncbi.nlm.nih.gov/37398334/">PubMed<span class="visually-hidden"> for &#8220;Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition&#8221;</span></a> | <a href="https://doi.org/10.1101/2023.06.03.543570">DOI<span class="visually-hidden"> for &#8220;Evaluating the Performance of the Astral Mass Analyzer for Quantitative Proteomics Using Data Independent Acquisition&#8221;</span></a>
-
 **Metrologically Traceable Quantification of 3 Apolipoprotein E Isoforms in Cerebrospinal Fluid**
 Huynh HH, Kuch K, Orquillas A, Forrest K, Barahona-Carrillo L, Keene D, Henderson VW, Wagner AD, Poston KL, Montine TJ, Lin A, Tian L, MacCoss MJ, Emrick MA, Hoofnagle AN
 *Clinical chemistry* 2023 Jul;69(7):734-745
@@ -446,11 +391,6 @@ Merrihew GE, Park J, Plubell D, Searle BC, Keene CD, Larson EB, Bateman R, Perri
 *Scientific data* 2023 Apr;10(1):206
 <a href="https://pubmed.ncbi.nlm.nih.gov/37059743/">PubMed<span class="visually-hidden"> for &#8220;A peptide-centric quantitative proteomics dataset for the phenotypic assessment of Alzheimer&#x27;s disease&#8221;</span></a> | <a href="https://doi.org/10.1038/s41597-023-02057-7">DOI<span class="visually-hidden"> for &#8220;A peptide-centric quantitative proteomics dataset for the phenotypic assessment of Alzheimer&#x27;s disease&#8221;</span></a>
 
-**MBNL1 regulates programmed postnatal switching between regenerative and differentiated cardiac states**
-Bailey LRJ, Bugg D, Reichardt IM, Ortaç CD, Gunaje J, Johnson R, MacCoss MJ, Sakamoto T, Kelly DP, Regnier M, Davis JM
-*bioRxiv : the preprint server for biology* 2023 Mar
-<a href="https://pubmed.ncbi.nlm.nih.gov/36993225/">PubMed<span class="visually-hidden"> for &#8220;MBNL1 regulates programmed postnatal switching between regenerative and differentiated cardiac states&#8221;</span></a> | <a href="https://doi.org/10.1101/2023.03.16.532974">DOI<span class="visually-hidden"> for &#8220;MBNL1 regulates programmed postnatal switching between regenerative and differentiated cardiac states&#8221;</span></a>
-
 **Sampling the proteome by emerging single-molecule and mass spectrometry methods**
 MacCoss MJ, Alfaro JA, Faivre DA, Wu CC, Wanunu M, Slavov N
 *Nature methods* 2023 Mar;20(3):339-346
@@ -460,11 +400,6 @@ MacCoss MJ, Alfaro JA, Faivre DA, Wu CC, Wanunu M, Slavov N
 Gatto L, Aebersold R, Cox J, Demichev V, Derks J, Emmott E, Franks AM, Ivanov AR, Kelly RT, Khoury L, Leduc A, MacCoss MJ, Nemes P, Perlman DH, Petelski AA, Rose CM, Schoof EM, Van Eyk J, Vanderaa C, Yates JR, Slavov N
 *Nature methods* 2023 Mar;20(3):375-386
 <a href="https://pubmed.ncbi.nlm.nih.gov/36864200/">PubMed<span class="visually-hidden"> for &#8220;Initial recommendations for performing, benchmarking and reporting single-cell proteomics experiments&#8221;</span></a> | <a href="https://doi.org/10.1038/s41592-023-01785-3">DOI<span class="visually-hidden"> for &#8220;Initial recommendations for performing, benchmarking and reporting single-cell proteomics experiments&#8221;</span></a>
-
-**Elamipretide Improves ADP Sensitivity in Aged Mitochondria by Increasing Uptake through the Adenine Nucleotide Translocator (ANT)**
-Pharaoh G, Kamat V, Kannan S, Stuppard RS, Whitson J, Martin-Perez M, Qian WJ, MacCoss MJ, Villen J, Rabinovitch P, Campbell MD, Sweet IR, Marcinek DJ
-*bioRxiv : the preprint server for biology* 2023 Feb
-<a href="https://pubmed.ncbi.nlm.nih.gov/36778398/">PubMed<span class="visually-hidden"> for &#8220;Elamipretide Improves ADP Sensitivity in Aged Mitochondria by Increasing Uptake through the Adenine Nucleotide Translocator (ANT)&#8221;</span></a> | <a href="https://doi.org/10.1101/2023.02.01.525989">DOI<span class="visually-hidden"> for &#8220;Elamipretide Improves ADP Sensitivity in Aged Mitochondria by Increasing Uptake through the Adenine Nucleotide Translocator (ANT)&#8221;</span></a>
 
 **Improved Analysis of Cross-Linking Mass Spectrometry Data with Kojak 2.0, Advanced by Integration into the Trans-Proteomic Pipeline**
 Hoopmann MR, Shteynberg DD, Zelter A, Riffle M, Lyon AS, Agard DA, Luan Q, Nolen BJ, MacCoss MJ, Davis TN, Moritz RL

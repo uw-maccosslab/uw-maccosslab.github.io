@@ -145,9 +145,20 @@ def parse_pubmed_xml(xml_text):
                 doi = article_id.text
                 break
         pub['doi'] = doi
-        
+
+        # PMIDs of the peer-reviewed version that supersedes this article
+        # (PubMed sets RefType="UpdateIn" on preprints once the journal version
+        # is indexed). Used to drop superseded preprints in main().
+        update_in_pmids = []
+        for cc in article.findall('.//CommentsCorrections'):
+            if cc.get('RefType') == 'UpdateIn':
+                cc_pmid = cc.find('PMID')
+                if cc_pmid is not None and cc_pmid.text:
+                    update_in_pmids.append(cc_pmid.text.strip())
+        pub['update_in_pmids'] = update_in_pmids
+
         publications.append(pub)
-    
+
     return publications
 
 
@@ -207,6 +218,33 @@ def is_preprint(pub):
     journal_lower = pub.get('journal', '').lower()
     preprint_journals = ['biorxiv', 'arxiv', 'medrxiv', 'preprint', 'chemrxiv', 'ssrn']
     return any(preprint in journal_lower for preprint in preprint_journals)
+
+
+def dedupe_superseded_preprints(publications):
+    """Drop preprints whose peer-reviewed version is in the same result set.
+
+    PubMed marks superseded preprints with CommentsCorrections RefType="UpdateIn"
+    referencing the peer-reviewed PMID. If that PMID is also present in our
+    results, the preprint is redundant -- the peer-reviewed entry stands in
+    for it. Preprints whose published version isn't (yet) in the result set
+    are kept so unpublished work still appears.
+    """
+    all_pmids = {p.get('pmid') for p in publications if p.get('pmid')}
+    kept = []
+    dropped = 0
+    for pub in publications:
+        if is_preprint(pub):
+            superseded_by = [pm for pm in pub.get('update_in_pmids', []) if pm in all_pmids]
+            if superseded_by:
+                title = (pub.get('title') or '')[:60]
+                print(f"  Dropping preprint PMID {pub.get('pmid')} (superseded by "
+                      f"PMID {superseded_by[0]}): {title}")
+                dropped += 1
+                continue
+        kept.append(pub)
+    if dropped:
+        print(f"Dropped {dropped} preprint(s) superseded by peer-reviewed publications in this result set")
+    return kept
 
 
 def count_publication_types(publications):
@@ -953,7 +991,10 @@ def main():
     # Fetch publication details
     publications = fetch_publication_details(pmids)
     print(f"Fetched details for {len(publications)} publications")
-    
+
+    # Drop preprints superseded by a peer-reviewed version also in the result set
+    publications = dedupe_superseded_preprints(publications)
+
     # Count publication types (peer-reviewed vs preprints)
     pub_counts = count_publication_types(publications)
     total, peer_reviewed, preprints = pub_counts

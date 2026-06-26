@@ -19,7 +19,16 @@
       "Bash(awk '/^def get_hardcoded_datasets/,/^def [a-z_]/' scripts/fetch_datasets.py)",
       "Bash(curl -s -o /tmp/panorama_test.json -w \"HTTP %{http_code}\\\\n\" \"https://panoramaweb.org/Panorama%20Public/query-selectRows.api?schemaName=panoramapublic&query.queryName=experimentannotations&query.columns=Created,Title,pxid&query.Authors~contains=MacCoss&query.showRows=all&query.containerFilterName=AllFolders\")",
       "Bash(awk 'NR<141 || NR>=558' scripts/fetch_datasets.py)",
-      "Bash(awk 'NR>=135 && NR<=145' /tmp/fetch_datasets_trimmed.py)"
+      "Bash(awk 'NR>=135 && NR<=145' /tmp/fetch_datasets_trimmed.py)",
+      "Bash(curl -s -o /dev/null -w \"HTTP %{http_code} \\(after redirects\\)\\\\n\" -L \"https://web.archive.org/web/*/http://meetings.embo.org/event/19-proteomics\")",
+      "Bash(awk -F: '$1>=400 && $1<=620')",
+      "Bash(curl -s \"https://skyline.ms/home/software/Skyline/events/project-begin.view\")",
+      "Bash(curl -s \"https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars\")",
+      "Bash(curl -s -L \"https://skyline.ms/home/software/Skyline/begin.view\" -o /tmp/skyhome.html)",
+      "Bash(curl -s -L \"https://panoramaweb.org/\" -o /tmp/panohome.html)",
+      "Bash(curl -s -L \"https://skyline.ms/project/home/software/Skyline/begin.view\" -o /tmp/skybegin.html)",
+      "Bash(curl -s -L \"https://www.isas.de/en/events\")",
+      "Bash(curl -s -L \"https://www.gs.washington.edu/academics/\")"
     ],
     "deny": [],
     "ask": []

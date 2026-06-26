@@ -72,7 +72,7 @@ University of Washington
 
 **Genome Sciences Graduate Program**  
 - **Questions:** Brian Giebel (bgiebel[at]uw[dot]edu)  
-- **Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/gradprogram/)
+- **Application Info:** [Genome Sciences Graduate Program](https://www.gs.washington.edu/academics/ph-d-program/)
 
 ---
 
