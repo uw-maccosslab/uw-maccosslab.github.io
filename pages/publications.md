@@ -10,14 +10,14 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 337 (323 peer-reviewed + 14 preprints)
+- **Total Publications**: 339 (325 peer-reviewed + 14 preprints)
 - **Total Citations**: 55,500 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
 - **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,441 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: June 25, 2026 — 337 publications*
+*Last updated: June 25, 2026 — 339 publications*
 
 ## Publications by Year
 
@@ -28,7 +28,7 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
 <button class="year-button" onclick="showYear(event, '2022')">2022 (22)</button>
-<button class="year-button" onclick="showYear(event, '2021')">2021 (13)</button>
+<button class="year-button" onclick="showYear(event, '2021')">2021 (14)</button>
 <button class="year-button" onclick="showYear(event, '2020')">2020 (20)</button>
 <button class="year-button" onclick="showYear(event, '2019')">2019 (10)</button>
 <button class="year-button" onclick="showYear(event, '2018')">2018 (20)</button>
@@ -37,7 +37,7 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <button class="year-button" onclick="showYear(event, '2015')">2015 (17)</button>
 <button class="year-button" onclick="showYear(event, '2014')">2014 (16)</button>
 <button class="year-button" onclick="showYear(event, '2013')">2013 (16)</button>
-<button class="year-button" onclick="showYear(event, '2012')">2012 (19)</button>
+<button class="year-button" onclick="showYear(event, '2012')">2012 (20)</button>
 <button class="year-button" onclick="showYear(event, '2011')">2011 (9)</button>
 <button class="year-button" onclick="showYear(event, '2010')">2010 (17)</button>
 <button class="year-button" onclick="showYear(event, '2009')">2009 (8)</button>
@@ -612,6 +612,11 @@ Brilot AF, Lyon AS, Zelter A, Viswanath S, Maxwell A, MacCoss MJ, Muller EG, Sal
 Vincow ES, Thomas RE, Merrihew GE, MacCoss MJ, Pallanck LJ
 *The journals of gerontology. Series A, Biological sciences and medical sciences* 2021 Sep;76(10):1734-1739
 <a href="https://pubmed.ncbi.nlm.nih.gov/33453098/">PubMed<span class="visually-hidden"> for &#8220;Slowed Protein Turnover in Aging Drosophila Reflects a Shift in Cellular Priorities&#8221;</span></a> | <a href="https://doi.org/10.1093/gerona/glab015">DOI<span class="visually-hidden"> for &#8220;Slowed Protein Turnover in Aging Drosophila Reflects a Shift in Cellular Priorities&#8221;</span></a>
+
+**Michael S. Bereman (1981–2021)**
+Muddiman DC, MacCoss MJ
+*Journal of the American Society for Mass Spectrometry* 2021;32(5):1272-1274
+<a href="https://doi.org/10.1021/jasms.1c00129">DOI<span class="visually-hidden"> for &#8220;Michael S. Bereman (1981–2021)&#8221;</span></a>
 
 </div>
 
@@ -1386,6 +1391,11 @@ Spivak M, Weston J, Tomazela D, MacCoss MJ, Noble WS
 Dai DF, Hsieh EJ, Liu Y, Chen T, Beyer RP, Chin MT, MacCoss MJ, Rabinovitch PS
 *Cardiovascular research* 2012 Jan;93(1):79-88
 <a href="https://pubmed.ncbi.nlm.nih.gov/22012956/">PubMed<span class="visually-hidden"> for &#8220;Mitochondrial proteome remodelling in pressure overload-induced heart failure: the role of mitochondrial oxidative stress&#8221;</span></a> | <a href="https://doi.org/10.1093/cvr/cvr274">DOI<span class="visually-hidden"> for &#8220;Mitochondrial proteome remodelling in pressure overload-induced heart failure: the role of mitochondrial oxidative stress&#8221;</span></a>
+
+**An integrated encyclopedia of DNA elements in the human genome**
+
+*Nature* 2012 Sep;489(7414):57-74
+<a href="https://pubmed.ncbi.nlm.nih.gov/22955616/">PubMed<span class="visually-hidden"> for &#8220;An integrated encyclopedia of DNA elements in the human genome&#8221;</span></a> | <a href="https://doi.org/10.1038/nature11247">DOI<span class="visually-hidden"> for &#8220;An integrated encyclopedia of DNA elements in the human genome&#8221;</span></a>
 
 </div>
 

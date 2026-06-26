@@ -28,7 +28,13 @@
       "Bash(curl -s -L \"https://panoramaweb.org/\" -o /tmp/panohome.html)",
       "Bash(curl -s -L \"https://skyline.ms/project/home/software/Skyline/begin.view\" -o /tmp/skybegin.html)",
       "Bash(curl -s -L \"https://www.isas.de/en/events\")",
-      "Bash(curl -s -L \"https://www.gs.washington.edu/academics/\")"
+      "Bash(curl -s -L \"https://www.gs.washington.edu/academics/\")",
+      "Bash(curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=33947184&retmode=xml\")",
+      "Bash(curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi?db=pubmed&id=33947184&retmode=json\")",
+      "Bash(curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Bereman+obituary+JASMS+2021&retmode=json\")",
+      "Bash(curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Bereman+MacCoss+2021&retmode=json\")",
+      "Bash(curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Bereman+J+Am+Soc+Mass+Spectrom&retmode=json&retmax=10\")",
+      "Bash(curl -s \"https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Bereman+MS%5BAuthor%5D&retmode=json&retmax=20\")"
     ],
     "deny": [],
     "ask": []

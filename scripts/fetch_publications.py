@@ -23,6 +23,36 @@ PUBMED_SEARCH_TERM = 'Maccoss, Michael[Full Author Name] OR MacCoss MJ[Author]'
 PUBLICATIONS_FILE = Path(__file__).parent.parent / 'pages' / 'publications.md'
 MAX_RESULTS = 1000  # Fetch all publications
 
+# PMIDs to always include, even if the PUBMED_SEARCH_TERM doesn't match them.
+# Add entries here when an author-level search misses a publication -- e.g.,
+# consortium papers where MacCoss is an unnamed contributor, or transient
+# PubMed indexing gaps that have caused a paper to drop out of past runs.
+# A warning is printed at fetch time if any listed PMID doesn't resolve.
+MANUAL_PMIDS = [
+    '22955616',  # ENCODE Project Consortium, Nature 2012 (MacCoss is consortium contributor, not named author)
+]
+
+# Publications that have no PubMed record at all (e.g., journal didn't deposit
+# to PubMed). Entries are hand-curated and slot into the same shape as the
+# PubMed-parsed records, just with pmid='' (the formatter skips the PubMed
+# link in that case). Keep DOI populated so the entry still has a link.
+MANUAL_PUBLICATIONS = [
+    {
+        'pmid': '',
+        'title': 'Michael S. Bereman (1981–2021)',
+        'authors': 'Muddiman DC, MacCoss MJ',
+        'journal': 'Journal of the American Society for Mass Spectrometry',
+        'year': '2021',
+        'month': '',
+        'day': '',
+        'volume': '32',
+        'issue': '5',
+        'pages': '1272-1274',
+        'doi': '10.1021/jasms.1c00129',
+        'update_in_pmids': [],
+    },
+]
+
 # Google Scholar profile URL
 GOOGLE_SCHOLAR_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en'
 GOOGLE_SCHOLAR_SORTED_URL = 'https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en&sortby=pubdate'
@@ -188,13 +218,15 @@ def format_publication(pub):
     
     lines.append(journal_info)
     
-    # Links
+    # Links. PubMed link is suppressed for manually-added publications that
+    # have no PubMed record (pmid='') -- otherwise the link would 404.
     title_escaped = html.escape(title)  # reuse the already-stripped title variable
     links = []
-    links.append(
-        f'<a href="https://pubmed.ncbi.nlm.nih.gov/{pub["pmid"]}/">'
-        f'PubMed<span class="visually-hidden"> for &#8220;{title_escaped}&#8221;</span></a>'
-    )
+    if pub.get('pmid'):
+        links.append(
+            f'<a href="https://pubmed.ncbi.nlm.nih.gov/{pub["pmid"]}/">'
+            f'PubMed<span class="visually-hidden"> for &#8220;{title_escaped}&#8221;</span></a>'
+        )
     if pub['doi']:
         links.append(
             f'<a href="https://doi.org/{pub["doi"]}">'
@@ -940,17 +972,39 @@ def main():
     # Search for ALL publications
     pmids = search_pubmed(PUBMED_SEARCH_TERM, MAX_RESULTS)
     print(f"Found {len(pmids)} publications")
-    
+
     if not pmids:
         print("No publications found")
         return
-    
+
+    # Merge in PMIDs that the author-level search can miss (consortium papers,
+    # transient indexing gaps). Preserve search order; append novel manual ones.
+    pmid_set = set(pmids)
+    added_manual = [pm for pm in MANUAL_PMIDS if pm not in pmid_set]
+    if added_manual:
+        print(f"Adding {len(added_manual)} manually-listed PMIDs: {added_manual}")
+        pmids = list(pmids) + added_manual
+
     # Fetch publication details
     publications = fetch_publication_details(pmids)
+
+    # Loud warning if any manually-listed PMID didn't come back from PubMed
+    # (typo, withdrawn record, or transient API issue). Without this the entry
+    # would silently fail to appear on the page.
+    returned_pmids = {p.get('pmid') for p in publications}
+    missing_manual = [pm for pm in MANUAL_PMIDS if pm not in returned_pmids]
+    if missing_manual:
+        print(f"WARNING: {len(missing_manual)} manual PMID(s) did not resolve in PubMed: "
+              f"{missing_manual}. Check MANUAL_PMIDS in fetch_publications.py.")
     print(f"Fetched details for {len(publications)} publications")
 
     # Drop preprints superseded by a peer-reviewed version also in the result set
     publications = dedupe_superseded_preprints(publications)
+
+    # Append hand-curated publications that aren't in PubMed at all
+    if MANUAL_PUBLICATIONS:
+        print(f"Appending {len(MANUAL_PUBLICATIONS)} manually-curated publication(s)")
+        publications.extend(MANUAL_PUBLICATIONS)
 
     # Count publication types (peer-reviewed vs preprints)
     pub_counts = count_publication_types(publications)
