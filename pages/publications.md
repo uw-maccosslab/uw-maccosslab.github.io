@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 339 (325 peer-reviewed + 14 preprints)
-- **Total Citations**: 55,500 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 343 (327 peer-reviewed + 16 preprints)
+- **Total Citations**: 56,189 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,441 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,482 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: June 25, 2026 — 339 publications*
+*Last updated: August 03, 2026 — 343 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (16)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (20)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
@@ -57,6 +57,26 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo**
+Wen B, Li K, Riffle M, MacCoss MJ, Bittremieux W, Noble WS
+*bioRxiv : the preprint server for biology* 2026 Jul
+<a href="https://pubmed.ncbi.nlm.nih.gov/42523267/">PubMed<span class="visually-hidden"> for &#8220;CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.07.11.737889">DOI<span class="visually-hidden"> for &#8220;CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo&#8221;</span></a>
+
+**Circulating extracellular vesicles in plasma carry accessible molecular signatures of aging in mice**
+Tsantilas KA, Riffle M, Merrihew GE, Wu CC, Keele GR, Maurais A, Johnson RS, Luciano A, Robinson L, Churchill GA, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2026 Jul
+<a href="https://pubmed.ncbi.nlm.nih.gov/42465266/">PubMed<span class="visually-hidden"> for &#8220;Circulating extracellular vesicles in plasma carry accessible molecular signatures of aging in mice&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.07.10.737625">DOI<span class="visually-hidden"> for &#8220;Circulating extracellular vesicles in plasma carry accessible molecular signatures of aging in mice&#8221;</span></a>
+
+**Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research**
+Moradian A, Becker JO, Nierves LA, Lin TT, Sechi S, MacCoss MJ, Qian WJ, van Eyk JE, Hoofnagle AN
+*Clinical chemistry* 2026 Jul
+<a href="https://pubmed.ncbi.nlm.nih.gov/42400596/">PubMed<span class="visually-hidden"> for &#8220;Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research&#8221;</span></a> | <a href="https://doi.org/10.1093/clinchem/hvag078">DOI<span class="visually-hidden"> for &#8220;Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research&#8221;</span></a>
+
+**Spontaneous Isomerization of Tau is Most Prevalent in Alzheimer's Disease**
+Hubbard EE, Reagle K, Lui MK, Derbez-Morin M, Merrihew GE, MacCoss MJ, Julian RR
+*NeuroMarkers* 2026 Jun;3(2)
+<a href="https://pubmed.ncbi.nlm.nih.gov/42369587/">PubMed<span class="visually-hidden"> for &#8220;Spontaneous Isomerization of Tau is Most Prevalent in Alzheimer&#x27;s Disease&#8221;</span></a> | <a href="https://doi.org/10.1016/j.neumar.2025.100152">DOI<span class="visually-hidden"> for &#8220;Spontaneous Isomerization of Tau is Most Prevalent in Alzheimer&#x27;s Disease&#8221;</span></a>
 
 **Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition**
 Hsu C, Heil LR, Wen B, McAlister G, Merrihew G, Remes PM, Plubell DL, Melani R, Zabrouskov V, MacCoss MJ
