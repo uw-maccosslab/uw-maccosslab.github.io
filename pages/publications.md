@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 343 (327 peer-reviewed + 16 preprints)
-- **Total Citations**: 56,189 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 344 (328 peer-reviewed + 16 preprints)
+- **Total Citations**: 56,794 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,482 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,524 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: August 03, 2026 — 343 publications*
+*Last updated: September 03, 2026 — 344 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (20)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (21)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
@@ -57,6 +57,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry**
+Shijo SK, Goonatilleke E, Barahona-Carrillo L, Forrest K, Becker JO, MacCoss MJ, Speake C, Lee CS, Johnson L, Huynh HH, Hoofnagle AN
+*Clinical chemistry* 2026 Aug
+<a href="https://pubmed.ncbi.nlm.nih.gov/42626817/">PubMed<span class="visually-hidden"> for &#8220;Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry&#8221;</span></a> | <a href="https://doi.org/10.1093/clinchem/hvag105">DOI<span class="visually-hidden"> for &#8220;Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry&#8221;</span></a>
 
 **CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo**
 Wen B, Li K, Riffle M, MacCoss MJ, Bittremieux W, Noble WS
