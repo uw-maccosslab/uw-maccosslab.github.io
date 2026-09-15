@@ -11,7 +11,7 @@ permalink: /maccoss/
   Mike leads the lab's research in quantitative proteomics and mass spectrometry method development. His work focuses on developing robust, quantitative protein assays for biological and clinical applications.  
   Links: [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/maccoss/) | [UW Profile](https://www.gs.washington.edu/about/directory/faculty/michael-maccoss/)
 
-![Michael MacCoss](../assets/images/people/mike-maccoss.jpg)
+<img src="../assets/images/people/mike-maccoss.jpg" alt="Michael MacCoss" style="width: 100%; max-width: 600px;">
 
 [**NIH Biosketch**](../assets/Biosketch_MacCoss.docx)
 

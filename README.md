@@ -89,7 +89,7 @@ assets/images/
 │   └── tsqaltis.jpg
 ├── people/            # Lab member headshots
 │   └── mike-maccoss.jpg
-└── maccoss-lab-photo-2025.jpg  # Group photos
+└── maccoss-lab-photo-2026.jpg  # Group photos
 ```
 
 ### Image Sizing
