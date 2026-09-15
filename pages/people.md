@@ -7,8 +7,8 @@ permalink: /people/
 # Lab Members
 
 <div class="lab-photo">
-  <img src="../assets/images/maccoss-lab-photo-2025.jpg" alt="MacCoss Lab July 2025" style="width: 100%; max-width: 600px;">
-  <p><em>MacCoss Lab photo, July 2025</em></p>
+  <img src="../assets/images/maccoss-lab-photo-2026.jpg" alt="MacCoss Lab September 2026" style="width: 100%; max-width: 600px;">
+  <p><em>MacCoss Lab photo, September 2026</em></p>
 </div>
 
 ## Principal Investigator
@@ -18,7 +18,7 @@ permalink: /people/
   Mike leads the lab's research in quantitative proteomics and mass spectrometry method development. His work focuses on developing robust, quantitative protein assays for biological and clinical applications.  
   Links: [About](maccoss.md) | [Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en) | [LinkedIn](https://www.linkedin.com/in/maccoss/) | [UW Profile](https://www.gs.washington.edu/faculty/maccoss.htm)
 
-![Michael MacCoss](../assets/images/people/mike-maccoss.jpg)
+<img src="../assets/images/people/mike-maccoss.jpg" alt="Michael MacCoss" style="width: 100%; max-width: 600px;">
 
 <div class="tab-container">
   <div class="tab-navigation">

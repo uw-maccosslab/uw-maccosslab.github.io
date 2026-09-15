@@ -43,6 +43,6 @@ We share lab space and resources with [Brook Nunn's lab](https://www.environment
 The MacCoss lab has developed technologies and software tools that improve protein characterization in health and disease. If you've benefited from our tools and would like to see their continued development, consider making a [tax-deductible donation](http://www.washington.edu/giving/make-a-gift?source_typ=3&source=gengen).
 
 <div class="lab-photo">
-  <img src="assets/images/maccoss-lab-photo-2025.jpg" alt="MacCoss Lab July 2025" style="width: 100%; max-width: 600px;">
-  <p><em>MacCoss Lab photo, July 2025</em></p>
+  <img src="assets/images/maccoss-lab-photo-2026.jpg" alt="MacCoss Lab September 2026" style="width: 100%; max-width: 600px;">
+  <p><em>MacCoss Lab photo, September 2026</em></p>
 </div>
