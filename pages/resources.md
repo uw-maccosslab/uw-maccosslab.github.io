@@ -91,7 +91,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
-- **Cited:** 5,538 times
+- **Cited:** 5,542 times
 
 ### ![Proteowizard](../assets/images/logos/proteowizard-logo.jpg "Proteowizard")
 **Widely used software tools and libraries for mass spectrometry data analysis.**
@@ -99,7 +99,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **Download and Documentation:** [https://proteowizard.sourceforge.io/](https://proteowizard.sourceforge.io/)
 - **Source Code:** Available on [Github](https://github.com/ProteoWizard/pwiz) and licensed under Apache 2.0.
 - **Original Publication:** Chambers et al, [A cross-platform toolkit for mass spectrometry and proteomics](https://www.nature.com/articles/nbt.2377), *Nature Biotechnology* 2012
-- **Cited:** 4,873 times
+- **Cited:** 4,882 times
 
 ### ![Panorama](../assets/images/logos/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
@@ -157,14 +157,15 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: June 25, 2026 — 64 datasets available*
+*Last updated: September 19, 2026 — 65 datasets available*
 
 ### 2026
 
 <table class="invisible-table">
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - aging-mouse-ev-2026/project-begin.view">Circulating extracellular vesicles in plasma carry accessible molecular signatures of aging in mice</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD080860">PXD080860</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - manuscript-DIA-reCID/project-begin.view">Revisiting resonance-excitation collision-induced dissociation for data-independent acquisition</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD079115">PXD079115</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - Pig Lens PTM Paper/project-begin.view">Spatiotemporal Mapping of Phosphorylation and Oxidation in the Pig Lens</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD040507">PXD040507</a></td></tr>
-<tr><td><a href="https://panoramaweb.org/Panorama Public/2026/TEIREX - A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice/project-begin.view">A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD078423">PXD078423</a></td></tr>
+<tr><td><a href="https://panoramaweb.org/Panorama Public/2026/TEIREX - A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice/project-begin.view">A proteomics dataset for assessment and prediction of low-to-moderate dose X-ray radiation exposure in mice</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD078423">PXD078423</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - Aging Spleen DIA/project-begin.view">Multimodal analysis of molecular remodeling in aging spleen identified global and cell type specific changes</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD077337">PXD077337</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - il6-biologics-serum/project-begin.view">Serum proteomics reveals distinct phenotypic signatures to IL-6 blockade between two immunotherapies</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD076219">PXD076219</a></td></tr>
 <tr><td><a href="https://panoramaweb.org/Panorama Public/2026/MacCoss - Carafe2/project-begin.view">Carafe2 enables high quality in silico spectral library generation for timsTOF data-independent acquisition proteomics</a></td><td><a href="http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD075483">PXD075483</a></td></tr>
@@ -291,22 +292,12 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Educational Materials
 
-*Last updated: June 25, 2026 — 28 Skyline tutorials available*
+*Last updated: September 19, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
 - **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/protocols05/)** — Protocols, tips, and resources for LC-MS analyses. *Definitely bookmark this page.*
 - **[UWPR Data Analysis Tools](https://proteomicsresource.washington.edu/protocols06/)** — Online calculators, database search tools, and computational resources.
-
-#### UWPR Online Calculators
-- [MS/MS fragmentation calculator](https://proteomicsresource.washington.edu/cgi-bin/fragment.cgi)
-- [Protein sequence digestion calculator](https://proteomicsresource.washington.edu/cgi-bin/digest.cgi)
-- [Isotope distribution calculator](https://proteomicsresource.washington.edu/cgi-bin/calcisotopes.cgi)
-- [Elemental mass calculator](https://proteomicsresource.washington.edu/cgi-bin/element.cgi)
-- [Peptide motif finder](https://proteomicsresource.washington.edu/cgi-bin/motif_search.cgi)
-- [Lorikeet Spectrum viewer](https://proteomicsresource.washington.edu/lorikeet/)
-- [Koina (Prosit, ms2pip, AlphaPeptDeep) spectrum prediction viewer](https://proteomicsresource.washington.edu/lorikeet/html/specview-koina.html)
-- [Table of relevant masses (amino acids, elements)](https://proteomicsresource.washington.edu/protocols06/masses.php)
 
 ### Skyline Tutorials
 *Hands-on tutorials with real data and step-by-step instructions*
@@ -402,7 +393,7 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Support & Training
 
-*Last updated: June 25, 2026 — 4 upcoming events, 101 past events, 27 webinars*
+*Last updated: September 19, 2026 — 2 upcoming events, 105 past events, 27 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/home/support/project-begin.view)
@@ -411,10 +402,8 @@ collision cross-section database</a></td><td></td></tr>
 
 ### Upcoming Events
 
-- **[2026 ISAS Dortmund Skyline Training Course](https://www.isas.de/en/events/skyline-kurs-2026)** (March 2-5, 2026)
-- **[May Institute - Computation and statistics for mass spectrometry and proteomics](https://computationalproteomics.khoury.northeastern.edu/)**
-- **[Frontiers in Proteomics: Advanced Skyline Applications](https://skyline.ms/2026-uw-course.url)** (July 6-10, 2026)
-- **[Cascadia Proteomics Symposium](https://cascadiaproteomics.org/)** (July 16-17, 2026)
+- **[Skyline Online 2026](https://skyline.ms/home/software/Skyline/events/2026-10%20Skyline%20Online/project-begin.view)** (October 14-23, 2026)
+- **[Targeted proteomics: advanced tools for biomedical research](https://meetings.embo.org/event/26-targeted-proteomics)** (November 8-13, 2026)
 
 ### Skyline Webinar Series
 
@@ -434,7 +423,8 @@ The Skyline Team presents tutorial webinars designed to help you get the most ou
 <div class="events-container">
 
 <div class="event-year-navigation">
-<button class="active" onclick="showEventYear(2025)">2025 (7)</button>
+<button class="active" onclick="showEventYear(2026)">2026 (4)</button>
+<button onclick="showEventYear(2025)">2025 (7)</button>
 <button onclick="showEventYear(2024)">2024 (8)</button>
 <button onclick="showEventYear(2023)">2023 (8)</button>
 <button onclick="showEventYear(2022)">2022 (5)</button>
@@ -450,7 +440,17 @@ The Skyline Team presents tutorial webinars designed to help you get the most ou
 </div>
 
 <div class="event-year-content-area">
-<div id="events-2025" style="display: block;">
+<div id="events-2026" style="display: block;">
+<h4>2026 Events</h4>
+<ul>
+<li><a href="https://cascadiaproteomics.org/">Cascadia Proteomics Symposium</a> - Seattle, WA (July 16-17, 2026)</li>
+<li><a href="https://skyline.ms/2026-ugm.url">Skyline User Group Meeting</a> (May 27-28, 2026)</li>
+<li><a href="https://computationalproteomics.khoury.northeastern.edu/">May Institute - Computation and statistics for mass spectrometry and proteomics</a> - Northeastern University</li>
+<li><a href="https://www.isas.de/en/events/skyline-kurs-2026">2026 ISAS Dortmund Skyline Training Course</a> - Dortmund (March 2-5, 2026)</li>
+</ul>
+</div>
+
+<div id="events-2025" style="display: none;">
 <h4>2025 Events</h4>
 <ul>
 <li><a href="https://skyline.ms/home/software/Skyline/events/2025-10%20Skyline%20Online/project-begin.view">Skyline Online 2025</a> (October 7-17, 2025)</li>

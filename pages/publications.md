@@ -11,13 +11,13 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 ## Publication Metrics
 
 - **Total Publications**: 344 (328 peer-reviewed + 16 preprints)
-- **Total Citations**: 56,969 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Citations**: 57,022 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,538 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,542 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: September 15, 2026 — 344 publications*
+*Last updated: September 19, 2026 — 344 publications*
 
 ## Publications by Year
 
@@ -65,7 +65,7 @@ Shijo SK, Goonatilleke E, Barahona-Carrillo L, Forrest K, Becker JO, MacCoss MJ,
 
 **CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo**
 Wen B, Li K, Riffle M, MacCoss MJ, Bittremieux W, Noble WS
-*bioRxiv : the preprint server for biology* 2026 Jul
+*bioRxiv : the preprint server for biology* 2026 Sep
 <a href="https://pubmed.ncbi.nlm.nih.gov/42523267/">PubMed<span class="visually-hidden"> for &#8220;CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.07.11.737889">DOI<span class="visually-hidden"> for &#8220;CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo&#8221;</span></a>
 
 **Circulating extracellular vesicles in plasma carry accessible molecular signatures of aging in mice**
