@@ -44,7 +44,7 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - Doudou Yu
 
 ### Graduate Students
-- Yuanya Chi (2025-present)
+- Yuanye Chi (2025-present)
 - Chris Hsu (2020-present)
 - Katrina Peterson (2025-present)
 - Bo Wen (2022-present)
