@@ -5,7 +5,7 @@ date: 2026-09-30
 categories: [interview, osprey, software, dia, ai]
 ---
 
-*The Analytical Scientist* has published a feature article, ["Vibe Coding Moves Beyond the Proteomics Prototype"](https://theanalyticalscientist.com/issues/2026/articles/september/vibe-coding-moves-beyond-the-proteomics-prototype), describing how the MacCoss Lab used Claude to build and validate **Osprey**, a new open-source, peptide-centric search tool for data-independent acquisition (DIA) proteomics. The article includes interviews with Mike MacCoss, Brendan MacLean, and Matt Chambers.
+*The Analytical Scientist* has published a feature article, ["Vibe Coding Moves Beyond the Proteomics Prototype"](https://theanalyticalscientist.com/issues/2026/articles/september/vibe-coding-moves-beyond-the-proteomics-prototype), describing how the MacCoss Lab used Claude to build and validate **Osprey**, a new open-source, peptide-centric search tool for data-independent acquisition (DIA) proteomics. The article includes interviews with Mike MacCoss and Brendan MacLean.
 
 Osprey detects and scores peptides in DIA data, then writes out peak boundaries and a spectral library that Skyline reads directly. Mike built the original version entirely through natural-language prompting with Claude: roughly 30,000 functional lines of Rust plus about 12,000 lines of tests. Brendan then ported Osprey to C# for integration with ProteoWizard and Skyline, and neither of them typed a line of the code by hand.
 
