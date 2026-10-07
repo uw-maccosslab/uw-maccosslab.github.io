@@ -294,8 +294,15 @@ collision cross-section database</a></td><td></td></tr>
 
 ### UWPR Mass Spectrometry Resources
 
-- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/protocols05/)** — Protocols, tips, and resources for LC-MS analyses. *Definitely bookmark this page.*
-- **[UWPR Data Analysis Tools](https://proteomicsresource.washington.edu/protocols06/)** — Online calculators, database search tools, and computational resources.
+- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/resources/)** — Protocols, tips, and resources for LC-MS analyses. *Definitely bookmark this page.*
+- **[UWPR Data Analysis Tools](https://proteomicsresource.washington.edu/tools/)** — Online calculators, database search tools, and computational resources.
+
+#### UWPR Online Calculators
+- [MS/MS fragmentation calculator](https://proteomicsresource.washington.edu/cgi-bin/fragment.cgi)
+- [Protein sequence digestion calculator](https://proteomicsresource.washington.edu/cgi-bin/digest.cgi)
+- [Isotope distribution calculator](https://proteomicsresource.washington.edu/cgi-bin/calcisotopes.cgi)
+- [Elemental mass calculator](https://proteomicsresource.washington.edu/cgi-bin/element.cgi)
+- [Peptide motif finder](https://proteomicsresource.washington.edu/cgi-bin/motif_search.cgi)
 
 ### Skyline Tutorials
 *Hands-on tutorials with real data and step-by-step instructions*
@@ -375,17 +382,19 @@ collision cross-section database</a></td><td></td></tr>
 ### LC-MS Tips and Protocols
 *Selected resources from the UWPR LC-MS Tips page*
 
-- [DIA Overview](https://proteomicsresource.washington.edu/protocols05/DIA.php)
-- [PRM Overview](https://proteomicsresource.washington.edu/protocols05/PRM.php)
-- [MRM/SRM Overview](https://proteomicsresource.washington.edu/protocols05/MRM.php)
-- [Common Mass Spec Background Ions](https://proteomicsresource.washington.edu/protocols05/esi_background_ions.php)
-- [Avoid Contaminations Guide](https://proteomicsresource.washington.edu/docs/protocols05/Avoid%20Contaminations.pdf)
-- [Packing Capillary Columns](https://proteomicsresource.washington.edu/docs/protocols05/Packing_Capillary_Columns.pdf)
+- [DIA Overview](https://proteomicsresource.washington.edu/resources/knowledgebase/DIA/)
+- [PRM Overview](https://proteomicsresource.washington.edu/resources/knowledgebase/PRM/)
+- [MRM/SRM Overview](https://proteomicsresource.washington.edu/resources/knowledgebase/SRM/)
+- [Common Mass Spec Background Ions](https://proteomicsresource.washington.edu/resources/cores/esi_background_ions/)
+- [Avoid Contaminations Guide](https://proteomicsresource.washington.edu/assets/docs/resources/protocols/Avoid_Contaminations.pdf)
+- [Packing Capillary Columns](https://proteomicsresource.washington.edu/assets/docs/resources/protocols/Packing_Capillary_Columns.pdf)
 
-[**View all LC-MS tips**](https://proteomicsresource.washington.edu/protocols05/)
+[**View all LC-MS tips**](https://proteomicsresource.washington.edu/resources/)
 
 </div>
   </div>
+
+
   <div id="support" class="tab-content">
     <div markdown="1">
 

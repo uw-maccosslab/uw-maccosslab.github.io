@@ -97,14 +97,14 @@ git add -A && git commit -m "Update Skyline events" && git push
 The site has an automated system (`scripts/fetch_educational_materials.py`) that:
 
 1. **Uses curated Skyline tutorials list** (27 tutorials across 6 categories)
-2. **Fetches UWPR online calculators** from https://proteomicsresource.washington.edu/protocols06/
+2. **Fetches UWPR online calculators** from https://proteomicsresource.washington.edu/tools/
 3. **Updates `pages/resources.md`** Educational Materials tab
 
 ### Data Sources
 - Skyline tutorials: Hardcoded list (tutorials rarely change, page counts are stable)
 - Skyline documentation: https://skyline.ms/home/software/Skyline/wiki-page.view?name=documentation
-- UWPR Tips: https://proteomicsresource.washington.edu/protocols05/
-- UWPR Tools: https://proteomicsresource.washington.edu/protocols06/
+- UWPR Tips: https://proteomicsresource.washington.edu/resources/
+- UWPR Tools: https://proteomicsresource.washington.edu/tools/
 
 ### Running the Script
 

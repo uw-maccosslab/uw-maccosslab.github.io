@@ -5,8 +5,8 @@ Fetch educational materials and update the Educational Materials section.
 This script scrapes:
 - Skyline tutorials from https://skyline.ms/home/software/Skyline/wiki-page.view?name=tutorials
 - Skyline documentation from https://skyline.ms/home/software/Skyline/wiki-page.view?name=documentation
-- UWPR LC-MS Tips and Tricks from https://proteomicsresource.washington.edu/protocols05/
-- UWPR Data Analysis Tools from https://proteomicsresource.washington.edu/protocols06/
+- UWPR LC-MS Tips and Tricks from https://proteomicsresource.washington.edu/resources/
+- UWPR Data Analysis Tools from https://proteomicsresource.washington.edu/tools/
 
 And updates the Educational Materials tab in pages/resources.md.
 """
@@ -22,8 +22,8 @@ TUTORIALS_URL = "https://skyline.ms/home/software/Skyline/wiki-page.view?name=tu
 DOCUMENTATION_URL = (
     "https://skyline.ms/home/software/Skyline/wiki-page.view?name=documentation"
 )
-UWPR_TIPS_URL = "https://proteomicsresource.washington.edu/protocols05/"
-UWPR_TOOLS_URL = "https://proteomicsresource.washington.edu/protocols06/"
+UWPR_TIPS_URL = "https://proteomicsresource.washington.edu/resources/"
+UWPR_TOOLS_URL = "https://proteomicsresource.washington.edu/tools/"
 
 # Headers to avoid being blocked
 HEADERS = {
@@ -178,59 +178,38 @@ def fetch_skyline_documentation():
 
 
 def fetch_uwpr_tips():
-    """Fetch LC-MS tips and tricks from UWPR."""
+    """Fetch LC-MS tips and protocols from the UWPR resources sections."""
     print("Fetching UWPR LC-MS Tips and Tricks...")
 
-    try:
-        response = requests.get(UWPR_TIPS_URL, headers=HEADERS, timeout=30)
-        response.raise_for_status()
-    except requests.RequestException as e:
-        print(f"Error fetching UWPR tips: {e}")
-        return {}
-
-    soup = BeautifulSoup(response.text, "html.parser")
-
-    tips = {
-        "Column Preparation": [],
-        "HPLC Setup": [],
-        "Mass Spec Protocols": [],
-        "Hardware": [],
-        "Miscellaneous": [],
+    base = "https://proteomicsresource.washington.edu"
+    categories = {
+        "/resources/protocols/": "Protocols",
+        "/resources/knowledgebase/": "Knowledge Base",
+        "/resources/cores/": "Core Facility Tips",
+        "/resources/data-analysis/": "Data Analysis",
     }
+    tips = {name: [] for name in categories.values()}
 
-    current_section = None
+    # Each section index page links to its own sub-pages
+    for prefix, name in categories.items():
+        try:
+            response = requests.get(f"{base}{prefix}", headers=HEADERS, timeout=30)
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(f"Error fetching UWPR {name}: {e}")
+            continue
 
-    # Find all headers and links
-    for element in soup.find_all(["h2", "a"]):
-        if element.name == "h2":
-            section_text = element.get_text(strip=True).lower()
-            if "column" in section_text:
-                current_section = "Column Preparation"
-            elif "hplc" in section_text or "setup" in section_text:
-                current_section = "HPLC Setup"
-            elif "mass spec" in section_text and "protocol" in section_text:
-                current_section = "Mass Spec Protocols"
-            elif "hardware" in section_text:
-                current_section = "Hardware"
-            elif "miscellaneous" in section_text:
-                current_section = "Miscellaneous"
-
-        elif element.name == "a" and current_section:
-            href = element.get("href", "")
+        soup = BeautifulSoup(response.text, "html.parser")
+        for element in soup.find_all("a", href=True):
+            href = element["href"]
             text = element.get_text(strip=True)
-
-            # Skip empty or navigation links
-            if not text or text.lower() in ["back to top", "go to page"]:
+            if not text or len(text) <= 3:
                 continue
-
-            # Make URL absolute
             if href.startswith("/"):
-                href = f"https://proteomicsresource.washington.edu{href}"
-            elif not href.startswith("http") and href:
-                href = f"https://proteomicsresource.washington.edu/protocols05/{href}"
-
-            if text and href and len(text) > 3:
-                tips[current_section].append({"title": text, "url": href})
+                href = f"{base}{href}"
+            if href.startswith(f"{base}{prefix}") and href != f"{base}{prefix}":
+                if not any(t["url"] == href for t in tips[name]):
+                    tips[name].append({"title": text, "url": href})
 
     # Count total tips
     total = sum(len(t) for t in tips.values())
@@ -252,51 +231,24 @@ def fetch_uwpr_tools():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    tools = {
-        "Online Calculators": [],
-        "Database Search Tools": [],
-        "Software Tools": [],
-        "Cross-Linking": [],
-        "Miscellaneous": [],
-    }
+    base = "https://proteomicsresource.washington.edu"
+    tools = {"Online Calculators": [], "Software Tools": []}
 
-    current_section = None
-
-    # Find all headers and links
-    for element in soup.find_all(["h3", "a"]):
-        if element.name == "h3":
-            section_text = element.get_text(strip=True).lower()
-            if "calculator" in section_text or "online" in section_text:
-                current_section = "Online Calculators"
-            elif "database search tool" in section_text:
-                current_section = "Database Search Tools"
-            elif "software" in section_text:
-                current_section = "Software Tools"
-            elif "crosslink" in section_text or "cross-link" in section_text:
-                current_section = "Cross-Linking"
-            elif "miscellaneous" in section_text:
-                current_section = "Miscellaneous"
-
-        elif element.name == "a" and current_section:
-            href = element.get("href", "")
-            text = element.get_text(strip=True)
-
-            # Skip empty or navigation links
-            if not text or len(text) < 3:
-                continue
-
-            # Skip reference links like "link1", "paper1"
-            if re.match(r"^(link|paper)\d+$", text.lower()):
-                continue
-
-            # Make URL absolute
-            if href.startswith("/"):
-                href = f"https://proteomicsresource.washington.edu{href}"
-            elif not href.startswith("http") and href:
-                href = f"https://proteomicsresource.washington.edu/protocols06/{href}"
-
-            if text and href:
-                tools[current_section].append({"title": text, "url": href})
+    # Calculators are the CGI scripts; other local tools (e.g. Lorikeet) are software
+    for element in soup.find_all("a", href=True):
+        href = element["href"]
+        text = element.get_text(strip=True)
+        if not text or len(text) < 3:
+            continue
+        if href.startswith("/"):
+            href = f"{base}{href}"
+        if not href.startswith(base):
+            continue
+        category = "Online Calculators" if "/cgi-bin/" in href else None
+        if href.startswith(f"{base}/lorikeet/"):
+            category = "Software Tools"
+        if category and not any(t["url"] == href for t in tools[category]):
+            tools[category].append({"title": text, "url": href})
 
     # Count total tools
     total = sum(len(t) for t in tools.values())
@@ -323,11 +275,11 @@ def generate_educational_section(tutorials, documentation, uwpr_tips, uwpr_tools
     lines.append("### UWPR Mass Spectrometry Resources")
     lines.append("")
     lines.append(
-        "- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/protocols05/)** — "
+        "- **[UWPR LC-MS Tips and Tricks](https://proteomicsresource.washington.edu/resources/)** — "
         "Protocols, tips, and resources for LC-MS analyses. *Definitely bookmark this page.*"
     )
     lines.append(
-        "- **[UWPR Data Analysis Tools](https://proteomicsresource.washington.edu/protocols06/)** — "
+        "- **[UWPR Data Analysis Tools](https://proteomicsresource.washington.edu/tools/)** — "
         "Online calculators, database search tools, and computational resources."
     )
     lines.append("")
@@ -492,27 +444,27 @@ def generate_educational_section(tutorials, documentation, uwpr_tips, uwpr_tools
     key_uwpr_items = [
         {
             "title": "DIA Overview",
-            "url": "https://proteomicsresource.washington.edu/protocols05/DIA.php",
+            "url": "https://proteomicsresource.washington.edu/resources/knowledgebase/DIA/",
         },
         {
             "title": "PRM Overview",
-            "url": "https://proteomicsresource.washington.edu/protocols05/PRM.php",
+            "url": "https://proteomicsresource.washington.edu/resources/knowledgebase/PRM/",
         },
         {
             "title": "MRM/SRM Overview",
-            "url": "https://proteomicsresource.washington.edu/protocols05/MRM.php",
+            "url": "https://proteomicsresource.washington.edu/resources/knowledgebase/SRM/",
         },
         {
             "title": "Common Mass Spec Background Ions",
-            "url": "https://proteomicsresource.washington.edu/protocols05/esi_background_ions.php",
+            "url": "https://proteomicsresource.washington.edu/resources/cores/esi_background_ions/",
         },
         {
             "title": "Avoid Contaminations Guide",
-            "url": "https://proteomicsresource.washington.edu/docs/protocols05/Avoid%20Contaminations.pdf",
+            "url": "https://proteomicsresource.washington.edu/assets/docs/resources/protocols/Avoid_Contaminations.pdf",
         },
         {
             "title": "Packing Capillary Columns",
-            "url": "https://proteomicsresource.washington.edu/docs/protocols05/Packing_Capillary_Columns.pdf",
+            "url": "https://proteomicsresource.washington.edu/assets/docs/resources/protocols/Packing_Capillary_Columns.pdf",
         },
     ]
 
@@ -521,7 +473,7 @@ def generate_educational_section(tutorials, documentation, uwpr_tips, uwpr_tools
     lines.append("")
 
     lines.append(
-        "[**View all LC-MS tips**](https://proteomicsresource.washington.edu/protocols05/)"
+        "[**View all LC-MS tips**](https://proteomicsresource.washington.edu/resources/)"
     )
 
     return "\n".join(lines)

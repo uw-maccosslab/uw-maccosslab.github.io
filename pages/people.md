@@ -54,9 +54,9 @@ Gennifer started at the MacCoss lab when it was just beginning--she was, in fact
 - [Emma Timmins-Schiffman](https://emmatimminsschiffman.weebly.com/)
 
 ### UW Proteomics Resource (UWPR)
-- [Jimmy Eng](https://proteomicsresource.washington.edu/contact.php)
-- [Mike Hoopmann](https://proteomicsresource.washington.edu/contact.php)
-- [Vagisha Sharma @ UWPR](https://proteomicsresource.washington.edu/contact.php)
+- [Jimmy Eng](https://proteomicsresource.washington.edu/contact/)
+- [Mike Hoopmann](https://proteomicsresource.washington.edu/contact/)
+- [Vagisha Sharma @ UWPR](https://proteomicsresource.washington.edu/contact/)
 
 ### Visiting Scientists
 - Jesse Canterbury
