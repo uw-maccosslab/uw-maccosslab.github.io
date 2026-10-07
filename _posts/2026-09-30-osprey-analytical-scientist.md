@@ -13,4 +13,4 @@ The article focuses on what it takes to move AI-generated code past the prototyp
 
 A key motivation for the project is reproducibility. Quantitative DIA analysis is currently dominated by closed-source tools, and Osprey is intended to provide a fully open alternative that integrates with the Skyline ecosystem.
 
-Read the full article at [*The Analytical Scientist*](https://theanalyticalscientist.com/issues/2026/articles/september/vibe-coding-moves-beyond-the-proteomics-prototype), and find the Osprey source code on [GitHub](https://github.com/maccoss/osprey).
+Read the full article at [*The Analytical Scientist*](https://theanalyticalscientist.com/issues/2026/articles/september/vibe-coding-moves-beyond-the-proteomics-prototype), and find the Osprey source code on [GitHub](https://github.com/ProteoWizard/pwiz/tree/master/pwiz_tools/Osprey).
