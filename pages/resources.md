@@ -285,14 +285,12 @@ collision cross-section database</a></td><td></td></tr>
 
 </div>
 </div>
-
-
   <div id="educational" class="tab-content">
     <div markdown="1">
 
 ## Educational Materials
 
-*Last updated: September 19, 2026 — 28 Skyline tutorials available*
+*Last updated: October 06, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -393,7 +391,7 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Support & Training
 
-*Last updated: September 19, 2026 — 2 upcoming events, 105 past events, 27 webinars*
+*Last updated: October 06, 2026 — 2 upcoming events, 105 past events, 27 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/home/support/project-begin.view)
