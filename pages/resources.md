@@ -91,7 +91,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **External Tools**: Skyline has an external tool framework. We have a [tool store](http://skyline.ms/tools.url) with 20 tools currently available.
 - **Source Code** is available as part of the [Proteowizard project](https://github.com/ProteoWizard/pwiz).
 - **Original Publication** MacLean et al, [Skyline: an open source document editor for creating and analyzing targeted proteomics experiments](https://academic.oup.com/bioinformatics/article/26/7/966/212410), *Bioinformatics* 2010
-- **Cited:** 5,560 times
+- **Cited:** 5,576 times
 
 ### ![Proteowizard](../assets/images/logos/proteowizard-logo.jpg "Proteowizard")
 **Widely used software tools and libraries for mass spectrometry data analysis.**
@@ -99,7 +99,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 - **Download and Documentation:** [https://proteowizard.sourceforge.io/](https://proteowizard.sourceforge.io/)
 - **Source Code:** Available on [Github](https://github.com/ProteoWizard/pwiz) and licensed under Apache 2.0.
 - **Original Publication:** Chambers et al, [A cross-platform toolkit for mass spectrometry and proteomics](https://www.nature.com/articles/nbt.2377), *Nature Biotechnology* 2012
-- **Cited:** 4,908 times
+- **Cited:** 4,939 times
 
 ### ![Panorama](../assets/images/logos/panorama_logo_h_onwhite_border.png "Panorama")
 **Web-based repository for Skyline documents and colaboration**
@@ -157,7 +157,7 @@ Example publications describing the Stellar from the MacCoss lab include:
 
 **[Browse all MacCoss Lab datasets on Panorama Public →](https://panoramaweb.org/project/Panorama%20Public/begin.view#searchTab:expSearchPanel?Targeted%20MS%20Experiment%20List.authors~containsoneof=MacCoss&)**
 
-*Last updated: September 19, 2026 — 65 datasets available*
+*Last updated: October 15, 2026 — 65 datasets available*
 
 ### 2026
 
@@ -285,12 +285,14 @@ collision cross-section database</a></td><td></td></tr>
 
 </div>
 </div>
+
+
   <div id="educational" class="tab-content">
     <div markdown="1">
 
 ## Educational Materials
 
-*Last updated: October 06, 2026 — 28 Skyline tutorials available*
+*Last updated: October 15, 2026 — 28 Skyline tutorials available*
 
 ### UWPR Mass Spectrometry Resources
 
@@ -400,7 +402,7 @@ collision cross-section database</a></td><td></td></tr>
 
 ## Support & Training
 
-*Last updated: October 06, 2026 — 2 upcoming events, 105 past events, 27 webinars*
+*Last updated: October 15, 2026 — 2 upcoming events, 105 past events, 28 webinars*
 
 ### Forums and Discussion
 - [Skyline Support Board](https://skyline.ms/home/support/project-begin.view)
@@ -416,12 +418,10 @@ collision cross-section database</a></td><td></td></tr>
 
 The Skyline Team presents tutorial webinars designed to help you get the most out of Skyline targeted proteomics software. Each ~90 minute webinar includes Q&A, presentations, and tutorial data.
 
-**Recent Webinars (2025):**
-- [#27: Peak Boundary Imputation for DIA Data](https://skyline.ms/project/home/software/Skyline/events/2025%20Webinars/Webinar%2027/begin.view?) (Dec 2025)
-- [#26: DIA with FragPipe, DIA-NN and Skyline](https://skyline.ms/project/home/software/Skyline/events/2025%20Webinars/Webinar%2026/begin.view?) (Sept 2025)
-- [#25: Comparing Acquisition Methods](https://skyline.ms/project/home/software/Skyline/events/2025%20Webinars/Webinar%2025/begin.view?) (Jan 2025)
+**Recent Webinars (2026):**
+- [#28: Glycan Workflows with Skyline](https://skyline.ms/project/home/software/Skyline/events/2026%20Webinars/Webinar%2028/begin.view?) (Oct 2026)
 
-*[View all 27 webinars](https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars)*
+*[View all 28 webinars](https://skyline.ms/home/software/Skyline/wiki-page.view?name=webinars)*
 
 ### Past Events by Year
 
