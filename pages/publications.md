@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 345 (329 peer-reviewed + 16 preprints)
-- **Total Citations**: 57,493 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 346 (330 peer-reviewed + 16 preprints)
+- **Total Citations**: 57,747 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,576 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,589 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: October 15, 2026 — 345 publications*
+*Last updated: October 25, 2026 — 346 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (22)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (23)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
@@ -57,6 +57,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning**
+Sonthalia S, Wen B, Dasgupta P, Hsu C, MacCoss MJ, Noble WS
+*Journal of proteome research* 2026 Oct;25(10):5469-5479
+<a href="https://pubmed.ncbi.nlm.nih.gov/42918136/">PubMed<span class="visually-hidden"> for &#8220;Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning&#8221;</span></a> | <a href="https://doi.org/10.1021/acs.jproteome.6c00457">DOI<span class="visually-hidden"> for &#8220;Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning&#8221;</span></a>
 
 **Reproducible Amyloid Typing by Data-Independent Acquisition Mass Spectrometry**
 Emmanuel A, Smith KD, Catungal W, Kuest E, Yang HY, Plubell DL, Yu S, Ma J, Krumm N, Wu CC, Noble WS, Searle BC, MacCoss MJ, Hoofnagle AN, Phipps WS
