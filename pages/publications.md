@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 346 (330 peer-reviewed + 16 preprints)
-- **Total Citations**: 57,747 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 345 (330 peer-reviewed + 15 preprints)
+- **Total Citations**: 57,887 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,589 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,600 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: October 25, 2026 — 346 publications*
+*Last updated: November 02, 2026 — 345 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (23)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (22)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
@@ -102,11 +102,6 @@ Hsu C, Heil LR, Wen B, McAlister G, Merrihew G, Remes PM, Plubell DL, Melani R, 
 Nguyen R, Rangel G, Liu X, Santoso RA, Bantwal A, Ross DH, Seguin RP, Liem J, Lin YS, Pratt B, MacLean BX, MacCoss MJ, Xu L
 *Environmental science & technology* 2026 Jun;60(24):17314-17327
 <a href="https://pubmed.ncbi.nlm.nih.gov/42262507/">PubMed<span class="visually-hidden"> for &#8220;ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis&#8221;</span></a> | <a href="https://doi.org/10.1021/acs.est.5c18068">DOI<span class="visually-hidden"> for &#8220;ToxBase: A Multidimensional ToxCast Reference Database for High-Throughput Human Exposome Analysis&#8221;</span></a>
-
-**Prioritizing peptides for targeted mass spectrometry experiments using deep learning**
-Sonthalia S, Dasgupta P, Hsu C, Wen B, MacCoss MJ, Noble WS
-*bioRxiv : the preprint server for biology* 2026 May
-<a href="https://pubmed.ncbi.nlm.nih.gov/42244555/">PubMed<span class="visually-hidden"> for &#8220;Prioritizing peptides for targeted mass spectrometry experiments using deep learning&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.05.21.727053">DOI<span class="visually-hidden"> for &#8220;Prioritizing peptides for targeted mass spectrometry experiments using deep learning&#8221;</span></a>
 
 **A quantitative proteomics dataset for assessment and prediction of low dose X-ray radiation exposure in mice**
 Zelter A, Riffle M, Merrihew GE, Mutawe B, Shulman N, Sanders JA, Noble WS, Johnson Erickson DP, Morimoto A, Shaver BA, Steins TN, Cao N, Ford EC, Rudnick PA, Chelsky D, Wan KH, Inman JL, Chang H, Snijders AM, Mao JH, Celniker SE, De Chant J, Obst-Huebl L, Nakamura K, Wu CC, MacCoss MJ
