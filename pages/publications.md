@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 345 (330 peer-reviewed + 15 preprints)
-- **Total Citations**: 57,887 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Publications**: 346 (331 peer-reviewed + 15 preprints)
+- **Total Citations**: 57,978 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,600 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,603 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: November 02, 2026 — 345 publications*
+*Last updated: November 07, 2026 — 346 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (22)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (23)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
@@ -58,6 +58,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
+**CasanovoGUI: A Cross-Platform Desktop Application for Deep Learning-Based De Novo Peptide Sequencing with Casanovo**
+Wen B, Li K, Riffle M, MacCoss MJ, Bittremieux W, Noble WS
+*Journal of proteome research* 2026 Nov;25(11):6514-6520
+<a href="https://pubmed.ncbi.nlm.nih.gov/42992911/">PubMed<span class="visually-hidden"> for &#8220;CasanovoGUI: A Cross-Platform Desktop Application for Deep Learning-Based De Novo Peptide Sequencing with Casanovo&#8221;</span></a> | <a href="https://doi.org/10.1021/acs.jproteome.6c00617">DOI<span class="visually-hidden"> for &#8220;CasanovoGUI: A Cross-Platform Desktop Application for Deep Learning-Based De Novo Peptide Sequencing with Casanovo&#8221;</span></a>
+
 **Prioritizing Peptides for Targeted Mass Spectrometry Experiments Using Deep Learning**
 Sonthalia S, Wen B, Dasgupta P, Hsu C, MacCoss MJ, Noble WS
 *Journal of proteome research* 2026 Oct;25(10):5469-5479
@@ -85,7 +90,7 @@ Tsantilas KA, Riffle M, Merrihew GE, Wu CC, Keele GR, Maurais A, Johnson RS, Luc
 
 **Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research**
 Moradian A, Becker JO, Nierves LA, Lin TT, Sechi S, MacCoss MJ, Qian WJ, van Eyk JE, Hoofnagle AN
-*Clinical chemistry* 2026 Jul
+*Clinical chemistry* 2026 Nov;72(11):1161-1170
 <a href="https://pubmed.ncbi.nlm.nih.gov/42400596/">PubMed<span class="visually-hidden"> for &#8220;Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research&#8221;</span></a> | <a href="https://doi.org/10.1093/clinchem/hvag078">DOI<span class="visually-hidden"> for &#8220;Interlaboratory Comparison of a Glucagon and Oxyntomodulin Immuno-LC-MS/MS Assay: Implications for Diabetes Research&#8221;</span></a>
 
 **Spontaneous Isomerization of Tau is Most Prevalent in Alzheimer's Disease**
