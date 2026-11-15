@@ -11,13 +11,13 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 ## Publication Metrics
 
 - **Total Publications**: 346 (331 peer-reviewed + 15 preprints)
-- **Total Citations**: 57,978 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **Total Citations**: 58,086 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
 - **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,603 citations)
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,611 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: November 07, 2026 — 346 publications*
+*Last updated: November 14, 2026 — 346 publications*
 
 ## Publications by Year
 
@@ -58,6 +58,11 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ### 2026
 
+**Liver Fatty Acid Binding Protein (FABP1) Affects Cytochrome P450 2C9 (CYP2C9)-Mediated Metabolism in Human Liver Models**
+Wen YW, Friedman E, Zelter A, Yabut KC, Nath A, MacCoss MJ, Isoherranen N
+*bioRxiv : the preprint server for biology* 2026 Oct
+<a href="https://pubmed.ncbi.nlm.nih.gov/42995778/">PubMed<span class="visually-hidden"> for &#8220;Liver Fatty Acid Binding Protein (FABP1) Affects Cytochrome P450 2C9 (CYP2C9)-Mediated Metabolism in Human Liver Models&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.10.12.758325">DOI<span class="visually-hidden"> for &#8220;Liver Fatty Acid Binding Protein (FABP1) Affects Cytochrome P450 2C9 (CYP2C9)-Mediated Metabolism in Human Liver Models&#8221;</span></a>
+
 **CasanovoGUI: A Cross-Platform Desktop Application for Deep Learning-Based De Novo Peptide Sequencing with Casanovo**
 Wen B, Li K, Riffle M, MacCoss MJ, Bittremieux W, Noble WS
 *Journal of proteome research* 2026 Nov;25(11):6514-6520
@@ -77,11 +82,6 @@ Emmanuel A, Smith KD, Catungal W, Kuest E, Yang HY, Plubell DL, Yu S, Ma J, Krum
 Shijo SK, Goonatilleke E, Barahona-Carrillo L, Forrest K, Becker JO, MacCoss MJ, Speake C, Lee CS, Johnson L, Huynh HH, Hoofnagle AN
 *Clinical chemistry* 2026 Aug
 <a href="https://pubmed.ncbi.nlm.nih.gov/42626817/">PubMed<span class="visually-hidden"> for &#8220;Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry&#8221;</span></a> | <a href="https://doi.org/10.1093/clinchem/hvag105">DOI<span class="visually-hidden"> for &#8220;Quantification of Proinsulin in Human Plasma by Proteolysis-Aided Peptide Immunoaffinity-Liquid Chromatography-Tandem Mass Spectrometry&#8221;</span></a>
-
-**CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo**
-Wen B, Li K, Riffle M, MacCoss MJ, Bittremieux W, Noble WS
-*bioRxiv : the preprint server for biology* 2026 Sep
-<a href="https://pubmed.ncbi.nlm.nih.gov/42523267/">PubMed<span class="visually-hidden"> for &#8220;CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.07.11.737889">DOI<span class="visually-hidden"> for &#8220;CasanovoGUI: a cross-platform desktop application for deep learning-based de novo peptide sequencing with Casanovo&#8221;</span></a>
 
 **Circulating extracellular vesicles in plasma carry accessible molecular signatures of aging in mice**
 Tsantilas KA, Riffle M, Merrihew GE, Wu CC, Keele GR, Maurais A, Johnson RS, Luciano A, Robinson L, Churchill GA, MacCoss MJ
