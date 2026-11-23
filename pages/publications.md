@@ -10,20 +10,20 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 
 ## Publication Metrics
 
-- **Total Publications**: 346 (331 peer-reviewed + 15 preprints)
-- **Total Citations**: 58,086 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
-- **h-index**: 106
-- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,611 citations)
+- **Total Publications**: 349 (332 peer-reviewed + 17 preprints)
+- **Total Citations**: 58,226 ([Google Scholar](https://scholar.google.com/citations?user=icweOB0AAAAJ&hl=en))
+- **h-index**: 107
+- **Most Cited Paper**: "Skyline: an open source document editor for creating and analyzing targeted proteomics experiments" (5,616 citations)
 
 ![Publication and Citation Metrics](../assets/images/publication-metrics.png)
 
-*Last updated: November 14, 2026 — 346 publications*
+*Last updated: November 23, 2026 — 349 publications*
 
 ## Publications by Year
 
 <div class="publications-container">
 <div class="year-navigation">
-<button class="year-button active" onclick="showYear(event, '2026')">2026 (23)</button>
+<button class="year-button active" onclick="showYear(event, '2026')">2026 (26)</button>
 <button class="year-button" onclick="showYear(event, '2025')">2025 (22)</button>
 <button class="year-button" onclick="showYear(event, '2024')">2024 (13)</button>
 <button class="year-button" onclick="showYear(event, '2023')">2023 (19)</button>
@@ -57,6 +57,21 @@ View our complete publication list on [Google Scholar](https://scholar.google.co
 <div id="year-2026" class="year-content active" markdown="1">
 
 ### 2026
+
+**Improving real-time search through deep learning-enhanced fragment ion indexing**
+Eng JK, Hoopmann MR, Schweppe DK, MacCoss MJ, Noble WS, Wen B
+*bioRxiv : the preprint server for biology* 2026 Nov
+<a href="https://pubmed.ncbi.nlm.nih.gov/43060267/">PubMed<span class="visually-hidden"> for &#8220;Improving real-time search through deep learning-enhanced fragment ion indexing&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.10.27.762387">DOI<span class="visually-hidden"> for &#8220;Improving real-time search through deep learning-enhanced fragment ion indexing&#8221;</span></a>
+
+**Peptide-centric proteomics reveals molecular subtypes of sporadic Alzheimer's disease**
+Plubell D, Merrihew G, Park J, Patterson K, Smith JD, Hsu C, Wu CC, Keene CD, Montine T, MacCoss MJ
+*bioRxiv : the preprint server for biology* 2026 Nov
+<a href="https://pubmed.ncbi.nlm.nih.gov/43059869/">PubMed<span class="visually-hidden"> for &#8220;Peptide-centric proteomics reveals molecular subtypes of sporadic Alzheimer&#x27;s disease&#8221;</span></a> | <a href="https://doi.org/10.64898/2026.11.12.766321">DOI<span class="visually-hidden"> for &#8220;Peptide-centric proteomics reveals molecular subtypes of sporadic Alzheimer&#x27;s disease&#8221;</span></a>
+
+**Hypothalamic volume and cell-type changes in ageing and Alzheimer's disease**
+Yu D, Germann J, Murtaza G, Hajdarovic KH, Babcock KR, Dehkordi SK, Jackson AC, Delalle I, Orr ME, Zare H, Singh R, MacCoss MJ, Noble WS, Vlassenko AG, Goyal MS, Webb AE
+*Nature* 2026 Nov
+<a href="https://pubmed.ncbi.nlm.nih.gov/43052445/">PubMed<span class="visually-hidden"> for &#8220;Hypothalamic volume and cell-type changes in ageing and Alzheimer&#x27;s disease&#8221;</span></a> | <a href="https://doi.org/10.1038/s41586-026-11305-w">DOI<span class="visually-hidden"> for &#8220;Hypothalamic volume and cell-type changes in ageing and Alzheimer&#x27;s disease&#8221;</span></a>
 
 **Liver Fatty Acid Binding Protein (FABP1) Affects Cytochrome P450 2C9 (CYP2C9)-Mediated Metabolism in Human Liver Models**
 Wen YW, Friedman E, Zelter A, Yabut KC, Nath A, MacCoss MJ, Isoherranen N
